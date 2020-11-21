@@ -6,6 +6,9 @@
 	</add>
 	<add unload_on_restart="true">
 		<texture path="units/pd2_mod_craft/props/textures/door_iron_top"/>
+		<texture path="units/pd2_mod_craft/props/textures/clouds"/>
+		<texture path="units/pd2_mod_craft/props/textures/moon_phases"/>
+		<texture path="units/pd2_mod_craft/props/textures/sun"/>
 		<texture path="units/pd2_mod_craft/props/textures/orange_concrete"/>
 		<texture path="units/pd2_mod_craft/props/textures/furnace_top"/>
 		<texture path="units/pd2_mod_craft/props/textures/polished_diorite"/>
@@ -134,6 +137,7 @@
 		<texture path="units/pd2_mod_craft/props/textures/andesite"/>
 		<texture path="units/pd2_mod_craft/props/textures/polished_andesite"/>
 		<material_config path="units/pd2_mod_craft/bankarch"/>
+		<material_config path="units/pd2_mod_craft/props/sunandclouds"/>
 		<unit path="units/pd2_mod_craft/bankarch/chunk_10_-1" unload="true" load="true" />
 		<object path="units/pd2_mod_craft/bankarch/chunk_10_-1" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_10_-1" unload="true"/>
@@ -557,6 +561,13 @@
 		<unit path="units/pd2_mod_craft/bankarch/chunk_9_3" unload="true" load="true" />
 		<object path="units/pd2_mod_craft/bankarch/chunk_9_3" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_9_3" unload="true"/>
+		
+		<unit path="units/pd2_mod_craft/props/sunmoon" unload="true" load="true" />
+		<object path="units/pd2_mod_craft/props/sunmoon" unload="true"/>
+		<model path="units/pd2_mod_craft/props/sunmoon" unload="true"/>
+		<unit path="units/pd2_mod_craft/props/clouds" unload="true" load="true" />
+		<object path="units/pd2_mod_craft/props/clouds" unload="true"/>
+		<model path="units/pd2_mod_craft/props/clouds" unload="true"/>
 
 
 	</add>

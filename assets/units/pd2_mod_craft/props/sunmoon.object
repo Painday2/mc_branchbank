@@ -1,0 +1,10 @@
+<dynamic_object>
+	<diesel materials="units/pd2_mod_craft/props/sunandclouds" orientation_object="rp_daycycle" />
+	
+	<graphics>
+		<graphic_group name="g_all" enabled="true">
+            <object	name="SunMesh"			enabled="true" shadow_caster="false"/>
+			<object	name="MoonMesh"			enabled="true" shadow_caster="false"/>
+		</graphic_group>
+	</graphics>
+</dynamic_object>
