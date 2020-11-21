@@ -568,8 +568,166 @@
 		<unit path="units/pd2_mod_craft/props/clouds" unload="true" load="true" />
 		<object path="units/pd2_mod_craft/props/clouds" unload="true"/>
 		<model path="units/pd2_mod_craft/props/clouds" unload="true"/>
+		
+		<material_config path="units/pd2_mod_craft/props/prop_cube_chest_iron" unload="true"/>
+		<model path="units/pd2_mod_craft/props/prop_cube_chest_iron" unload="true"/>
+		<object path="units/pd2_mod_craft/props/prop_cube_chest_iron" unload="true"/>
+		<sequence_manager force="true" path="units/pd2_mod_craft/props/prop_cube_chest_iron"/>
+		<texture path="units/pd2_mod_craft/props/prop_cube_chest_iron_df" unload="true"/>
+		<unit path="units/pd2_mod_craft/props/prop_cube_chest_iron" unload="true"/>
+		
+		<texture path="units/pd2_mod_craft/props/prop_cube_chest_glass_df" unload="true"/>
+		<texture path="units/pd2_mod_craft/props/prop_cube_chest_glass_top_df" unload="true"/>
+		<material_config path="units/pd2_mod_craft/props/prop_cube_chest_glass" unload="true"/>
+		<model path="units/pd2_mod_craft/props/prop_cube_chest_glass" unload="true"/>
+		<object path="units/pd2_mod_craft/props/prop_cube_chest_glass" unload="true"/>
+		<sequence_manager force="true" path="units/pd2_mod_craft/props/prop_cube_chest_glass" unload="true"/>
+		<unit path="units/pd2_mod_craft/props/prop_cube_chest_glass" unload="true"/>
+		
+		<material_config path="units/pd2_mod_craft/props/prop_cube_glass_int" unload="true"/>
+		<model path="units/pd2_mod_craft/props/prop_cube_glass_int" unload="true"/>
+		<object path="units/pd2_mod_craft/props/prop_cube_glass_int" unload="true"/>
+		<sequence_manager force="true" path="units/pd2_mod_craft/props/prop_cube_glass_int" unload="true"/>
+		<texture path="units/pd2_mod_craft/props/prop_cube_glass_df" unload="true"/>
+		<unit path="units/pd2_mod_craft/props/prop_cube_glass_int" unload="true"/>
 
-
+		<model path="units/pd2_mod_craft/props/stick"/>
+		<object path="units/pd2_mod_craft/props/stick"/>
+		<texture path="units/pd2_mod_craft/props/textures/stick"/>
+		<unit path="units/pd2_mod_craft/props/stick"/>
+		<sequence_manager path="units/pd2_mod_craft/props/stick"/>
+		
+		<unit path="units/pd2_mod_craft/props/cobblestone_int"/>
+		<material_config path="units/pd2_mod_craft/props/cobblestone_int"/>
+		<model path="units/pd2_mod_craft/props/cobblestone_int"/>
+		<object path="units/pd2_mod_craft/props/cobblestone_int"/>
+		<sequence_manager force="true" path="units/pd2_mod_craft/props/cobblestone_int"/>
+		<texture path="units/pd2_mod_craft/props/textures/cobblestone"/>
+		
+		<unit path="units/pd2_mod_craft/props/prop_cube_oak_door"/>
+		<material_config path="units/pd2_mod_craft/props/prop_cube_oak_door"/>
+		<model path="units/pd2_mod_craft/props/prop_cube_oak_door"/>
+		<object path="units/pd2_mod_craft/props/prop_cube_oak_door"/>
+		<sequence_manager force="true" path="units/pd2_mod_craft/props/prop_cube_oak_door"/>
+		<texture path="units/pd2_mod_craft/props/prop_cube_oak_door_df"/>
+		
+		<unit path="units/pd2_mod_craft/props/prop_cube_iron_door"/>
+		<material_config path="units/pd2_mod_craft/props/prop_cube_iron_door"/>
+		<model path="units/pd2_mod_craft/props/prop_cube_iron_door"/>
+		<object path="units/pd2_mod_craft/props/prop_cube_iron_door"/>
+		<sequence_manager force="true" path="units/pd2_mod_craft/props/prop_cube_iron_door"/>
+		<texture path="units/pd2_mod_craft/props/prop_cube_iron_door_df"/>
+		
+		<model path="units/pd2_mod_craft/props/goldingot" unload="true"/>
+		<object path="units/pd2_mod_craft/props/goldingot" unload="true"/>
+		<texture path="units/pd2_mod_craft/props/textures/goldingot" unload="true"/>
+		<unit load="true" path="units/pd2_mod_craft/props/goldingot" unload="true"/>
+		<sequence_manager force="true" path="units/pd2_mod_craft/props/goldingot"/>
+		
+		<model path="units/pd2_mod_craft/props/ironingot" unload="true"/>
+		<object path="units/pd2_mod_craft/props/ironingot" unload="true"/>
+		<texture path="units/pd2_mod_craft/props/textures/ironingot" unload="true"/>
+		<unit load="true" path="units/pd2_mod_craft/props/ironingot" unload="true"/>
+		<sequence_manager force="true" path="units/pd2_mod_craft/props/ironingot"/>
+		
+		<model path="units/pd2_mod_craft/props/emerald" unload="true"/>
+		<object path="units/pd2_mod_craft/props/emerald" unload="true"/>
+		<texture path="units/pd2_mod_craft/props/textures/emerald" unload="true"/>
+		<unit load="true" path="units/pd2_mod_craft/props/emerald" unload="true"/>
+		<sequence_manager force="true" path="units/pd2_mod_craft/props/emerald"/>
+		
+		<model path="units/pd2_mod_craft/props/diamond" unload="true"/>
+		<object path="units/pd2_mod_craft/props/diamond" unload="true"/>
+		<texture path="units/pd2_mod_craft/props/textures/diamond" unload="true"/>
+		<unit load="true" path="units/pd2_mod_craft/props/diamond" unload="true"/>
+		<sequence_manager force="true" path="units/pd2_mod_craft/props/diamond"/>
+		
+		<model path="units/pd2_mod_craft/props/dark_oak_trapdoor"/>
+		<object path="units/pd2_mod_craft/props/dark_oak_trapdoor"/>
+		<unit path="units/pd2_mod_craft/props/dark_oak_trapdoor"/>
+		<sequence_manager path="units/pd2_mod_craft/props/dark_oak_trapdoor"/>
+		
+		<model path="units/pd2_mod_craft/props/lever"/>
+		<object path="units/pd2_mod_craft/props/lever"/>
+		<unit path="units/pd2_mod_craft/props/lever"/>
+		<sequence_manager path="units/pd2_mod_craft/props/lever"/>
+		
+		<model path="units/pd2_mod_craft/props/prop_cube_gold_block"/>
+		<object path="units/pd2_mod_craft/props/prop_cube_gold_block"/>
+		<unit load="true" path="units/pd2_mod_craft/props/prop_cube_gold_block"/>
+		<material_config path="units/pd2_mod_craft/props/prop_cube_gold_block"/>
+		<sequence_manager path="units/pd2_mod_craft/props/prop_cube_gold_block"/>
+		<texture path="units/pd2_mod_craft/props/prop_cube_gold_block_df"/>
+		
+		<model path="units/pd2_mod_craft/props/prop_cube_emerald_block"/>
+		<object path="units/pd2_mod_craft/props/prop_cube_emerald_block"/>
+		<unit load="true" path="units/pd2_mod_craft/props/prop_cube_emerald_block"/>
+		<material_config path="units/pd2_mod_craft/props/prop_cube_emerald_block"/>
+		<sequence_manager path="units/pd2_mod_craft/props/prop_cube_emerald_block"/>
+		<texture path="units/pd2_mod_craft/props/prop_cube_emerald_block_df"/>
+		
+		<model path="units/pd2_mod_craft/props/prop_cube_diamond_block"/>
+		<object path="units/pd2_mod_craft/props/prop_cube_diamond_block"/>
+		<unit load="true" path="units/pd2_mod_craft/props/prop_cube_diamond_block"/>
+		<material_config path="units/pd2_mod_craft/props/prop_cube_diamond_block"/>
+		<sequence_manager path="units/pd2_mod_craft/props/prop_cube_diamond_block"/>
+		<texture path="units/pd2_mod_craft/props/prop_cube_diamond_block_df"/>
+		
+		<material_config path="units/pd2_mod_craft/props/prop_cube_emerald_block_acc" unload="true"/>
+		<material_config path="units/pd2_mod_craft/props/prop_cube_gold_block_acc" unload="true"/>
+		<material_config path="units/pd2_mod_craft/props/prop_cube_diamond_block_acc" unload="true"/>
+		<model path="units/pd2_mod_craft/props/prop_cube_emerald_block_acc"/>
+		<object path="units/pd2_mod_craft/props/prop_cube_emerald_block_acc"/>
+		<unit load="true" path="units/pd2_mod_craft/props/prop_cube_emerald_block_acc"/>
+		<model path="units/pd2_mod_craft/props/prop_cube_gold_block_acc"/>
+		<object path="units/pd2_mod_craft/props/prop_cube_gold_block_acc"/>
+		<unit load="true" path="units/pd2_mod_craft/props/prop_cube_gold_block_acc"/>
+		<model path="units/pd2_mod_craft/props/prop_cube_diamond_block_acc"/>
+		<object path="units/pd2_mod_craft/props/prop_cube_diamond_block_acc"/>
+		<unit load="true" path="units/pd2_mod_craft/props/prop_cube_diamond_block_acc"/>
+		
+		<texture path="units/pd2_mod_craft/props/textures/lever"/>
+		
+		<object path="units/pd2_mod_craft/props/tripwire_key"/>
+		<unit path="units/pd2_mod_craft/props/tripwire_key"/>
+		<model path="units/pd2_mod_craft/props/tripwire_key"/>
+		<sequence_manager path="units/pd2_mod_craft/props/tripwire_key"/>
+		<texture path="units/pd2_mod_craft/props/textures/tripwire_key"/>
+		
+		<sequence_manager path="units/pd2_mod_craft/props/diamond_head"/>
+		<texture path="units/pd2_mod_craft/props/textures/normal_cam"/>
+		<texture path="units/pd2_mod_craft/props/textures/titan_cam"/>
+		<texture path="units/pd2_mod_craft/props/textures/normal_cam_destroyed"/>
+		<material_config path="units/pd2_mod_craft/props/normal_cam" unload="true"/>
+		<material_config path="units/pd2_mod_craft/props/titan_cam" unload="true"/>
+		<material_config path="units/pd2_mod_craft/props/normal_cam_destroyed" unload="true"/>
+		<object path="units/pd2_mod_craft/props/camera"/>
+		<unit path="units/pd2_mod_craft/props/camera"/>
+		<model path="units/pd2_mod_craft/props/camera"/>
+		<sequence_manager path="units/pd2_mod_craft/props/camera"/>
+		
+		<material_config path="units/pd2_mod_craft/material_masterjc" unload="true"/>
+		<material_config path="units/pd2_mod_craft/material_secondaryjc" unload="true"/>
+	</add>
+	<add>
+		<material_config path="units/pd2_mod_craft/props/prop_cube_crafting_table" unload="true"/>
+		<model path="units/pd2_mod_craft/props/prop_cube_crafting_table" unload="true"/>
+		<object path="units/pd2_mod_craft/props/prop_cube_crafting_table" unload="true"/>
+		<texture path="units/pd2_mod_craft/props/prop_cube_crafting_table_df" unload="true"/>
+		<unit path="units/pd2_mod_craft/props/prop_cube_crafting_table" unload="true"/>
+	</add>
+	<add>
+		<material_config path="units/pd2_mod_craft/props/prop_cube_cobblestone" unload="true"/>
+		<model path="units/pd2_mod_craft/props/prop_cube_cobblestone" unload="true"/>
+		<object path="units/pd2_mod_craft/props/prop_cube_cobblestone" unload="true"/>
+		<texture path="units/pd2_mod_craft/props/prop_cube_cobblestone_df" unload="true"/>
+		<unit path="units/pd2_mod_craft/props/prop_cube_cobblestone" unload="true"/>
+	</add>
+	<add>
+		<model path="units/pd2_mod_craft/props/button" unload="true"/>
+		<object path="units/pd2_mod_craft/props/button" unload="true"/>
+		<sequence_manager path="units/pd2_mod_craft/props/button" unload="true"/>
+		<unit path="units/pd2_mod_craft/props/button" unload="true"/>
 	</add>
 
 </table>
