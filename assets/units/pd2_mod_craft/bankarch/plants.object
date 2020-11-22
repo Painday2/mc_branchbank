@@ -1,0 +1,11 @@
+<dynamic_object>
+<diesel materials="units/pd2_mod_craft/bankarch" orientation_object="rp_root" />
+<decal_surfaces>
+<decal_mesh name="plants" enabled="true"/>
+</decal_surfaces>
+<graphics>
+<graphic_group name="graphics" enabled="true">
+<object	name="plants"	enabled="true" shadow_caster="true"/>
+</graphic_group>
+</graphics>
+</dynamic_object>

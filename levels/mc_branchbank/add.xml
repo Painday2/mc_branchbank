@@ -1,8 +1,8 @@
 <table directory="assets">
 	<add path="units/dev_tools/mission_elements/point_interaction/interaction_dummy" type="unit">
-		<unit path="units/dev_tools/mission_elements/point_interaction/interaction_dummy" unload="true"/>
 		<object path="units/dev_tools/mission_elements/point_interaction/interaction_dummy" unload="true"/>
 		<sequence_manager path="units/dev_tools/mission_elements/point_interaction/interaction_dummy" unload="true"/>
+		<unit path="units/dev_tools/mission_elements/point_interaction/interaction_dummy" unload="true"/>
 	</add>
 	<add unload_on_restart="true">
 		<texture path="units/pd2_mod_craft/props/textures/door_iron_top"/>
@@ -138,444 +138,441 @@
 		<texture path="units/pd2_mod_craft/props/textures/polished_andesite"/>
 		<material_config path="units/pd2_mod_craft/bankarch"/>
 		<material_config path="units/pd2_mod_craft/props/sunandclouds"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_10_-1" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_10_-1" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_10_-1" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_10_-1" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_10_-2" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_10_-2" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_10_-2" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_10_-2" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_10_-3" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_10_-3" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_10_-3" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_10_-3" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_10_-4" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_10_-4" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_10_-4" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_10_-4" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_10_-5" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_10_-5" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_10_-5" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_10_-5" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_10_0" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_10_0" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_10_0" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_10_0" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_10_1" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_10_1" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_10_1" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_10_1" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_10_2" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_10_2" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_10_2" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_10_2" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_10_3" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_10_3" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_10_3" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_10_3" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_10_4" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_10_4" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_10_4" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_10_4" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_11_-1" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_11_-1" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_11_-1" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_11_-1" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_11_-2" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_11_-2" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_11_-2" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_11_-2" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_11_-3" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_11_-3" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_11_-3" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_11_-3" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_11_-4" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_11_-4" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_11_-4" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_11_-4" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_11_-5" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_11_-5" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_11_-5" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_11_-5" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_11_0" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_11_0" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_11_0" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_11_0" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_11_1" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_11_1" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_11_1" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_11_1" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_11_2" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_11_2" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_11_2" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_11_2" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_11_3" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_11_3" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_11_3" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_11_3" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_11_4" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_11_4" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_11_4" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_11_4" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_12_-1" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_12_-1" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_12_-1" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_12_-1" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_12_-2" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_12_-2" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_12_-2" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_12_-2" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_12_-3" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_12_-3" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_12_-3" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_12_-3" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_12_-4" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_12_-4" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_12_-4" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_12_-4" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_12_-5" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_12_-5" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_12_-5" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_12_-5" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_12_-6" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_12_-6" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_12_-6" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_12_-6" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_12_0" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_12_0" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_12_0" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_12_0" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_12_1" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_12_1" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_12_1" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_12_1" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_12_2" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_12_2" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_12_2" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_12_2" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_12_3" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_12_3" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_12_3" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_12_3" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_13_-1" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_13_-1" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_13_-1" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_13_-1" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_13_-2" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_13_-2" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_13_-2" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_13_-2" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_13_-3" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_13_-3" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_13_-3" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_13_-3" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_13_-4" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_13_-4" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_13_-4" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_13_-4" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_13_0" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_13_0" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_13_0" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_13_0" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_13_1" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_13_1" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_13_1" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_13_1" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_13_2" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_13_2" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_13_2" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_13_2" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_14_-1" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_14_-1" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_14_-1" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_14_-1" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_14_-2" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_14_-2" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_14_-2" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_14_-2" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_14_-3" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_14_-3" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_14_-3" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_14_-3" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_14_-4" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_14_-4" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_14_-4" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_14_-4" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_14_0" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_14_0" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_14_0" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_14_0" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_14_1" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_14_1" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_14_1" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_14_1" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_14_2" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_14_2" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_14_2" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_14_2" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_14_3" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_14_3" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_14_3" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_14_3" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_14_4" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_14_4" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_14_4" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_14_4" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_15_-1" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_15_-1" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_15_-1" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_15_-1" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_15_-2" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_15_-2" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_15_-2" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_15_-2" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_15_-3" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_15_-3" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_15_-3" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_15_-3" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_15_0" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_15_0" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_15_0" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_15_0" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_15_1" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_15_1" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_15_1" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_15_1" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_15_2" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_15_2" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_15_2" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_15_2" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_15_3" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_15_3" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_15_3" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_15_3" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_2_-5" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_2_-5" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_2_-5" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_2_-5" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_2_-6" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_2_-6" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_2_-6" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_2_-6" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_2_-7" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_2_-7" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_2_-7" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_2_-7" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_2_-8" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_2_-8" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_2_-8" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_2_-8" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_2_-9" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_2_-9" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_2_-9" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_2_-9" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_3_-5" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_3_-5" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_3_-5" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_3_-5" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_3_-6" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_3_-6" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_3_-6" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_3_-6" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_3_-7" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_3_-7" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_3_-7" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_3_-7" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_3_-8" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_3_-8" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_3_-8" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_3_-8" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_4_-1" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_4_-1" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_4_-1" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_4_-1" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_4_-2" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_4_-2" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_4_-2" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_4_-2" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_4_-3" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_4_-3" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_4_-3" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_4_-3" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_4_-4" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_4_-4" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_4_-4" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_4_-4" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_4_-5" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_4_-5" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_4_-5" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_4_-5" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_4_-6" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_4_-6" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_4_-6" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_4_-6" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_4_-7" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_4_-7" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_4_-7" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_4_-7" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_4_-8" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_4_-8" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_4_-8" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_4_-8" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_4_0" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_4_0" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_4_0" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_4_0" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_5_-1" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_5_-1" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_5_-1" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_5_-1" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_5_-3" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_5_-3" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_5_-3" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_5_-3" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_5_-6" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_5_-6" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_5_-6" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_5_-6" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_5_-7" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_5_-7" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_5_-7" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_5_-7" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_5_-8" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_5_-8" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_5_-8" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_5_-8" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_5_0" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_5_0" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_5_0" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_5_0" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_5_1" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_5_1" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_5_1" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_5_1" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_5_2" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_5_2" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_5_2" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_5_2" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_6_-1" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_6_-1" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_6_-1" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_6_-1" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_6_-10" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_6_-10" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_6_-10" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_6_-10" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_6_-11" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_6_-11" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_6_-11" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_6_-11" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_6_-2" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_6_-2" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_6_-2" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_6_-2" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_6_-3" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_6_-3" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_6_-3" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_6_-3" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_6_-4" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_6_-4" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_6_-4" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_6_-4" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_6_-5" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_6_-5" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_6_-5" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_6_-5" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_6_-6" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_6_-6" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_6_-6" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_6_-6" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_6_-7" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_6_-7" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_6_-7" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_6_-7" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_6_-8" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_6_-8" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_6_-8" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_6_-8" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_6_-9" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_6_-9" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_6_-9" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_6_-9" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_6_0" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_6_0" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_6_0" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_6_0" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_6_1" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_6_1" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_6_1" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_6_1" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_6_2" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_6_2" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_6_2" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_6_2" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_6_3" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_6_3" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_6_3" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_6_3" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_6_4" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_6_4" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_6_4" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_6_4" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_6_5" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_6_5" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_6_5" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_6_5" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_6_6" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_6_6" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_6_6" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_6_6" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_7_-1" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_7_-1" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_7_-1" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_7_-1" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_7_-10" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_7_-10" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_7_-10" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_7_-10" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_7_-11" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_7_-11" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_7_-11" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_7_-11" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_7_-2" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_7_-2" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_7_-2" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_7_-2" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_7_-3" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_7_-3" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_7_-3" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_7_-3" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_7_-4" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_7_-4" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_7_-4" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_7_-4" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_7_-5" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_7_-5" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_7_-5" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_7_-5" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_7_-6" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_7_-6" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_7_-6" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_7_-6" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_7_-7" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_7_-7" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_7_-7" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_7_-7" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_7_-8" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_7_-8" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_7_-8" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_7_-8" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_7_-9" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_7_-9" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_7_-9" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_7_-9" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_7_0" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_7_0" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_7_0" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_7_0" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_7_1" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_7_1" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_7_1" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_7_1" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_7_2" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_7_2" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_7_2" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_7_2" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_7_3" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_7_3" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_7_3" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_7_3" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_7_4" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_7_4" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_7_4" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_7_4" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_7_5" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_7_5" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_7_5" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_7_5" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_7_6" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_7_6" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_7_6" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_7_6" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_8_-1" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_8_-1" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_8_-1" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_8_-1" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_8_-10" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_8_-10" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_8_-10" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_8_-10" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_8_-11" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_8_-11" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_8_-11" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_8_-11" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_8_-2" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_8_-2" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_8_-2" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_8_-2" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_8_-3" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_8_-3" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_8_-3" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_8_-3" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_8_-4" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_8_-4" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_8_-4" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_8_-4" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_8_-5" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_8_-5" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_8_-5" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_8_-5" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_8_-6" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_8_-6" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_8_-6" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_8_-6" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_8_-7" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_8_-7" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_8_-7" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_8_-7" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_8_-8" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_8_-8" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_8_-8" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_8_-8" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_8_-9" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_8_-9" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_8_-9" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_8_-9" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_8_0" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_8_0" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_8_0" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_8_0" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_8_1" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_8_1" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_8_1" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_8_1" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_8_2" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_8_2" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_8_2" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_8_2" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_8_3" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_8_3" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_8_3" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_8_3" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_8_4" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_8_4" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_8_4" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_8_4" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_8_5" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_8_5" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_8_5" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_8_5" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_8_6" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_8_6" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_8_6" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_8_6" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_9_-1" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_9_-1" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_9_-1" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_9_-1" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_9_-2" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_9_-2" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_9_-2" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_9_-2" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_9_-3" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_9_-3" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_9_-3" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_9_-3" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_9_-4" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_9_-4" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_9_-4" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_9_-4" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_9_0" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_9_0" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_9_0" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_9_0" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_9_1" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_9_1" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_9_1" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_9_1" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_9_2" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_9_2" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_9_2" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_9_2" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/chunk_9_3" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/chunk_9_3" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/chunk_9_3" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/chunk_9_3" unload="true"/>
-		
-		<unit path="units/pd2_mod_craft/props/sunmoon" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/props/sunmoon" unload="true"/>
 		<object path="units/pd2_mod_craft/props/sunmoon" unload="true"/>
 		<model path="units/pd2_mod_craft/props/sunmoon" unload="true"/>
-		<unit path="units/pd2_mod_craft/props/clouds" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/props/clouds" unload="true"/>
 		<object path="units/pd2_mod_craft/props/clouds" unload="true"/>
 		<model path="units/pd2_mod_craft/props/clouds" unload="true"/>
-		
 		<material_config path="units/pd2_mod_craft/props/prop_cube_chest_iron" unload="true"/>
 		<model path="units/pd2_mod_craft/props/prop_cube_chest_iron" unload="true"/>
 		<object path="units/pd2_mod_craft/props/prop_cube_chest_iron" unload="true"/>
 		<sequence_manager force="true" path="units/pd2_mod_craft/props/prop_cube_chest_iron"/>
 		<texture path="units/pd2_mod_craft/props/prop_cube_chest_iron_df" unload="true"/>
 		<unit path="units/pd2_mod_craft/props/prop_cube_chest_iron" unload="true"/>
-		
 		<texture path="units/pd2_mod_craft/props/prop_cube_chest_glass_df" unload="true"/>
 		<texture path="units/pd2_mod_craft/props/prop_cube_chest_glass_top_df" unload="true"/>
 		<material_config path="units/pd2_mod_craft/props/prop_cube_chest_glass" unload="true"/>
@@ -583,96 +580,81 @@
 		<object path="units/pd2_mod_craft/props/prop_cube_chest_glass" unload="true"/>
 		<sequence_manager force="true" path="units/pd2_mod_craft/props/prop_cube_chest_glass" unload="true"/>
 		<unit path="units/pd2_mod_craft/props/prop_cube_chest_glass" unload="true"/>
-		
 		<material_config path="units/pd2_mod_craft/props/prop_cube_glass_int" unload="true"/>
 		<model path="units/pd2_mod_craft/props/prop_cube_glass_int" unload="true"/>
 		<object path="units/pd2_mod_craft/props/prop_cube_glass_int" unload="true"/>
 		<sequence_manager force="true" path="units/pd2_mod_craft/props/prop_cube_glass_int" unload="true"/>
 		<texture path="units/pd2_mod_craft/props/prop_cube_glass_df" unload="true"/>
 		<unit path="units/pd2_mod_craft/props/prop_cube_glass_int" unload="true"/>
-
 		<model path="units/pd2_mod_craft/props/stick"/>
 		<object path="units/pd2_mod_craft/props/stick"/>
 		<texture path="units/pd2_mod_craft/props/textures/stick"/>
 		<unit path="units/pd2_mod_craft/props/stick"/>
 		<sequence_manager path="units/pd2_mod_craft/props/stick"/>
-		
 		<unit path="units/pd2_mod_craft/props/cobblestone_int"/>
 		<material_config path="units/pd2_mod_craft/props/cobblestone_int"/>
 		<model path="units/pd2_mod_craft/props/cobblestone_int"/>
 		<object path="units/pd2_mod_craft/props/cobblestone_int"/>
 		<sequence_manager force="true" path="units/pd2_mod_craft/props/cobblestone_int"/>
 		<texture path="units/pd2_mod_craft/props/textures/cobblestone"/>
-		
 		<unit path="units/pd2_mod_craft/props/prop_cube_oak_door"/>
 		<material_config path="units/pd2_mod_craft/props/prop_cube_oak_door"/>
 		<model path="units/pd2_mod_craft/props/prop_cube_oak_door"/>
 		<object path="units/pd2_mod_craft/props/prop_cube_oak_door"/>
 		<sequence_manager force="true" path="units/pd2_mod_craft/props/prop_cube_oak_door"/>
 		<texture path="units/pd2_mod_craft/props/prop_cube_oak_door_df"/>
-		
 		<unit path="units/pd2_mod_craft/props/prop_cube_iron_door"/>
 		<material_config path="units/pd2_mod_craft/props/prop_cube_iron_door"/>
 		<model path="units/pd2_mod_craft/props/prop_cube_iron_door"/>
 		<object path="units/pd2_mod_craft/props/prop_cube_iron_door"/>
 		<sequence_manager force="true" path="units/pd2_mod_craft/props/prop_cube_iron_door"/>
 		<texture path="units/pd2_mod_craft/props/prop_cube_iron_door_df"/>
-		
 		<model path="units/pd2_mod_craft/props/goldingot" unload="true"/>
 		<object path="units/pd2_mod_craft/props/goldingot" unload="true"/>
 		<texture path="units/pd2_mod_craft/props/textures/goldingot" unload="true"/>
 		<unit load="true" path="units/pd2_mod_craft/props/goldingot" unload="true"/>
 		<sequence_manager force="true" path="units/pd2_mod_craft/props/goldingot"/>
-		
 		<model path="units/pd2_mod_craft/props/ironingot" unload="true"/>
 		<object path="units/pd2_mod_craft/props/ironingot" unload="true"/>
 		<texture path="units/pd2_mod_craft/props/textures/ironingot" unload="true"/>
 		<unit load="true" path="units/pd2_mod_craft/props/ironingot" unload="true"/>
 		<sequence_manager force="true" path="units/pd2_mod_craft/props/ironingot"/>
-		
 		<model path="units/pd2_mod_craft/props/emerald" unload="true"/>
 		<object path="units/pd2_mod_craft/props/emerald" unload="true"/>
 		<texture path="units/pd2_mod_craft/props/textures/emerald" unload="true"/>
 		<unit load="true" path="units/pd2_mod_craft/props/emerald" unload="true"/>
 		<sequence_manager force="true" path="units/pd2_mod_craft/props/emerald"/>
-		
 		<model path="units/pd2_mod_craft/props/diamond" unload="true"/>
 		<object path="units/pd2_mod_craft/props/diamond" unload="true"/>
 		<texture path="units/pd2_mod_craft/props/textures/diamond" unload="true"/>
 		<unit load="true" path="units/pd2_mod_craft/props/diamond" unload="true"/>
 		<sequence_manager force="true" path="units/pd2_mod_craft/props/diamond"/>
-		
 		<model path="units/pd2_mod_craft/props/dark_oak_trapdoor"/>
 		<object path="units/pd2_mod_craft/props/dark_oak_trapdoor"/>
 		<unit path="units/pd2_mod_craft/props/dark_oak_trapdoor"/>
 		<sequence_manager path="units/pd2_mod_craft/props/dark_oak_trapdoor"/>
-		
 		<model path="units/pd2_mod_craft/props/lever"/>
 		<object path="units/pd2_mod_craft/props/lever"/>
 		<unit path="units/pd2_mod_craft/props/lever"/>
 		<sequence_manager path="units/pd2_mod_craft/props/lever"/>
-		
 		<model path="units/pd2_mod_craft/props/prop_cube_gold_block"/>
 		<object path="units/pd2_mod_craft/props/prop_cube_gold_block"/>
 		<unit load="true" path="units/pd2_mod_craft/props/prop_cube_gold_block"/>
 		<material_config path="units/pd2_mod_craft/props/prop_cube_gold_block"/>
 		<sequence_manager path="units/pd2_mod_craft/props/prop_cube_gold_block"/>
 		<texture path="units/pd2_mod_craft/props/prop_cube_gold_block_df"/>
-		
 		<model path="units/pd2_mod_craft/props/prop_cube_emerald_block"/>
 		<object path="units/pd2_mod_craft/props/prop_cube_emerald_block"/>
 		<unit load="true" path="units/pd2_mod_craft/props/prop_cube_emerald_block"/>
 		<material_config path="units/pd2_mod_craft/props/prop_cube_emerald_block"/>
 		<sequence_manager path="units/pd2_mod_craft/props/prop_cube_emerald_block"/>
 		<texture path="units/pd2_mod_craft/props/prop_cube_emerald_block_df"/>
-		
 		<model path="units/pd2_mod_craft/props/prop_cube_diamond_block"/>
 		<object path="units/pd2_mod_craft/props/prop_cube_diamond_block"/>
 		<unit load="true" path="units/pd2_mod_craft/props/prop_cube_diamond_block"/>
 		<material_config path="units/pd2_mod_craft/props/prop_cube_diamond_block"/>
 		<sequence_manager path="units/pd2_mod_craft/props/prop_cube_diamond_block"/>
 		<texture path="units/pd2_mod_craft/props/prop_cube_diamond_block_df"/>
-		
 		<material_config path="units/pd2_mod_craft/props/prop_cube_emerald_block_acc" unload="true"/>
 		<material_config path="units/pd2_mod_craft/props/prop_cube_gold_block_acc" unload="true"/>
 		<material_config path="units/pd2_mod_craft/props/prop_cube_diamond_block_acc" unload="true"/>
@@ -685,15 +667,12 @@
 		<model path="units/pd2_mod_craft/props/prop_cube_diamond_block_acc"/>
 		<object path="units/pd2_mod_craft/props/prop_cube_diamond_block_acc"/>
 		<unit load="true" path="units/pd2_mod_craft/props/prop_cube_diamond_block_acc"/>
-		
 		<texture path="units/pd2_mod_craft/props/textures/lever"/>
-		
 		<object path="units/pd2_mod_craft/props/tripwire_key"/>
 		<unit path="units/pd2_mod_craft/props/tripwire_key"/>
 		<model path="units/pd2_mod_craft/props/tripwire_key"/>
 		<sequence_manager path="units/pd2_mod_craft/props/tripwire_key"/>
 		<texture path="units/pd2_mod_craft/props/textures/tripwire_key"/>
-		
 		<sequence_manager path="units/pd2_mod_craft/props/diamond_head"/>
 		<texture path="units/pd2_mod_craft/props/textures/normal_cam"/>
 		<texture path="units/pd2_mod_craft/props/textures/titan_cam"/>
@@ -705,9 +684,14 @@
 		<unit path="units/pd2_mod_craft/props/camera"/>
 		<model path="units/pd2_mod_craft/props/camera"/>
 		<sequence_manager path="units/pd2_mod_craft/props/camera"/>
-		
 		<material_config path="units/pd2_mod_craft/material_masterjc" unload="true"/>
 		<material_config path="units/pd2_mod_craft/material_secondaryjc" unload="true"/>
+		<unit path="units/pd2_mod_craft/bankarch/torches" unload="true" load="true" />
+		<object path="units/pd2_mod_craft/bankarch/torches" unload="true"/>
+		<model path="units/pd2_mod_craft/bankarch/torches" unload="true"/>
+		<unit path="units/pd2_mod_craft/bankarch/plants" unload="true" load="true" />
+		<object path="units/pd2_mod_craft/bankarch/plants" unload="true"/>
+		<model path="units/pd2_mod_craft/bankarch/plants" unload="true"/>
 	</add>
 	<add>
 		<material_config path="units/pd2_mod_craft/props/prop_cube_crafting_table" unload="true"/>
@@ -729,5 +713,4 @@
 		<sequence_manager path="units/pd2_mod_craft/props/button" unload="true"/>
 		<unit path="units/pd2_mod_craft/props/button" unload="true"/>
 	</add>
-
 </table>

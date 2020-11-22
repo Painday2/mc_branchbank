@@ -64,6 +64,8 @@
 		<packages>
 			<value_node value="levels/instances/unique/sub_sewer_sidespawn/world/world"/>
 			<value_node value="levels/narratives/elephant/born/editor_only/editor_only"/>
+			<value_node value="levels/narratives/skm/skm_run/collision/collision"/>
+			<value_node value="levels/narratives/locke/brb/collision/collision"/>
 		</packages>
 		<script_data_mods directory="scriptdata">
 			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
