@@ -1059,4 +1059,9 @@
 		<model path="units/pd2_mod_craft/characters/civ_technoblade/civ_technoblade" unload="true"/>
 		<object path="units/pd2_mod_craft/characters/civ_technoblade/civ_technoblade" unload="true"/>
 	</add>
+
+	<add>
+		<texture path="units/pd2_mod_craft/skybox/skybox_day" unload="true"/>
+		<texture path="units/pd2_mod_craft/skybox/skybox_night" unload="true"/>
+	</add>
 </table>
