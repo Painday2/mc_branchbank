@@ -1,43 +1,10 @@
 <table global_key="mc_branchbank" name="mc_branchbank">
-	<level ai_group_type="minecraft" id="crafting_station_bb" max_bags="54">
-		<add file="levels/crafting_station_bb/add.xml"/>
-		<hooks directory="hooks">
-			<hook file="InteractionTweakData.lua" source_file="lib/tweak_data/interactiontweakdata"/>
-			<hook file="EquipmentsTweakdata.lua" source_file="lib/tweak_data/equipmentstweakdata"/>
-			<hook file="HUDIconsTweakdata.lua" source_file="lib/tweak_data/hudiconstweakdata"/>
-			<hook file="groupaitweakdata.lua" source_file="lib/tweak_data/groupaitweakdata"/>
-			<hook file="copbase.lua" source_file="lib/units/enemies/cop/copbase"/>
-			<hook file="CarryTweakdata.lua" source_file="lib/tweak_data/carrytweakdata"/>
-			<hook file="elementareatrigger.lua" source_file="lib/managers/mission/elementareatrigger"/>
-			<hook file="tweakdata.lua" source_file="lib/tweak_data/tweakdata"/>
-			<hook file="assetstweakdata.lua" source_file="lib/tweak_data/assetstweakdata"/>
-			<hook file="missionmanager.lua" source_file="lib/managers/missionmanager"/>
-		</hooks>
-		<include directory="levels/crafting_station_bb">
-			<file file="world.world" type="binary"/>
-			<file file="continents.continents" type="binary"/>
-			<file file="mission.mission" type="binary"/>
-			<file file="nav_manager_data.nav_data" type="binary"/>
-			<file file="world_sounds.world_sounds" type="binary"/>
-			<file file="world_cameras.world_cameras" type="binary"/>
-			<file file="editor_only/editor_only.continent" type="binary"/>
-			<file file="editor_only/editor_only.mission" type="binary"/>
-			<file file="world/world.continent" type="binary"/>
-			<file file="world/world.mission" type="binary"/>
-			<file file="cover_data.cover_data" type="binary"/>
-			<file file="environments/default.environment" type="custom_xml"/>
-		</include>
-		<packages>
-			<value_node value="levels/narratives/elephant/chew/collision/collision"/>
-			<value_node value="levels/instances/unique/hvh/hvh_chance/world/world"/>
-			<value_node value="levels/narratives/bain/shadow_raid/editor_only/editor_only"/>
-		</packages>
-		<script_data_mods directory="scriptdata">
-			<mod replacement="objectives.objective" replacement_type="custom_xml" target_ext="objective" target_path="gamedata/objectives">
-				<options merge_mode="add" mode="add"/>
-			</mod>
-		</script_data_mods>
-	</level>
+	<Localization default="english.txt" directory="loc">
+		<loc file="english.txt" language="english"/>
+	</Localization>
+	<MissionElements>
+		<value_node value="ElementDynamicEnvironment"/>
+	</MissionElements>
 	<level ai_group_type="america" id="mc_branchbank" max_bags="54">
 		<Sounds directory="assets/units/pd2_mod_craft/sound">
 			<sound id="mc_jewelry_brief" path="tts/brief.ogg"/>
@@ -83,13 +50,12 @@
 			<hook file="InteractionTweakData.lua" source_file="lib/tweak_data/interactiontweakdata"/>
 			<hook file="EquipmentsTweakdata.lua" source_file="lib/tweak_data/equipmentstweakdata"/>
 			<hook file="HUDIconsTweakdata.lua" source_file="lib/tweak_data/hudiconstweakdata"/>
-			<hook file="groupaitweakdata.lua" source_file="lib/tweak_data/groupaitweakdata"/>
-			<hook file="copbase.lua" source_file="lib/units/enemies/cop/copbase"/>
 			<hook file="CarryTweakdata.lua" source_file="lib/tweak_data/carrytweakdata"/>
 			<hook file="elementareatrigger.lua" source_file="lib/managers/mission/elementareatrigger"/>
 			<hook file="tweakdata.lua" source_file="lib/tweak_data/tweakdata"/>
 			<hook file="assetstweakdata.lua" source_file="lib/tweak_data/assetstweakdata"/>
 			<hook file="missionmanager.lua" source_file="lib/managers/missionmanager"/>
+			<hook file="charactertweakdata.lua" source_file="lib/tweak_data/charactertweakdata"/>
 		</hooks>
 		<include directory="levels/mc_branchbank">
 			<file file="world.world" type="binary"/>
@@ -120,34 +86,9 @@
 			</mod>
 		</script_data_mods>
 	</level>
-	<Localization default="english.txt" directory="loc">
-		<loc file="english.txt" language="english"/>
-	</Localization>
-	<MissionElements>
-		<value_node value="ElementDynamicEnvironment"/>
-	</MissionElements>
-	<instance id="crafting_station_bb">
-		<add file="levels/crafting_station_bb/add.xml"/>
-		<include directory="levels/crafting_station_bb">
-			<file file="world.world" type="binary"/>
-			<file file="continents.continents" type="binary"/>
-			<file file="mission.mission" type="binary"/>
-			<file file="nav_manager_data.nav_data" type="binary"/>
-			<file file="world_sounds.world_sounds" type="binary"/>
-			<file file="world_cameras.world_cameras" type="binary"/>
-			<file file="editor_only/editor_only.continent" type="binary"/>
-			<file file="editor_only/editor_only.mission" type="binary"/>
-			<file file="world/world.continent" type="binary"/>
-			<file file="world/world.mission" type="binary"/>
-			<file file="cover_data.cover_data" type="binary"/>
-			<file file="environments/default.environment" type="custom_xml"/>
-		</include>
-		<packages/>
-	</instance>
 	<narrative contact="custom" id="mc_branchbank">
 		<chain>
 			<table level_id="mc_branchbank" type="d" type_id="heist_type_assault"/>
-			<table level_id="crafting_station_bb" type="d" type_id="heist_type_assault"/>
 		</chain>
 		<contract_cost>
 			<value_node value="4000"/>

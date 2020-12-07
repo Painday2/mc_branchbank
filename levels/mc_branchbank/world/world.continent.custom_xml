@@ -1,0 +1,1499 @@
+<table>
+	<editor_groups/>
+	<statics>
+		<table>
+			<unit_data _prev_pos="600 -550 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_10_-1" name_id="chunk_10_-1_001" position="0 0 0" rotation="-0 0 -0 -1" unit_id="100001"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-100 250 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_10_-2" name_id="chunk_10_-2_001" position="0 0 0" rotation="-0 0 -0 -1" unit_id="100002"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 50 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_10_-3" name_id="chunk_10_-3_001" position="0 0 0" rotation="-0 0 -0 -1" unit_id="100003"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_10_-4" name_id="chunk_10_-4_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100004"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_10_-5" name_id="chunk_10_-5_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100005"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_10_0" name_id="chunk_10_0_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100006"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_10_1" name_id="chunk_10_1_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100007"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-50 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_10_2" name_id="chunk_10_2_001" position="0 0 0" rotation="-0 0 -0 -1" unit_id="100008"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_10_3" name_id="chunk_10_3_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100009"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_10_4" name_id="chunk_10_4_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100010"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_11_-1" name_id="chunk_11_-1_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100011"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_11_-2" name_id="chunk_11_-2_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100012"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_11_-3" name_id="chunk_11_-3_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100013"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_11_-4" name_id="chunk_11_-4_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100014"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_11_-5" name_id="chunk_11_-5_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100015"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_11_0" name_id="chunk_11_0_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100016"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_11_1" name_id="chunk_11_1_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100017"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_11_2" name_id="chunk_11_2_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100018"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_11_3" name_id="chunk_11_3_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100019"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_11_4" name_id="chunk_11_4_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100020"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_12_-1" name_id="chunk_12_-1_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100021"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_12_-2" name_id="chunk_12_-2_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100022"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_12_-3" name_id="chunk_12_-3_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100023"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-250 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_12_-4" name_id="chunk_12_-4_001" position="0 0 0" rotation="-0 0 -0 -1" unit_id="100024"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_12_-5" name_id="chunk_12_-5_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100025"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_12_-6" name_id="chunk_12_-6_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100026"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_12_0" name_id="chunk_12_0_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100027"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_12_1" name_id="chunk_12_1_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100028"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_12_2" name_id="chunk_12_2_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100029"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_12_3" name_id="chunk_12_3_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100030"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_13_-1" name_id="chunk_13_-1_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100031"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_13_-2" name_id="chunk_13_-2_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100032"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_13_-3" name_id="chunk_13_-3_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100033"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_13_-4" name_id="chunk_13_-4_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100034"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_13_0" name_id="chunk_13_0_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100035"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_13_1" name_id="chunk_13_1_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100036"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_13_2" name_id="chunk_13_2_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100037"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_14_-1" name_id="chunk_14_-1_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100038"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_14_-2" name_id="chunk_14_-2_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100039"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_14_-3" name_id="chunk_14_-3_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100040"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_14_-4" name_id="chunk_14_-4_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100041"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_14_0" name_id="chunk_14_0_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100042"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_14_1" name_id="chunk_14_1_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100043"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_14_2" name_id="chunk_14_2_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100044"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_14_3" name_id="chunk_14_3_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100045"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_14_4" name_id="chunk_14_4_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100046"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_15_-1" name_id="chunk_15_-1_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100047"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_15_-2" name_id="chunk_15_-2_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100048"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_15_-3" name_id="chunk_15_-3_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100049"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_15_0" name_id="chunk_15_0_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100050"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_15_1" name_id="chunk_15_1_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100051"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_15_2" name_id="chunk_15_2_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100052"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_15_3" name_id="chunk_15_3_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100053"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_2_-5" name_id="chunk_2_-5_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100054"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_2_-6" name_id="chunk_2_-6_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100055"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_2_-7" name_id="chunk_2_-7_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100056"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_2_-8" name_id="chunk_2_-8_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100057"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_2_-9" name_id="chunk_2_-9_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100058"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_3_-5" name_id="chunk_3_-5_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100059"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_3_-6" name_id="chunk_3_-6_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100060"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_3_-7" name_id="chunk_3_-7_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100061"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_3_-8" name_id="chunk_3_-8_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100062"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_4_-1" name_id="chunk_4_-1_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100063"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_4_-2" name_id="chunk_4_-2_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100064"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_4_-3" name_id="chunk_4_-3_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100065"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_4_-4" name_id="chunk_4_-4_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100066"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_4_-5" name_id="chunk_4_-5_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100067"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_4_-6" name_id="chunk_4_-6_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100068"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_4_-7" name_id="chunk_4_-7_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100069"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_4_-8" name_id="chunk_4_-8_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100070"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_4_0" name_id="chunk_4_0_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100071"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="400 -400 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_5_-1" name_id="chunk_5_-1_001" position="0 0 0" rotation="-0 0 -0 -1" unit_id="100072"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_5_-3" name_id="chunk_5_-3_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100073"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_5_-6" name_id="chunk_5_-6_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100074"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_5_-7" name_id="chunk_5_-7_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100075"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_5_-8" name_id="chunk_5_-8_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100076"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_5_0" name_id="chunk_5_0_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100077"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_5_1" name_id="chunk_5_1_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100078"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_5_2" name_id="chunk_5_2_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100079"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_6_-1" name_id="chunk_6_-1_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100080"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_6_-10" name_id="chunk_6_-10_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100081"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_6_-11" name_id="chunk_6_-11_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100082"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_6_-2" name_id="chunk_6_-2_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100083"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_6_-3" name_id="chunk_6_-3_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100084"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_6_-4" name_id="chunk_6_-4_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100085"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_6_-5" name_id="chunk_6_-5_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100086"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_6_-6" name_id="chunk_6_-6_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100087"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_6_-7" name_id="chunk_6_-7_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100088"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_6_-8" name_id="chunk_6_-8_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100089"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_6_-9" name_id="chunk_6_-9_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100090"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_6_0" name_id="chunk_6_0_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100091"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_6_1" name_id="chunk_6_1_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100092"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_6_2" name_id="chunk_6_2_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100093"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_6_3" name_id="chunk_6_3_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100094"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_6_4" name_id="chunk_6_4_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100095"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_6_5" name_id="chunk_6_5_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100096"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_6_6" name_id="chunk_6_6_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100097"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_7_-1" name_id="chunk_7_-1_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100098"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_7_-10" name_id="chunk_7_-10_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100099"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_7_-11" name_id="chunk_7_-11_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100100"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_7_-2" name_id="chunk_7_-2_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100101"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_7_-3" name_id="chunk_7_-3_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100102"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_7_-4" name_id="chunk_7_-4_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100103"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_7_-5" name_id="chunk_7_-5_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100104"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_7_-6" name_id="chunk_7_-6_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100105"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_7_-7" name_id="chunk_7_-7_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100106"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_7_-8" name_id="chunk_7_-8_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100107"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_7_-9" name_id="chunk_7_-9_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100108"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_7_0" name_id="chunk_7_0_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100109"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_7_1" name_id="chunk_7_1_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100110"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_7_2" name_id="chunk_7_2_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100111"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_7_3" name_id="chunk_7_3_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100112"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_7_4" name_id="chunk_7_4_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100113"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_7_5" name_id="chunk_7_5_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100114"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_7_6" name_id="chunk_7_6_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100115"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_8_-1" name_id="chunk_8_-1_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100116"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_8_-10" name_id="chunk_8_-10_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100117"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_8_-11" name_id="chunk_8_-11_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100118"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_8_-2" name_id="chunk_8_-2_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100119"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_8_-3" name_id="chunk_8_-3_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100120"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_8_-4" name_id="chunk_8_-4_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100121"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_8_-5" name_id="chunk_8_-5_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100122"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_8_-6" name_id="chunk_8_-6_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100123"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_8_-7" name_id="chunk_8_-7_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100124"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_8_-8" name_id="chunk_8_-8_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100125"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_8_-9" name_id="chunk_8_-9_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100126"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="-0 0 -0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_8_0" name_id="chunk_8_0_001" position="0 0 0" rotation="-0 0 -0 -1" unit_id="100127"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_8_1" name_id="chunk_8_1_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100128"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_8_2" name_id="chunk_8_2_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100129"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="250 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_8_3" name_id="chunk_8_3_001" position="0 0 0" rotation="-0 0 -0 -1" unit_id="100130"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_8_4" name_id="chunk_8_4_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100131"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_8_5" name_id="chunk_8_5_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100132"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_8_6" name_id="chunk_8_6_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100133"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_9_-1" name_id="chunk_9_-1_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100134"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_9_-2" name_id="chunk_9_-2_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100135"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_9_-3" name_id="chunk_9_-3_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100136"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_9_-4" name_id="chunk_9_-4_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100137"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_9_0" name_id="chunk_9_0_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100138"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_9_1" name_id="chunk_9_1_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100139"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_9_2" name_id="chunk_9_2_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100140"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_9_3" name_id="chunk_9_3_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100141"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 0 0" _prev_rot="-0 0 -0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/props/sunmoon" name_id="sunmoon_001" position="0 0 0" rotation="0 0.382683 0 -0.92388" unit_id="100142"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1500 450 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/props/clouds" name_id="clouds_001" position="0 0 0" rotation="-0 0 -0 -1" unit_id="100143"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1225 550 450" _prev_rot="-0 0 -0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="prop_cube_glass_int_001" position="-1225 550 450" rotation="-0 0 -0 -1" unit_id="100144"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1325 550 450" _prev_rot="0 0 0 -1" continent="world" local_pos="-100 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="prop_cube_glass_int_002" position="-1325 550 450" rotation="0 0 0 -1" unit_id="100145"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-925 550 550" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 100" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="prop_cube_glass_int_003" position="-925 550 550" rotation="0 0 0 -1" unit_id="100146"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-825 550 550" _prev_rot="0 0 0 -1" continent="world" local_pos="100 0 100" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="prop_cube_glass_int_004" position="-825 550 550" rotation="0 0 0 -1" unit_id="100147"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1325 550 550" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="prop_cube_glass_int_005" position="-1325 550 550" rotation="0 0 0 -1" unit_id="100148"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1225 550 550" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 100" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="prop_cube_glass_int_006" position="-1225 550 550" rotation="0 0 0 -1" unit_id="100149"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-925 550 450" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="prop_cube_glass_int_007" position="-925 550 450" rotation="0 0 0 -1" unit_id="100150"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-825 550 450" _prev_rot="0 0 0 -1" continent="world" local_pos="100 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="prop_cube_glass_int_008" position="-825 550 450" rotation="0 0 0 -1" unit_id="100151"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-525 350 450" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="prop_cube_glass_int_009" position="-525 350 450" rotation="0 0 0.707107 -0.707107" unit_id="100152"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-525 350 550" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="0 0 100" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="prop_cube_glass_int_010" position="-525 350 550" rotation="0 0 0.707107 -0.707107" unit_id="100153"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-525 250 550" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="100 0 100" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="prop_cube_glass_int_011" position="-525 250 550" rotation="0 0 0.707107 -0.707107" unit_id="100154"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-525 250 450" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="-100 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="prop_cube_glass_int_012" position="-525 250 450" rotation="0 0 0.707107 -0.707107" unit_id="100155"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-525 -50 450" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="prop_cube_glass_int_013" position="-525 -450 450" rotation="0 0 0.707107 -0.707107" unit_id="100156"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-525 -50 550" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="0 0 100" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="prop_cube_glass_int_014" position="-525 -450 550" rotation="0 0 0.707107 -0.707107" unit_id="100157"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-525 -150 550" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="100 0 100" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="prop_cube_glass_int_015" position="-525 -550 550" rotation="0 0 0.707107 -0.707107" unit_id="100158"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-525 -150 450" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="100 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="prop_cube_glass_int_016" position="-525 -550 450" rotation="0 0 0.707107 -0.707107" unit_id="100159"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-525 -75 450" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="prop_cube_glass_int_017" position="-525 -50 450" rotation="0 0 0.707107 -0.707107" unit_id="100160"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-525 -175 450" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="100 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="prop_cube_glass_int_018" position="-525 -150 450" rotation="0 0 0.707107 -0.707107" unit_id="100161"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-525 -175 550" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="100 0 100" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="prop_cube_glass_int_019" position="-525 -150 550" rotation="0 0 0.707107 -0.707107" unit_id="100162"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-525 -75 550" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="0 0 100" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="prop_cube_glass_int_020" position="-525 -50 550" rotation="0 0 0.707107 -0.707107" unit_id="100163"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-525 -50 450" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="prop_cube_glass_int_021" position="-525 -850 450" rotation="0 0 0.707107 -0.707107" unit_id="100164"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-525 -150 450" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="100 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="prop_cube_glass_int_022" position="-525 -950 450" rotation="0 0 0.707107 -0.707107" unit_id="100165"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-525 -150 550" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="100 0 100" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="prop_cube_glass_int_023" position="-525 -950 550" rotation="0 0 0.707107 -0.707107" unit_id="100166"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-525 -50 550" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="0 0 100" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="prop_cube_glass_int_024" position="-525 -850 550" rotation="0 0 0.707107 -0.707107" unit_id="100167"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-325 -1325 450" _prev_rot="0 0 0 -1" continent="world" local_pos="-100 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="prop_cube_glass_int_025" position="-325 -1250 450" rotation="0 0 0 -1" unit_id="100168"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-325 -1325 550" _prev_rot="0 0 0 -1" continent="world" local_pos="-100 0 100" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="prop_cube_glass_int_026" position="-325 -1250 550" rotation="0 0 0 -1" unit_id="100169"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-225 -1325 550" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 100" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="prop_cube_glass_int_027" position="-225 -1250 550" rotation="0 0 0 -1" unit_id="100170"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-225 -1325 450" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="prop_cube_glass_int_028" position="-225 -1250 450" rotation="0 0 0 -1" unit_id="100171"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="175 -1250 450" _prev_rot="0 0 0 -1" continent="world" local_pos="100 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="prop_cube_glass_int_029" position="175 -1250 450" rotation="0 0 0 -1" unit_id="100172"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="75 -1250 450" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="prop_cube_glass_int_030" position="75 -1250 450" rotation="0 0 0 -1" unit_id="100173"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="75 -1250 550" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 100" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="prop_cube_glass_int_031" position="75 -1250 550" rotation="0 0 0 -1" unit_id="100174"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="175 -1250 550" _prev_rot="0 0 0 -1" continent="world" local_pos="100 0 100" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="prop_cube_glass_int_032" position="175 -1250 550" rotation="0 0 0 -1" unit_id="100175"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="75 -1250 450" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="prop_cube_glass_int_033" position="475 -1250 450" rotation="0 0 0 -1" unit_id="100176"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="175 -1250 450" _prev_rot="0 0 0 -1" continent="world" local_pos="100 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="prop_cube_glass_int_034" position="575 -1250 450" rotation="0 0 0 -1" unit_id="100177"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="175 -1250 550" _prev_rot="0 0 0 -1" continent="world" local_pos="100 0 100" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="prop_cube_glass_int_035" position="575 -1250 550" rotation="0 0 0 -1" unit_id="100178"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="75 -1250 550" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 100" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="prop_cube_glass_int_036" position="475 -1250 550" rotation="0 0 0 -1" unit_id="100179"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="475 -1250 450" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="prop_cube_glass_int_037" position="875 -1250 450" rotation="0 0 0 -1" unit_id="100180"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="575 -1250 450" _prev_rot="0 0 0 -1" continent="world" local_pos="100 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="prop_cube_glass_int_038" position="975 -1250 450" rotation="0 0 0 -1" unit_id="100181"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="575 -1250 550" _prev_rot="0 0 0 -1" continent="world" local_pos="100 0 100" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="prop_cube_glass_int_039" position="975 -1250 550" rotation="0 0 0 -1" unit_id="100182"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="475 -1250 550" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 100" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="prop_cube_glass_int_040" position="875 -1250 550" rotation="0 0 0 -1" unit_id="100183"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1275 -1250 450" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="prop_cube_glass_int_041" position="1275 -1250 450" rotation="0 0 0 -1" unit_id="100184"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1375 -1250 450" _prev_rot="0 0 0 -1" continent="world" local_pos="100 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="prop_cube_glass_int_042" position="1375 -1250 450" rotation="0 0 0 -1" unit_id="100185"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1375 -1250 550" _prev_rot="0 0 0 -1" continent="world" local_pos="100 0 100" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="prop_cube_glass_int_043" position="1375 -1250 550" rotation="0 0 0 -1" unit_id="100186"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1275 -1250 550" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 100" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="prop_cube_glass_int_044" position="1275 -1250 550" rotation="0 0 0 -1" unit_id="100187"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1975 -3875 350" _prev_rot="0 0 -0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="glass_001" position="1975 -3950 350" rotation="0 0 -0.707107 -0.707107" unit_id="100188"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1975 -3875 450" _prev_rot="0 0 -0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 100" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="glass_002" position="1975 -3950 450" rotation="0 0 -0.707107 -0.707107" unit_id="100189"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1875 -3875 450" _prev_rot="0 0 -0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 100 100" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="glass_003" position="1875 -3950 450" rotation="0 0 -0.707107 -0.707107" unit_id="100190"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1875 -3875 350" _prev_rot="0 0 -0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 100 0" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="glass_004" position="1875 -3950 350" rotation="0 0 -0.707107 -0.707107" unit_id="100191"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1775 -3875 450" _prev_rot="0 0 -0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 200 100" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="glass_005" position="1775 -3950 450" rotation="0 0 -0.707107 -0.707107" unit_id="100192"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1775 -3875 350" _prev_rot="0 0 -0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 200 0" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="glass_006" position="1775 -3950 350" rotation="0 0 -0.707107 -0.707107" unit_id="100193"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1675 -3875 450" _prev_rot="0 0 -0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 300 100" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="glass_007" position="1675 -3950 450" rotation="0 0 -0.707107 -0.707107" unit_id="100194"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1675 -3875 350" _prev_rot="0 0 -0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 300 0" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="glass_008" position="1675 -3950 350" rotation="0 0 -0.707107 -0.707107" unit_id="100195"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1075 -3875 350" _prev_rot="0 0 -0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 900 0" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="glass_009" position="1075 -3950 350" rotation="0 0 -0.707107 -0.707107" unit_id="100196"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1075 -3875 450" _prev_rot="0 0 -0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 900 100" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="glass_010" position="1075 -3950 450" rotation="0 0 -0.707107 -0.707107" unit_id="100197"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="975 -3875 350" _prev_rot="0 0 -0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 1000 0" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="glass_011" position="975 -3950 350" rotation="0 0 -0.707107 -0.707107" unit_id="100198"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="975 -3875 450" _prev_rot="0 0 -0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 1000 100" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="glass_012" position="975 -3950 450" rotation="0 0 -0.707107 -0.707107" unit_id="100199"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="875 -3875 450" _prev_rot="0 0 -0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 1100 100" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="glass_013" position="875 -3950 450" rotation="0 0 -0.707107 -0.707107" unit_id="100200"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="875 -3875 350" _prev_rot="0 0 -0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 1100 0" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="glass_014" position="875 -3950 350" rotation="0 0 -0.707107 -0.707107" unit_id="100201"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="775 -3875 350" _prev_rot="0 0 -0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 1200 0" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="glass_015" position="775 -3950 350" rotation="0 0 -0.707107 -0.707107" unit_id="100202"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="775 -3875 450" _prev_rot="0 0 -0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 1200 100" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="glass_016" position="775 -3950 450" rotation="0 0 -0.707107 -0.707107" unit_id="100203"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1475 -4375 350" _prev_rot="0 0 1 -0" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-500 500 0" local_rot="0 0 -0.707107 -0.707107" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_chest_glass" name_id="prop_cube_chest_glass_001" position="1475 -4450 350" rotation="0 0 -1 0" unit_id="100204"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1575 -4375 350" _prev_rot="0 0 1 -0" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-500 400 0" local_rot="0 0 -0.707107 -0.707107" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_chest_glass" name_id="prop_cube_chest_glass_002" position="1575 -4450 350" rotation="0 0 -1 0" unit_id="100205"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1575 -4275 350" _prev_rot="0 0 0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-400 400 0" local_rot="0 0 -1 1.78814e-007" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_chest_glass" name_id="prop_cube_chest_glass_003" position="1575 -4350 350" rotation="0 0 0.707107 -0.707107" unit_id="100206"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1375 -4375 350" _prev_rot="0 0 1 -0" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-500 600 0" local_rot="0 0 -0.707107 -0.707107" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_chest_glass" name_id="prop_cube_chest_glass_004" position="1375 -4450 350" rotation="0 0 -1 0" unit_id="100207"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="975 -4375 350" _prev_rot="0 0 1 -0" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-500 1000 0" local_rot="0 0 -0.707107 -0.707107" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_chest_glass" name_id="prop_cube_chest_glass_005" position="975 -4450 350" rotation="0 0 -1 0" unit_id="100208"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1075 -4375 350" _prev_rot="0 0 1 -0" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-500 900 0" local_rot="0 0 -0.707107 -0.707107" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_chest_glass" name_id="prop_cube_chest_glass_006" position="1075 -4450 350" rotation="0 0 -1 0" unit_id="100209"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1175 -4375 350" _prev_rot="0 0 1 -0" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-500 800 0" local_rot="0 0 -0.707107 -0.707107" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_chest_glass" name_id="prop_cube_chest_glass_007" position="1175 -4450 350" rotation="0 0 -1 0" unit_id="100210"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1075 -4175 350" _prev_rot="0 0 -0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-300 900 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_chest_glass" name_id="prop_cube_chest_glass_008" position="1075 -4250 350" rotation="0 0 -0.707107 -0.707107" unit_id="100211"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="875 -4675 350" _prev_rot="0 0 1 -0" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-800 1100 0" local_rot="0 0 -0.707107 -0.707107" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_chest_glass" name_id="prop_cube_chest_glass_009" position="875 -4750 350" rotation="0 0 -1 0" unit_id="100212"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="975 -4675 350" _prev_rot="0 0 1 -0" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-800 1000 0" local_rot="0 0 -0.707107 -0.707107" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_chest_glass" name_id="prop_cube_chest_glass_010" position="975 -4750 350" rotation="0 0 -1 0" unit_id="100213"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1075 -4675 350" _prev_rot="0 0 1 -0" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-800 900 0" local_rot="0 0 -0.707107 -0.707107" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_chest_glass" name_id="prop_cube_chest_glass_011" position="1075 -4750 350" rotation="0 0 -1 0" unit_id="100214"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1275 -4675 350" _prev_rot="0 0 1 -0" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-800 700 0" local_rot="0 0 -0.707107 -0.707107" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_chest_glass" name_id="prop_cube_chest_glass_012" position="1275 -4750 350" rotation="0 0 -1 0" unit_id="100215"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1675 -4975 350" _prev_rot="0 0 0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-1100 300 0" local_rot="0 0 -1 0" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_chest_glass" name_id="prop_cube_chest_glass_013" position="1675 -5050 350" rotation="0 0 0.707107 -0.707107" unit_id="100216"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1675 -4875 350" _prev_rot="0 0 0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-1000 300 0" local_rot="0 0 -1 0" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_chest_glass" name_id="prop_cube_chest_glass_014" position="1675 -4950 350" rotation="0 0 0.707107 -0.707107" unit_id="100217"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1675 -4775 350" _prev_rot="0 0 0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-900 300 0" local_rot="0 0 -1 0" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_chest_glass" name_id="prop_cube_chest_glass_015" position="1675 -4850 350" rotation="0 0 0.707107 -0.707107" unit_id="100218"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1775 -4975 350" _prev_rot="0 0 0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-1100 200 0" local_rot="0 0 -1 0" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_chest_glass" name_id="prop_cube_chest_glass_016" position="1775 -5050 350" rotation="0 0 0.707107 -0.707107" unit_id="100219"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1575 -5275 350" _prev_rot="0 0 -0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-1400 400 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_chest_glass" name_id="prop_cube_chest_glass_017" position="1575 -5350 350" rotation="0 0 -0.707107 -0.707107" unit_id="100220"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1575 -5175 350" _prev_rot="0 0 -0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-1300 400 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_chest_glass" name_id="prop_cube_chest_glass_018" position="1575 -5250 350" rotation="0 0 -0.707107 -0.707107" unit_id="100221"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1475 -5075 350" _prev_rot="0 0 1 -0" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-1200 500 0" local_rot="0 0 -0.707107 -0.707107" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_chest_glass" name_id="prop_cube_chest_glass_019" position="1475 -5150 350" rotation="0 0 -1 0" unit_id="100222"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1375 -5075 350" _prev_rot="0 0 1 -0" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-1200 600 0" local_rot="0 0 -0.707107 -0.707107" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_chest_glass" name_id="prop_cube_chest_glass_020" position="1375 -5150 350" rotation="0 0 -1 0" unit_id="100223"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="975 -5075 350" _prev_rot="0 0 1 -0" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-1200 1000 0" local_rot="0 0 -0.707107 -0.707107" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_chest_glass" name_id="prop_cube_chest_glass_021" position="975 -5150 350" rotation="0 0 -1 0" unit_id="100224"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1075 -5075 350" _prev_rot="0 0 1 -0" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-1200 900 0" local_rot="0 0 -0.707107 -0.707107" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_chest_glass" name_id="prop_cube_chest_glass_022" position="1075 -5150 350" rotation="0 0 -1 0" unit_id="100225"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="975 -5375 350" _prev_rot="0 0 1 -0" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-1500 1000 0" local_rot="0 0 -0.707107 -0.707107" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_chest_glass" name_id="prop_cube_chest_glass_023" position="975 -5450 350" rotation="0 0 -1 0" unit_id="100226"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="675 -5175 450" _prev_rot="-0.5 -0.5 -0.5 -0.5" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-1300 1300 100" local_rot="0.707107 0 0 0.707107" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_chest_glass" name_id="prop_cube_chest_glass_024" position="675 -5250 450" rotation="-0.5 -0.5 -0.5 -0.5" unit_id="100227"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="675 -5050 450" _prev_rot="-0.5 -0.5 -0.5 -0.5" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_chest_glass" name_id="prop_cube_chest_glass_027" position="675 -5050 450" rotation="-0.5 -0.5 -0.5 -0.5" unit_id="100228"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="675 -4875 550" _prev_rot="-0.5 -0.5 -0.5 -0.5" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-1000 1300 200" local_rot="0.707107 0 0 0.707107" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_chest_glass" name_id="prop_cube_chest_glass_028" position="675 -4950 550" rotation="-0.5 -0.5 -0.5 -0.5" unit_id="100229"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="675 -4875 450" _prev_rot="-0.5 -0.5 -0.5 -0.5" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-1000 1300 100" local_rot="0.707107 0 0 0.707107" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_chest_glass" name_id="prop_cube_chest_glass_029" position="675 -4950 450" rotation="-0.5 -0.5 -0.5 -0.5" unit_id="100230"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="675 -4675 550" _prev_rot="-0.5 -0.5 -0.5 -0.5" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-800 1300 200" local_rot="0.707107 0 0 0.707107" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_chest_glass" name_id="prop_cube_chest_glass_030" position="675 -4750 550" rotation="-0.5 -0.5 -0.5 -0.5" unit_id="100231"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="675 -4675 450" _prev_rot="-0.5 -0.5 -0.5 -0.5" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-800 1300 100" local_rot="0.707107 0 0 0.707107" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_chest_glass" name_id="prop_cube_chest_glass_031" position="675 -4750 450" rotation="-0.5 -0.5 -0.5 -0.5" unit_id="100232"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="675 -4775 450" _prev_rot="-0.5 -0.5 -0.5 -0.5" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-900 1300 100" local_rot="0.707107 0 0 0.707107" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_chest_glass" name_id="prop_cube_chest_glass_032" position="675 -4850 450" rotation="-0.5 -0.5 -0.5 -0.5" unit_id="100233"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="675 -4775 550" _prev_rot="-0.5 -0.5 -0.5 -0.5" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-900 1300 200" local_rot="0.707107 0 0 0.707107" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_chest_glass" name_id="prop_cube_chest_glass_033" position="675 -4850 550" rotation="-0.5 -0.5 -0.5 -0.5" unit_id="100234"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="675 -4575 550" _prev_rot="-0.5 -0.5 -0.5 -0.5" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-700 1300 200" local_rot="0.707107 0 0 0.707107" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_chest_glass" name_id="prop_cube_chest_glass_034" position="675 -4650 550" rotation="-0.5 -0.5 -0.5 -0.5" unit_id="100235"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="675 -4575 450" _prev_rot="-0.5 -0.5 -0.5 -0.5" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-700 1300 100" local_rot="0.707107 0 0 0.707107" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_chest_glass" name_id="prop_cube_chest_glass_035" position="675 -4650 450" rotation="-0.5 -0.5 -0.5 -0.5" unit_id="100236"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="675 -4375 550" _prev_rot="-0.5 -0.5 -0.5 -0.5" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-500 1300 200" local_rot="0.707107 0 0 0.707107" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_chest_glass" name_id="prop_cube_chest_glass_036" position="675 -4450 550" rotation="-0.5 -0.5 -0.5 -0.5" unit_id="100237"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="675 -4375 450" _prev_rot="-0.5 -0.5 -0.5 -0.5" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-500 1300 100" local_rot="0.707107 0 0 0.707107" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_chest_glass" name_id="prop_cube_chest_glass_037" position="675 -4450 450" rotation="-0.5 -0.5 -0.5 -0.5" unit_id="100238"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1375 -5975 350" _prev_rot="0 0 0 -1" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-2100 600 0" local_rot="0 0 -0.707107 0.707107" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_chest_glass" name_id="prop_cube_chest_glass_038" position="1375 -6050 350" rotation="0 0 0 -1" unit_id="100239"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1475 -5975 350" _prev_rot="0 0 0 -1" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-2100 500 0" local_rot="0 0 -0.707107 0.707107" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_chest_glass" name_id="prop_cube_chest_glass_039" position="1475 -6050 350" rotation="0 0 0 -1" unit_id="100240"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1675 -5975 350" _prev_rot="0 0 0 -1" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-2100 300 0" local_rot="0 0 -0.707107 0.707107" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_chest_glass" name_id="prop_cube_chest_glass_040" position="1675 -6050 350" rotation="0 0 0 -1" unit_id="100241"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1575 -5975 350" _prev_rot="0 0 0 -1" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-2100 400 0" local_rot="0 0 -0.707107 0.707107" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_chest_glass" name_id="prop_cube_chest_glass_041" position="1575 -6050 350" rotation="0 0 0 -1" unit_id="100242"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="2075 -5975 350" _prev_rot="0 0 0 -1" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-2100 -100 0" local_rot="0 0 -0.707107 0.707107" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_chest_glass" name_id="prop_cube_chest_glass_042" position="2075 -6050 350" rotation="0 0 0 -1" unit_id="100243"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1975 -5975 350" _prev_rot="0 0 0 -1" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-2100 0 0" local_rot="0 0 -0.707107 0.707107" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_chest_glass" name_id="prop_cube_chest_glass_043" position="1975 -6050 350" rotation="0 0 0 -1" unit_id="100244"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1875 -5975 350" _prev_rot="0 0 0 -1" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-2100 100 0" local_rot="0 0 -0.707107 0.707107" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_chest_glass" name_id="prop_cube_chest_glass_044" position="1875 -6050 350" rotation="0 0 0 -1" unit_id="100245"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1775 -5975 350" _prev_rot="0 0 0 -1" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-2100 200 0" local_rot="0 0 -0.707107 0.707107" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_chest_glass" name_id="prop_cube_chest_glass_045" position="1775 -6050 350" rotation="0 0 0 -1" unit_id="100246"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1475 -3975 450" _prev_rot="0 0 -0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-100 500 100" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="prop_cube_glass_int_045" position="1475 -4050 450" rotation="0 0 -0.707107 -0.707107" unit_id="100247"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1475 -3975 550" _prev_rot="0 0 -0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-100 500 200" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="prop_cube_glass_int_046" position="1475 -4050 550" rotation="0 0 -0.707107 -0.707107" unit_id="100248"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1375 -3975 550" _prev_rot="0 0 -0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-100 600 200" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="prop_cube_glass_int_047" position="1375 -4050 550" rotation="0 0 -0.707107 -0.707107" unit_id="100249"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1275 -3975 550" _prev_rot="0 0 -0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-100 700 200" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="prop_cube_glass_int_048" position="1275 -4050 550" rotation="0 0 -0.707107 -0.707107" unit_id="100250"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1275 -3975 450" _prev_rot="0 0 -0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-100 700 100" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="prop_cube_glass_int_049" position="1275 -4050 450" rotation="0 0 -0.707107 -0.707107" unit_id="100251"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="775 -3875 550" _prev_rot="0 0 -0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 1200 200" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="prop_cube_glass_int_050" position="775 -3950 550" rotation="0 0 -0.707107 -0.707107" unit_id="100252"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="975 -3875 550" _prev_rot="0 0 -0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 1000 200" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="prop_cube_glass_int_051" position="975 -3950 550" rotation="0 0 -0.707107 -0.707107" unit_id="100253"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="875 -3875 550" _prev_rot="0 0 -0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 1100 200" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="prop_cube_glass_int_052" position="875 -3950 550" rotation="0 0 -0.707107 -0.707107" unit_id="100254"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1075 -3875 550" _prev_rot="0 0 -0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 900 200" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="prop_cube_glass_int_053" position="1075 -3950 550" rotation="0 0 -0.707107 -0.707107" unit_id="100255"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1975 -3875 550" _prev_rot="0 0 -0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 200" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="prop_cube_glass_int_054" position="1975 -3950 550" rotation="0 0 -0.707107 -0.707107" unit_id="100256"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1875 -3875 550" _prev_rot="0 0 -0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 100 200" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="prop_cube_glass_int_055" position="1875 -3950 550" rotation="0 0 -0.707107 -0.707107" unit_id="100257"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1775 -3875 550" _prev_rot="0 0 -0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 200 200" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="prop_cube_glass_int_056" position="1775 -3950 550" rotation="0 0 -0.707107 -0.707107" unit_id="100258"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1675 -3875 550" _prev_rot="0 0 -0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 300 200" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="prop_cube_glass_int_057" position="1675 -3950 550" rotation="0 0 -0.707107 -0.707107" unit_id="100259"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1275 -3950 350" _prev_rot="0 0 -0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="opened" name="units/pd2_mod_craft/props/prop_cube_oak_door" name_id="prop_cube_oak_door_001" position="1275 -3950 350" rotation="0 0 -0.707107 -0.707107" unit_id="100260"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="675 -5050 450" _prev_rot="-0.5 -0.5 -0.5 -0.5" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_chest_glass" name_id="prop_cube_chest_glass_046" position="675 -5050 550" rotation="-0.5 -0.5 -0.5 -0.5" unit_id="100261"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="675 -5050 550" _prev_rot="-0.5 -0.5 -0.5 -0.5" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_chest_glass" name_id="prop_cube_chest_glass_047" position="675 -5250 550" rotation="-0.5 -0.5 -0.5 -0.5" unit_id="100262"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="0 -3950 350" _prev_rot="0 0 -0.707107 -0.707107" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="closed" name="units/pd2_mod_craft/props/prop_cube_oak_door" name_id="prop_cube_oak_door_003" position="-125 -3950 350" rotation="0 0 -0.707107 -0.707107" unit_id="100264"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-723 -3850 350" _prev_rot="0 0 -0.707107 -0.707107" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="opened" name="units/pd2_mod_craft/props/prop_cube_oak_door" name_id="prop_cube_oak_door_004" position="-724 -3850 350" rotation="0 0 -0.707107 -0.707107" unit_id="100265"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-554 -3850 350" _prev_rot="0 0 -0.707107 -0.707107" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 -170 0" local_rot="0 0 0 1" mesh_variation="opened" name="units/pd2_mod_craft/props/prop_cube_oak_door" name_id="prop_cube_oak_door_005" position="-554 -3850 350" rotation="0 0 -0.707107 -0.707107" unit_id="100266"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-4291.94 11815 350.002" _prev_rot="-0.5 -0.5 -0.5 -0.5" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_16x32m" name_id="dev_bag_collision_16x32m_001" only_visible_in_editor="true" position="-4291.94 11765 350.002" rotation="-0.5 -0.5 -0.5 -0.5" unit_id="100000"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-6641.94 11215 350.002" _prev_rot="-0.707107 0 0 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_16x32m" name_id="dev_bag_collision_16x32m_002" only_visible_in_editor="true" position="-7091.94 11215 350.002" rotation="-0.707107 0 0 -0.707107" unit_id="100267"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5016.85 -3650 350.082" _prev_rot="0 0 0 -1" continent="world" local_pos="-55.1545 319.169 -3.91797" local_rot="0 0 -0.707107 0.707107" name="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_4x3m" name_id="dev_bag_collision_4x3m_001" only_visible_in_editor="true" position="-5016.85 -3650 350.082" rotation="0 0 0 -1" unit_id="100268"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-4697.68 -3594.85 354" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_long/editable_text_long" name_id="editable_text_long_001" position="-4697.68 -3594.85 354" rotation="0 0 -0.707107 -0.707107" unit_id="100269">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_medium_shadow_mf" font_color="1 1 1" font_size="2.58824" render_template="diffuse_vc_decal" text="van escape #??" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3331.42 -5229.24 349.999" _prev_rot="-0.5 -0.5 -0.5 -0.5" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_16x32m" name_id="dev_bag_collision_16x32m_003" only_visible_in_editor="true" position="-4400 -5250 350" rotation="0.5 0.5 0.5 0.5" unit_id="100270"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="3850 4800 350" _prev_rot="-0.707107 0 0 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_16x32m" name_id="dev_bag_collision_16x32m_004" only_visible_in_editor="true" position="3899 4800 350" rotation="-0.707107 0 0 -0.707107" unit_id="100271"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="3899 1600 350" _prev_rot="-0.707107 0 0 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_16x32m" name_id="dev_bag_collision_16x32m_005" only_visible_in_editor="true" position="3899 1600 350" rotation="-0.707107 0 0 -0.707107" unit_id="100272"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="4924 -1600 350" _prev_rot="-0.707107 0 0 -0.707107" continent="world" local_pos="4924 -1600 350" local_rot="0.707107 0 0 0.707107" name="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_16x32m" name_id="dev_bag_collision_16x32m_006" only_visible_in_editor="true" position="4924 -1600 350" rotation="-0.707107 0 0 -0.707107" unit_id="100273"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-4697.68 -3594.85 354" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_long/editable_text_long" name_id="editable_text_long_002" position="-4697.68 305.153 354" rotation="0 0 -0.707107 -0.707107" unit_id="100274">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_medium_shadow_mf" font_color="1 1 1" font_size="2.58824" render_template="diffuse_vc_decal" text="van escape #??" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5016.85 -3650 350.082" _prev_rot="0 0 0 -1" continent="world" local_pos="-55.1545 319.169 -3.91797" local_rot="0 0 -0.707107 0.707107" name="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_4x3m" name_id="dev_bag_collision_4x3m_002" only_visible_in_editor="true" position="-5016.85 249.999 350.082" rotation="0 0 0 -1" unit_id="100275"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="2549.68 -4919.3 351.999" _prev_rot="0 0 1 -4.37114e-008" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_long/editable_text_long" name_id="editable_text_long_004" position="2699.68 -4919.3 351.999" rotation="0 0 1 -4.37114e-008" unit_id="100277">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_medium_shadow_mf" font_color="1 1 1" font_size="2.58824" render_template="diffuse_vc_decal" text="buyable lootvan? / van escape??" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="593.299 -1676.03 350" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/torches" name_id="torches_001" position="0 0 0" rotation="-0 0 -0 -1" unit_id="100278"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-940.068 -216.806 350" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/plants" name_id="plants_001" position="0 0 0" rotation="-0 0 -0 -1" unit_id="100279"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5635 10123 343" _prev_rot="0 0 1 -0" continent="world" local_pos="2 240 -107" local_rot="0 0 -0.707107 0.707107" name="units/payday2/props/gen_prop_square_goal_marker_7x55/gen_prop_square_goal_marker_7x55" name_id="goal001" position="-5760 10123 343" rotation="0 0 1 0" unit_id="100280"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5660 10123 330" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/payday2/vehicles/str_vehicle_van_player/str_vehicle_van_player" name_id="escapeVan001" position="-5660 10123 350" rotation="0 0 0.707107 -0.707107" unit_id="100281">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="1 0.861333 0.584" enabled="true" falloff_exponent="4" far_range="150" multiplier="@IDbca13ba1d306f87b@" name="lo_omni_1" near_range="0" spot_angle_end="0" spot_angle_start="0"/>
+					<table clipping_values="10000 -10000 0" color="1 0.861 0.584" enabled="true" falloff_exponent="4" far_range="150" multiplier="@IDbca13ba1d306f87b@" name="lo_omni_2" near_range="0" spot_angle_end="0" spot_angle_start="0"/>
+				</lights>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="1075 -3950 350" _prev_rot="0 0 -0.707107 -0.707107" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="glass_017" position="475 -3950 350" rotation="0 0 -0.707107 -0.707107" unit_id="100276"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1075 -3950 450" _prev_rot="0 0 -0.707107 -0.707107" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 100" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="glass_018" position="475 -3950 450" rotation="0 0 -0.707107 -0.707107" unit_id="100282"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1075 -3950 550" _prev_rot="0 0 -0.707107 -0.707107" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 200" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="prop_cube_glass_int_058" position="475 -3950 550" rotation="0 0 -0.707107 -0.707107" unit_id="100283"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="375 -3950 550" _prev_rot="0 0 -0.707107 -0.707107" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 -100 100" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="prop_cube_glass_int_059" position="375 -3950 550" rotation="0 0 -0.707107 -0.707107" unit_id="100284"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="375 -3950 450" _prev_rot="0 0 -0.707107 -0.707107" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 -100 0" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="glass_019" position="375 -3950 450" rotation="0 0 -0.707107 -0.707107" unit_id="100285"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="975 -3950 350" _prev_rot="0 0 -0.707107 -0.707107" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 100 0" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="glass_020" position="375 -3950 350" rotation="0 0 -0.707107 -0.707107" unit_id="100286"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="875 -3950 350" _prev_rot="0 0 -0.707107 -0.707107" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 200 0" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="glass_021" position="275 -3950 350" rotation="0 0 -0.707107 -0.707107" unit_id="100287"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="275 -3950 450" _prev_rot="0 0 -0.707107 -0.707107" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="glass_022" position="275 -3950 450" rotation="0 0 -0.707107 -0.707107" unit_id="100288"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="275 -3950 550" _prev_rot="0 0 -0.707107 -0.707107" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 100" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="prop_cube_glass_int_060" position="275 -3950 550" rotation="0 0 -0.707107 -0.707107" unit_id="100289"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="175 -3950 550" _prev_rot="0 0 -0.707107 -0.707107" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 100 100" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="prop_cube_glass_int_061" position="175 -3950 550" rotation="0 0 -0.707107 -0.707107" unit_id="100290"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="175 -3950 450" _prev_rot="0 0 -0.707107 -0.707107" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 100 0" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="glass_023" position="175 -3950 450" rotation="0 0 -0.707107 -0.707107" unit_id="100291"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="175 -3950 350" _prev_rot="0 0 -0.707107 -0.707107" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="glass_024" position="175 -3950 350" rotation="0 0 -0.707107 -0.707107" unit_id="100292"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="75 -3950 350" _prev_rot="0 0 -0.707107 -0.707107" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="glass_025" position="75 -4050 350" rotation="0 0 -0.707107 -0.707107" unit_id="100263"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="75 -3950 450" _prev_rot="0 0 -0.707107 -0.707107" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 100" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="glass_026" position="75 -4050 450" rotation="0 0 -0.707107 -0.707107" unit_id="100293"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="75 -4050 550" _prev_rot="0 0 -0.707107 -0.707107" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="prop_cube_glass_int_062" position="75 -4050 550" rotation="0 0 -0.707107 -0.707107" unit_id="100294"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="75 -4050 350" _prev_rot="0 0 -0.707107 -0.707107" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="glass_027" position="-125 -4050 350" rotation="0 0 -0.707107 -0.707107" unit_id="100295"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="75 -4050 450" _prev_rot="0 0 -0.707107 -0.707107" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 100" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="glass_028" position="-125 -4050 450" rotation="0 0 -0.707107 -0.707107" unit_id="100296"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="75 -4050 550" _prev_rot="0 0 -0.707107 -0.707107" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 200" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="prop_cube_glass_int_063" position="-125 -4050 550" rotation="0 0 -0.707107 -0.707107" unit_id="100297"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="75 -4050 550" _prev_rot="0 0 -0.707107 -0.707107" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="prop_cube_glass_int_064" position="-25 -4050 550" rotation="0 0 -0.707107 -0.707107" unit_id="100298"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-925 -3950 450" _prev_rot="0 0 -0.707107 -0.707107" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 -200 0" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="glass_029" position="-925 -3950 450" rotation="0 0 -0.707107 -0.707107" unit_id="100299"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-825 -3950 450" _prev_rot="0 0 -0.707107 -0.707107" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 -300 0" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="glass_030" position="-825 -3950 450" rotation="0 0 -0.707107 -0.707107" unit_id="100300"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-825 -3950 550" _prev_rot="0 0 -0.707107 -0.707107" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 -300 100" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="prop_cube_glass_int_065" position="-825 -3950 550" rotation="0 0 -0.707107 -0.707107" unit_id="100301"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-925 -3950 550" _prev_rot="0 0 -0.707107 -0.707107" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 -200 100" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="prop_cube_glass_int_066" position="-925 -3950 550" rotation="0 0 -0.707107 -0.707107" unit_id="100302"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1025 -3950 450" _prev_rot="0 0 -0.707107 -0.707107" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 -100 0" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="glass_031" position="-1025 -3950 450" rotation="0 0 -0.707107 -0.707107" unit_id="100303"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1025 -3950 550" _prev_rot="0 0 -0.707107 -0.707107" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 -100 100" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="prop_cube_glass_int_067" position="-1025 -3950 550" rotation="0 0 -0.707107 -0.707107" unit_id="100304"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1125 -3950 450" _prev_rot="0 0 -0.707107 -0.707107" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="glass_032" position="-1125 -3950 450" rotation="0 0 -0.707107 -0.707107" unit_id="100305"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1125 -3950 550" _prev_rot="0 0 -0.707107 -0.707107" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 100" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="prop_cube_glass_int_068" position="-1125 -3950 550" rotation="0 0 -0.707107 -0.707107" unit_id="100306"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3725 -2050 450" _prev_rot="0 0 0 -1" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="100 -400 0" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="glass_033" position="-3725 -2050 450" rotation="0 0 0 -1" unit_id="100307"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3725 -2050 550" _prev_rot="0 0 0 -1" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="100 -400 100" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="prop_cube_glass_int_069" position="-3725 -2050 550" rotation="0 0 0 -1" unit_id="100308"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3725 -2150 450" _prev_rot="0 0 0 -1" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="100 -500 0" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="glass_034" position="-3725 -2150 450" rotation="0 0 0 -1" unit_id="100309"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3725 -2250 450" _prev_rot="0 0 0 -1" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="100 -600 0" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="glass_035" position="-3725 -2250 450" rotation="0 0 0 -1" unit_id="100310"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3725 -2350 450" _prev_rot="0 0 0 -1" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="100 -700 0" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="glass_036" position="-3725 -2350 450" rotation="0 0 0 -1" unit_id="100311"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3725 -2350 550" _prev_rot="0 0 0 -1" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="100 -700 100" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="prop_cube_glass_int_070" position="-3725 -2350 550" rotation="0 0 0 -1" unit_id="100312"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3725 -2250 550" _prev_rot="0 0 0 -1" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="100 -600 100" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="prop_cube_glass_int_071" position="-3725 -2250 550" rotation="0 0 0 -1" unit_id="100313"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3725 -2150 550" _prev_rot="0 0 0 -1" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="100 -500 100" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="prop_cube_glass_int_072" position="-3725 -2150 550" rotation="0 0 0 -1" unit_id="100314"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3825 -1950 450" _prev_rot="0 0 0 -1" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 -300 0" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="glass_037" position="-3825 -1950 450" rotation="0 0 0 -1" unit_id="100315"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3825 -1950 550" _prev_rot="0 0 0 -1" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 -300 100" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="prop_cube_glass_int_073" position="-3825 -1950 550" rotation="0 0 0 -1" unit_id="100316"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3825 -1650 450" _prev_rot="0 0 0 -1" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="glass_038" position="-3825 -1650 450" rotation="0 0 0 -1" unit_id="100317"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3825 -1650 550" _prev_rot="0 0 0 -1" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 100" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="prop_cube_glass_int_074" position="-3825 -1650 550" rotation="0 0 0 -1" unit_id="100318"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3825 -250 450" _prev_rot="0 0 0 -1" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="glass_039" position="-3825 50 450" rotation="0 0 0 -1" unit_id="100319"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3825 -250 550" _prev_rot="0 0 0 -1" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 100" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="prop_cube_glass_int_075" position="-3825 50 550" rotation="0 0 0 -1" unit_id="100320"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3825 -550 450" _prev_rot="0 0 0 -1" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 -300 0" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="glass_040" position="-3825 -250 450" rotation="0 0 0 -1" unit_id="100321"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3825 -550 550" _prev_rot="0 0 0 -1" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 -300 100" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="prop_cube_glass_int_076" position="-3825 -250 550" rotation="0 0 0 -1" unit_id="100322"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3725 -650 450" _prev_rot="0 0 0 -1" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="100 -400 0" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="glass_041" position="-3725 -350 450" rotation="0 0 0 -1" unit_id="100323"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3725 -650 550" _prev_rot="0 0 0 -1" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="100 -400 100" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="prop_cube_glass_int_077" position="-3725 -350 550" rotation="0 0 0 -1" unit_id="100324"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3725 -750 550" _prev_rot="0 0 0 -1" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="100 -500 100" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="prop_cube_glass_int_078" position="-3725 -450 550" rotation="0 0 0 -1" unit_id="100325"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3725 -850 550" _prev_rot="0 0 0 -1" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="100 -600 100" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="prop_cube_glass_int_079" position="-3725 -550 550" rotation="0 0 0 -1" unit_id="100326"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3725 -950 550" _prev_rot="0 0 0 -1" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="100 -700 100" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="prop_cube_glass_int_080" position="-3725 -650 550" rotation="0 0 0 -1" unit_id="100327"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3725 -950 450" _prev_rot="0 0 0 -1" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="100 -700 0" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="glass_042" position="-3725 -650 450" rotation="0 0 0 -1" unit_id="100328"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3725 -850 450" _prev_rot="0 0 0 -1" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="100 -600 0" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="glass_043" position="-3725 -550 450" rotation="0 0 0 -1" unit_id="100329"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3725 -750 450" _prev_rot="0 0 0 -1" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="100 -500 0" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="glass_044" position="-3725 -450 450" rotation="0 0 0 -1" unit_id="100330"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3825 3050 450" _prev_rot="0 0 0 -1" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-100 500 0" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="glass_045" position="-3825 3050 450" rotation="0 0 0 -1" unit_id="100331"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3525 3050 550" _prev_rot="0 0 0 -1" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 100" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="prop_cube_glass_int_081" position="-3825 3050 550" rotation="0 0 0 -1" unit_id="100332"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3825 2850 450" _prev_rot="0 0 0 -1" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-100 300 0" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="glass_046" position="-3825 2850 450" rotation="0 0 0 -1" unit_id="100333"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3825 2850 550" _prev_rot="0 0 0 -1" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="prop_cube_glass_int_082" position="-3825 2850 550" rotation="0 0 0 -1" unit_id="100334"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3725 2750 450" _prev_rot="0 0 0 -1" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 100 0" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="glass_047" position="-3725 2750 450" rotation="0 0 0 -1" unit_id="100335"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3725 2750 550" _prev_rot="0 0 0 -1" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 100 100" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="prop_cube_glass_int_083" position="-3725 2750 550" rotation="0 0 0 -1" unit_id="100336"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3725 2650 550" _prev_rot="0 0 0 -1" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 100" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="prop_cube_glass_int_084" position="-3725 2650 550" rotation="0 0 0 -1" unit_id="100337"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3725 2550 550" _prev_rot="0 0 0 -1" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 -100 100" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="prop_cube_glass_int_085" position="-3725 2550 550" rotation="0 0 0 -1" unit_id="100338"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3725 2550 450" _prev_rot="0 0 0 -1" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 -100 0" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="glass_049" position="-3725 2550 450" rotation="0 0 0 -1" unit_id="100341"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3725 2650 450" _prev_rot="0 0 0 -1" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="glass_050" position="-3725 2650 450" rotation="0 0 0 -1" unit_id="100342"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3725 2550 350" _prev_rot="0 0 0 -1" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="glass_051" position="-3725 2550 350" rotation="0 0 0 -1" unit_id="100339"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3725 2650 350" _prev_rot="0 0 0 -1" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 100 0" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="glass_052" position="-3725 2650 350" rotation="0 0 0 -1" unit_id="100340"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3725 2750 450" _prev_rot="0 0 0 -1" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 200 0" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="glass_048" position="-3725 2750 350" rotation="0 0 0 -1" unit_id="100343"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3825 2850 450" _prev_rot="0 0 0 -1" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-100 300 0" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="glass_053" position="-3825 2850 350" rotation="0 0 0 -1" unit_id="100344"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3825 3050 450" _prev_rot="0 0 0 -1" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="-100 500 0" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="glass_054" position="-3825 3050 350" rotation="0 0 0 -1" unit_id="100345"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3825 2850 550" _prev_rot="0 0 0 -1" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="prop_cube_glass_int_086" position="-3825 2950 550" rotation="0 0 0 -1" unit_id="100346"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3625 1250 350" _prev_rot="0 0 0 -1" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="glass_055" position="-3625 1250 350" rotation="0 0 0 -1" unit_id="100347"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3625 1350 350" _prev_rot="0 0 0 -1" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 100 0" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="glass_056" position="-3625 1350 350" rotation="0 0 0 -1" unit_id="100348"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3625 1350 450" _prev_rot="0 0 0 -1" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 100 100" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="glass_057" position="-3625 1350 450" rotation="0 0 0 -1" unit_id="100349"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3625 1350 550" _prev_rot="0 0 0 -1" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 100 200" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="prop_cube_glass_int_087" position="-3625 1350 550" rotation="0 0 0 -1" unit_id="100350"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3625 1250 550" _prev_rot="0 0 0 -1" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 200" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="prop_cube_glass_int_088" position="-3625 1250 550" rotation="0 0 0 -1" unit_id="100351"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3625 1250 450" _prev_rot="0 0 0 -1" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 100" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="glass_058" position="-3625 1250 450" rotation="0 0 0 -1" unit_id="100352"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3625 1450 350" _prev_rot="0 0 0 -1" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 200 0" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="glass_059" position="-3625 1450 350" rotation="0 0 0 -1" unit_id="100353"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3625 1450 450" _prev_rot="0 0 0 -1" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 200 100" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="glass_060" position="-3625 1450 450" rotation="0 0 0 -1" unit_id="100354"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3625 1450 550" _prev_rot="0 0 0 -1" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 200 200" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="prop_cube_glass_int_089" position="-3625 1450 550" rotation="0 0 0 -1" unit_id="100355"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3625 1250 350" _prev_rot="0 0 0 -1" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="glass_061" position="-3625 650 350" rotation="0 0 0 -1" unit_id="100356"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3625 1350 350" _prev_rot="0 0 0 -1" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 100 0" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="glass_062" position="-3625 750 350" rotation="0 0 0 -1" unit_id="100357"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3625 1450 350" _prev_rot="0 0 0 -1" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 200 0" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="glass_063" position="-3625 850 350" rotation="0 0 0 -1" unit_id="100358"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3625 850 450" _prev_rot="0 0 0 -1" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="glass_064" position="-3625 850 450" rotation="0 0 0 -1" unit_id="100359"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3625 1350 450" _prev_rot="0 0 0 -1" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 100 100" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="glass_065" position="-3625 750 450" rotation="0 0 0 -1" unit_id="100360"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3625 1250 450" _prev_rot="0 0 0 -1" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 100" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="glass_066" position="-3625 650 450" rotation="0 0 0 -1" unit_id="100361"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3625 1250 550" _prev_rot="0 0 0 -1" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 200" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="prop_cube_glass_int_090" position="-3625 650 550" rotation="0 0 0 -1" unit_id="100362"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3625 1350 550" _prev_rot="0 0 0 -1" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 100 200" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="prop_cube_glass_int_091" position="-3625 750 550" rotation="0 0 0 -1" unit_id="100363"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3625 850 550" _prev_rot="0 0 0 -1" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 100" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="prop_cube_glass_int_092" position="-3625 850 550" rotation="0 0 0 -1" unit_id="100364"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3625 950 450" _prev_rot="0 0 0 -1" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="glass_067" position="-3725 950 450" rotation="0 0 0 -1" unit_id="100365"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3725 950 550" _prev_rot="0 0 0 -1" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="prop_cube_glass_int_093" position="-3725 950 550" rotation="0 0 0 -1" unit_id="100366"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3725 950 450" _prev_rot="0 0 0 -1" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="glass_068" position="-3725 1150 450" rotation="0 0 0 -1" unit_id="100367"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3725 950 550" _prev_rot="0 0 0 -1" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 100" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="prop_cube_glass_int_094" position="-3725 1150 550" rotation="0 0 0 -1" unit_id="100368"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3725 950 550" _prev_rot="0 0 0 -1" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="prop_cube_glass_int_095" position="-3725 1050 550" rotation="0 0 0 -1" unit_id="100369"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5900 11050 450" _prev_rot="0 0 0.707107 -0.707107" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="glass_069" position="-5925 11050 450" rotation="0 0 0.707107 -0.707107" unit_id="100370"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-6000 11050 450" _prev_rot="0 0 0.707107 -0.707107" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 -100 0" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="glass_070" position="-6025 11050 450" rotation="0 0 0.707107 -0.707107" unit_id="100371"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-6000 11050 550" _prev_rot="0 0 0.707107 -0.707107" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 -100 100" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="prop_cube_glass_int_096" position="-6025 11050 550" rotation="0 0 0.707107 -0.707107" unit_id="100372"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5900 11050 550" _prev_rot="0 0 0.707107 -0.707107" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 100" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="prop_cube_glass_int_097" position="-5925 11050 550" rotation="0 0 0.707107 -0.707107" unit_id="100373"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5825 11050 550" _prev_rot="0 0 0.707107 -0.707107" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 100" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="prop_cube_glass_int_098" position="-5825 11050 550" rotation="0 0 0.707107 -0.707107" unit_id="100374"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5825 11050 450" _prev_rot="0 0 0.707107 -0.707107" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="glass_071" position="-5825 11050 450" rotation="0 0 0.707107 -0.707107" unit_id="100375"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5825 11050 450" _prev_rot="0 0 0.707107 -0.707107" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="glass_072" position="-5725 11050 450" rotation="0 0 0.707107 -0.707107" unit_id="100376"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5825 11050 550" _prev_rot="0 0 0.707107 -0.707107" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 100" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="prop_cube_glass_int_099" position="-5725 11050 550" rotation="0 0 0.707107 -0.707107" unit_id="100377"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5625 11150 450" _prev_rot="0 0 0.707107 -0.707107" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="glass_073" position="-5625 11150 450" rotation="0 0 0.707107 -0.707107" unit_id="100378"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5625 11050 550" _prev_rot="0 0 0.707107 -0.707107" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 100" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="prop_cube_glass_int_100" position="-5625 11150 550" rotation="0 0 0.707107 -0.707107" unit_id="100379"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5323 11150 450" _prev_rot="0 0 0.707107 -0.707107" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="glass_074" position="-5324 11150 450" rotation="0 0 0.707107 -0.707107" unit_id="100380"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5323 11150 550" _prev_rot="0 0 0.707107 -0.707107" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 100" local_rot="0 0 0 1" mesh_variation="no_interact" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="prop_cube_glass_int_101" position="-5324 11150 550" rotation="0 0 0.707107 -0.707107" unit_id="100381"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3724 -1575 350" _prev_rot="0 0 0 -1" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="opened" name="units/pd2_mod_craft/props/prop_cube_oak_door" name_id="prop_cube_oak_door_006" position="-3724 -1650 350" rotation="0 0 0 -1" unit_id="100382"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3724 -1745 350" _prev_rot="0 0 0 -1" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 -170 0" local_rot="0 0 0 1" mesh_variation="opened" name="units/pd2_mod_craft/props/prop_cube_oak_door" name_id="prop_cube_oak_door_007" position="-3724 -1820 350" rotation="0 0 0 -1" unit_id="100383"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3724 50 350" _prev_rot="0 0 0 -1" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="opened" name="units/pd2_mod_craft/props/prop_cube_oak_door" name_id="prop_cube_oak_door_008" position="-3724 50 350" rotation="0 0 0 -1" unit_id="100384"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3724 -170 350" _prev_rot="0 0 0 -1" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 -170 0" local_rot="0 0 0 1" mesh_variation="opened" name="units/pd2_mod_craft/props/prop_cube_oak_door" name_id="prop_cube_oak_door_009" position="-3724 -120 350" rotation="0 0 0 -1" unit_id="100385"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5325 11150 350" _prev_rot="0 0 0 -1" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="closed" name="units/pd2_mod_craft/props/prop_cube_oak_door" name_id="prop_cube_oak_door_010" position="-5324 11150 350" rotation="0 0 0 -1" unit_id="100386"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-5499 11150 350" _prev_rot="0 0 0 -1" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="closed" name="units/pd2_mod_craft/props/prop_cube_oak_door" name_id="prop_cube_oak_door_011" position="-5494 11150 350" rotation="0 0 0 -1" unit_id="100387"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3724 1150 350" _prev_rot="0 0 0 -1" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="opened" name="units/pd2_mod_craft/props/prop_cube_oak_door" name_id="prop_cube_oak_door_012" position="-3624 1150 350" rotation="0 0 0 -1" unit_id="100388"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3624 3050 350" _prev_rot="0 0 0 -1" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="opened" name="units/pd2_mod_craft/props/prop_cube_oak_door" name_id="prop_cube_oak_door_013" position="-3724 3050 350" rotation="0 0 0 -1" unit_id="100389"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="775 -850 750" _prev_rot="-0 0 -0 -1" continent="world" local_pos="-200 -300 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_glass_gray_int" name_id="prop_cube_glass_gray_int_001" position="775 -850 750" rotation="-0 0 -0 -1" unit_id="100390"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="875 -850 750" _prev_rot="0 0 0 -1" continent="world" local_pos="-100 -300 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_glass_gray_int" name_id="prop_cube_glass_gray_int_002" position="875 -850 750" rotation="0 0 0 -1" unit_id="100391"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="975 -850 750" _prev_rot="0 0 0 -1" continent="world" local_pos="0 -300 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_glass_gray_int" name_id="prop_cube_glass_gray_int_003" position="975 -850 750" rotation="0 0 0 -1" unit_id="100392"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="975 -750 750" _prev_rot="0 0 0 -1" continent="world" local_pos="0 -200 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_glass_gray_int" name_id="prop_cube_glass_gray_int_004" position="975 -750 750" rotation="0 0 0 -1" unit_id="100393"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="875 -750 750" _prev_rot="0 0 0 -1" continent="world" local_pos="-100 -200 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_glass_gray_int" name_id="prop_cube_glass_gray_int_005" position="875 -750 750" rotation="0 0 0 -1" unit_id="100394"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="775 -750 750" _prev_rot="0 0 0 -1" continent="world" local_pos="-200 -200 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_glass_gray_int" name_id="prop_cube_glass_gray_int_006" position="775 -750 750" rotation="0 0 0 -1" unit_id="100395"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="975 -650 750" _prev_rot="0 0 0 -1" continent="world" local_pos="0 -100 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_glass_gray_int" name_id="prop_cube_glass_gray_int_007" position="975 -650 750" rotation="0 0 0 -1" unit_id="100396"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="875 -650 750" _prev_rot="0 0 0 -1" continent="world" local_pos="-100 -100 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_glass_gray_int" name_id="prop_cube_glass_gray_int_008" position="875 -650 750" rotation="0 0 0 -1" unit_id="100397"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="775 -625 750" _prev_rot="0 0 0 -1" continent="world" local_pos="-200 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_glass_gray_int" name_id="prop_cube_glass_gray_int_009" position="775 -650 750" rotation="0 0 0 -1" unit_id="100398"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="975 -550 750" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_glass_gray_int" name_id="prop_cube_glass_gray_int_010" position="975 -550 750" rotation="0 0 0 -1" unit_id="100399"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="875 -550 750" _prev_rot="0 0 0 -1" continent="world" local_pos="-100 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_glass_gray_int" name_id="prop_cube_glass_gray_int_011" position="875 -550 750" rotation="0 0 0 -1" unit_id="100400"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="775 -550 750" _prev_rot="0 0 0 -1" continent="world" local_pos="-200 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_glass_gray_int" name_id="prop_cube_glass_gray_int_012" position="775 -550 750" rotation="0 0 0 -1" unit_id="100401"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="975 -550 750" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_glass_gray_int" name_id="prop_cube_glass_gray_int_013" position="-25 -550 750" rotation="0 0 0 -1" unit_id="100402"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="875 -550 750" _prev_rot="0 0 0 -1" continent="world" local_pos="-100 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_glass_gray_int" name_id="prop_cube_glass_gray_int_014" position="-125 -550 750" rotation="0 0 0 -1" unit_id="100403"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="775 -550 750" _prev_rot="0 0 0 -1" continent="world" local_pos="-200 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_glass_gray_int" name_id="prop_cube_glass_gray_int_015" position="-225 -550 750" rotation="0 0 0 -1" unit_id="100404"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="775 -750 750" _prev_rot="0 0 0 -1" continent="world" local_pos="-200 -200 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_glass_gray_int" name_id="prop_cube_glass_gray_int_016" position="-225 -750 750" rotation="0 0 0 -1" unit_id="100405"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="775 -850 750" _prev_rot="0 0 0 -1" continent="world" local_pos="-200 -300 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_glass_gray_int" name_id="prop_cube_glass_gray_int_017" position="-225 -850 750" rotation="0 0 0 -1" unit_id="100406"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="875 -850 750" _prev_rot="0 0 0 -1" continent="world" local_pos="-100 -300 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_glass_gray_int" name_id="prop_cube_glass_gray_int_018" position="-125 -850 750" rotation="0 0 0 -1" unit_id="100407"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="975 -850 750" _prev_rot="0 0 0 -1" continent="world" local_pos="0 -300 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_glass_gray_int" name_id="prop_cube_glass_gray_int_019" position="-25 -850 750" rotation="0 0 0 -1" unit_id="100408"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="975 -750 750" _prev_rot="0 0 0 -1" continent="world" local_pos="0 -200 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_glass_gray_int" name_id="prop_cube_glass_gray_int_020" position="-25 -750 750" rotation="0 0 0 -1" unit_id="100409"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="975 -650 750" _prev_rot="0 0 0 -1" continent="world" local_pos="0 -100 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_glass_gray_int" name_id="prop_cube_glass_gray_int_021" position="-25 -650 750" rotation="0 0 0 -1" unit_id="100410"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-125 -650 750" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_glass_gray_int" name_id="prop_cube_glass_gray_int_022" position="-125 -650 750" rotation="0 0 0 -1" unit_id="100411"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="875 -750 750" _prev_rot="0 0 0 -1" continent="world" local_pos="-100 -200 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_glass_gray_int" name_id="prop_cube_glass_gray_int_023" position="-125 -750 750" rotation="0 0 0 -1" unit_id="100412"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1025 925 750" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_glass_gray_int" name_id="prop_cube_glass_gray_int_024" position="-1025 1050 750" rotation="0 0 0 -1" unit_id="100413"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1125 925 750" _prev_rot="0 0 0 -1" continent="world" local_pos="-100 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_glass_gray_int" name_id="prop_cube_glass_gray_int_025" position="-1125 1050 750" rotation="0 0 0 -1" unit_id="100414"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1225 925 750" _prev_rot="0 0 0 -1" continent="world" local_pos="-200 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_glass_gray_int" name_id="prop_cube_glass_gray_int_026" position="-1225 1050 750" rotation="0 0 0 -1" unit_id="100415"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1225 850 750" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_glass_gray_int" name_id="prop_cube_glass_gray_int_027" position="-1225 850 750" rotation="0 0 0 -1" unit_id="100416"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1225 625 750" _prev_rot="0 0 0 -1" continent="world" local_pos="-200 -300 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_glass_gray_int" name_id="prop_cube_glass_gray_int_028" position="-1225 750 750" rotation="0 0 0 -1" unit_id="100417"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1125 625 750" _prev_rot="0 0 0 -1" continent="world" local_pos="-100 -300 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_glass_gray_int" name_id="prop_cube_glass_gray_int_029" position="-1125 750 750" rotation="0 0 0 -1" unit_id="100418"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1025 625 750" _prev_rot="0 0 0 -1" continent="world" local_pos="0 -300 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_glass_gray_int" name_id="prop_cube_glass_gray_int_030" position="-1025 750 750" rotation="0 0 0 -1" unit_id="100419"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1025 725 750" _prev_rot="0 0 0 -1" continent="world" local_pos="0 -200 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_glass_gray_int" name_id="prop_cube_glass_gray_int_031" position="-1025 850 750" rotation="0 0 0 -1" unit_id="100420"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1025 825 750" _prev_rot="0 0 0 -1" continent="world" local_pos="0 -100 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_glass_gray_int" name_id="prop_cube_glass_gray_int_032" position="-1025 950 750" rotation="0 0 0 -1" unit_id="100421"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1125 825 750" _prev_rot="0 0 0 -1" continent="world" local_pos="-100 -100 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_glass_gray_int" name_id="prop_cube_glass_gray_int_033" position="-1125 950 750" rotation="0 0 0 -1" unit_id="100422"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1125 725 750" _prev_rot="0 0 0 -1" continent="world" local_pos="-100 -200 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_glass_gray_int" name_id="prop_cube_glass_gray_int_034" position="-1125 850 750" rotation="0 0 0 -1" unit_id="100423"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1225 850 750" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_glass_gray_int" name_id="prop_cube_glass_gray_int_035" position="-1225 950 750" rotation="0 0 0 -1" unit_id="100424"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-125 -650 750" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_glass_gray_int" name_id="prop_cube_glass_gray_int_036" position="-225 -650 750" rotation="0 0 0 -1" unit_id="100425"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1600 -1050 350" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="prop_cube_glass_int_102" position="1675 -1050 350" rotation="0 0 -0.707107 -0.707107" unit_id="100426"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1600 -950 350" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="100 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="prop_cube_glass_int_103" position="1675 -950 350" rotation="0 0 -0.707107 -0.707107" unit_id="100427"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1675 -950 450" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="-300 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="prop_cube_glass_int_104" position="1675 -950 450" rotation="0 0 -0.707107 -0.707107" unit_id="100428"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1675 -1050 450" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="-400 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="prop_cube_glass_int_105" position="1675 -1050 450" rotation="0 0 -0.707107 -0.707107" unit_id="100429"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1675 -1050 350" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="prop_cube_glass_int_106" position="1675 -750 350" rotation="0 0 -0.707107 -0.707107" unit_id="100430"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1675 -950 350" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="100 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="prop_cube_glass_int_107" position="1675 -650 350" rotation="0 0 -0.707107 -0.707107" unit_id="100431"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1675 -650 450" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="prop_cube_glass_int_108" position="1675 -650 450" rotation="0 0 -0.707107 -0.707107" unit_id="100432"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1675 -750 450" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="-100 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="prop_cube_glass_int_109" position="1675 -750 450" rotation="0 0 -0.707107 -0.707107" unit_id="100433"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1675 -650 450" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="prop_cube_glass_int_110" position="1675 -650 550" rotation="0 0 -0.707107 -0.707107" unit_id="100434"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1675 -750 550" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="prop_cube_glass_int_111" position="1675 -750 550" rotation="0 0 -0.707107 -0.707107" unit_id="100435"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1675 -950 450" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="-300 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="prop_cube_glass_int_112" position="1675 -950 550" rotation="0 0 -0.707107 -0.707107" unit_id="100436"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1675 -1050 450" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="-400 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="prop_cube_glass_int_113" position="1675 -1050 550" rotation="0 0 -0.707107 -0.707107" unit_id="100437"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1675 -750 550" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="prop_cube_glass_int_114" position="1675 -850 550" rotation="0 0 -0.707107 -0.707107" unit_id="100438"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1176 950 850" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="closed" name="units/pd2_mod_craft/props/prop_cube_iron_door" name_id="iron_door_roof" position="1176 950 850" rotation="0 0 0.707107 -0.707107" unit_id="100439"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="2875 -550 350" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="closed" name="units/pd2_mod_craft/props/prop_cube_iron_door" name_id="iron_door_outside_right" position="2875 -550 350" rotation="0 0 0.707107 -0.707107" unit_id="100440"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="2675 -550 350" _prev_rot="0 0 1 -4.37114e-008" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="opened" name="units/pd2_mod_craft/props/prop_cube_iron_door" name_id="iron_door_outside_right" position="2675 -550 350" rotation="0 0 1 -4.37114e-008" unit_id="100441"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-424 2920 350" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="closed" name="units/pd2_mod_craft/props/prop_cube_iron_door" name_id="iron_door_outside_left" position="-424 2920 350" rotation="0 0 0.707107 -0.707107" unit_id="100442"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-624 2920 350" _prev_rot="0 0 1 4.37114e-008" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="opened" name="units/pd2_mod_craft/props/prop_cube_iron_door" name_id="iron_door_outside_left" position="-624 2920 350" rotation="0 0 1 4.37114e-008" unit_id="100443"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="76 2750 350" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="closed" name="units/pd2_mod_craft/props/prop_cube_iron_door" name_id="iron_door_security_left" position="76 2750 350" rotation="0 0 0.707107 -0.707107" unit_id="100444"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-124 1850 350" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="closed" name="units/pd2_mod_craft/props/prop_cube_iron_door" name_id="iron_door_teller_inside" position="-124 1850 350" rotation="-0 0 -0 -1" unit_id="100445"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1224 1750 350" _prev_rot="0 0 1 4.37114e-008" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="closed" name="units/pd2_mod_craft/props/prop_cube_iron_door" name_id="iron_door_teller_outside" position="-1224 1750 350" rotation="0 0 1 4.37114e-008" unit_id="100446"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="150 2750 525" _prev_rot="-0.5 0.5 -0.5 -0.5" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="lever_on" name="units/pd2_mod_craft/props/lever" name_id="lever_security_left" position="150 2750 525" rotation="0.5 -0.5 0.5 0.5" unit_id="100447"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="2176 250 350" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="closed" name="units/pd2_mod_craft/props/prop_cube_iron_door" name_id="iron_door_security_right" position="2176 250 350" rotation="0 0 0.707107 -0.707107" unit_id="100448"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="566.718 700.14 4002.5" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_long/editable_text_long" name_id="editable_text_long_003" position="566.718 700.14 4002.5" rotation="0 0 0.707107 -0.707107" unit_id="100449">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_medium_shadow_mf" font_color="1 1 1" font_size="2.58824" render_template="diffuse_vc_decal" text="START" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="566.718 1750.14 4002.5" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_long/editable_text_long" name_id="editable_text_long_005" position="566.718 1750.14 4002.5" rotation="0 0 0.707107 -0.707107" unit_id="100450">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_medium_shadow_mf" font_color="1 1 1" font_size="2.58824" render_template="diffuse_vc_decal" text="INTERACTABLES" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="2250 250 525" _prev_rot="-0.5 0.5 -0.5 -0.5" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="lever_on" name="units/pd2_mod_craft/props/lever" name_id="lever_security_right" position="2250 250 525" rotation="0.5 -0.5 0.5 0.5" unit_id="100451"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="1250 950 1025" _prev_rot="-0.5 0.5 -0.5 -0.5" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="lever_on" name="units/pd2_mod_craft/props/lever" name_id="lever_roof" position="1250 950 1025" rotation="0.5 -0.5 0.5 0.5" unit_id="100452"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="2950 -550 525" _prev_rot="-0.5 0.5 -0.5 -0.5" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="lever_on" name="units/pd2_mod_craft/props/lever" name_id="lever_outside_right" position="2950 -550 525" rotation="0.5 -0.5 0.5 0.5" unit_id="100453"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-700 2950 525" _prev_rot="0.5 0.5 0.5 -0.5" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="lever_on" name="units/pd2_mod_craft/props/lever" name_id="lever_outside_left" position="-700 2950 525" rotation="0.5 0.5 0.5 -0.5" unit_id="100454"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-125 1925 525" _prev_rot="0.707107 0 0.707107 -0" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="lever_on" name="units/pd2_mod_craft/props/lever" name_id="lever_teller_inside" position="-125 1925 525" rotation="0.707107 -3.09086e-008 0.707107 3.09086e-008" unit_id="100455"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1225 1675 525" _prev_rot="0 0.707107 0 -0.707107" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="lever_on" name="units/pd2_mod_craft/props/lever" name_id="lever_teller_outside" position="-1225 1675 525" rotation="0 0.707107 0 -0.707107" unit_id="100456"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1572.98 -999.509 450.004" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="hide_gfx" name="units/world/props/melee_boxjc/melee_box" name_id="melee_box_002" position="-1572.98 -1299.51 450.004" rotation="0 0 0 -1" unit_id="100457"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1572.98 -999.509 350.004" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 -100" local_rot="0 0 0 1" mesh_variation="hide_gfx" name="units/world/props/melee_boxjc/melee_box" name_id="melee_box_001" position="-1572.98 -1299.51 350.004" rotation="0 0 0 -1" unit_id="100458"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="2727.02 -2024.51 350.004" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="hide_gfx" name="units/world/props/melee_boxjc/melee_box" name_id="melee_box_003" position="2727.02 -1999.51 350.004" rotation="0 0 0 -1" unit_id="100459"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="2727.02 -2024.51 450.004" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 100" local_rot="0 0 0 1" mesh_variation="hide_gfx" name="units/world/props/melee_boxjc/melee_box" name_id="melee_box_004" position="2727.02 -1999.51 450.004" rotation="0 0 0 -1" unit_id="100460"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="3427.02 -3424.51 350.004" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="hide_gfx" name="units/world/props/melee_boxjc/melee_box" name_id="melee_box_005" position="3427.02 -3399.51 350.004" rotation="0 0 0 -1" unit_id="100461"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="3427.02 -3424.51 450.004" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 100" local_rot="0 0 0 1" mesh_variation="hide_gfx" name="units/world/props/melee_boxjc/melee_box" name_id="melee_box_006" position="3427.02 -3399.51 450.004" rotation="0 0 0 -1" unit_id="100462"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3272.98 -3399.51 350.004" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="hide_gfx" name="units/world/props/melee_boxjc/melee_box" name_id="melee_box_007" position="-3272.98 -3699.51 350.004" rotation="0 0 0 -1" unit_id="100463"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3272.98 -3399.51 450.004" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 100" local_rot="0 0 0 1" mesh_variation="hide_gfx" name="units/world/props/melee_boxjc/melee_box" name_id="melee_box_008" position="-3272.98 -3699.51 450.004" rotation="0 0 0 -1" unit_id="100464"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3272.98 250.491 350.004" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="hide_gfx" name="units/world/props/melee_boxjc/melee_box" name_id="melee_box_009" position="-3272.98 300.491 350.004" rotation="0 0 0 -1" unit_id="100465"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3272.98 250.491 450.004" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 100" local_rot="0 0 0 1" mesh_variation="hide_gfx" name="units/world/props/melee_boxjc/melee_box" name_id="melee_box_010" position="-3272.98 300.491 450.004" rotation="0 0 0 -1" unit_id="100466"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-2047.98 5400.49 350.004" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="hide_gfx" name="units/world/props/melee_boxjc/melee_box" name_id="melee_box_011" position="-2072.98 5400.49 350.004" rotation="0 0 0 -1" unit_id="100467"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-2047.98 5400.49 450.004" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 100" local_rot="0 0 0 1" mesh_variation="hide_gfx" name="units/world/props/melee_boxjc/melee_box" name_id="melee_box_012" position="-2072.98 5400.49 450.004" rotation="0 0 0 -1" unit_id="100468"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-4072.98 10200.5 350.004" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="hide_gfx" name="units/world/props/melee_boxjc/melee_box" name_id="melee_box_013" position="-4072.98 10300.5 350.004" rotation="0 0 0 -1" unit_id="100469"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-4072.98 10200.5 450.004" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 100" local_rot="0 0 0 1" mesh_variation="hide_gfx" name="units/world/props/melee_boxjc/melee_box" name_id="melee_box_014" position="-4072.98 10300.5 450.004" rotation="0 0 0 -1" unit_id="100470"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3135 -4727 343" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="-3135 -4727 343" local_rot="0 0 -0.707107 0.707107" name="units/payday2/props/gen_prop_square_goal_marker_7x55/gen_prop_square_goal_marker_7x55" name_id="goal002" position="-3135 -4727 343" rotation="0 0 0.707107 -0.707107" unit_id="100471"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-3164 -4627 350" _prev_rot="0 0 0 -1" continent="world" local_pos="-3164 -4627 350" local_rot="0 0 0 1" name="units/payday2/vehicles/str_vehicle_van_player/str_vehicle_van_player" name_id="escapeVan002" position="-3164 -4627 350" rotation="0 0 0 -1" unit_id="100472">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="1 0.861333 0.584" enabled="true" falloff_exponent="4" far_range="150" multiplier="@IDbca13ba1d306f87b@" name="lo_omni_1" near_range="0" spot_angle_end="0" spot_angle_start="0"/>
+					<table clipping_values="10000 -10000 0" color="1 0.861 0.584" enabled="true" falloff_exponent="4" far_range="150" multiplier="@IDbca13ba1d306f87b@" name="lo_omni_2" near_range="0" spot_angle_end="0" spot_angle_start="0"/>
+				</lights>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="4340 -3227 343" _prev_rot="0 0 0 -1" continent="world" local_pos="4340 -3227 343" local_rot="0 0 0 1" name="units/payday2/props/gen_prop_square_goal_marker_7x55/gen_prop_square_goal_marker_7x55" name_id="goal003" position="4340 -3227 343" rotation="0 0 0 -1" unit_id="100473"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="4240 -3256 350" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="4240 -3256 350" local_rot="0 0 0.707107 0.707107" name="units/payday2/vehicles/str_vehicle_van_player/str_vehicle_van_player" name_id="escapeVan003" position="4240 -3256 350" rotation="0 0 -0.707107 -0.707107" unit_id="100474">
+				<lights>
+					<table clipping_values="10000 -10000 0" color="1 0.861333 0.584" enabled="true" falloff_exponent="4" far_range="150" multiplier="@IDbca13ba1d306f87b@" name="lo_omni_1" near_range="0" spot_angle_end="0" spot_angle_start="0"/>
+					<table clipping_values="10000 -10000 0" color="1 0.861 0.584" enabled="true" falloff_exponent="4" far_range="150" multiplier="@IDbca13ba1d306f87b@" name="lo_omni_2" near_range="0" spot_angle_end="0" spot_angle_start="0"/>
+				</lights>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="4877.02 -2199.51 450.004" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="hide_gfx" name="units/world/props/melee_boxjc/melee_box" name_id="melee_box_015" position="4627.02 -2199.51 450.004" rotation="0 0 0 -1" unit_id="100475"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="4877.02 -2199.51 350.004" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 -100" local_rot="0 0 0 1" mesh_variation="hide_gfx" name="units/world/props/melee_boxjc/melee_box" name_id="melee_box_016" position="4627.02 -2199.51 350.004" rotation="0 0 0 -1" unit_id="100476"/>
+		</table>
+	</statics>
+	<values>
+		<workviews/>
+	</values>
+</table>
