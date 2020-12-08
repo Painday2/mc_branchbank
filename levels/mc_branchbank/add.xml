@@ -565,6 +565,10 @@
 		<object path="units/pd2_mod_craft/props/sunmoon" unload="true"/>
 		<model path="units/pd2_mod_craft/props/sunmoon" unload="true"/>
 		<sequence_manager path="units/pd2_mod_craft/props/sunmoon" unload="true"/>
+		<unit load="true" path="units/pd2_mod_craft/props/vault_door" unload="true"/>
+		<object path="units/pd2_mod_craft/props/vault_door" unload="true"/>
+		<model path="units/pd2_mod_craft/props/vault_door" unload="true"/>
+		<sequence_manager path="units/pd2_mod_craft/props/vault_door" unload="true"/>
 		<unit load="true" path="units/pd2_mod_craft/props/clouds" unload="true"/>
 		<object path="units/pd2_mod_craft/props/clouds" unload="true"/>
 		<model path="units/pd2_mod_craft/props/clouds" unload="true"/>
