@@ -691,10 +691,10 @@
 		<sequence_manager path="units/pd2_mod_craft/props/camera"/>
 		<material_config path="units/pd2_mod_craft/material_masterjc" unload="true"/>
 		<material_config path="units/pd2_mod_craft/material_secondaryjc" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/torches" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/torches" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/torches" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/torches" unload="true"/>
-		<unit path="units/pd2_mod_craft/bankarch/plants" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/plants" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/plants" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/plants" unload="true"/>
 		<model path="units/pd2_mod_craft/props/prop_cube_glass_gray_int"/>
@@ -1064,9 +1064,32 @@
 		<model path="units/pd2_mod_craft/characters/civ_technoblade/civ_technoblade" unload="true"/>
 		<object path="units/pd2_mod_craft/characters/civ_technoblade/civ_technoblade" unload="true"/>
 	</add>
-
 	<add>
 		<texture path="units/pd2_mod_craft/skybox/skybox_day" unload="true"/>
 		<texture path="units/pd2_mod_craft/skybox/skybox_night" unload="true"/>
+	</add>
+	<add unload_on_restart="true">
+		<effect load="true" path="effects/payday2/environment/drill" unload="true"/>
+		<effect load="true" path="effects/payday2/environment/parts/drill_sparks_particles" unload="true"/>
+		<effect load="true" path="effects/payday2/environment/parts/drill_sparks" unload="true"/>
+		<effect load="true" path="effects/payday2/environment/drill_jammed" unload="true"/>
+		<effect load="true" path="effects/payday2/environment/thermal_lance" unload="true"/>
+		<effect load="true" path="effects/payday2/environment/parts/thermal_fire" unload="true"/>
+		<effect load="true" path="effects/payday2/environment/parts/thermal_spark" unload="true"/>
+		<bnk path="soundbanks/regular_sfx" unload="true"/>
+		<gui path="guis/timer_gui" unload="true"/>
+		<model path="units/pd2_mod_craft/props/pickaxe_drill" unload="true"/>
+		<object path="units/pd2_mod_craft/props/pickaxe_drill" unload="true"/>
+		<sequence_manager path="units/pd2_mod_craft/props/pickaxe_drill" unload="true"/>
+		<texture path="units/pd2_mod_craft/props/textures/pickaxe"/>
+		<unit load="true" path="units/pd2_mod_craft/props/pickaxe_drill" unload="true"/>
+	</add>
+	<add path="units/payday2/equipment/gen_interactable_drill_small/gen_interactable_drill_small" type="unit">
+		<unit path="units/payday2/equipment/gen_interactable_drill_small/gen_interactable_drill_small" unload="true"/>
+		<object path="units/payday2/equipment/gen_interactable_drill_small/gen_interactable_drill_small" unload="true"/>
+		<material_config path="units/payday2/equipment/gen_interactable_drill_small/gen_interactable_drill_small" unload="true"/>
+		<sequence_manager path="units/payday2/equipment/gen_interactable_drill_small/gen_interactable_drill_small" unload="true"/>
+		<gui path="guis/timer_gui" unload="true"/>
+		<bnk path="soundbanks/regular_sfx" unload="true"/>
 	</add>
 </table>
