@@ -15,5 +15,6 @@
 		<object name="pickaxe" 		enabled="false" />
 		<object name="blastfurn" 	enabled="false" />
         <object name="timer_gui" 	enabled="false"  />
+		<object name="g_outline"	enabled="true"  />
 	</graphics>
 </dynamic_object>

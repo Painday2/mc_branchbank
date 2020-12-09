@@ -91,6 +91,7 @@
 			<hook file="assetstweakdata.lua" source_file="lib/tweak_data/assetstweakdata"/>
 			<hook file="missionmanager.lua" source_file="lib/managers/missionmanager"/>
 			<hook file="charactertweakdata.lua" source_file="lib/tweak_data/charactertweakdata"/>
+			<hook file="timergui.lua" source_file="lib/units/props/timergui"/>
 		</hooks>
 		<include directory="levels/mc_branchbank">
 			<file file="world.world" type="binary"/>
@@ -122,6 +123,10 @@
 			</mod>
 		</script_data_mods>
 	</level>
+	<AddFiles directory="assets">
+		<font force="true" load="true" path="fonts/minecraft"/>
+		<texture force="true" load="true" path="fonts/minecraft"/>
+	</AddFiles>
 	<Localization default="english.txt" directory="loc">
 		<loc file="english.txt" language="english"/>
 	</Localization>

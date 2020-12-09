@@ -1089,7 +1089,8 @@
 		<object path="units/payday2/equipment/gen_interactable_drill_small/gen_interactable_drill_small" unload="true"/>
 		<material_config path="units/payday2/equipment/gen_interactable_drill_small/gen_interactable_drill_small" unload="true"/>
 		<sequence_manager path="units/payday2/equipment/gen_interactable_drill_small/gen_interactable_drill_small" unload="true"/>
-		<gui path="guis/timer_gui" unload="true"/>
 		<bnk path="soundbanks/regular_sfx" unload="true"/>
+		<gui path="guis/timer_gui" force="true" unload="true"/>
+		<texture path="guis/textures/drill_screen_background" force="true"/>
 	</add>
 </table>

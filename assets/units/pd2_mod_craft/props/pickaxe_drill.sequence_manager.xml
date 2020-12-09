@@ -97,7 +97,7 @@
 			<interaction enabled="true"/>
 		</sequence>
 		<sequence editable_state="true" name="'state_show_outline_only'" triggable="true">
-			<object enabled="true" name="'blastfurn'"/>
+			<object enabled="true" name="'g_outline'"/>
 			<function extension="'interaction'" function="'set_tweak_data'" param1="'no_interact'"/>
 			<run_sequence name="'state_hide'"/>
 			<run_sequence name="'int_seq_enable_interaction'" start_time="1/30"/>
