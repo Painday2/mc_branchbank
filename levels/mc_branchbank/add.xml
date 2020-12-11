@@ -1092,5 +1092,6 @@
 		<bnk path="soundbanks/regular_sfx" unload="true"/>
 		<gui path="guis/timer_gui" force="true" load="true" unload="true"/>
 		<texture path="guis/textures/drill_screen_background" force="true"/>
+		<texture path="guis/textures/Crafting_Table_GUI"/>
 	</add>
 </table>

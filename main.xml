@@ -92,6 +92,7 @@
 			<hook file="missionmanager.lua" source_file="lib/managers/missionmanager"/>
 			<hook file="charactertweakdata.lua" source_file="lib/tweak_data/charactertweakdata"/>
 			<hook file="timergui.lua" source_file="lib/units/props/timergui"/>
+			<hook file="setup.lua" source_file="lib/setups/gamesetup"/>
 		</hooks>
 		<include directory="levels/mc_branchbank">
 			<file file="world.world" type="binary"/>
