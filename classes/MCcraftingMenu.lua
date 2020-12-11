@@ -51,12 +51,11 @@ function CraftMenu:_init_craft_gui()
         use_default_close_key = true,
         disable_player_controls = true,
         w = self._menu_panel:w() / 4,
-        position = function(item)
-            item:Panel():set_x(item:ParentPanel():x() + 485)
-            item:Panel():set_y(item:ParentPanel():y() + 200)
-        end,
+        h = self._menu_panel:h() / 2.25,
         scrollbar = false,
     })
+    self.CraftGUIMenu:SetPosition(self._menu_panel:w() / 2 - self.CraftGUIMenu.w / 2 , self._menu_panel:h() / 2 - self.CraftGUIMenu.h / 2)
+    
     self.CraftGUIMenu:Image({
         name = "CraftingGUIback",
         texture = "guis/textures/Crafting_Table_GUI"
