@@ -4,9 +4,12 @@
 	<extensions>
 		<extension class="ScriptUnitData" name="unit_data" />
 		<extension name="damage" class="UnitDamage" />
-		<extension name="interaction" class="UseInteractionExt" >
-            <var name="tweak_data" value="hold_place_stick" />
+		<extension name="interaction" class="mcItemInteractionExt" >
+            <var name="tweak_data" value="pickup_tripwire_key" />
             <var name="_interact_object" value="interaction"/>
+			<var name="_special_equipment" value="stick" />
+			<var name="_remove_on_interact" value="true" />
+			<var name="_amount" value="2" />
         </extension>
 	</extensions>
 </unit>
