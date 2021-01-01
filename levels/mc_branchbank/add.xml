@@ -702,6 +702,9 @@
 		<unit path="units/pd2_mod_craft/props/prop_cube_glass_gray_int"/>
 		<sequence_manager path="units/pd2_mod_craft/props/prop_cube_glass_gray_int"/>
 		<material_config path="units/pd2_mod_craft/props/prop_cube_glass_gray_int"/>
+		<unit path="units/pd2_mod_craft/props/diamond_pickaxe"/>
+		<model path="units/pd2_mod_craft/props/diamond_pickaxe"/>
+		<object path="units/pd2_mod_craft/props/diamond_pickaxe"/>
 	</add>
 	<add path="units/world/props/melee_boxjc/melee_box" type="unit">
 		<material_config path="units/world/props/melee_boxjc/melee_box" unload="true"/>
