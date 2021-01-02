@@ -1,12 +1,11 @@
 <dynamic_object>
 	<diesel materials="units/pd2_mod_craft/bankarch" orientation_object="rp_root"/>
-	<sequence_manager file="units/pd2_mod_craft/props/pickaxe_drill" />
 	<bodies>
 		<body enabled="true" template="static" name="body_static" >
 			<object collision_type="box" name="pickaxe" />
 		</body>
 	</bodies>
 	<graphics>
-		<object name="pickaxe" 		enabled="false" />
+		<object name="pickaxe" 		enabled="true" />
 	</graphics>
 </dynamic_object>
