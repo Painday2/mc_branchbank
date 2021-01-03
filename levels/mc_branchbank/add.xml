@@ -722,7 +722,38 @@
 		<unit path="units/pd2_mod_craft/props/smoker" unload="true" load="true" />
 		<object path="units/pd2_mod_craft/props/smoker" unload="true"/>
 		<model path="units/pd2_mod_craft/props/smoker" unload="true"/>
-		<!--<texture path="units/pd2_mod_craft/props/textures/enderchest"/>-->
+		<material_config path="units/pd2_mod_craft/props/prop_cube_ender_chest" unload="true"/>
+		<model path="units/pd2_mod_craft/props/prop_cube_ender_chest" unload="true"/>
+		<unit path="units/pd2_mod_craft/props/prop_cube_ender_chest" unload="true"/>
+		<object path="units/pd2_mod_craft/props/prop_cube_ender_chest" unload="true"/>
+		<sequence_manager force="true" path="units/pd2_mod_craft/props/prop_cube_ender_chest" unload="true"/>
+		<texture path="units/pd2_mod_craft/props/textures/netherite_armor"/>
+		<object path="units/pd2_mod_craft/props/netherite_arms"/>
+		<unit path="units/pd2_mod_craft/props/netherite_arms"/>
+		<model path="units/pd2_mod_craft/props/netherite_arms"/>
+		<sequence_manager path="units/pd2_mod_craft/props/netherite_arms"/>
+		<object path="units/pd2_mod_craft/props/netherite_body"/>
+		<unit path="units/pd2_mod_craft/props/netherite_body"/>
+		<model path="units/pd2_mod_craft/props/netherite_body"/>
+		<sequence_manager path="units/pd2_mod_craft/props/netherite_body"/>
+		<object path="units/pd2_mod_craft/props/netherite_legs"/>
+		<unit path="units/pd2_mod_craft/props/netherite_legs"/>
+		<model path="units/pd2_mod_craft/props/netherite_legs"/>
+		<sequence_manager path="units/pd2_mod_craft/props/netherite_legs"/>
+		<object path="units/pd2_mod_craft/props/netherite_head"/>
+		<unit path="units/pd2_mod_craft/props/netherite_head"/>
+		<model path="units/pd2_mod_craft/props/netherite_head"/>
+		<sequence_manager path="units/pd2_mod_craft/props/netherite_head"/>
+		<object path="units/pd2_mod_craft/props/armor_stand"/>
+		<unit path="units/pd2_mod_craft/props/armor_stand"/>
+		<model path="units/pd2_mod_craft/props/armor_stand"/>
+		<sequence_manager path="units/pd2_mod_craft/props/armor_stand"/>
+		<object path="units/pd2_mod_craft/props/axe"/>
+		<unit path="units/pd2_mod_craft/props/axe"/>
+		<model path="units/pd2_mod_craft/props/axe"/>
+		<texture path="units/pd2_mod_craft/props/textures/netherite_axe"/>
+		<texture path="units/pd2_mod_craft/props/textures/armor_stand"/>
+		<texture path="units/pd2_mod_craft/props/textures/enderchest"/>
 		<texture path="units/pd2_mod_craft/props/textures/eye_of_ender"/>
 		<texture path="units/pd2_mod_craft/props/textures/netherite_ingot"/>
 		<texture path="units/pd2_mod_craft/props/textures/smithing_table_bottom"/>

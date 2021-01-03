@@ -808,15 +808,21 @@
         <material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
         <reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
     </material>
+	<material name="axe" render_template="generic:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:GSMA_TEXTURE:NORMALMAP" version="2">
+        <diffuse_texture        file="units/pd2_mod_craft/props/textures/netherite_axe"/>
+        <bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+        <material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+        <reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+    </material>
 	<material name="mtl_diarmor_inside" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
-    <diffuse_texture        file="units/pd2_mod_craft/props/textures/diamond_armor"/>
+    <diffuse_texture        file="units/pd2_mod_craft/props/textures/netherite_armor"/>
     <bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
     <material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
     <reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
     <variable value="0.5" type="scalar" name="alpha_ref"/>
     </material>
 	<material name="mtl_diarmor" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
-    <diffuse_texture        file="units/pd2_mod_craft/props/textures/diamond_armor"/>
+    <diffuse_texture        file="units/pd2_mod_craft/props/textures/netherite_armor"/>
     <bump_normal_texture    file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
     <material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
     <reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
