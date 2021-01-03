@@ -764,6 +764,13 @@
 		<texture path="units/pd2_mod_craft/props/textures/smoker_front"/>
 		<texture path="units/pd2_mod_craft/props/textures/smoker_side"/>
 		<texture path="units/pd2_mod_craft/props/textures/smoker_top"/>
+		<texture force="true" path="effects/decals/decals_atlas_df"/>
+		<texture force="true" path="effects/decals/decals_atlas_dnm"/>
+		<texture force="true" path="effects/decals/decals_atlas_nm"/>
+		<texture force="true" path="effects/decals/explosions/explosion_std_df"/>
+		<texture force="true" path="effects/decals/explosions/explosion_std_nm"/>
+		<texture force="true" path="effects/decals/explosions/explosive_round_df"/>
+		<texture force="true" path="effects/decals/explosions/explosive_round_nm"/>
 	</add>
 	<add path="units/world/props/melee_boxjc/melee_box" type="unit">
 		<material_config path="units/world/props/melee_boxjc/melee_box" unload="true"/>
