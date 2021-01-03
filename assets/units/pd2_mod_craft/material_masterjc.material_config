@@ -828,4 +828,67 @@
         <material_texture       file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
         <reflection_texture     file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
     </material>
+	<material name="eye_of_ender" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+<diffuse_texture		file="units/pd2_mod_craft/props/textures/eye_of_ender"/>
+<bump_normal_texture	file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+<material_texture		file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+<reflection_texture		file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+<variable value="0.5" type="scalar" name="alpha_ref"/>
+</material>
+<material name="smithing_table_bottom" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+<diffuse_texture		file="units/pd2_mod_craft/props/textures/smithing_table_bottom"/>
+<bump_normal_texture	file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+<material_texture		file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+<reflection_texture		file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+<variable value="0.5" type="scalar" name="alpha_ref"/>
+</material>
+<material name="smithing_table_front" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+<diffuse_texture		file="units/pd2_mod_craft/props/textures/smithing_table_front"/>
+<bump_normal_texture	file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+<material_texture		file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+<reflection_texture		file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+<variable value="0.5" type="scalar" name="alpha_ref"/>
+</material>
+<material name="smithing_table_side" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+<diffuse_texture		file="units/pd2_mod_craft/props/textures/smithing_table_side"/>
+<bump_normal_texture	file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+<material_texture		file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+<reflection_texture		file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+<variable value="0.5" type="scalar" name="alpha_ref"/>
+</material>
+<material name="smithing_table_top" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+<diffuse_texture		file="units/pd2_mod_craft/props/textures/smithing_table_top"/>
+<bump_normal_texture	file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+<material_texture		file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+<reflection_texture		file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+<variable value="0.5" type="scalar" name="alpha_ref"/>
+</material>
+<material name="smoker_bottom" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+<diffuse_texture		file="units/pd2_mod_craft/props/textures/smoker_bottom"/>
+<bump_normal_texture	file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+<material_texture		file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+<reflection_texture		file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+<variable value="0.5" type="scalar" name="alpha_ref"/>
+</material>
+<material name="smoker_front" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+<diffuse_texture		file="units/pd2_mod_craft/props/textures/smoker_front"/>
+<bump_normal_texture	file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+<material_texture		file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+<reflection_texture		file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+<variable value="0.5" type="scalar" name="alpha_ref"/>
+</material>
+<material name="smoker_side" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+<diffuse_texture		file="units/pd2_mod_craft/props/textures/smoker_side"/>
+<bump_normal_texture	file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+<material_texture		file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+<reflection_texture		file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+<variable value="0.5" type="scalar" name="alpha_ref"/>
+</material>
+<material name="smoker_top" render_template="generic:ALPHA_MASKED:CUBE_ENVIRONMENT_MAPPING:DIFFUSE_TEXTURE:EXTERNAL_ALPHA_REF:GSMA_TEXTURE" version="2">
+<diffuse_texture		file="units/pd2_mod_craft/props/textures/smoker_top"/>
+<bump_normal_texture	file="units/pd2_dlc2/csgo_textures/csgo_blank_nm"/>
+<material_texture		file="units/pd2_dlc_uno/architecture/tiling_textures/dirt_ground_01/uno_dirt_ground_01_gsma"/>
+<reflection_texture		file="units/pd2_dlc_dah/environments/cubemaps/cubemap_white_highlight_blurry" type="cubemap"/>
+<variable value="0.5" type="scalar" name="alpha_ref"/>
+</material>
 </materials>

@@ -702,12 +702,37 @@
 		<unit path="units/pd2_mod_craft/props/prop_cube_glass_gray_int"/>
 		<sequence_manager path="units/pd2_mod_craft/props/prop_cube_glass_gray_int"/>
 		<material_config path="units/pd2_mod_craft/props/prop_cube_glass_gray_int"/>
+		<model path="units/pd2_mod_craft/props/netherite"/>
+		<object path="units/pd2_mod_craft/props/netherite"/>
+		<unit path="units/pd2_mod_craft/props/netherite"/>
+		<sequence_manager path="units/pd2_mod_craft/props/netherite"/>
+		<material_config path="units/pd2_mod_craft/props/netherite"/>
 		<unit path="units/pd2_mod_craft/props/diamond_pickaxe"/>
 		<model path="units/pd2_mod_craft/props/diamond_pickaxe"/>
 		<object path="units/pd2_mod_craft/props/diamond_pickaxe"/>
 		<unit path="units/pd2_mod_craft/bankarch/navmesh" unload="true" load="true" />
 		<object path="units/pd2_mod_craft/bankarch/navmesh" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/navmesh" unload="true"/>
+		<unit path="units/pd2_mod_craft/props/eye_of_ender" unload="true" load="true" />
+		<object path="units/pd2_mod_craft/props/eye_of_ender" unload="true"/>
+		<model path="units/pd2_mod_craft/props/eye_of_ender" unload="true"/>
+		<unit path="units/pd2_mod_craft/props/smithing_table" unload="true" load="true" />
+		<object path="units/pd2_mod_craft/props/smithing_table" unload="true"/>
+		<model path="units/pd2_mod_craft/props/smithing_table" unload="true"/>
+		<unit path="units/pd2_mod_craft/props/smoker" unload="true" load="true" />
+		<object path="units/pd2_mod_craft/props/smoker" unload="true"/>
+		<model path="units/pd2_mod_craft/props/smoker" unload="true"/>
+		<!--<texture path="units/pd2_mod_craft/props/textures/enderchest"/>-->
+		<texture path="units/pd2_mod_craft/props/textures/eye_of_ender"/>
+		<texture path="units/pd2_mod_craft/props/textures/netherite_ingot"/>
+		<texture path="units/pd2_mod_craft/props/textures/smithing_table_bottom"/>
+		<texture path="units/pd2_mod_craft/props/textures/smithing_table_front"/>
+		<texture path="units/pd2_mod_craft/props/textures/smithing_table_side"/>
+		<texture path="units/pd2_mod_craft/props/textures/smithing_table_top"/>
+		<texture path="units/pd2_mod_craft/props/textures/smoker_bottom"/>
+		<texture path="units/pd2_mod_craft/props/textures/smoker_front"/>
+		<texture path="units/pd2_mod_craft/props/textures/smoker_side"/>
+		<texture path="units/pd2_mod_craft/props/textures/smoker_top"/>
 	</add>
 	<add path="units/world/props/melee_boxjc/melee_box" type="unit">
 		<material_config path="units/world/props/melee_boxjc/melee_box" unload="true"/>
