@@ -748,6 +748,10 @@
 		<unit path="units/pd2_mod_craft/props/armor_stand"/>
 		<model path="units/pd2_mod_craft/props/armor_stand"/>
 		<sequence_manager path="units/pd2_mod_craft/props/armor_stand"/>
+		<object path="units/pd2_mod_craft/props/deposit_box"/>
+		<unit path="units/pd2_mod_craft/props/deposit_box"/>
+		<model path="units/pd2_mod_craft/props/deposit_box"/>
+		<sequence_manager path="units/pd2_mod_craft/props/deposit_box"/>
 		<object path="units/pd2_mod_craft/props/axe"/>
 		<unit path="units/pd2_mod_craft/props/axe"/>
 		<model path="units/pd2_mod_craft/props/axe"/>

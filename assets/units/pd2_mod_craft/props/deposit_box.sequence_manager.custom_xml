@@ -1,0 +1,53 @@
+<table>
+	<unit>
+        <variables>
+			<var_spawned_bag value="0"/>
+		</variables>
+		<filter name="'filter_bag_not_spawned'">
+			<check value="vars.var_spawned_bag == 0"/>
+		</filter>
+		<sequence editable_state="true" name="'spawn_bagable_items'" triggable="true">
+			<run_sequence filter="'filter_bag_not_spawned'" name=" 'int_seq_spawn_bag_v1'"/>
+            <run_sequence filter="'filter_bag_not_spawned'" name=" 'int_seq_spawn_bag_v2'"/>
+			<set_variables var_spawned_bag="1"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_spawn_bag_v1'" triggable="false">
+			<run_sequence name=" 'int_seq_spawn_'..pick('011','021')"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_spawn_bag_v2'" triggable="false">
+			<run_sequence name=" 'int_seq_spawn_'..pick('012','022')"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_spawn_011'" triggable="false">
+            <spawn_unit filter="'filter_bag_not_spawned'" name="'units/pd2_mod_craft/props/diamond'" position="object_pos('sp_upper')" rotation="object_rot('sp_upper')"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_spawn_021'" triggable="false">
+			<spawn_unit name="'units/pd2_mod_craft/props/ironingot'" position="object_pos('sp_upper')" rotation="object_rot('sp_upper')"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_spawn_012'" triggable="false">
+			<spawn_unit name="'units/pd2_mod_craft/props/goldingot'" position="object_pos('sp_lower')" rotation="object_rot('sp_lower')"/>
+		</sequence>
+		<sequence editable_state="false" name="'int_seq_spawn_022'" triggable="false">
+			<spawn_unit name="'units/pd2_mod_craft/props/emerald'" position="object_pos('sp_lower')" rotation="object_rot('sp_lower')"/>
+		</sequence>
+		<sequence editable_state="true" name="'opened_int'" triggable="true">
+			<interaction enabled="false"/>
+            <run_sequence    name="'open_animation'"/>
+		</sequence>
+		<sequence editable_state="true" name="'closed'" triggable="true">
+			<interaction enabled="true"/>
+            <run_sequence    name="'close_animation'"/>
+		</sequence>
+		<sequence name="'interact'" triggable="true">
+			<run_sequence name="'opened_int'"/>
+		</sequence>
+		<sequence name="'disable_interact'" triggable="true">
+			<interaction enabled="false"/>
+		</sequence>
+		<sequence editable_state="true" name="'open_animation'" triggable="true">
+			<animation_group enabled="true" name="'anim'" from="0/30" to="30/30"/>
+		</sequence>
+		<sequence editable_state="true" name="'close_animation'" triggable="true">
+			<animation_group enabled="true" name="'anim'" speed="-1" from="30/30" to="0/30"/>
+		</sequence>
+	</unit>
+</table>
