@@ -5,10 +5,10 @@
 		<extension name="unit_data" class="ScriptUnitData" />
 		<extension name="damage" 	class="UnitDamage" />
 		<extension name="interaction" class="SpecialEquipmentInteractionExt" >
-			<var name="_special_equipment" value="tripwire_key" />
+			<var name="_special_equipment" value="pickaxe" />
 			<var name="_remove_on_interact" value="true" />
-			<var name="tweak_data" value="pickup_tripwire_key" />
-			<var name="_global_event" value="keycard" />
+			<var name="tweak_data" value="pickup_pickaxe" />
+			<var name="_global_event" value="pickaxe" />
 			<var name="_interact_object" value="interact"/>
 		</extension>
 	</extensions>

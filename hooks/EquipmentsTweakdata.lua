@@ -37,36 +37,23 @@ Hooks:PostHook(EquipmentsTweakData, "init", "init_jewelry_equip", function(self)
 		quantity = 1,
 		max_quantity = 5,
 		transfer_quantity = 5,
-		icon = "equipment_mc_drill",
+		icon = "equipment_mc_drill2",
 		text_id = "hud_int_equipment_mc_drill"
 	}
-	self.specials.tnt = {
+	self.specials.pickaxe = {
 		sync_possession = true,
 		quantity = 1,
 		max_quantity = 1,
 		transfer_quantity = 1,
-		icon = "equipment_tnt",
-		text_id = "hud_int_equipment_tnt"
+		text_id = "hud_int_equipment_pickaxe",
+		icon = "equipment_pickaxe"
 	}
-	self.specials.tripwire_key = {
-		sync_possession = true,
-		text_id = "hud_int_equipment_tripwire_key",
-		icon = "equipment_tripwire"
-	}
-	self.specials.sand = {
+	self.specials.axe = {
 		sync_possession = true,
 		quantity = 1,
-		max_quantity = 4,
-		transfer_quantity = 4,
-		text_id = "hud_int_equipment_sand",
-		icon = "equipment_sand"
-	}
-	self.specials.gunpowder = {
-		sync_possession = true,
-		quantity = 1,
-		max_quantity = 5,
-		transfer_quantity = 5,
-		text_id = "hud_int_equipment_gunpowder",
-		icon = "equipment_gunpowder"
+		max_quantity = 1,
+		transfer_quantity = 1,
+		text_id = "hud_int_equipment_axe",
+		icon = "equipment_axe"
 	}
 end)

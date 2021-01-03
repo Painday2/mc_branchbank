@@ -187,4 +187,14 @@ Hooks:PostHook(InteractionTweakData, "init", "init_jewelry_int", function(self, 
 		sound_interupt = "bar_bag_armor_cancel",
 		sound_done = "bar_bag_armor_finished"
 	}
+	
+	self.pickup_axe = {
+		text_id = "hud_int_pickup_axe",
+		sound_done = "mc_pickup"
+	}
+	
+	self.pickup_pickaxe = {
+		text_id = "hud_int_pickup_pickaxe",
+		sound_done = "mc_pickup"
+	}
 end)
