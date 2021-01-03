@@ -1,5 +1,5 @@
-	tweak_data.pickups.tripwire_key = {
-		unit = Idstring("units/pd2_mod_craft/props/tripwire_key")
+	tweak_data.pickups.netherite_ingot = {
+		unit = Idstring("units/pd2_mod_craft/props/netherite_ingot")
 	}
 
 	tweak_data.menu.default_font = "fonts/minecraft"
