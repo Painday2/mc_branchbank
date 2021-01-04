@@ -1,2 +1,5 @@
 <table>
+	<objective description="obj_mc_bb_1_desc" id="obj_mc_bb_1" text="obj_mc_bb_1"/>
+	<objective amount="8" description="obj_mc_bb_2_desc" id="obj_mc_bb_2" text="obj_mc_bb_2"/>
+	<objective description="obj_mc_bb_3_desc" id="obj_mc_bb_3" text="obj_mc_bb_3"/>
 </table>

@@ -128,12 +128,8 @@ Hooks:PostHook(InteractionTweakData, "init", "init_jewelry_int", function(self, 
 	}
 
 	self.cmdblk_keycard = {
-		icon = "equipment_bank_manager_key",
 		text_id = "hud_int_cmdblk_keycard",
-		equipment_text_id = "hud_int_cmdblk_no_keycard",
-		special_equipment = "tripwire_key",
 		sound_done = "mc_button_hit",
-		equipment_consume = true,
 		start_active = false,
 		axis = "z"
 	}

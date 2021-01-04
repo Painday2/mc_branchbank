@@ -775,6 +775,19 @@
 		<texture force="true" path="effects/decals/explosions/explosion_std_nm"/>
 		<texture force="true" path="effects/decals/explosions/explosive_round_df"/>
 		<texture force="true" path="effects/decals/explosions/explosive_round_nm"/>
+		<material_config path="units/pd2_mod_craft/props/keycard_machine" unload="true"/>
+		<object path="units/pd2_mod_craft/props/keycard_machine"/>
+		<unit path="units/pd2_mod_craft/props/keycard_machine"/>
+		<model path="units/pd2_mod_craft/props/keycard_machine"/>
+		<sequence_manager path="units/pd2_mod_craft/props/keycard_machine"/>
+		<texture path="units/pd2_mod_craft/props/textures/command_block"/>
+	</add>
+	<add>
+		<material_config path="units/pd2_mod_craft/props/prop_cube_obsidian" unload="true"/>
+		<model path="units/pd2_mod_craft/props/prop_cube_obsidian" unload="true"/>
+		<object path="units/pd2_mod_craft/props/prop_cube_obsidian" unload="true"/>
+		<texture path="units/pd2_mod_craft/props/prop_cube_obsidian_df" unload="true"/>
+		<unit path="units/pd2_mod_craft/props/prop_cube_obsidian" unload="true"/>
 	</add>
 	<add path="units/world/props/melee_boxjc/melee_box" type="unit">
 		<material_config path="units/world/props/melee_boxjc/melee_box" unload="true"/>
