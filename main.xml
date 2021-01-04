@@ -211,4 +211,15 @@
 			<value_node value="60000"/>
 		</payout>
 	</narrative>
+	<Achievements id="mc_branchbank_ach">
+		<achievement id="sekret" rank="1"/>
+	</Achievements>
+	<AddFiles directory="assets">
+        <unit_tex path="units/pd2_mod_craft/weapons/wpn_fps_mel_mcgshovel/wpn_fps_mel_mcgshovel"/>
+        <unit_tex path="units/pd2_mod_craft/weapons/wpn_fps_mel_mcgshovel/wpn_tps_mel_mcgshovel"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/melee_weapons/mcgshovel"/>
+		<texture path="units/pd2_mod_craft/weapons/wpn_fps_mel_mcgshovel/wpn_fps_mel_mcgshovel"/>
+	</AddFiles>
+	<GlobalValue id="shovelforge_gold" color="Color('32a840')"/>
+	<Melee id="mcgshovel" based_on="shovel" dlc="shovelforge_gold" unit="units/pd2_mod_craft/weapons/wpn_fps_mel_mcgshovel/wpn_fps_mel_mcgshovel" third_unit="units/pd2_mod_craft/weapons/wpn_fps_mel_mcgshovel/wpn_tps_mel_mcgshovel"/>
 </table>
