@@ -193,4 +193,15 @@ Hooks:PostHook(InteractionTweakData, "init", "init_jewelry_int", function(self, 
 		text_id = "hud_int_pickup_pickaxe",
 		sound_done = "mc_pickup"
 	}
+	
+	self.axe_deposit = {
+		text_id = "hud_int_equipment_axe",
+		equipment_text_id = "hud_int_equipment_need_axe",
+		special_equipment = "axe",
+		equipment_consume = false,
+		timer = 5,
+		sound_done = "mc_place_block",
+		axis = "y",
+		action_text_id = "hud_action_opening_deposit"
+	}
 end)
