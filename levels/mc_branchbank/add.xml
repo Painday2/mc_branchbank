@@ -755,6 +755,62 @@
 		<object path="units/pd2_mod_craft/props/axe"/>
 		<unit path="units/pd2_mod_craft/props/axe"/>
 		<model path="units/pd2_mod_craft/props/axe"/>
+		<unit path="units/pd2_mod_craft/props/deposit/clock" unload="true" load="true" />
+		<object path="units/pd2_mod_craft/props/deposit/clock" unload="true"/>
+		<model path="units/pd2_mod_craft/props/deposit/clock" unload="true"/>
+		<unit path="units/pd2_mod_craft/props/deposit/compass" unload="true" load="true" />
+		<object path="units/pd2_mod_craft/props/deposit/compass" unload="true"/>
+		<model path="units/pd2_mod_craft/props/deposit/compass" unload="true"/>
+		<unit path="units/pd2_mod_craft/props/deposit/elytra" unload="true" load="true" />
+		<object path="units/pd2_mod_craft/props/deposit/elytra" unload="true"/>
+		<model path="units/pd2_mod_craft/props/deposit/elytra" unload="true"/>
+		<unit path="units/pd2_mod_craft/props/deposit/goldenapple" unload="true" load="true" />
+		<object path="units/pd2_mod_craft/props/deposit/goldenapple" unload="true"/>
+		<model path="units/pd2_mod_craft/props/deposit/goldenapple" unload="true"/>
+		<unit path="units/pd2_mod_craft/props/deposit/goldencarrot" unload="true" load="true" />
+		<object path="units/pd2_mod_craft/props/deposit/goldencarrot" unload="true"/>
+		<model path="units/pd2_mod_craft/props/deposit/goldencarrot" unload="true"/>
+		<unit path="units/pd2_mod_craft/props/deposit/goldnugget" unload="true" load="true" />
+		<object path="units/pd2_mod_craft/props/deposit/goldnugget" unload="true"/>
+		<model path="units/pd2_mod_craft/props/deposit/goldnugget" unload="true"/>
+		<unit path="units/pd2_mod_craft/props/deposit/horsearmor" unload="true" load="true" />
+		<object path="units/pd2_mod_craft/props/deposit/horsearmor" unload="true"/>
+		<model path="units/pd2_mod_craft/props/deposit/horsearmor" unload="true"/>
+		<unit path="units/pd2_mod_craft/props/deposit/ironnugget" unload="true" load="true" />
+		<object path="units/pd2_mod_craft/props/deposit/ironnugget" unload="true"/>
+		<model path="units/pd2_mod_craft/props/deposit/ironnugget" unload="true"/>
+		<unit path="units/pd2_mod_craft/props/deposit/musicdisk" unload="true" load="true" />
+		<object path="units/pd2_mod_craft/props/deposit/musicdisk" unload="true"/>
+		<model path="units/pd2_mod_craft/props/deposit/musicdisk" unload="true"/>
+		<unit path="units/pd2_mod_craft/props/deposit/netherstar" unload="true" load="true" />
+		<object path="units/pd2_mod_craft/props/deposit/netherstar" unload="true"/>
+		<model path="units/pd2_mod_craft/props/deposit/netherstar" unload="true"/>
+		<unit path="units/pd2_mod_craft/props/deposit/potion" unload="true" load="true" />
+		<object path="units/pd2_mod_craft/props/deposit/potion" unload="true"/>
+		<model path="units/pd2_mod_craft/props/deposit/potion" unload="true"/>
+		<unit path="units/pd2_mod_craft/props/deposit/quartz" unload="true" load="true" />
+		<object path="units/pd2_mod_craft/props/deposit/quartz" unload="true"/>
+		<model path="units/pd2_mod_craft/props/deposit/quartz" unload="true"/>
+		<unit path="units/pd2_mod_craft/props/deposit/totemofundying" unload="true" load="true" />
+		<object path="units/pd2_mod_craft/props/deposit/totemofundying" unload="true"/>
+		<model path="units/pd2_mod_craft/props/deposit/totemofundying" unload="true"/>
+		<unit path="units/pd2_mod_craft/props/deposit/kitteh" unload="true" load="true" />
+		<object path="units/pd2_mod_craft/props/deposit/kitteh" unload="true"/>
+		<model path="units/pd2_mod_craft/props/deposit/kitteh" unload="true"/>
+		<texture path="units/pd2_mod_craft/props/textures/kitteh"/>
+		<texture path="units/pd2_mod_craft/props/textures/clock"/>
+		<texture path="units/pd2_mod_craft/props/textures/compass"/>
+		<texture path="units/pd2_mod_craft/props/textures/elytra"/>
+		<texture path="units/pd2_mod_craft/props/textures/goldenapple"/>
+		<texture path="units/pd2_mod_craft/props/textures/goldencarrot"/>
+		<texture path="units/pd2_mod_craft/props/textures/goldnugget"/>
+		<texture path="units/pd2_mod_craft/props/textures/horsearmor"/>
+		<texture path="units/pd2_mod_craft/props/textures/ironnugget"/>
+		<texture path="units/pd2_mod_craft/props/textures/musicdisk"/>
+		<texture path="units/pd2_mod_craft/props/textures/netherstar"/>
+		<texture path="units/pd2_mod_craft/props/textures/potion"/>
+		<texture path="units/pd2_mod_craft/props/textures/quartz"/>
+		<texture path="units/pd2_mod_craft/props/textures/totemofundying"/>
 		<texture path="units/pd2_mod_craft/props/textures/netherite_axe"/>
 		<texture path="units/pd2_mod_craft/props/textures/armor_stand"/>
 		<texture path="units/pd2_mod_craft/props/textures/enderchest"/>
