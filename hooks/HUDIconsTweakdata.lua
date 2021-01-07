@@ -40,7 +40,7 @@ Hooks:PostHook(HudIconsTweakData, "init", "init_jewelry_hud", function(self)
 		}
 	}
 	
-	self.equipment_mc_drill = {
+	self.equipment_mc_drill2 = {
 		texture = "guis/mc_drill_equipment",
 		texture_rect = {
 			0,

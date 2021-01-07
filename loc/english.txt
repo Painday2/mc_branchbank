@@ -1,1 +1,10 @@
-{}
+{
+	"heist_mc_branchbank_name" : "Harvest & Blockiees",
+	"heist_mc_branchbank_brief" : "",
+	"obj_mc_bb_1" : "Craft a drill and get into the vault",
+	"obj_mc_bb_1_desc" : "Using multiple ingredients, you need to craft a drill in order to get into the vault",
+	"obj_mc_bb_2" : "Secure Diamonds",
+	"obj_mc_bb_2_desc" : "",
+	"obj_mc_bb_3" : "Escape",
+	"obj_mc_bb_3_desc" : "",
+}
