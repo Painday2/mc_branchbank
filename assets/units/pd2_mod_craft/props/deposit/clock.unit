@@ -3,5 +3,11 @@
 <extensions>
 <extension class="ScriptUnitData" name="unit_data" />
 <extension name="damage" class="UnitDamage" />
+<!--<extension name="interaction" class="SpecialEquipmentInteractionExt" >
+ <var name="_special_equipment" value="clock" />
+<var name="_remove_on_interact" value="true" />
+<var name="_interact_object" value="rp_root"/>
+<var name="tweak_data" value="clock" />
+</extension>-->
 </extensions>
 </unit>

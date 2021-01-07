@@ -7,12 +7,12 @@
 		</animation_group>
 	</animations>
 	<bodies>
-        <body enabled="true" template="animated" name="body_static" >
+        <body enabled="false" template="animated" name="body_static" >
             <object name="anim_open"/>
 			<object collision_type="box" name="door" />
 		</body>
 		<body enabled="true" template="static" name="body_static" >
-			<object collision_type="box" name="body" />
+			<object collision_type="mesh_mopp" name="body" />
 		</body>
 	</bodies>
 	<graphics>

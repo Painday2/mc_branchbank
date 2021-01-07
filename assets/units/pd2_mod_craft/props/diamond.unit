@@ -6,7 +6,7 @@
 		<extension name="damage" class="UnitDamage" />
 	    <extension name="interaction" class="CarryInteractionExt">
 		  <var name="tweak_data" value="pku_diamond" />
-		  <var name="_interact_object" value="interact"/>
+		  <var name="_interact_object" value="rp_root"/>
 			<var name="_ray_object_names" type="table" >
 				<!-- <var value="a_ray_object_1"/> -->
 				<!-- <var value="a_ray_object_2"/> -->

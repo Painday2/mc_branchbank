@@ -45,7 +45,7 @@
 			<spawn_unit name="'units/pd2_mod_craft/props/deposit/goldencarrot'" position="object_pos('sp_upper')" rotation="object_rot('sp_upper')"/>
 		</sequence>
 		<sequence editable_state="false" name="'int_seq_spawn_u10'" triggable="false">
-			<spawn_unit name="'units/pd2_mod_craft/props/deposit/goldennugget'" position="object_pos('sp_upper')" rotation="object_rot('sp_upper')"/>
+			<spawn_unit name="'units/pd2_mod_craft/props/deposit/goldnugget'" position="object_pos('sp_upper')" rotation="object_rot('sp_upper')"/>
 		</sequence>
 		<sequence editable_state="false" name="'int_seq_spawn_u11'" triggable="false">
 			<spawn_unit name="'units/pd2_mod_craft/props/deposit/horsearmor'" position="object_pos('sp_upper')" rotation="object_rot('sp_upper')"/>
@@ -100,7 +100,7 @@
 			<spawn_unit name="'units/pd2_mod_craft/props/deposit/goldencarrot'" position="object_pos('sp_lower')" rotation="object_rot('sp_lower')"/>
 		</sequence>
 		<sequence editable_state="false" name="'int_seq_spawn_L10'" triggable="false">
-			<spawn_unit name="'units/pd2_mod_craft/props/deposit/goldennugget'" position="object_pos('sp_lower')" rotation="object_rot('sp_lower')"/>
+			<spawn_unit name="'units/pd2_mod_craft/props/deposit/goldnugget'" position="object_pos('sp_lower')" rotation="object_rot('sp_lower')"/>
 		</sequence>
 		<sequence editable_state="false" name="'int_seq_spawn_L11'" triggable="false">
 			<spawn_unit name="'units/pd2_mod_craft/props/deposit/horsearmor'" position="object_pos('sp_lower')" rotation="object_rot('sp_lower')"/>
