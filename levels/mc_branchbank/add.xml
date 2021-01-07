@@ -859,6 +859,10 @@
 		<model path="units/pd2_mod_craft/props/lavabucket"/>
 		<sequence_manager path="units/pd2_mod_craft/props/lavabucket"/>
 		<texture path="units/pd2_mod_craft/props/textures/lavabucket"/>
+		<object path="units/pd2_mod_craft/props/stone_button"/>
+		<unit path="units/pd2_mod_craft/props/stone_button"/>
+		<model path="units/pd2_mod_craft/props/stone_button"/>
+		<material_config path="units/pd2_mod_craft/props/stone_button"/>
 	</add>
 	<add>
 		<material_config path="units/pd2_mod_craft/props/prop_cube_obsidian" unload="true"/>
