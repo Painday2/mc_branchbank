@@ -854,6 +854,11 @@
 		<model path="units/pd2_mod_craft/props/keycard_machine"/>
 		<sequence_manager path="units/pd2_mod_craft/props/keycard_machine"/>
 		<texture path="units/pd2_mod_craft/props/textures/command_block"/>
+		<object path="units/pd2_mod_craft/props/lavabucket"/>
+		<unit path="units/pd2_mod_craft/props/lavabucket"/>
+		<model path="units/pd2_mod_craft/props/lavabucket"/>
+		<sequence_manager path="units/pd2_mod_craft/props/lavabucket"/>
+		<texture path="units/pd2_mod_craft/props/textures/lavabucket"/>
 	</add>
 	<add>
 		<material_config path="units/pd2_mod_craft/props/prop_cube_obsidian" unload="true"/>
