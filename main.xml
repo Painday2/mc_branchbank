@@ -131,19 +131,27 @@
 		<texture force="true" load="true" path="fonts/minecraft"/>
 	</AddFiles>
 	<AddFiles directory="assets">
-		<unit_tex path="units/pd2_mod_craft/weapons/wpn_fps_mel_mcgshovel/wpn_fps_mel_mcgshovel"/>
-		<unit_tex path="units/pd2_mod_craft/weapons/wpn_fps_mel_mcgshovel/wpn_tps_mel_mcgshovel"/>
+		<unit_tex path="units/pd2_mod_craft/weapons/shovel/wpn_fps_mel_mcgshovel/wpn_fps_mel_mcgshovel"/>
+		<unit_tex path="units/pd2_mod_craft/weapons/shovel/wpn_fps_mel_mcgshovel/wpn_tps_mel_mcgshovel"/>
 		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/melee_weapons/mcgshovel"/>
 		<texture path="units/pd2_mod_craft/weapons/wpn_fps_mel_mcgshovel/wpn_fps_mel_mcgshovel"/>
 	</AddFiles>
 	<Achievements id="mc_branchbank_ach">
-		<achievement id="sekret" rank="1"/>
+		<achievement id="stone" rank="1"/>
+		<achievement id="iron" rank="2"/>
+		<achievement id="gold" rank="2"/>
+		<achievement id="diamond" rank="3"/>
+		<achievement id="netherite" rank="4"/>
 	</Achievements>
-	<GlobalValue color="Color('32a840')" id="shovelforge_gold"/>
+	<Hooks directory="hooks/outofmap">
+		<hook file="blackmarketmanager.lua"		source_file="lib/managers/blackmarketmanager"/>
+		<hook file="lootdroptweakdata.lua"		source_file="lib/tweak_data/lootdroptweakdata"/>
+		<hook file="meleeweaponstweakdata.lua"	source_file="lib/tweak_data/blackmarket/meleeweaponstweakdata"/>
+	</Hooks>
 	<Localization default="english.txt" directory="loc">
 		<loc file="english.txt" language="english"/>
 	</Localization>
-	<Melee based_on="shovel" dlc="shovelforge_gold" id="mcgshovel" third_unit="units/pd2_mod_craft/weapons/wpn_fps_mel_mcgshovel/wpn_tps_mel_mcgshovel" unit="units/pd2_mod_craft/weapons/wpn_fps_mel_mcgshovel/wpn_fps_mel_mcgshovel"/>
+	<Melee based_on="shovel" dlc="shovelforge_gold" id="mcgshovel" third_unit="units/pd2_mod_craft/weapons/shovel/wpn_fps_mel_mcgshovel/wpn_tps_mel_mcgshovel" unit="units/pd2_mod_craft/weapons/shovel/wpn_fps_mel_mcgshovel/wpn_fps_mel_mcgshovel"/>
 	<MissionElements>
 		<value_node value="ElementDynamicEnvironment"/>
 	</MissionElements>
