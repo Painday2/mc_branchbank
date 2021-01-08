@@ -9,8 +9,6 @@
 	"obj_mc_bb_3_desc" : "",
 
 
-
-
 	"shovelforge_wood_desc" : "This is a shovelforge item!",
 	"shovelforge_wood_unlock" : "Complete the blahblah Achievement in The Harvest & Blockiees Heist",
 	"shovelforge_stone_desc" : "This is a shovelforge item!",

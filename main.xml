@@ -155,6 +155,30 @@
 		<unit_tex path="units/pd2_mod_craft/weapons/shovel/wpn_fps_mel_mcnshovel/wpn_tps_mel_mcnshovel"/>
 		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/melee_weapons/mcnshovel"/>
 		<texture path="units/pd2_mod_craft/weapons/wpn_fps_mel_mcnshovel/wpn_fps_mel_mcnshovel"/>
+		<unit_tex path="units/pd2_mod_craft/weapons/axe/wpn_fps_mel_mcwaxe/wpn_fps_mel_mcwaxe"/>
+		<unit_tex path="units/pd2_mod_craft/weapons/axe/wpn_fps_mel_mcwaxe/wpn_tps_mel_mcwaxe"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/melee_weapons/mcwaxe"/>
+		<texture path="units/pd2_mod_craft/weapons/wpn_fps_mel_mcwaxe/wpn_fps_mel_mcwaxe"/>
+		<unit_tex path="units/pd2_mod_craft/weapons/axe/wpn_fps_mel_mcsaxe/wpn_fps_mel_mcsaxe"/>
+		<unit_tex path="units/pd2_mod_craft/weapons/axe/wpn_fps_mel_mcsaxe/wpn_tps_mel_mcsaxe"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/melee_weapons/mcsaxe"/>
+		<texture path="units/pd2_mod_craft/weapons/wpn_fps_mel_mcsaxe/wpn_fps_mel_mcsaxe"/>
+		<unit_tex path="units/pd2_mod_craft/weapons/axe/wpn_fps_mel_mciaxe/wpn_fps_mel_mciaxe"/>
+		<unit_tex path="units/pd2_mod_craft/weapons/axe/wpn_fps_mel_mciaxe/wpn_tps_mel_mciaxe"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/melee_weapons/mciaxe"/>
+		<texture path="units/pd2_mod_craft/weapons/wpn_fps_mel_mciaxe/wpn_fps_mel_mciaxe"/>
+		<unit_tex path="units/pd2_mod_craft/weapons/axe/wpn_fps_mel_mcgaxe/wpn_fps_mel_mcgaxe"/>
+		<unit_tex path="units/pd2_mod_craft/weapons/axe/wpn_fps_mel_mcgaxe/wpn_tps_mel_mcgaxe"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/melee_weapons/mcgaxe"/>
+		<texture path="units/pd2_mod_craft/weapons/wpn_fps_mel_mcgaxe/wpn_fps_mel_mcgaxe"/>
+		<unit_tex path="units/pd2_mod_craft/weapons/axe/wpn_fps_mel_mcdaxe/wpn_fps_mel_mcdaxe"/>
+		<unit_tex path="units/pd2_mod_craft/weapons/axe/wpn_fps_mel_mcdaxe/wpn_tps_mel_mcdaxe"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/melee_weapons/mcdaxe"/>
+		<texture path="units/pd2_mod_craft/weapons/wpn_fps_mel_mcdaxe/wpn_fps_mel_mcdaxe"/>
+		<unit_tex path="units/pd2_mod_craft/weapons/axe/wpn_fps_mel_mcnaxe/wpn_fps_mel_mcnaxe"/>
+		<unit_tex path="units/pd2_mod_craft/weapons/axe/wpn_fps_mel_mcnaxe/wpn_tps_mel_mcnaxe"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/melee_weapons/mcnaxe"/>
+		<texture path="units/pd2_mod_craft/weapons/wpn_fps_mel_mcnaxe/wpn_fps_mel_mcnaxe"/>
 	</AddFiles>
 	<Melee based_on="shovel" dlc="shovelforge_wood" id="mcwshovel" third_unit="units/pd2_mod_craft/weapons/shovel/wpn_fps_mel_mcwshovel/wpn_tps_mel_mcwshovel" unit="units/pd2_mod_craft/weapons/shovel/wpn_fps_mel_mcwshovel/wpn_fps_mel_mcwshovel"/>
 	<Melee based_on="shovel" dlc="shovelforge_stone" id="mcsshovel" third_unit="units/pd2_mod_craft/weapons/shovel/wpn_fps_mel_mcsshovel/wpn_tps_mel_mcsshovel" unit="units/pd2_mod_craft/weapons/shovel/wpn_fps_mel_mcsshovel/wpn_fps_mel_mcsshovel"/>
@@ -162,6 +186,12 @@
 	<Melee based_on="shovel" dlc="shovelforge_gold" id="mcgshovel" third_unit="units/pd2_mod_craft/weapons/shovel/wpn_fps_mel_mcgshovel/wpn_tps_mel_mcgshovel" unit="units/pd2_mod_craft/weapons/shovel/wpn_fps_mel_mcgshovel/wpn_fps_mel_mcgshovel"/>
 	<Melee based_on="shovel" dlc="shovelforge_diamond" id="mcdshovel" third_unit="units/pd2_mod_craft/weapons/shovel/wpn_fps_mel_mcdshovel/wpn_tps_mel_mcdshovel" unit="units/pd2_mod_craft/weapons/shovel/wpn_fps_mel_mcdshovel/wpn_fps_mel_mcdshovel"/>
 	<Melee based_on="shovel" dlc="shovelforge_netherite" id="mcnshovel" third_unit="units/pd2_mod_craft/weapons/shovel/wpn_fps_mel_mcnshovel/wpn_tps_mel_mcnshovel" unit="units/pd2_mod_craft/weapons/shovel/wpn_fps_mel_mcnshovel/wpn_fps_mel_mcnshovel"/>
+	<Melee based_on="bullseye" dlc="shovelforge_wood" id="mcwaxe" third_unit="units/pd2_mod_craft/weapons/axe/wpn_fps_mel_mcwaxe/wpn_tps_mel_mcwaxe" unit="units/pd2_mod_craft/weapons/axe/wpn_fps_mel_mcwaxe/wpn_fps_mel_mcwaxe"/>
+	<Melee based_on="bullseye" dlc="shovelforge_stone" id="mcsaxe" third_unit="units/pd2_mod_craft/weapons/axe/wpn_fps_mel_mcsaxe/wpn_tps_mel_mcsaxe" unit="units/pd2_mod_craft/weapons/axe/wpn_fps_mel_mcsaxe/wpn_fps_mel_mcsaxe"/>
+	<Melee based_on="bullseye" dlc="shovelforge_iron" id="mciaxe" third_unit="units/pd2_mod_craft/weapons/axe/wpn_fps_mel_mciaxe/wpn_tps_mel_mciaxe" unit="units/pd2_mod_craft/weapons/axe/wpn_fps_mel_mciaxe/wpn_fps_mel_mciaxe"/>
+	<Melee based_on="bullseye" dlc="shovelforge_gold" id="mcgaxe" third_unit="units/pd2_mod_craft/weapons/axe/wpn_fps_mel_mcgaxe/wpn_tps_mel_mcgaxe" unit="units/pd2_mod_craft/weapons/axe/wpn_fps_mel_mcgaxe/wpn_fps_mel_mcgaxe"/>
+	<Melee based_on="bullseye" dlc="shovelforge_diamond" id="mcdaxe" third_unit="units/pd2_mod_craft/weapons/axe/wpn_fps_mel_mcdaxe/wpn_tps_mel_mcdaxe" unit="units/pd2_mod_craft/weapons/axe/wpn_fps_mel_mcdaxe/wpn_fps_mel_mcdaxe"/>
+	<Melee based_on="bullseye" dlc="shovelforge_netherite" id="mcnaxe" third_unit="units/pd2_mod_craft/weapons/axe/wpn_fps_mel_mcnaxe/wpn_tps_mel_mcnaxe" unit="units/pd2_mod_craft/weapons/axe/wpn_fps_mel_mcnaxe/wpn_fps_mel_mcnaxe"/>
 	<Achievements id="mc_branchbank_ach">
 		<achievement id="stone" rank="1"/>
 		<achievement id="iron" rank="2"/>
