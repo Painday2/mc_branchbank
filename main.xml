@@ -179,6 +179,30 @@
 		<unit_tex path="units/pd2_mod_craft/weapons/axe/wpn_fps_mel_mcnaxe/wpn_tps_mel_mcnaxe"/>
 		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/melee_weapons/mcnaxe"/>
 		<texture path="units/pd2_mod_craft/weapons/wpn_fps_mel_mcnaxe/wpn_fps_mel_mcnaxe"/>
+		<unit_tex path="units/pd2_mod_craft/weapons/pickaxe/wpn_fps_mel_mcwpickaxe/wpn_fps_mel_mcwpickaxe"/>
+		<unit_tex path="units/pd2_mod_craft/weapons/pickaxe/wpn_fps_mel_mcwpickaxe/wpn_tps_mel_mcwpickaxe"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/melee_weapons/mcwpickaxe"/>
+		<texture path="units/pd2_mod_craft/weapons/wpn_fps_mel_mcwpickaxe/wpn_fps_mel_mcwpickaxe"/>
+		<unit_tex path="units/pd2_mod_craft/weapons/pickaxe/wpn_fps_mel_mcspickaxe/wpn_fps_mel_mcspickaxe"/>
+		<unit_tex path="units/pd2_mod_craft/weapons/pickaxe/wpn_fps_mel_mcspickaxe/wpn_tps_mel_mcspickaxe"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/melee_weapons/mcspickaxe"/>
+		<texture path="units/pd2_mod_craft/weapons/wpn_fps_mel_mcspickaxe/wpn_fps_mel_mcspickaxe"/>
+		<unit_tex path="units/pd2_mod_craft/weapons/pickaxe/wpn_fps_mel_mcipickaxe/wpn_fps_mel_mcipickaxe"/>
+		<unit_tex path="units/pd2_mod_craft/weapons/pickaxe/wpn_fps_mel_mcipickaxe/wpn_tps_mel_mcipickaxe"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/melee_weapons/mcipickaxe"/>
+		<texture path="units/pd2_mod_craft/weapons/wpn_fps_mel_mcipickaxe/wpn_fps_mel_mcipickaxe"/>
+		<unit_tex path="units/pd2_mod_craft/weapons/pickaxe/wpn_fps_mel_mcgpickaxe/wpn_fps_mel_mcgpickaxe"/>
+		<unit_tex path="units/pd2_mod_craft/weapons/pickaxe/wpn_fps_mel_mcgpickaxe/wpn_tps_mel_mcgpickaxe"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/melee_weapons/mcgpickaxe"/>
+		<texture path="units/pd2_mod_craft/weapons/wpn_fps_mel_mcgpickaxe/wpn_fps_mel_mcgpickaxe"/>
+		<unit_tex path="units/pd2_mod_craft/weapons/pickaxe/wpn_fps_mel_mcdpickaxe/wpn_fps_mel_mcdpickaxe"/>
+		<unit_tex path="units/pd2_mod_craft/weapons/pickaxe/wpn_fps_mel_mcdpickaxe/wpn_tps_mel_mcdpickaxe"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/melee_weapons/mcdpickaxe"/>
+		<texture path="units/pd2_mod_craft/weapons/wpn_fps_mel_mcdpickaxe/wpn_fps_mel_mcdpickaxe"/>
+		<unit_tex path="units/pd2_mod_craft/weapons/pickaxe/wpn_fps_mel_mcnpickaxe/wpn_fps_mel_mcnpickaxe"/>
+		<unit_tex path="units/pd2_mod_craft/weapons/pickaxe/wpn_fps_mel_mcnpickaxe/wpn_tps_mel_mcnpickaxe"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/melee_weapons/mcnpickaxe"/>
+		<texture path="units/pd2_mod_craft/weapons/wpn_fps_mel_mcnpickaxe/wpn_fps_mel_mcnpickaxe"/>
 	</AddFiles>
 	<Melee based_on="shovel" dlc="shovelforge_wood" id="mcwshovel" third_unit="units/pd2_mod_craft/weapons/shovel/wpn_fps_mel_mcwshovel/wpn_tps_mel_mcwshovel" unit="units/pd2_mod_craft/weapons/shovel/wpn_fps_mel_mcwshovel/wpn_fps_mel_mcwshovel"/>
 	<Melee based_on="shovel" dlc="shovelforge_stone" id="mcsshovel" third_unit="units/pd2_mod_craft/weapons/shovel/wpn_fps_mel_mcsshovel/wpn_tps_mel_mcsshovel" unit="units/pd2_mod_craft/weapons/shovel/wpn_fps_mel_mcsshovel/wpn_fps_mel_mcsshovel"/>
@@ -192,6 +216,13 @@
 	<Melee based_on="bullseye" dlc="shovelforge_gold" id="mcgaxe" third_unit="units/pd2_mod_craft/weapons/axe/wpn_fps_mel_mcgaxe/wpn_tps_mel_mcgaxe" unit="units/pd2_mod_craft/weapons/axe/wpn_fps_mel_mcgaxe/wpn_fps_mel_mcgaxe"/>
 	<Melee based_on="bullseye" dlc="shovelforge_diamond" id="mcdaxe" third_unit="units/pd2_mod_craft/weapons/axe/wpn_fps_mel_mcdaxe/wpn_tps_mel_mcdaxe" unit="units/pd2_mod_craft/weapons/axe/wpn_fps_mel_mcdaxe/wpn_fps_mel_mcdaxe"/>
 	<Melee based_on="bullseye" dlc="shovelforge_netherite" id="mcnaxe" third_unit="units/pd2_mod_craft/weapons/axe/wpn_fps_mel_mcnaxe/wpn_tps_mel_mcnaxe" unit="units/pd2_mod_craft/weapons/axe/wpn_fps_mel_mcnaxe/wpn_fps_mel_mcnaxe"/>
+	<Melee based_on="mining_pick" dlc="shovelforge_wood" id="mcwpickaxe" third_unit="units/pd2_mod_craft/weapons/pickaxe/wpn_fps_mel_mcwpickaxe/wpn_tps_mel_mcwpickaxe" unit="units/pd2_mod_craft/weapons/pickaxe/wpn_fps_mel_mcwpickaxe/wpn_fps_mel_mcwpickaxe"/>
+	<Melee based_on="mining_pick" dlc="shovelforge_stone" id="mcspickaxe" third_unit="units/pd2_mod_craft/weapons/pickaxe/wpn_fps_mel_mcspickaxe/wpn_tps_mel_mcspickaxe" unit="units/pd2_mod_craft/weapons/pickaxe/wpn_fps_mel_mcspickaxe/wpn_fps_mel_mcspickaxe"/>
+	<Melee based_on="mining_pick" dlc="shovelforge_iron" id="mcipickaxe" third_unit="units/pd2_mod_craft/weapons/pickaxe/wpn_fps_mel_mcipickaxe/wpn_tps_mel_mcipickaxe" unit="units/pd2_mod_craft/weapons/pickaxe/wpn_fps_mel_mcipickaxe/wpn_fps_mel_mcipickaxe"/>
+	<Melee based_on="mining_pick" dlc="shovelforge_gold" id="mcgpickaxe" third_unit="units/pd2_mod_craft/weapons/pickaxe/wpn_fps_mel_mcgpickaxe/wpn_tps_mel_mcgpickaxe" unit="units/pd2_mod_craft/weapons/pickaxe/wpn_fps_mel_mcgpickaxe/wpn_fps_mel_mcgpickaxe"/>
+	<Melee based_on="mining_pick" dlc="shovelforge_diamond" id="mcdpickaxe" third_unit="units/pd2_mod_craft/weapons/pickaxe/wpn_fps_mel_mcdpickaxe/wpn_tps_mel_mcdpickaxe" unit="units/pd2_mod_craft/weapons/pickaxe/wpn_fps_mel_mcdpickaxe/wpn_fps_mel_mcdpickaxe"/>
+	<Melee based_on="mining_pick" dlc="shovelforge_netherite" id="mcnpickaxe" third_unit="units/pd2_mod_craft/weapons/pickaxe/wpn_fps_mel_mcnpickaxe/wpn_tps_mel_mcnpickaxe" unit="units/pd2_mod_craft/weapons/pickaxe/wpn_fps_mel_mcnpickaxe/wpn_fps_mel_mcnpickaxe"/>
+	
 	<Achievements id="mc_branchbank_ach">
 		<achievement id="stone" rank="1"/>
 		<achievement id="iron" rank="2"/>
