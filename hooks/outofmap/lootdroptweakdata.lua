@@ -83,5 +83,4 @@ Hooks:PostHook(LootDropTweakData, "init", "mc_bb_lootdrop_init", function (self,
 		sort_number = 300,
 		category = "dlc"
 	}
-	
 end)
