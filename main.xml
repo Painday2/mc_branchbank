@@ -149,6 +149,12 @@
 	<Melee based_on="mining_pick" dlc="shovelforge_gold" id="mcgpickaxe" third_unit="units/pd2_mod_craft/weapons/pickaxe/wpn_fps_mel_mcgpickaxe/wpn_tps_mel_mcgpickaxe" unit="units/pd2_mod_craft/weapons/pickaxe/wpn_fps_mel_mcgpickaxe/wpn_fps_mel_mcgpickaxe"/>
 	<Melee based_on="mining_pick" dlc="shovelforge_diamond" id="mcdpickaxe" third_unit="units/pd2_mod_craft/weapons/pickaxe/wpn_fps_mel_mcdpickaxe/wpn_tps_mel_mcdpickaxe" unit="units/pd2_mod_craft/weapons/pickaxe/wpn_fps_mel_mcdpickaxe/wpn_fps_mel_mcdpickaxe"/>
 	<Melee based_on="mining_pick" dlc="shovelforge_netherite" id="mcnpickaxe" third_unit="units/pd2_mod_craft/weapons/pickaxe/wpn_fps_mel_mcnpickaxe/wpn_tps_mel_mcnpickaxe" unit="units/pd2_mod_craft/weapons/pickaxe/wpn_fps_mel_mcnpickaxe/wpn_fps_mel_mcnpickaxe"/>
+	<Melee based_on="machete" dlc="shovelforge_wood" id="mcwsword" third_unit="units/pd2_mod_craft/weapons/sword/wpn_fps_mel_mcwsword/wpn_tps_mel_mcwsword" unit="units/pd2_mod_craft/weapons/sword/wpn_fps_mel_mcwsword/wpn_fps_mel_mcwsword"/>
+	<Melee based_on="machete" dlc="shovelforge_stone" id="mcssword" third_unit="units/pd2_mod_craft/weapons/sword/wpn_fps_mel_mcssword/wpn_tps_mel_mcssword" unit="units/pd2_mod_craft/weapons/sword/wpn_fps_mel_mcssword/wpn_fps_mel_mcssword"/>
+	<Melee based_on="machete" dlc="shovelforge_iron" id="mcisword" third_unit="units/pd2_mod_craft/weapons/sword/wpn_fps_mel_mcisword/wpn_tps_mel_mcisword" unit="units/pd2_mod_craft/weapons/sword/wpn_fps_mel_mcisword/wpn_fps_mel_mcisword"/>
+	<Melee based_on="machete" dlc="shovelforge_gold" id="mcgsword" third_unit="units/pd2_mod_craft/weapons/sword/wpn_fps_mel_mcgsword/wpn_tps_mel_mcgsword" unit="units/pd2_mod_craft/weapons/sword/wpn_fps_mel_mcgsword/wpn_fps_mel_mcgsword"/>
+	<Melee based_on="machete" dlc="shovelforge_diamond" id="mcdsword" third_unit="units/pd2_mod_craft/weapons/sword/wpn_fps_mel_mcdsword/wpn_tps_mel_mcdsword" unit="units/pd2_mod_craft/weapons/sword/wpn_fps_mel_mcdsword/wpn_fps_mel_mcdsword"/>
+	<Melee based_on="machete" dlc="shovelforge_netherite" id="mcnsword" third_unit="units/pd2_mod_craft/weapons/sword/wpn_fps_mel_mcnsword/wpn_tps_mel_mcnsword" unit="units/pd2_mod_craft/weapons/sword/wpn_fps_mel_mcnsword/wpn_fps_mel_mcnsword"/>
 	<Achievements id="mc_branchbank_ach">
 		<achievement id="stone" rank="1"/>
 		<achievement id="iron" rank="2"/>

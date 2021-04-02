@@ -107,15 +107,6 @@
 		<texture path="units/pd2_mod_craft/props/textures/red_sandstone"/>
 		<texture path="units/pd2_mod_craft/props/textures/wool_brown"/>
 		<material_config path="units/pd2_mod_craft/material_masterjc" unload="true"/>
-		<model path="units/pd2_mod_craft/props/jewelrystore" unload="true"/>
-		<object path="units/pd2_mod_craft/props/jewelrystore" unload="true"/>
-		<unit path="units/pd2_mod_craft/props/jewelrystore" unload="true"/>
-		<material_config path="units/pd2_mod_craft/props/prop_cube_chest" unload="true"/>
-		<model path="units/pd2_mod_craft/props/prop_cube_chest" unload="true"/>
-		<object path="units/pd2_mod_craft/props/prop_cube_chest" unload="true"/>
-		<sequence_manager force="true" path="units/pd2_mod_craft/props/prop_cube_chest" unload="true"/>
-		<texture path="units/pd2_mod_craft/props/prop_cube_chest_df" unload="true"/>
-		<unit path="units/pd2_mod_craft/props/prop_cube_chest" unload="true"/>
 		<material_config path="units/pd2_mod_craft/props/prop_cube_chest_iron" unload="true"/>
 		<model path="units/pd2_mod_craft/props/prop_cube_chest_iron" unload="true"/>
 		<object path="units/pd2_mod_craft/props/prop_cube_chest_iron" unload="true"/>
@@ -133,18 +124,7 @@
 		<model path="units/pd2_mod_craft/props/prop_cube_glass_int" unload="true"/>
 		<object path="units/pd2_mod_craft/props/prop_cube_glass_int" unload="true"/>
 		<sequence_manager force="true" path="units/pd2_mod_craft/props/prop_cube_glass_int" unload="true"/>
-		<texture path="units/pd2_mod_craft/props/prop_cube_glass_df" unload="true"/>
 		<unit path="units/pd2_mod_craft/props/prop_cube_glass_int" unload="true"/>
-		<material_config path="units/pd2_mod_craft/props/prop_cube_ladder" unload="true"/>
-		<model path="units/pd2_mod_craft/props/prop_cube_ladder" unload="true"/>
-		<object path="units/pd2_mod_craft/props/prop_cube_ladder" unload="true"/>
-		<texture path="units/pd2_mod_craft/props/prop_cube_ladder_df" unload="true"/>
-		<unit path="units/pd2_mod_craft/props/prop_cube_ladder" unload="true"/>
-		<material_config path="units/pd2_mod_craft/props/prop_cube_glass" unload="true"/>
-		<model path="units/pd2_mod_craft/props/prop_cube_glass" unload="true"/>
-		<object path="units/pd2_mod_craft/props/prop_cube_glass" unload="true"/>
-		<texture path="units/pd2_mod_craft/props/prop_cube_glass_df" unload="true"/>
-		<unit path="units/pd2_mod_craft/props/prop_cube_glass" unload="true"/>
 		<model path="units/pd2_mod_craft/props/stick"/>
 		<object path="units/pd2_mod_craft/props/stick"/>
 		<texture path="units/pd2_mod_craft/props/textures/stick"/>
@@ -156,17 +136,6 @@
 		<object path="units/pd2_mod_craft/props/cobblestone_int"/>
 		<sequence_manager force="true" path="units/pd2_mod_craft/props/cobblestone_int"/>
 		<texture path="units/pd2_mod_craft/props/textures/cobblestone"/>
-		<unit path="units/pd2_mod_craft/props/chest"/>
-		<material_config path="units/pd2_mod_craft/props/chest"/>
-		<model path="units/pd2_mod_craft/props/chest"/>
-		<object path="units/pd2_mod_craft/props/chest"/>
-		<sequence_manager force="true" path="units/pd2_mod_craft/props/chest"/>
-		<texture path="units/pd2_mod_craft/props/chest"/>
-		<material_config path="units/pd2_mod_craft/props/prop_cube_brick" unload="true"/>
-		<model path="units/pd2_mod_craft/props/prop_cube_brick" unload="true"/>
-		<object path="units/pd2_mod_craft/props/prop_cube_brick" unload="true"/>
-		<texture path="units/pd2_mod_craft/props/prop_cube_brick_df" unload="true"/>
-		<unit path="units/pd2_mod_craft/props/prop_cube_brick" unload="true"/>
 		<unit path="units/pd2_mod_craft/props/prop_cube_oak_door"/>
 		<material_config path="units/pd2_mod_craft/props/prop_cube_oak_door"/>
 		<model path="units/pd2_mod_craft/props/prop_cube_oak_door"/>
@@ -179,22 +148,6 @@
 		<object path="units/pd2_mod_craft/props/prop_cube_iron_door"/>
 		<sequence_manager force="true" path="units/pd2_mod_craft/props/prop_cube_iron_door"/>
 		<texture path="units/pd2_mod_craft/props/prop_cube_iron_door_df"/>
-		<unit path="units/pd2_mod_craft/props/prop_cube_tnt"/>
-		<material_config path="units/pd2_mod_craft/props/prop_cube_tnt"/>
-		<model path="units/pd2_mod_craft/props/prop_cube_tnt"/>
-		<object path="units/pd2_mod_craft/props/prop_cube_tnt"/>
-		<texture path="units/pd2_mod_craft/props/prop_cube_tnt_df"/>
-		<unit path="units/pd2_mod_craft/props/sand_int" />
-		<material_config path="units/pd2_mod_craft/props/sand_int" />
-		<model path="units/pd2_mod_craft/props/sand_int" />
-		<object path="units/pd2_mod_craft/props/sand_int" />
-		<sequence_manager force="true" path="units/pd2_mod_craft/props/sand_int" />
-		<texture path="units/pd2_mod_craft/props/textures/sand" />
-		<model path="units/pd2_mod_craft/props/mc_pku_gunpowder" unload="true"/>
-		<object path="units/pd2_mod_craft/props/mc_pku_gunpowder" unload="true"/>
-		<texture path="units/pd2_mod_craft/props/textures/gunpowder" unload="true"/>
-		<unit path="units/pd2_mod_craft/props/mc_pku_gunpowder" unload="true"/>
-		<sequence_manager force="true" path="units/pd2_mod_craft/props/mc_pku_gunpowder"/>
 	</add>
 	<add>
 		<material_config path="units/pd2_mod_craft/props/prop_cube_crafting_table" unload="true"/>

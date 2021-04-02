@@ -72,5 +72,29 @@
 		<unit_mat path="units/pd2_mod_craft/weapons/pickaxe/wpn_fps_mel_mcnpickaxe/wpn_tps_mel_mcnpickaxe"/>
 		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/melee_weapons/mcnpickaxe"/>
 		<texture path="units/pd2_mod_craft/weapons/pickaxe/wpn_fps_mel_mcnpickaxe/wpn_fps_mel_mcnpickaxe_df"/>
+		<unit_mat path="units/pd2_mod_craft/weapons/sword/wpn_fps_mel_mcwsword/wpn_fps_mel_mcwsword"/>
+		<unit_mat path="units/pd2_mod_craft/weapons/sword/wpn_fps_mel_mcwsword/wpn_tps_mel_mcwsword"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/melee_weapons/mcwsword"/>
+		<texture path="units/pd2_mod_craft/weapons/sword/wpn_fps_mel_mcwsword/wpn_fps_mel_mcwsword_df"/>
+		<unit_mat path="units/pd2_mod_craft/weapons/sword/wpn_fps_mel_mcssword/wpn_fps_mel_mcssword"/>
+		<unit_mat path="units/pd2_mod_craft/weapons/sword/wpn_fps_mel_mcssword/wpn_tps_mel_mcssword"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/melee_weapons/mcssword"/>
+		<texture path="units/pd2_mod_craft/weapons/sword/wpn_fps_mel_mcssword/wpn_fps_mel_mcssword_df"/>
+		<unit_mat path="units/pd2_mod_craft/weapons/sword/wpn_fps_mel_mcisword/wpn_fps_mel_mcisword"/>
+		<unit_mat path="units/pd2_mod_craft/weapons/sword/wpn_fps_mel_mcisword/wpn_tps_mel_mcisword"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/melee_weapons/mcisword"/>
+		<texture path="units/pd2_mod_craft/weapons/sword/wpn_fps_mel_mcisword/wpn_fps_mel_mcisword_df"/>
+		<unit_mat path="units/pd2_mod_craft/weapons/sword/wpn_fps_mel_mcgsword/wpn_fps_mel_mcgsword"/>
+		<unit_mat path="units/pd2_mod_craft/weapons/sword/wpn_fps_mel_mcgsword/wpn_tps_mel_mcgsword"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/melee_weapons/mcgsword"/>
+		<texture path="units/pd2_mod_craft/weapons/sword/wpn_fps_mel_mcgsword/wpn_fps_mel_mcgsword_df"/>
+		<unit_mat path="units/pd2_mod_craft/weapons/sword/wpn_fps_mel_mcdsword/wpn_fps_mel_mcdsword"/>
+		<unit_mat path="units/pd2_mod_craft/weapons/sword/wpn_fps_mel_mcdsword/wpn_tps_mel_mcdsword"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/melee_weapons/mcdsword"/>
+		<texture path="units/pd2_mod_craft/weapons/sword/wpn_fps_mel_mcdsword/wpn_fps_mel_mcdsword_df"/>
+		<unit_mat path="units/pd2_mod_craft/weapons/sword/wpn_fps_mel_mcnsword/wpn_fps_mel_mcnsword"/>
+		<unit_mat path="units/pd2_mod_craft/weapons/sword/wpn_fps_mel_mcnsword/wpn_tps_mel_mcnsword"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/melee_weapons/mcnsword"/>
+		<texture path="units/pd2_mod_craft/weapons/sword/wpn_fps_mel_mcnsword/wpn_fps_mel_mcnsword_df"/>
 	</add>
 </table>
