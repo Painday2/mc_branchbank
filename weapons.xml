@@ -96,5 +96,29 @@
 		<unit_mat path="units/pd2_mod_craft/weapons/sword/wpn_fps_mel_mcnsword/wpn_tps_mel_mcnsword"/>
 		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/melee_weapons/mcnsword"/>
 		<texture path="units/pd2_mod_craft/weapons/sword/wpn_fps_mel_mcnsword/wpn_fps_mel_mcnsword_df"/>
+		<unit_mat path="units/pd2_mod_craft/weapons/hoe/wpn_fps_mel_mcwhoe/wpn_fps_mel_mcwhoe"/>
+		<unit_mat path="units/pd2_mod_craft/weapons/hoe/wpn_fps_mel_mcwhoe/wpn_tps_mel_mcwhoe"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/melee_weapons/mcwhoe"/>
+		<texture path="units/pd2_mod_craft/weapons/hoe/wpn_fps_mel_mcwhoe/wpn_fps_mel_mcwhoe_df"/>
+		<unit_mat path="units/pd2_mod_craft/weapons/hoe/wpn_fps_mel_mcshoe/wpn_fps_mel_mcshoe"/>
+		<unit_mat path="units/pd2_mod_craft/weapons/hoe/wpn_fps_mel_mcshoe/wpn_tps_mel_mcshoe"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/melee_weapons/mcshoe"/>
+		<texture path="units/pd2_mod_craft/weapons/hoe/wpn_fps_mel_mcshoe/wpn_fps_mel_mcshoe_df"/>
+		<unit_mat path="units/pd2_mod_craft/weapons/hoe/wpn_fps_mel_mcihoe/wpn_fps_mel_mcihoe"/>
+		<unit_mat path="units/pd2_mod_craft/weapons/hoe/wpn_fps_mel_mcihoe/wpn_tps_mel_mcihoe"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/melee_weapons/mcihoe"/>
+		<texture path="units/pd2_mod_craft/weapons/hoe/wpn_fps_mel_mcihoe/wpn_fps_mel_mcihoe_df"/>
+		<unit_mat path="units/pd2_mod_craft/weapons/hoe/wpn_fps_mel_mcghoe/wpn_fps_mel_mcghoe"/>
+		<unit_mat path="units/pd2_mod_craft/weapons/hoe/wpn_fps_mel_mcghoe/wpn_tps_mel_mcghoe"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/melee_weapons/mcghoe"/>
+		<texture path="units/pd2_mod_craft/weapons/hoe/wpn_fps_mel_mcghoe/wpn_fps_mel_mcghoe_df"/>
+		<unit_mat path="units/pd2_mod_craft/weapons/hoe/wpn_fps_mel_mcdhoe/wpn_fps_mel_mcdhoe"/>
+		<unit_mat path="units/pd2_mod_craft/weapons/hoe/wpn_fps_mel_mcdhoe/wpn_tps_mel_mcdhoe"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/melee_weapons/mcdhoe"/>
+		<texture path="units/pd2_mod_craft/weapons/hoe/wpn_fps_mel_mcdhoe/wpn_fps_mel_mcdhoe_df"/>
+		<unit_mat path="units/pd2_mod_craft/weapons/hoe/wpn_fps_mel_mcnhoe/wpn_fps_mel_mcnhoe"/>
+		<unit_mat path="units/pd2_mod_craft/weapons/hoe/wpn_fps_mel_mcnhoe/wpn_tps_mel_mcnhoe"/>
+		<texture path="guis/dlcs/mods/textures/pd2/blackmarket/icons/melee_weapons/mcnhoe"/>
+		<texture path="units/pd2_mod_craft/weapons/hoe/wpn_fps_mel_mcnhoe/wpn_fps_mel_mcnhoe_df"/>
 	</add>
 </table>

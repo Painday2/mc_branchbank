@@ -155,6 +155,12 @@
 	<Melee based_on="machete" dlc="shovelforge_gold" id="mcgsword" third_unit="units/pd2_mod_craft/weapons/sword/wpn_fps_mel_mcgsword/wpn_tps_mel_mcgsword" unit="units/pd2_mod_craft/weapons/sword/wpn_fps_mel_mcgsword/wpn_fps_mel_mcgsword"/>
 	<Melee based_on="machete" dlc="shovelforge_diamond" id="mcdsword" third_unit="units/pd2_mod_craft/weapons/sword/wpn_fps_mel_mcdsword/wpn_tps_mel_mcdsword" unit="units/pd2_mod_craft/weapons/sword/wpn_fps_mel_mcdsword/wpn_fps_mel_mcdsword"/>
 	<Melee based_on="machete" dlc="shovelforge_netherite" id="mcnsword" third_unit="units/pd2_mod_craft/weapons/sword/wpn_fps_mel_mcnsword/wpn_tps_mel_mcnsword" unit="units/pd2_mod_craft/weapons/sword/wpn_fps_mel_mcnsword/wpn_fps_mel_mcnsword"/>
+	<Melee based_on="iceaxe" dlc="shovelforge_wood" id="mcwhoe" third_unit="units/pd2_mod_craft/weapons/hoe/wpn_fps_mel_mcwhoe/wpn_tps_mel_mcwhoe" unit="units/pd2_mod_craft/weapons/hoe/wpn_fps_mel_mcwhoe/wpn_fps_mel_mcwhoe"/>
+	<Melee based_on="iceaxe" dlc="shovelforge_stone" id="mcshoe" third_unit="units/pd2_mod_craft/weapons/hoe/wpn_fps_mel_mcshoe/wpn_tps_mel_mcshoe" unit="units/pd2_mod_craft/weapons/hoe/wpn_fps_mel_mcshoe/wpn_fps_mel_mcshoe"/>
+	<Melee based_on="iceaxe" dlc="shovelforge_iron" id="mcihoe" third_unit="units/pd2_mod_craft/weapons/hoe/wpn_fps_mel_mcihoe/wpn_tps_mel_mcihoe" unit="units/pd2_mod_craft/weapons/hoe/wpn_fps_mel_mcihoe/wpn_fps_mel_mcihoe"/>
+	<Melee based_on="iceaxe" dlc="shovelforge_gold" id="mcghoe" third_unit="units/pd2_mod_craft/weapons/hoe/wpn_fps_mel_mcghoe/wpn_tps_mel_mcghoe" unit="units/pd2_mod_craft/weapons/hoe/wpn_fps_mel_mcghoe/wpn_fps_mel_mcghoe"/>
+	<Melee based_on="iceaxe" dlc="shovelforge_diamond" id="mcdhoe" third_unit="units/pd2_mod_craft/weapons/hoe/wpn_fps_mel_mcdhoe/wpn_tps_mel_mcdhoe" unit="units/pd2_mod_craft/weapons/hoe/wpn_fps_mel_mcdhoe/wpn_fps_mel_mcdhoe"/>
+	<Melee based_on="iceaxe" dlc="shovelforge_netherite" id="mcnhoe" third_unit="units/pd2_mod_craft/weapons/hoe/wpn_fps_mel_mcnhoe/wpn_tps_mel_mcnhoe" unit="units/pd2_mod_craft/weapons/hoe/wpn_fps_mel_mcnhoe/wpn_fps_mel_mcnhoe"/>
 	<Achievements id="mc_branchbank_ach">
 		<achievement id="stone" rank="1"/>
 		<achievement id="iron" rank="2"/>
