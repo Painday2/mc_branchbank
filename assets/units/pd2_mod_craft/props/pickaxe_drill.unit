@@ -21,7 +21,7 @@
 		</extension>
 		<extension name="timer_gui" class="TimerGui">
 			<var name="_gui_object" 		value="timer_gui" />
-			<var name="_jammed_tweak_data" 	value="drill_jammed" />
+			<var name="_jammed_tweak_data" 	value="mc_pickaxe_drill_jammed" />
 			<var name="_upgrade_tweak_data" value="drill_upgrade" />
 			<var name="_start_event" 		value="drill" />
 			<var name="_jam_event" 			value="drill_jam" />

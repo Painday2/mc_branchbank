@@ -1,4 +1,7 @@
 <table global_key="mc_branchbank" name="mc_branchbank">
+	<Dependencies>
+		<dependency name="MCLib"/>
+	</Dependencies>
 	<level ai_group_type="minecraft" id="crafting_station_bb" max_bags="54">
 		<add file="levels/crafting_station_bb/add.xml"/>
 		<hooks directory="hooks">
@@ -91,21 +94,6 @@
 			<hook file="timergui.lua" source_file="lib/units/props/timergui"/>
 			<hook file="setup.lua" source_file="lib/setups/gamesetup"/>
 		</hooks>
-		<include directory="levels/mc_branchbank">
-			<file file="world.world" type="binary"/>
-			<file file="continents.continents" type="binary"/>
-			<file file="mission.mission" type="binary"/>
-			<file file="nav_manager_data.nav_data" type="binary"/>
-			<file file="world_sounds.world_sounds" type="binary"/>
-			<file file="world_cameras.world_cameras" type="binary"/>
-			<file file="editor_only/editor_only.continent" type="binary"/>
-			<file file="editor_only/editor_only.mission" type="binary"/>
-			<file file="world/world.continent" type="binary"/>
-			<file file="world/world.mission" type="binary"/>
-			<file file="cover_data.cover_data" type="binary"/>
-			<file file="environments/mc_bb_dark.environment" type="custom_xml"/>
-			<file file="environments/default.environment" type="custom_xml"/>
-		</include>
 		<packages>
 			<value_node value="levels/instances/unique/sub_sewer_sidespawn/world/world"/>
 			<value_node value="levels/narratives/elephant/born/editor_only/editor_only"/>
@@ -124,10 +112,6 @@
 			</mod>
 		</script_data_mods>
 	</level>
-	<AddFiles directory="assets">
-		<font force="true" load="true" path="fonts/minecraft"/>
-		<texture force="true" load="true" path="fonts/minecraft"/>
-	</AddFiles>
 	<Achievements id="mc_branchbank_ach">
 		<achievement id="stone" rank="1"/>
 		<achievement id="iron" rank="2"/>
@@ -135,6 +119,10 @@
 		<achievement id="diamond" rank="3"/>
 		<achievement id="netherite" rank="4"/>
 	</Achievements>
+	<AddFiles directory="assets">
+		<font force="true" load="true" path="fonts/minecraft"/>
+		<texture force="true" load="true" path="fonts/minecraft"/>
+	</AddFiles>
 	<Localization default="english.txt" directory="loc">
 		<loc file="english.txt" language="english"/>
 	</Localization>

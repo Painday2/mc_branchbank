@@ -220,6 +220,7 @@ function CraftMenu:_init_craft_gui()
         amount = 0,
         on_callback = function(item)
             log("inv 1 was pressed!")
+            MCcrafting:checkRecipe()
         end
     })
 
@@ -355,10 +356,10 @@ function CraftMenu:toggle()
 end
 --MCcrafting.Menu:SetInventory()
 function CraftMenu:SetInventory()
-    for i,v in pairs(MCcrafting._items) do
+    --[[for i,v in pairs(MCcrafting._items) do
         self.InventorySlot[i].amount = self.InventorySlot[i].amount + v
     end
     for i, v in pairs(self.InventorySlotNumbers) do
         self.InventorySlotNumbers[i]:SetText(self.InventorySlot[i].amount)
-    end
+    end]]
 end

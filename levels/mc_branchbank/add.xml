@@ -724,16 +724,16 @@
 		<unit path="units/pd2_mod_craft/props/diamond_pickaxe"/>
 		<model path="units/pd2_mod_craft/props/diamond_pickaxe"/>
 		<object path="units/pd2_mod_craft/props/diamond_pickaxe"/>
-		<unit path="units/pd2_mod_craft/bankarch/navmesh" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/bankarch/navmesh" unload="true"/>
 		<object path="units/pd2_mod_craft/bankarch/navmesh" unload="true"/>
 		<model path="units/pd2_mod_craft/bankarch/navmesh" unload="true"/>
-		<unit path="units/pd2_mod_craft/props/eye_of_ender" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/props/eye_of_ender" unload="true"/>
 		<object path="units/pd2_mod_craft/props/eye_of_ender" unload="true"/>
 		<model path="units/pd2_mod_craft/props/eye_of_ender" unload="true"/>
-		<unit path="units/pd2_mod_craft/props/smithing_table" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/props/smithing_table" unload="true"/>
 		<object path="units/pd2_mod_craft/props/smithing_table" unload="true"/>
 		<model path="units/pd2_mod_craft/props/smithing_table" unload="true"/>
-		<unit path="units/pd2_mod_craft/props/smoker" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/props/smoker" unload="true"/>
 		<object path="units/pd2_mod_craft/props/smoker" unload="true"/>
 		<model path="units/pd2_mod_craft/props/smoker" unload="true"/>
 		<material_config path="units/pd2_mod_craft/props/prop_cube_ender_chest" unload="true"/>
@@ -769,49 +769,49 @@
 		<object path="units/pd2_mod_craft/props/axe"/>
 		<unit path="units/pd2_mod_craft/props/axe"/>
 		<model path="units/pd2_mod_craft/props/axe"/>
-		<unit path="units/pd2_mod_craft/props/deposit/clock" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/props/deposit/clock" unload="true"/>
 		<object path="units/pd2_mod_craft/props/deposit/clock" unload="true"/>
 		<model path="units/pd2_mod_craft/props/deposit/clock" unload="true"/>
-		<unit path="units/pd2_mod_craft/props/deposit/compass" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/props/deposit/compass" unload="true"/>
 		<object path="units/pd2_mod_craft/props/deposit/compass" unload="true"/>
 		<model path="units/pd2_mod_craft/props/deposit/compass" unload="true"/>
-		<unit path="units/pd2_mod_craft/props/deposit/elytra" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/props/deposit/elytra" unload="true"/>
 		<object path="units/pd2_mod_craft/props/deposit/elytra" unload="true"/>
 		<model path="units/pd2_mod_craft/props/deposit/elytra" unload="true"/>
-		<unit path="units/pd2_mod_craft/props/deposit/goldenapple" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/props/deposit/goldenapple" unload="true"/>
 		<object path="units/pd2_mod_craft/props/deposit/goldenapple" unload="true"/>
 		<model path="units/pd2_mod_craft/props/deposit/goldenapple" unload="true"/>
-		<unit path="units/pd2_mod_craft/props/deposit/goldencarrot" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/props/deposit/goldencarrot" unload="true"/>
 		<object path="units/pd2_mod_craft/props/deposit/goldencarrot" unload="true"/>
 		<model path="units/pd2_mod_craft/props/deposit/goldencarrot" unload="true"/>
-		<unit path="units/pd2_mod_craft/props/deposit/goldnugget" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/props/deposit/goldnugget" unload="true"/>
 		<object path="units/pd2_mod_craft/props/deposit/goldnugget" unload="true"/>
 		<model path="units/pd2_mod_craft/props/deposit/goldnugget" unload="true"/>
-		<unit path="units/pd2_mod_craft/props/deposit/horsearmor" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/props/deposit/horsearmor" unload="true"/>
 		<object path="units/pd2_mod_craft/props/deposit/horsearmor" unload="true"/>
 		<model path="units/pd2_mod_craft/props/deposit/horsearmor" unload="true"/>
-		<unit path="units/pd2_mod_craft/props/deposit/ironnugget" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/props/deposit/ironnugget" unload="true"/>
 		<object path="units/pd2_mod_craft/props/deposit/ironnugget" unload="true"/>
 		<model path="units/pd2_mod_craft/props/deposit/ironnugget" unload="true"/>
-		<unit path="units/pd2_mod_craft/props/deposit/musicdisk" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/props/deposit/musicdisk" unload="true"/>
 		<object path="units/pd2_mod_craft/props/deposit/musicdisk" unload="true"/>
 		<model path="units/pd2_mod_craft/props/deposit/musicdisk" unload="true"/>
-		<unit path="units/pd2_mod_craft/props/deposit/netherstar" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/props/deposit/netherstar" unload="true"/>
 		<object path="units/pd2_mod_craft/props/deposit/netherstar" unload="true"/>
 		<model path="units/pd2_mod_craft/props/deposit/netherstar" unload="true"/>
-		<unit path="units/pd2_mod_craft/props/deposit/potion" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/props/deposit/potion" unload="true"/>
 		<object path="units/pd2_mod_craft/props/deposit/potion" unload="true"/>
 		<model path="units/pd2_mod_craft/props/deposit/potion" unload="true"/>
-		<unit path="units/pd2_mod_craft/props/deposit/quartz" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/props/deposit/quartz" unload="true"/>
 		<object path="units/pd2_mod_craft/props/deposit/quartz" unload="true"/>
 		<model path="units/pd2_mod_craft/props/deposit/quartz" unload="true"/>
-		<unit path="units/pd2_mod_craft/props/deposit/totemofundying" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/props/deposit/totemofundying" unload="true"/>
 		<object path="units/pd2_mod_craft/props/deposit/totemofundying" unload="true"/>
 		<model path="units/pd2_mod_craft/props/deposit/totemofundying" unload="true"/>
-		<unit path="units/pd2_mod_craft/props/deposit/kitteh" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/props/deposit/kitteh" unload="true"/>
 		<object path="units/pd2_mod_craft/props/deposit/kitteh" unload="true"/>
 		<model path="units/pd2_mod_craft/props/deposit/kitteh" unload="true"/>
-		<unit path="units/pd2_mod_craft/props/blastfurnace" unload="true" load="true" />
+		<unit load="true" path="units/pd2_mod_craft/props/blastfurnace" unload="true"/>
 		<object path="units/pd2_mod_craft/props/blastfurnace" unload="true"/>
 		<model path="units/pd2_mod_craft/props/blastfurnace" unload="true"/>
 		<texture path="units/pd2_mod_craft/props/textures/kitteh"/>
@@ -919,13 +919,47 @@
 		<unit load="true" path="units/pd2_mod_craft/props/pickaxe_drill" unload="true"/>
 	</add>
 	<add path="units/payday2/equipment/gen_interactable_drill_small/gen_interactable_drill_small" type="unit">
-		<unit path="units/payday2/equipment/gen_interactable_drill_small/gen_interactable_drill_small" unload="true"/>
-		<object path="units/payday2/equipment/gen_interactable_drill_small/gen_interactable_drill_small" unload="true"/>
-		<material_config path="units/payday2/equipment/gen_interactable_drill_small/gen_interactable_drill_small" unload="true"/>
-		<sequence_manager path="units/payday2/equipment/gen_interactable_drill_small/gen_interactable_drill_small" unload="true"/>
-		<bnk path="soundbanks/regular_sfx" unload="true"/>
-		<gui path="guis/timer_gui" force="true" load="true" unload="true"/>
-		<texture path="guis/textures/drill_screen_background" force="true"/>
+		<texture force="true" path="guis/textures/drill_screen_background"/>
 		<texture path="guis/textures/Crafting_Table_GUI"/>
+		<bnk path="soundbanks/regular_sfx" unload="true"/>
+		<gui force="true" load="true" path="guis/timer_gui" unload="true"/>
+		<material_config path="units/payday2/equipment/gen_interactable_drill_small/gen_interactable_drill_small" unload="true"/>
+		<object path="units/payday2/equipment/gen_interactable_drill_small/gen_interactable_drill_small" unload="true"/>
+		<sequence_manager path="units/payday2/equipment/gen_interactable_drill_small/gen_interactable_drill_small" unload="true"/>
+		<unit path="units/payday2/equipment/gen_interactable_drill_small/gen_interactable_drill_small" unload="true"/>
+	</add>
+	<add from_db="true" path="units/world/architecture/secret_stash/props/secret_stash_props_trash_3" type="unit">
+		<material_config path="units/world/architecture/secret_stash/secret_stash_trash" unload="true"/>
+		<object path="units/world/architecture/secret_stash/props/secret_stash_props_trash_3" unload="true"/>
+		<unit path="units/world/architecture/secret_stash/props/secret_stash_props_trash_3" unload="true"/>
+	</add>
+	<add from_db="true" path="units/payday2/characters/civ_male_casual_1/civ_male_casual_1" type="unit">
+		<unit path="units/payday2/characters/civ_male_casual_1/civ_male_casual_1" unload="true"/>
+		<animation_state_machine path="anims/units/enemies/cop/cop_machine" unload="true"/>
+		<animation_states path="anims/units/enemies/cop/std" unload="true"/>
+		<animation_states path="anims/units/enemies/cop/civilian" unload="true"/>
+		<object path="units/payday2/characters/civ_male_casual_1/civ_male_casual_1" unload="true"/>
+		<material_config path="units/payday2/characters/civ_male_casual_1/civ_male_casual_1" unload="true"/>
+		<sequence_manager path="units/payday2/characters/ragdoll" unload="true"/>
+		<animation_def path="anims/units/enemies/cop/cop_def" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/std" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/neutral_legs" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/neutral_rifle" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/neutral_pistol" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/hostile_legs" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/hostile_rifle" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/hostile_pistol" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/combat_legs" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/combat_rifle" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/combat_pistol" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/combat_shield" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/civilian" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/hostile_akimbo_pistol" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/combat_akimbo_pistol" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/hostile_bow" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/combat_bow" unload="true"/>
+		<animation_subset path="anims/units/enemies/cop/combat_bullpup" unload="true"/>
+		<bnk path="soundbanks/regular_vox" unload="true"/>
+		<unit load="true" path="units/payday2/characters/civ_male_casual_1/civ_male_casual_1_husk" unload="true"/>
 	</add>
 </table>

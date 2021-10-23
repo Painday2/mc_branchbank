@@ -195,7 +195,7 @@ Hooks:PostHook(InteractionTweakData, "init", "init_jewelry_int", function(self, 
 	}
 	
 	self.axe_deposit = {
-		text_id = "hud_int_equipment_axe",
+		text_id = "hud_int_hold_deposit",
 		equipment_text_id = "hud_int_equipment_need_axe",
 		special_equipment = "axe",
 		equipment_consume = false,
@@ -203,5 +203,18 @@ Hooks:PostHook(InteractionTweakData, "init", "init_jewelry_int", function(self, 
 		sound_done = "mc_place_block",
 		axis = "y",
 		action_text_id = "hud_action_opening_deposit"
+	}
+
+	self.mc_pickaxe_drill_jammed = {
+		text_id = "hud_int_equipment_mc_pickaxe_drill_jammed",
+		action_text_id = "hud_action_fixing_mc_pickaxe_drill",
+		special_equipment = "lava_bucket",
+		equipment_text_id = "hud_int_equipment_no_lava_bucket",
+		blocked_hint = "no_lava_bucket",
+		equipment_consume = true,
+		timer = 10,
+		sound_start = "bar_huge_lance_fix",
+		sound_interupt = "bar_huge_lance_fix_cancel",
+		sound_done = "bar_huge_lance_fix_finished"
 	}
 end)
