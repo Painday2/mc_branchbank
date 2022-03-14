@@ -935,13 +935,8 @@
 	</add>
 	<add from_db="true" path="units/payday2/characters/civ_male_casual_1/civ_male_casual_1" type="unit">
 		<unit path="units/payday2/characters/civ_male_casual_1/civ_male_casual_1" unload="true"/>
-		<animation_state_machine path="anims/units/enemies/cop/cop_machine" unload="true"/>
 		<animation_states path="anims/units/enemies/cop/std" unload="true"/>
 		<animation_states path="anims/units/enemies/cop/civilian" unload="true"/>
-		<object path="units/payday2/characters/civ_male_casual_1/civ_male_casual_1" unload="true"/>
-		<material_config path="units/payday2/characters/civ_male_casual_1/civ_male_casual_1" unload="true"/>
-		<sequence_manager path="units/payday2/characters/ragdoll" unload="true"/>
-		<animation_def path="anims/units/enemies/cop/cop_def" unload="true"/>
 		<animation_subset path="anims/units/enemies/cop/std" unload="true"/>
 		<animation_subset path="anims/units/enemies/cop/neutral_legs" unload="true"/>
 		<animation_subset path="anims/units/enemies/cop/neutral_rifle" unload="true"/>
@@ -959,7 +954,16 @@
 		<animation_subset path="anims/units/enemies/cop/hostile_bow" unload="true"/>
 		<animation_subset path="anims/units/enemies/cop/combat_bow" unload="true"/>
 		<animation_subset path="anims/units/enemies/cop/combat_bullpup" unload="true"/>
-		<bnk path="soundbanks/regular_vox" unload="true"/>
 		<unit load="true" path="units/payday2/characters/civ_male_casual_1/civ_male_casual_1_husk" unload="true"/>
+		<animation_def path="anims/units/enemies/cop/cop_def" unload="true"/>
+		<animation_state_machine path="anims/units/enemies/cop/cop_machine" unload="true"/>
+		<bnk path="soundbanks/regular_vox" unload="true"/>
+		<material_config path="units/payday2/characters/civ_male_casual_1/civ_male_casual_1" unload="true"/>
+		<object path="units/payday2/characters/civ_male_casual_1/civ_male_casual_1" unload="true"/>
+		<sequence_manager path="units/payday2/characters/ragdoll" unload="true"/>
+	</add>
+	<add from_db="true" path="core/environments/skies/default/default" type="scene">
+		<scene path="core/environments/skies/default/default"/>
+		<material_config path="core/environments/skies/sky_cloudy_blue/sky_cloudy_blue"/>
 	</add>
 </table>

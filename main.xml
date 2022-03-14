@@ -1,6 +1,6 @@
 <table global_key="mc_branchbank" name="mc_branchbank">
 	<Dependencies>
-		<dependency name="MCLib"/>
+		<Dependency name="MCLib" min_ver="1.0" id="34489" provider="modworkshop"/>
 	</Dependencies>
 	<level ai_group_type="minecraft" id="crafting_station_bb" max_bags="54">
 		<add file="levels/crafting_station_bb/add.xml"/>
