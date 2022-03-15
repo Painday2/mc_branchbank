@@ -1568,13 +1568,13 @@
 			<unit_data _prev_pos="-1986.23 -3915.38 350.002" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="7.93848 178.11 -0.000244141" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_16x3m" name_id="dev_nav_splitter_16x3m_012" only_exists_in_editor="true" position="-1836.23 -3915.38 350.002" rotation="0 0 -0.707107 -0.707107" unit_id="100509"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-1658.12 -3923.32 350.002" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_2x3m" name_id="dev_nav_blocker_2x3m_025" only_exists_in_editor="true" position="-1658.12 -5373.32 350.002" rotation="0 0 -0.707107 -0.707107" unit_id="100510"/>
+			<unit_data _prev_pos="-208.12 -5373.32 350.002" _prev_rot="0 0 -0.707107 -0.707107" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_2x3m" name_id="dev_nav_blocker_2x3m_025" only_exists_in_editor="true" position="-108.12 -5373.32 350.002" rotation="0 0 -0.707107 -0.707107" unit_id="100510"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-3433.12 -3923.32 350.002" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 1775 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_2x3m" name_id="dev_nav_blocker_2x3m_026" only_exists_in_editor="true" position="-3433.12 -5373.32 350.002" rotation="0 0 -0.707107 -0.707107" unit_id="100511"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-1836.23 -3915.38 350.002" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="7.93848 178.11 -0.000244141" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_16x3m" name_id="dev_nav_splitter_16x3m_013" only_exists_in_editor="true" position="-1836.23 -5365.38 350.002" rotation="0 0 -0.707107 -0.707107" unit_id="100512"/>
+			<unit_data _prev_pos="-386.23 -5365.38 350.002" _prev_rot="0 0 -0.707107 -0.707107" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_16x3m" name_id="dev_nav_splitter_16x3m_013" only_exists_in_editor="true" position="-236.23 -5365.38 350.002" rotation="0 0 -0.707107 -0.707107" unit_id="100512"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-283.117 -2623.32 350.002" _prev_rot="0 0 1 -0" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_nav_blocker/dev_nav_blocker_2x3m" name_id="dev_nav_blocker_2x3m_027" only_exists_in_editor="true" position="-283.117 -1898.32 350.002" rotation="0 0 1 -0" unit_id="100513"/>
@@ -2195,7 +2195,7 @@
 			<unit_data _prev_pos="2276.32 6649.68 350.429" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/props/smithing_table" name_id="smithing_table_001" position="2275 6650 350" rotation="-0 0 -0 -1" unit_id="100735"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-4621 -49 350" _prev_rot="-0 0 -0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/props/smoker" name_id="smoker_001" position="-4625 -49 350" rotation="-0 0 -0 -1" unit_id="100736"/>
+			<unit_data _prev_pos="-4625 -49 350" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/props/smoker" name_id="smoker_001" position="-4625 -50 350" rotation="-0 0 -0 -1" unit_id="100736"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-825.875 -3885.2 349.999" _prev_rot="0 0 -0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_4x3m" name_id="dev_bag_collision_4x3m_003" only_visible_in_editor="true" position="-821.875 -3885.2 349.999" rotation="0 0 -0.707107 -0.707107" unit_id="100579"/>
@@ -2303,7 +2303,7 @@
 			<unit_data _prev_pos="475 1625 350" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="100 0 -200" local_rot="0 0 0 1" name="units/pd2_mod_craft/props/prop_cube_obsidian" name_id="prop_cube_obsidian_012" position="475 1850 350" rotation="0 0 0.707107 -0.707107" unit_id="100765"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="475 1625 450" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="100 0 -100" local_rot="0 0 0 1" name="units/pd2_mod_craft/props/prop_cube_obsidian" name_id="prop_cube_obsidian_013" position="475 1850 450" rotation="0 0 0.707107 -0.707107" unit_id="100766"/>
+			<unit_data _prev_pos="475 1850 450" _prev_rot="0 0 0.707107 -0.707107" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/props/prop_cube_obsidian" name_id="prop_cube_obsidian_013" position="475 1850 450" rotation="0 0 0.707107 -0.707107" unit_id="100766"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="475 1725 450" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="0 0 -100" local_rot="0 0 0 1" name="units/pd2_mod_craft/props/prop_cube_obsidian" name_id="prop_cube_obsidian_014" position="475 1950 450" rotation="0 0 0.707107 -0.707107" unit_id="100767"/>
@@ -2448,6 +2448,21 @@
 					</shape>
 				</editable_gui>
 			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-33.282 2800.14 4002.5" _prev_rot="0 0 0.707107 -0.707107" continent="world" instance_data="false" local_pos="298.849 450.974 -0.000244141" local_rot="0 0 -0.707107 0.707107" name="units/dev_tools/editable_text_long/editable_text_long" name_id="editable_text_long_011" position="-33.282 2800.14 4002.5" rotation="0 0 0.707107 -0.707107" unit_id="100784">
+				<editable_gui align="left" alpha="1" blend_mode="normal" font="fonts/font_medium_shadow_mf" font_color="1 1 1" font_size="2.59" render_template="diffuse_vc_decal" text="CIV PATROLS" vertical="center" word_wrap="false" wrap="false">
+					<shape>
+						<value_node value="0"/>
+						<value_node value="0"/>
+						<value_node value="1"/>
+						<value_node value="1"/>
+					</shape>
+				</editable_gui>
+			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1836.23 -5365.38 350.002" _prev_rot="0 0 -0.707107 -0.707107" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_16x3m" name_id="dev_nav_splitter_16x3m_018" only_exists_in_editor="true" position="-1836.23 -5365.38 350.002" rotation="0 0 -0.707107 -0.707107" unit_id="100785"/>
 		</table>
 	</statics>
 	<values>

@@ -16,6 +16,9 @@
 		<table>
 			<unit_data _prev_pos="135.854 2316.26 4000" _prev_rot="0 0 0 -1" continent="editor_only" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/test/jocke/plane_black_temp" name_id="plane_black_temp_005" position="135.854 2316.26 4000" rotation="0 0 0 -1" unit_id="200004"/>
 		</table>
+		<table>
+			<unit_data _prev_pos="-864.146 1316.26 4000" _prev_rot="0 0 0 -1" continent="editor_only" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/test/jocke/plane_black_temp" name_id="plane_black_temp_006" position="-864.146 2316.26 4000" rotation="0 0 0 -1" unit_id="200005"/>
+		</table>
 	</statics>
 	<values>
 		<workviews/>

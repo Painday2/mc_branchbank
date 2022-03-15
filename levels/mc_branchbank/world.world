@@ -1524,6 +1524,921 @@
 				<entry key="unit_id" type="number" value="74"/>
 			</entry>
 		</entry>
+		<entry index="79" type="table">
+			<entry key="unit_data" type="table">
+				<entry key="_prev_pos" type="vector3" value="-1543.46 13616.8 350.002"/>
+				<entry key="_prev_rot" type="quaternion" value="0 0 0 -1"/>
+				<entry key="continent" type="string" value="world"/>
+				<entry key="instance_data" type="boolean" value="false"/>
+				<entry key="local_pos" type="vector3" value="0 0 0"/>
+				<entry key="local_rot" type="quaternion" value="0 0 0 1"/>
+				<entry key="name" type="string" value="core/units/patrol_point/patrol_point"/>
+				<entry key="name_id" type="string" value="patrol_point_001"/>
+				<entry key="position" type="vector3" value="-1543.46 13616.8 350.002"/>
+				<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+				<entry key="unit_id" type="number" value="32"/>
+			</entry>
+		</entry>
+		<entry index="80" type="table">
+			<entry key="unit_data" type="table">
+				<entry key="_prev_pos" type="vector3" value="-2029.06 13528.1 350.002"/>
+				<entry key="_prev_rot" type="quaternion" value="0 0 0 -1"/>
+				<entry key="continent" type="string" value="world"/>
+				<entry key="instance_data" type="boolean" value="false"/>
+				<entry key="local_pos" type="vector3" value="0 0 0"/>
+				<entry key="local_rot" type="quaternion" value="0 0 0 1"/>
+				<entry key="name" type="string" value="core/units/patrol_point/patrol_point"/>
+				<entry key="name_id" type="string" value="patrol_point_002"/>
+				<entry key="position" type="vector3" value="-2029.06 13528.1 350.002"/>
+				<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+				<entry key="unit_id" type="number" value="61"/>
+			</entry>
+		</entry>
+		<entry index="81" type="table">
+			<entry key="unit_data" type="table">
+				<entry key="_prev_pos" type="vector3" value="-1948.25 9884.89 350.002"/>
+				<entry key="_prev_rot" type="quaternion" value="0 0 0 -1"/>
+				<entry key="continent" type="string" value="world"/>
+				<entry key="instance_data" type="boolean" value="false"/>
+				<entry key="local_pos" type="vector3" value="0 0 0"/>
+				<entry key="local_rot" type="quaternion" value="0 0 0 1"/>
+				<entry key="name" type="string" value="core/units/patrol_point/patrol_point"/>
+				<entry key="name_id" type="string" value="patrol_point_003"/>
+				<entry key="position" type="vector3" value="-1948.25 9884.89 350.002"/>
+				<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+				<entry key="unit_id" type="number" value="62"/>
+			</entry>
+		</entry>
+		<entry index="82" type="table">
+			<entry key="unit_data" type="table">
+				<entry key="_prev_pos" type="vector3" value="-1951.48 5116.27 350.001"/>
+				<entry key="_prev_rot" type="quaternion" value="0 0 0 -1"/>
+				<entry key="continent" type="string" value="world"/>
+				<entry key="instance_data" type="boolean" value="false"/>
+				<entry key="local_pos" type="vector3" value="0 0 0"/>
+				<entry key="local_rot" type="quaternion" value="0 0 0 1"/>
+				<entry key="name" type="string" value="core/units/patrol_point/patrol_point"/>
+				<entry key="name_id" type="string" value="patrol_point_004"/>
+				<entry key="position" type="vector3" value="-1951.48 5116.27 350.001"/>
+				<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+				<entry key="unit_id" type="number" value="63"/>
+			</entry>
+		</entry>
+		<entry index="83" type="table">
+			<entry key="unit_data" type="table">
+				<entry key="_prev_pos" type="vector3" value="-1950.88 2513.16 350.001"/>
+				<entry key="_prev_rot" type="quaternion" value="0 0 0 -1"/>
+				<entry key="continent" type="string" value="world"/>
+				<entry key="instance_data" type="boolean" value="false"/>
+				<entry key="local_pos" type="vector3" value="0 0 0"/>
+				<entry key="local_rot" type="quaternion" value="0 0 0 1"/>
+				<entry key="name" type="string" value="core/units/patrol_point/patrol_point"/>
+				<entry key="name_id" type="string" value="patrol_point_005"/>
+				<entry key="position" type="vector3" value="-1950.88 2513.16 350.001"/>
+				<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+				<entry key="unit_id" type="number" value="64"/>
+			</entry>
+		</entry>
+		<entry index="84" type="table">
+			<entry key="unit_data" type="table">
+				<entry key="_prev_pos" type="vector3" value="-1938.99 211.889 350"/>
+				<entry key="_prev_rot" type="quaternion" value="-1.19209e-007 0 0 -1"/>
+				<entry key="continent" type="string" value="world"/>
+				<entry key="instance_data" type="boolean" value="false"/>
+				<entry key="local_pos" type="vector3" value="0 0 0"/>
+				<entry key="local_rot" type="quaternion" value="0 0 0 1"/>
+				<entry key="name" type="string" value="core/units/patrol_point/patrol_point"/>
+				<entry key="name_id" type="string" value="patrol_point_003"/>
+				<entry key="position" type="vector3" value="-1938.99 211.889 350"/>
+				<entry key="rotation" type="quaternion" value="-1.19209e-007 0 0 -1"/>
+				<entry key="unit_id" type="number" value="62"/>
+			</entry>
+		</entry>
+		<entry index="85" type="table">
+			<entry key="unit_data" type="table">
+				<entry key="_prev_pos" type="vector3" value="-1978.31 -1338.79 350"/>
+				<entry key="_prev_rot" type="quaternion" value="-1.19209e-007 0 0 -1"/>
+				<entry key="continent" type="string" value="world"/>
+				<entry key="instance_data" type="boolean" value="false"/>
+				<entry key="local_pos" type="vector3" value="0 0 0"/>
+				<entry key="local_rot" type="quaternion" value="0 0 0 1"/>
+				<entry key="name" type="string" value="core/units/patrol_point/patrol_point"/>
+				<entry key="name_id" type="string" value="patrol_point_003"/>
+				<entry key="position" type="vector3" value="-1978.31 -1338.79 350"/>
+				<entry key="rotation" type="quaternion" value="-1.19209e-007 0 0 -1"/>
+				<entry key="unit_id" type="number" value="62"/>
+			</entry>
+		</entry>
+		<entry index="86" type="table">
+			<entry key="unit_data" type="table">
+				<entry key="_prev_pos" type="vector3" value="-1943.14 746.123 350"/>
+				<entry key="_prev_rot" type="quaternion" value="-4.76837e-008 0 0 -1"/>
+				<entry key="continent" type="string" value="world"/>
+				<entry key="instance_data" type="boolean" value="false"/>
+				<entry key="local_pos" type="vector3" value="0 0 0"/>
+				<entry key="local_rot" type="quaternion" value="0 0 0 1"/>
+				<entry key="name" type="string" value="core/units/patrol_point/patrol_point"/>
+				<entry key="name_id" type="string" value="patrol_point_003"/>
+				<entry key="position" type="vector3" value="-1943.14 746.123 350"/>
+				<entry key="rotation" type="quaternion" value="-4.76837e-008 0 0 -1"/>
+				<entry key="unit_id" type="number" value="62"/>
+			</entry>
+		</entry>
+		<entry index="87" type="table">
+			<entry key="unit_data" type="table">
+				<entry key="_prev_pos" type="vector3" value="-1946.53 9196.24 350.002"/>
+				<entry key="_prev_rot" type="quaternion" value="0 0.707107 0 -0.707107"/>
+				<entry key="continent" type="string" value="world"/>
+				<entry key="instance_data" type="boolean" value="false"/>
+				<entry key="local_pos" type="vector3" value="0 0 0"/>
+				<entry key="local_rot" type="quaternion" value="0 0 0 1"/>
+				<entry key="name" type="string" value="core/units/patrol_point/patrol_point"/>
+				<entry key="name_id" type="string" value="patrol_point_003"/>
+				<entry key="position" type="vector3" value="-1946.53 9196.24 350.002"/>
+				<entry key="rotation" type="quaternion" value="0 0.707107 0 -0.707107"/>
+				<entry key="unit_id" type="number" value="62"/>
+			</entry>
+		</entry>
+		<entry index="88" type="table">
+			<entry key="unit_data" type="table">
+				<entry key="_prev_pos" type="vector3" value="-1908.92 5394.63 350.001"/>
+				<entry key="_prev_rot" type="quaternion" value="0 0.707107 0 -0.707107"/>
+				<entry key="continent" type="string" value="world"/>
+				<entry key="instance_data" type="boolean" value="false"/>
+				<entry key="local_pos" type="vector3" value="0 0 0"/>
+				<entry key="local_rot" type="quaternion" value="0 0 0 1"/>
+				<entry key="name" type="string" value="core/units/patrol_point/patrol_point"/>
+				<entry key="name_id" type="string" value="patrol_point_004"/>
+				<entry key="position" type="vector3" value="-1908.92 5394.63 350.001"/>
+				<entry key="rotation" type="quaternion" value="0 0.707107 0 -0.707107"/>
+				<entry key="unit_id" type="number" value="63"/>
+			</entry>
+		</entry>
+		<entry index="89" type="table">
+			<entry key="unit_data" type="table">
+				<entry key="_prev_pos" type="vector3" value="-1906.04 3294.01 350.001"/>
+				<entry key="_prev_rot" type="quaternion" value="0 0.707107 0 -0.707107"/>
+				<entry key="continent" type="string" value="world"/>
+				<entry key="instance_data" type="boolean" value="false"/>
+				<entry key="local_pos" type="vector3" value="0 0 0"/>
+				<entry key="local_rot" type="quaternion" value="0 0 0 1"/>
+				<entry key="name" type="string" value="core/units/patrol_point/patrol_point"/>
+				<entry key="name_id" type="string" value="patrol_point_005"/>
+				<entry key="position" type="vector3" value="-1906.04 3294.01 350.001"/>
+				<entry key="rotation" type="quaternion" value="0 0.707107 0 -0.707107"/>
+				<entry key="unit_id" type="number" value="64"/>
+			</entry>
+		</entry>
+		<entry index="90" type="table">
+			<entry key="unit_data" type="table">
+				<entry key="_prev_pos" type="vector3" value="-1947.1 1210.64 350"/>
+				<entry key="_prev_rot" type="quaternion" value="0 0.707107 0 -0.707107"/>
+				<entry key="continent" type="string" value="world"/>
+				<entry key="instance_data" type="boolean" value="false"/>
+				<entry key="local_pos" type="vector3" value="0 0 0"/>
+				<entry key="local_rot" type="quaternion" value="0 0 0 1"/>
+				<entry key="name" type="string" value="core/units/patrol_point/patrol_point"/>
+				<entry key="name_id" type="string" value="patrol_point_006"/>
+				<entry key="position" type="vector3" value="-1947.1 1210.64 350"/>
+				<entry key="rotation" type="quaternion" value="0 0.707107 0 -0.707107"/>
+				<entry key="unit_id" type="number" value="65"/>
+			</entry>
+		</entry>
+		<entry index="91" type="table">
+			<entry key="unit_data" type="table">
+				<entry key="_prev_pos" type="vector3" value="-1820.12 -594.961 350"/>
+				<entry key="_prev_rot" type="quaternion" value="0 0.707107 0 -0.707107"/>
+				<entry key="continent" type="string" value="world"/>
+				<entry key="instance_data" type="boolean" value="false"/>
+				<entry key="local_pos" type="vector3" value="0 0 0"/>
+				<entry key="local_rot" type="quaternion" value="0 0 0 1"/>
+				<entry key="name" type="string" value="core/units/patrol_point/patrol_point"/>
+				<entry key="name_id" type="string" value="patrol_point_007"/>
+				<entry key="position" type="vector3" value="-1820.12 -594.961 350"/>
+				<entry key="rotation" type="quaternion" value="0 0.707107 0 -0.707107"/>
+				<entry key="unit_id" type="number" value="66"/>
+			</entry>
+		</entry>
+		<entry index="92" type="table">
+			<entry key="unit_data" type="table">
+				<entry key="_prev_pos" type="vector3" value="-2015.5 -953.71 350"/>
+				<entry key="_prev_rot" type="quaternion" value="0 0.707107 0 -0.707107"/>
+				<entry key="continent" type="string" value="world"/>
+				<entry key="instance_data" type="boolean" value="false"/>
+				<entry key="local_pos" type="vector3" value="0 0 0"/>
+				<entry key="local_rot" type="quaternion" value="0 0 0 1"/>
+				<entry key="name" type="string" value="core/units/patrol_point/patrol_point"/>
+				<entry key="name_id" type="string" value="patrol_point_008"/>
+				<entry key="position" type="vector3" value="-2015.5 -953.71 350"/>
+				<entry key="rotation" type="quaternion" value="0 0.707107 0 -0.707107"/>
+				<entry key="unit_id" type="number" value="67"/>
+			</entry>
+		</entry>
+		<entry index="93" type="table">
+			<entry key="unit_data" type="table">
+				<entry key="_prev_pos" type="vector3" value="-1992.46 -2125.29 350"/>
+				<entry key="_prev_rot" type="quaternion" value="0 0.707107 0 -0.707107"/>
+				<entry key="continent" type="string" value="world"/>
+				<entry key="instance_data" type="boolean" value="false"/>
+				<entry key="local_pos" type="vector3" value="0 0 0"/>
+				<entry key="local_rot" type="quaternion" value="0 0 0 1"/>
+				<entry key="name" type="string" value="core/units/patrol_point/patrol_point"/>
+				<entry key="name_id" type="string" value="patrol_point_009"/>
+				<entry key="position" type="vector3" value="-1992.46 -2125.29 350"/>
+				<entry key="rotation" type="quaternion" value="0 0.707107 0 -0.707107"/>
+				<entry key="unit_id" type="number" value="68"/>
+			</entry>
+		</entry>
+		<entry index="94" type="table">
+			<entry key="unit_data" type="table">
+				<entry key="_prev_pos" type="vector3" value="-1837.12 -3522.11 350"/>
+				<entry key="_prev_rot" type="quaternion" value="0 0.707107 0 -0.707107"/>
+				<entry key="continent" type="string" value="world"/>
+				<entry key="instance_data" type="boolean" value="false"/>
+				<entry key="local_pos" type="vector3" value="0 0 0"/>
+				<entry key="local_rot" type="quaternion" value="0 0 0 1"/>
+				<entry key="name" type="string" value="core/units/patrol_point/patrol_point"/>
+				<entry key="name_id" type="string" value="patrol_point_010"/>
+				<entry key="position" type="vector3" value="-1837.12 -3522.11 350"/>
+				<entry key="rotation" type="quaternion" value="0 0.707107 0 -0.707107"/>
+				<entry key="unit_id" type="number" value="69"/>
+			</entry>
+		</entry>
+		<entry index="95" type="table">
+			<entry key="unit_data" type="table">
+				<entry key="_prev_pos" type="vector3" value="-1978.97 -4197.76 349.999"/>
+				<entry key="_prev_rot" type="quaternion" value="0 0.707107 0 -0.707107"/>
+				<entry key="continent" type="string" value="world"/>
+				<entry key="instance_data" type="boolean" value="false"/>
+				<entry key="local_pos" type="vector3" value="0 0 0"/>
+				<entry key="local_rot" type="quaternion" value="0 0 0 1"/>
+				<entry key="name" type="string" value="core/units/patrol_point/patrol_point"/>
+				<entry key="name_id" type="string" value="patrol_point_013"/>
+				<entry key="position" type="vector3" value="-1978.97 -4197.76 349.999"/>
+				<entry key="rotation" type="quaternion" value="0 0.707107 0 -0.707107"/>
+				<entry key="unit_id" type="number" value="70"/>
+			</entry>
+		</entry>
+		<entry index="96" type="table">
+			<entry key="unit_data" type="table">
+				<entry key="_prev_pos" type="vector3" value="-1992.88 -5998.16 349.999"/>
+				<entry key="_prev_rot" type="quaternion" value="0 0.707107 0 -0.707107"/>
+				<entry key="continent" type="string" value="world"/>
+				<entry key="instance_data" type="boolean" value="false"/>
+				<entry key="local_pos" type="vector3" value="0 0 0"/>
+				<entry key="local_rot" type="quaternion" value="0 0 0 1"/>
+				<entry key="name" type="string" value="core/units/patrol_point/patrol_point"/>
+				<entry key="name_id" type="string" value="patrol_point_014"/>
+				<entry key="position" type="vector3" value="-1992.88 -5998.16 349.999"/>
+				<entry key="rotation" type="quaternion" value="0 0.707107 0 -0.707107"/>
+				<entry key="unit_id" type="number" value="71"/>
+			</entry>
+		</entry>
+		<entry index="97" type="table">
+			<entry key="unit_data" type="table">
+				<entry key="_prev_pos" type="vector3" value="-2079.09 -6404.97 349.999"/>
+				<entry key="_prev_rot" type="quaternion" value="0 0.707107 0 -0.707107"/>
+				<entry key="continent" type="string" value="world"/>
+				<entry key="instance_data" type="boolean" value="false"/>
+				<entry key="local_pos" type="vector3" value="0 0 0"/>
+				<entry key="local_rot" type="quaternion" value="0 0 0 1"/>
+				<entry key="name" type="string" value="core/units/patrol_point/patrol_point"/>
+				<entry key="name_id" type="string" value="patrol_point_016"/>
+				<entry key="position" type="vector3" value="-2079.09 -6404.97 349.999"/>
+				<entry key="rotation" type="quaternion" value="0 0.707107 0 -0.707107"/>
+				<entry key="unit_id" type="number" value="72"/>
+			</entry>
+		</entry>
+		<entry index="98" type="table">
+			<entry key="unit_data" type="table">
+				<entry key="_prev_pos" type="vector3" value="-1960.02 -8476.63 349.999"/>
+				<entry key="_prev_rot" type="quaternion" value="0 0.707107 0 -0.707107"/>
+				<entry key="continent" type="string" value="world"/>
+				<entry key="instance_data" type="boolean" value="false"/>
+				<entry key="local_pos" type="vector3" value="0 0 0"/>
+				<entry key="local_rot" type="quaternion" value="0 0 0 1"/>
+				<entry key="name" type="string" value="core/units/patrol_point/patrol_point"/>
+				<entry key="name_id" type="string" value="patrol_point_017"/>
+				<entry key="position" type="vector3" value="-1960.02 -8476.63 349.999"/>
+				<entry key="rotation" type="quaternion" value="0 0.707107 0 -0.707107"/>
+				<entry key="unit_id" type="number" value="73"/>
+			</entry>
+		</entry>
+		<entry index="99" type="table">
+			<entry key="unit_data" type="table">
+				<entry key="_prev_pos" type="vector3" value="-1571.07 -8505.53 349.999"/>
+				<entry key="_prev_rot" type="quaternion" value="0 0.707107 0 -0.707107"/>
+				<entry key="continent" type="string" value="world"/>
+				<entry key="instance_data" type="boolean" value="false"/>
+				<entry key="local_pos" type="vector3" value="0 0 0"/>
+				<entry key="local_rot" type="quaternion" value="0 0 0 1"/>
+				<entry key="name" type="string" value="core/units/patrol_point/patrol_point"/>
+				<entry key="name_id" type="string" value="patrol_point_018"/>
+				<entry key="position" type="vector3" value="-1571.07 -8505.53 349.999"/>
+				<entry key="rotation" type="quaternion" value="0 0.707107 0 -0.707107"/>
+				<entry key="unit_id" type="number" value="74"/>
+			</entry>
+		</entry>
+		<entry index="100" type="table">
+			<entry key="unit_data" type="table">
+				<entry key="_prev_pos" type="vector3" value="-8751.5 8556.22 350.001"/>
+				<entry key="_prev_rot" type="quaternion" value="0 0 0 -1"/>
+				<entry key="continent" type="string" value="world"/>
+				<entry key="instance_data" type="boolean" value="false"/>
+				<entry key="local_pos" type="vector3" value="0 0 0"/>
+				<entry key="local_rot" type="quaternion" value="0 0 0 1"/>
+				<entry key="name" type="string" value="core/units/patrol_point/patrol_point"/>
+				<entry key="name_id" type="string" value="patrol_point_019"/>
+				<entry key="position" type="vector3" value="-8751.5 8556.22 350.001"/>
+				<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+				<entry key="unit_id" type="number" value="75"/>
+			</entry>
+		</entry>
+		<entry index="101" type="table">
+			<entry key="unit_data" type="table">
+				<entry key="_prev_pos" type="vector3" value="-8353.98 9026.58 350.002"/>
+				<entry key="_prev_rot" type="quaternion" value="0 0 0 -1"/>
+				<entry key="continent" type="string" value="world"/>
+				<entry key="instance_data" type="boolean" value="false"/>
+				<entry key="local_pos" type="vector3" value="0 0 0"/>
+				<entry key="local_rot" type="quaternion" value="0 0 0 1"/>
+				<entry key="name" type="string" value="core/units/patrol_point/patrol_point"/>
+				<entry key="name_id" type="string" value="patrol_point_020"/>
+				<entry key="position" type="vector3" value="-8353.98 9026.58 350.002"/>
+				<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+				<entry key="unit_id" type="number" value="76"/>
+			</entry>
+		</entry>
+		<entry index="102" type="table">
+			<entry key="unit_data" type="table">
+				<entry key="_prev_pos" type="vector3" value="-3380.67 8983.94 350.002"/>
+				<entry key="_prev_rot" type="quaternion" value="0 0 0 -1"/>
+				<entry key="continent" type="string" value="world"/>
+				<entry key="instance_data" type="boolean" value="false"/>
+				<entry key="local_pos" type="vector3" value="0 0 0"/>
+				<entry key="local_rot" type="quaternion" value="0 0 0 1"/>
+				<entry key="name" type="string" value="core/units/patrol_point/patrol_point"/>
+				<entry key="name_id" type="string" value="patrol_point_021"/>
+				<entry key="position" type="vector3" value="-3380.67 8983.94 350.002"/>
+				<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+				<entry key="unit_id" type="number" value="77"/>
+			</entry>
+		</entry>
+		<entry index="103" type="table">
+			<entry key="unit_data" type="table">
+				<entry key="_prev_pos" type="vector3" value="-3400.82 1715.66 350"/>
+				<entry key="_prev_rot" type="quaternion" value="0 0 0 -1"/>
+				<entry key="continent" type="string" value="world"/>
+				<entry key="instance_data" type="boolean" value="false"/>
+				<entry key="local_pos" type="vector3" value="0 0 0"/>
+				<entry key="local_rot" type="quaternion" value="0 0 0 1"/>
+				<entry key="name" type="string" value="core/units/patrol_point/patrol_point"/>
+				<entry key="name_id" type="string" value="patrol_point_022"/>
+				<entry key="position" type="vector3" value="-3400.82 1715.66 350"/>
+				<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+				<entry key="unit_id" type="number" value="78"/>
+			</entry>
+		</entry>
+		<entry index="104" type="table">
+			<entry key="unit_data" type="table">
+				<entry key="_prev_pos" type="vector3" value="-3435.66 273.983 350"/>
+				<entry key="_prev_rot" type="quaternion" value="0 0 0 -1"/>
+				<entry key="continent" type="string" value="world"/>
+				<entry key="instance_data" type="boolean" value="false"/>
+				<entry key="local_pos" type="vector3" value="0 0 0"/>
+				<entry key="local_rot" type="quaternion" value="0 0 0 1"/>
+				<entry key="name" type="string" value="core/units/patrol_point/patrol_point"/>
+				<entry key="name_id" type="string" value="patrol_point_023"/>
+				<entry key="position" type="vector3" value="-3435.66 273.983 350"/>
+				<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+				<entry key="unit_id" type="number" value="79"/>
+			</entry>
+		</entry>
+		<entry index="105" type="table">
+			<entry key="unit_data" type="table">
+				<entry key="_prev_pos" type="vector3" value="-3399.68 -1761.04 350"/>
+				<entry key="_prev_rot" type="quaternion" value="0 0 0 -1"/>
+				<entry key="continent" type="string" value="world"/>
+				<entry key="instance_data" type="boolean" value="false"/>
+				<entry key="local_pos" type="vector3" value="0 0 0"/>
+				<entry key="local_rot" type="quaternion" value="0 0 0 1"/>
+				<entry key="name" type="string" value="core/units/patrol_point/patrol_point"/>
+				<entry key="name_id" type="string" value="patrol_point_024"/>
+				<entry key="position" type="vector3" value="-3399.68 -1761.04 350"/>
+				<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+				<entry key="unit_id" type="number" value="80"/>
+			</entry>
+		</entry>
+		<entry index="106" type="table">
+			<entry key="unit_data" type="table">
+				<entry key="_prev_pos" type="vector3" value="-3441.34 -3704.61 350"/>
+				<entry key="_prev_rot" type="quaternion" value="0 0 0 -1"/>
+				<entry key="continent" type="string" value="world"/>
+				<entry key="instance_data" type="boolean" value="false"/>
+				<entry key="local_pos" type="vector3" value="0 0 0"/>
+				<entry key="local_rot" type="quaternion" value="0 0 0 1"/>
+				<entry key="name" type="string" value="core/units/patrol_point/patrol_point"/>
+				<entry key="name_id" type="string" value="patrol_point_025"/>
+				<entry key="position" type="vector3" value="-3441.34 -3704.61 350"/>
+				<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+				<entry key="unit_id" type="number" value="81"/>
+			</entry>
+		</entry>
+		<entry index="107" type="table">
+			<entry key="unit_data" type="table">
+				<entry key="_prev_pos" type="vector3" value="-3379.19 -8441.24 349.999"/>
+				<entry key="_prev_rot" type="quaternion" value="0 0 0 -1"/>
+				<entry key="continent" type="string" value="world"/>
+				<entry key="instance_data" type="boolean" value="false"/>
+				<entry key="local_pos" type="vector3" value="0 0 0"/>
+				<entry key="local_rot" type="quaternion" value="0 0 0 1"/>
+				<entry key="name" type="string" value="core/units/patrol_point/patrol_point"/>
+				<entry key="name_id" type="string" value="patrol_point_026"/>
+				<entry key="position" type="vector3" value="-3379.19 -8441.24 349.999"/>
+				<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+				<entry key="unit_id" type="number" value="82"/>
+			</entry>
+		</entry>
+		<entry index="108" type="table">
+			<entry key="unit_data" type="table">
+				<entry key="_prev_pos" type="vector3" value="-3882.19 -8505.6 349.999"/>
+				<entry key="_prev_rot" type="quaternion" value="0 0 0 -1"/>
+				<entry key="continent" type="string" value="world"/>
+				<entry key="instance_data" type="boolean" value="false"/>
+				<entry key="local_pos" type="vector3" value="0 0 0"/>
+				<entry key="local_rot" type="quaternion" value="0 0 0 1"/>
+				<entry key="name" type="string" value="core/units/patrol_point/patrol_point"/>
+				<entry key="name_id" type="string" value="patrol_point_027"/>
+				<entry key="position" type="vector3" value="-3882.19 -8505.6 349.999"/>
+				<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+				<entry key="unit_id" type="number" value="83"/>
+			</entry>
+		</entry>
+		<entry index="109" type="table">
+			<entry key="unit_data" type="table">
+				<entry key="_prev_pos" type="vector3" value="-3874.64 -8505.24 349.999"/>
+				<entry key="_prev_rot" type="quaternion" value="0 0 0 -1"/>
+				<entry key="continent" type="string" value="world"/>
+				<entry key="instance_data" type="boolean" value="false"/>
+				<entry key="local_pos" type="vector3" value="0 0 0"/>
+				<entry key="local_rot" type="quaternion" value="0 0 0 1"/>
+				<entry key="name" type="string" value="core/units/patrol_point/patrol_point"/>
+				<entry key="name_id" type="string" value="patrol_point_028"/>
+				<entry key="position" type="vector3" value="-3874.64 -8505.24 349.999"/>
+				<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+				<entry key="unit_id" type="number" value="84"/>
+			</entry>
+		</entry>
+		<entry index="110" type="table">
+			<entry key="unit_data" type="table">
+				<entry key="_prev_pos" type="vector3" value="-3345.04 -8451.98 349.999"/>
+				<entry key="_prev_rot" type="quaternion" value="0 0 0 -1"/>
+				<entry key="continent" type="string" value="world"/>
+				<entry key="instance_data" type="boolean" value="false"/>
+				<entry key="local_pos" type="vector3" value="0 0 0"/>
+				<entry key="local_rot" type="quaternion" value="0 0 0 1"/>
+				<entry key="name" type="string" value="core/units/patrol_point/patrol_point"/>
+				<entry key="name_id" type="string" value="patrol_point_029"/>
+				<entry key="position" type="vector3" value="-3345.04 -8451.98 349.999"/>
+				<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+				<entry key="unit_id" type="number" value="85"/>
+			</entry>
+		</entry>
+		<entry index="111" type="table">
+			<entry key="unit_data" type="table">
+				<entry key="_prev_pos" type="vector3" value="-3424.28 -3523.23 350"/>
+				<entry key="_prev_rot" type="quaternion" value="0 0 0 -1"/>
+				<entry key="continent" type="string" value="world"/>
+				<entry key="instance_data" type="boolean" value="false"/>
+				<entry key="local_pos" type="vector3" value="0 0 0"/>
+				<entry key="local_rot" type="quaternion" value="0 0 0 1"/>
+				<entry key="name" type="string" value="core/units/patrol_point/patrol_point"/>
+				<entry key="name_id" type="string" value="patrol_point_030"/>
+				<entry key="position" type="vector3" value="-3424.28 -3523.23 350"/>
+				<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+				<entry key="unit_id" type="number" value="86"/>
+			</entry>
+		</entry>
+		<entry index="112" type="table">
+			<entry key="unit_data" type="table">
+				<entry key="_prev_pos" type="vector3" value="-1838.48 -3518.6 350"/>
+				<entry key="_prev_rot" type="quaternion" value="0 0 0 -1"/>
+				<entry key="continent" type="string" value="world"/>
+				<entry key="instance_data" type="boolean" value="false"/>
+				<entry key="local_pos" type="vector3" value="0 0 0"/>
+				<entry key="local_rot" type="quaternion" value="0 0 0 1"/>
+				<entry key="name" type="string" value="core/units/patrol_point/patrol_point"/>
+				<entry key="name_id" type="string" value="patrol_point_031"/>
+				<entry key="position" type="vector3" value="-1838.48 -3518.6 350"/>
+				<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+				<entry key="unit_id" type="number" value="87"/>
+			</entry>
+		</entry>
+		<entry index="113" type="table">
+			<entry key="unit_data" type="table">
+				<entry key="_prev_pos" type="vector3" value="2784.62 -3533.29 350"/>
+				<entry key="_prev_rot" type="quaternion" value="0 0 0 -1"/>
+				<entry key="continent" type="string" value="world"/>
+				<entry key="instance_data" type="boolean" value="false"/>
+				<entry key="local_pos" type="vector3" value="0 0 0"/>
+				<entry key="local_rot" type="quaternion" value="0 0 0 1"/>
+				<entry key="name" type="string" value="core/units/patrol_point/patrol_point"/>
+				<entry key="name_id" type="string" value="patrol_point_032"/>
+				<entry key="position" type="vector3" value="2784.62 -3533.29 350"/>
+				<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+				<entry key="unit_id" type="number" value="88"/>
+			</entry>
+		</entry>
+		<entry index="114" type="table">
+			<entry key="unit_data" type="table">
+				<entry key="_prev_pos" type="vector3" value="7510.43 -3547.25 350"/>
+				<entry key="_prev_rot" type="quaternion" value="0 0 0 -1"/>
+				<entry key="continent" type="string" value="world"/>
+				<entry key="instance_data" type="boolean" value="false"/>
+				<entry key="local_pos" type="vector3" value="0 0 0"/>
+				<entry key="local_rot" type="quaternion" value="0 0 0 1"/>
+				<entry key="name" type="string" value="core/units/patrol_point/patrol_point"/>
+				<entry key="name_id" type="string" value="patrol_point_033"/>
+				<entry key="position" type="vector3" value="7510.43 -3547.25 350"/>
+				<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+				<entry key="unit_id" type="number" value="89"/>
+			</entry>
+		</entry>
+		<entry index="115" type="table">
+			<entry key="unit_data" type="table">
+				<entry key="_prev_pos" type="vector3" value="6220.55 -3504.63 350"/>
+				<entry key="_prev_rot" type="quaternion" value="-5.96046e-008 0 0 -1"/>
+				<entry key="continent" type="string" value="world"/>
+				<entry key="instance_data" type="boolean" value="false"/>
+				<entry key="local_pos" type="vector3" value="0 0 0"/>
+				<entry key="local_rot" type="quaternion" value="0 0 0 1"/>
+				<entry key="name" type="string" value="core/units/patrol_point/patrol_point"/>
+				<entry key="name_id" type="string" value="patrol_point_033"/>
+				<entry key="position" type="vector3" value="6220.55 -3504.63 350"/>
+				<entry key="rotation" type="quaternion" value="-5.96046e-008 0 0 -1"/>
+				<entry key="unit_id" type="number" value="89"/>
+			</entry>
+		</entry>
+		<entry index="116" type="table">
+			<entry key="unit_data" type="table">
+				<entry key="_prev_pos" type="vector3" value="6264.36 -3961.6 350"/>
+				<entry key="_prev_rot" type="quaternion" value="-5.96046e-008 0 0 -1"/>
+				<entry key="continent" type="string" value="world"/>
+				<entry key="instance_data" type="boolean" value="false"/>
+				<entry key="local_pos" type="vector3" value="0 0 0"/>
+				<entry key="local_rot" type="quaternion" value="0 0 0 1"/>
+				<entry key="name" type="string" value="core/units/patrol_point/patrol_point"/>
+				<entry key="name_id" type="string" value="patrol_point_034"/>
+				<entry key="position" type="vector3" value="6264.36 -3961.6 350"/>
+				<entry key="rotation" type="quaternion" value="-5.96046e-008 0 0 -1"/>
+				<entry key="unit_id" type="number" value="90"/>
+			</entry>
+		</entry>
+		<entry index="117" type="table">
+			<entry key="unit_data" type="table">
+				<entry key="_prev_pos" type="vector3" value="6262.58 -3961.55 349.999"/>
+				<entry key="_prev_rot" type="quaternion" value="0 0 0 -1"/>
+				<entry key="continent" type="string" value="world"/>
+				<entry key="instance_data" type="boolean" value="false"/>
+				<entry key="local_pos" type="vector3" value="0 0 0"/>
+				<entry key="local_rot" type="quaternion" value="0 0 0 1"/>
+				<entry key="name" type="string" value="core/units/patrol_point/patrol_point"/>
+				<entry key="name_id" type="string" value="patrol_point_035"/>
+				<entry key="position" type="vector3" value="6262.58 -3961.55 349.999"/>
+				<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+				<entry key="unit_id" type="number" value="91"/>
+			</entry>
+		</entry>
+		<entry index="118" type="table">
+			<entry key="unit_data" type="table">
+				<entry key="_prev_pos" type="vector3" value="6221.11 -3501.96 350"/>
+				<entry key="_prev_rot" type="quaternion" value="0 0 0 -1"/>
+				<entry key="continent" type="string" value="world"/>
+				<entry key="instance_data" type="boolean" value="false"/>
+				<entry key="local_pos" type="vector3" value="0 0 0"/>
+				<entry key="local_rot" type="quaternion" value="0 0 0 1"/>
+				<entry key="name" type="string" value="core/units/patrol_point/patrol_point"/>
+				<entry key="name_id" type="string" value="patrol_point_036"/>
+				<entry key="position" type="vector3" value="6221.11 -3501.96 350"/>
+				<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+				<entry key="unit_id" type="number" value="92"/>
+			</entry>
+		</entry>
+		<entry index="119" type="table">
+			<entry key="unit_data" type="table">
+				<entry key="_prev_pos" type="vector3" value="-1839.57 -3522.25 350"/>
+				<entry key="_prev_rot" type="quaternion" value="0 0 0 -1"/>
+				<entry key="continent" type="string" value="world"/>
+				<entry key="instance_data" type="boolean" value="false"/>
+				<entry key="local_pos" type="vector3" value="0 0 0"/>
+				<entry key="local_rot" type="quaternion" value="0 0 0 1"/>
+				<entry key="name" type="string" value="core/units/patrol_point/patrol_point"/>
+				<entry key="name_id" type="string" value="patrol_point_037"/>
+				<entry key="position" type="vector3" value="-1839.57 -3522.25 350"/>
+				<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+				<entry key="unit_id" type="number" value="93"/>
+			</entry>
+		</entry>
+		<entry index="120" type="table">
+			<entry key="unit_data" type="table">
+				<entry key="_prev_pos" type="vector3" value="-1762.77 -2102.18 350"/>
+				<entry key="_prev_rot" type="quaternion" value="0 0 0 -1"/>
+				<entry key="continent" type="string" value="world"/>
+				<entry key="instance_data" type="boolean" value="false"/>
+				<entry key="local_pos" type="vector3" value="0 0 0"/>
+				<entry key="local_rot" type="quaternion" value="0 0 0 1"/>
+				<entry key="name" type="string" value="core/units/patrol_point/patrol_point"/>
+				<entry key="name_id" type="string" value="patrol_point_038"/>
+				<entry key="position" type="vector3" value="-1762.77 -2102.18 350"/>
+				<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+				<entry key="unit_id" type="number" value="94"/>
+			</entry>
+		</entry>
+		<entry index="121" type="table">
+			<entry key="unit_data" type="table">
+				<entry key="_prev_pos" type="vector3" value="-1991.26 -2122.66 350"/>
+				<entry key="_prev_rot" type="quaternion" value="-1.58946e-007 0 0 -1"/>
+				<entry key="continent" type="string" value="world"/>
+				<entry key="instance_data" type="boolean" value="false"/>
+				<entry key="local_pos" type="vector3" value="0 0 0"/>
+				<entry key="local_rot" type="quaternion" value="0 0 0 1"/>
+				<entry key="name" type="string" value="core/units/patrol_point/patrol_point"/>
+				<entry key="name_id" type="string" value="patrol_point_038"/>
+				<entry key="position" type="vector3" value="-1991.26 -2122.66 350"/>
+				<entry key="rotation" type="quaternion" value="-1.58946e-007 0 0 -1"/>
+				<entry key="unit_id" type="number" value="94"/>
+			</entry>
+		</entry>
+		<entry index="122" type="table">
+			<entry key="unit_data" type="table">
+				<entry key="_prev_pos" type="vector3" value="-2015.21 -949.804 350"/>
+				<entry key="_prev_rot" type="quaternion" value="-1.58946e-007 0 0 -1"/>
+				<entry key="continent" type="string" value="world"/>
+				<entry key="instance_data" type="boolean" value="false"/>
+				<entry key="local_pos" type="vector3" value="0 0 0"/>
+				<entry key="local_rot" type="quaternion" value="0 0 0 1"/>
+				<entry key="name" type="string" value="core/units/patrol_point/patrol_point"/>
+				<entry key="name_id" type="string" value="patrol_point_039"/>
+				<entry key="position" type="vector3" value="-2015.21 -949.804 350"/>
+				<entry key="rotation" type="quaternion" value="-1.58946e-007 0 0 -1"/>
+				<entry key="unit_id" type="number" value="95"/>
+			</entry>
+		</entry>
+		<entry index="123" type="table">
+			<entry key="unit_data" type="table">
+				<entry key="_prev_pos" type="vector3" value="-1814.55 -592.105 350"/>
+				<entry key="_prev_rot" type="quaternion" value="-1.58946e-007 0 0 -1"/>
+				<entry key="continent" type="string" value="world"/>
+				<entry key="instance_data" type="boolean" value="false"/>
+				<entry key="local_pos" type="vector3" value="0 0 0"/>
+				<entry key="local_rot" type="quaternion" value="0 0 0 1"/>
+				<entry key="name" type="string" value="core/units/patrol_point/patrol_point"/>
+				<entry key="name_id" type="string" value="patrol_point_040"/>
+				<entry key="position" type="vector3" value="-1814.55 -592.105 350"/>
+				<entry key="rotation" type="quaternion" value="-1.58946e-007 0 0 -1"/>
+				<entry key="unit_id" type="number" value="96"/>
+			</entry>
+		</entry>
+		<entry index="124" type="table">
+			<entry key="unit_data" type="table">
+				<entry key="_prev_pos" type="vector3" value="-1952.88 1215.18 350"/>
+				<entry key="_prev_rot" type="quaternion" value="-1.58946e-007 0 0 -1"/>
+				<entry key="continent" type="string" value="world"/>
+				<entry key="instance_data" type="boolean" value="false"/>
+				<entry key="local_pos" type="vector3" value="0 0 0"/>
+				<entry key="local_rot" type="quaternion" value="0 0 0 1"/>
+				<entry key="name" type="string" value="core/units/patrol_point/patrol_point"/>
+				<entry key="name_id" type="string" value="patrol_point_041"/>
+				<entry key="position" type="vector3" value="-1952.88 1215.18 350"/>
+				<entry key="rotation" type="quaternion" value="-1.58946e-007 0 0 -1"/>
+				<entry key="unit_id" type="number" value="97"/>
+			</entry>
+		</entry>
+		<entry index="125" type="table">
+			<entry key="unit_data" type="table">
+				<entry key="_prev_pos" type="vector3" value="-1904.72 3294.58 350.001"/>
+				<entry key="_prev_rot" type="quaternion" value="-1.58946e-007 0 0 -1"/>
+				<entry key="continent" type="string" value="world"/>
+				<entry key="instance_data" type="boolean" value="false"/>
+				<entry key="local_pos" type="vector3" value="0 0 0"/>
+				<entry key="local_rot" type="quaternion" value="0 0 0 1"/>
+				<entry key="name" type="string" value="core/units/patrol_point/patrol_point"/>
+				<entry key="name_id" type="string" value="patrol_point_042"/>
+				<entry key="position" type="vector3" value="-1904.72 3294.58 350.001"/>
+				<entry key="rotation" type="quaternion" value="-1.58946e-007 0 0 -1"/>
+				<entry key="unit_id" type="number" value="98"/>
+			</entry>
+		</entry>
+		<entry index="126" type="table">
+			<entry key="unit_data" type="table">
+				<entry key="_prev_pos" type="vector3" value="-1911.45 5400.07 350.001"/>
+				<entry key="_prev_rot" type="quaternion" value="-1.58946e-007 0 0 -1"/>
+				<entry key="continent" type="string" value="world"/>
+				<entry key="instance_data" type="boolean" value="false"/>
+				<entry key="local_pos" type="vector3" value="0 0 0"/>
+				<entry key="local_rot" type="quaternion" value="0 0 0 1"/>
+				<entry key="name" type="string" value="core/units/patrol_point/patrol_point"/>
+				<entry key="name_id" type="string" value="patrol_point_043"/>
+				<entry key="position" type="vector3" value="-1911.45 5400.07 350.001"/>
+				<entry key="rotation" type="quaternion" value="-1.58946e-007 0 0 -1"/>
+				<entry key="unit_id" type="number" value="99"/>
+			</entry>
+		</entry>
+		<entry index="127" type="table">
+			<entry key="unit_data" type="table">
+				<entry key="_prev_pos" type="vector3" value="-1947.93 9190.74 350.002"/>
+				<entry key="_prev_rot" type="quaternion" value="-1.58946e-007 0 0 -1"/>
+				<entry key="continent" type="string" value="world"/>
+				<entry key="instance_data" type="boolean" value="false"/>
+				<entry key="local_pos" type="vector3" value="0 0 0"/>
+				<entry key="local_rot" type="quaternion" value="0 0 0 1"/>
+				<entry key="name" type="string" value="core/units/patrol_point/patrol_point"/>
+				<entry key="name_id" type="string" value="patrol_point_044"/>
+				<entry key="position" type="vector3" value="-1947.93 9190.74 350.002"/>
+				<entry key="rotation" type="quaternion" value="-1.58946e-007 0 0 -1"/>
+				<entry key="unit_id" type="number" value="100"/>
+			</entry>
+		</entry>
+		<entry index="128" type="table">
+			<entry key="unit_data" type="table">
+				<entry key="_prev_pos" type="vector3" value="-2035.82 13539.8 350.002"/>
+				<entry key="_prev_rot" type="quaternion" value="-1.58946e-007 0 0 -1"/>
+				<entry key="continent" type="string" value="world"/>
+				<entry key="instance_data" type="boolean" value="false"/>
+				<entry key="local_pos" type="vector3" value="0 0 0"/>
+				<entry key="local_rot" type="quaternion" value="0 0 0 1"/>
+				<entry key="name" type="string" value="core/units/patrol_point/patrol_point"/>
+				<entry key="name_id" type="string" value="patrol_point_045"/>
+				<entry key="position" type="vector3" value="-2035.82 13539.8 350.002"/>
+				<entry key="rotation" type="quaternion" value="-1.58946e-007 0 0 -1"/>
+				<entry key="unit_id" type="number" value="101"/>
+			</entry>
+		</entry>
+		<entry index="129" type="table">
+			<entry key="unit_data" type="table">
+				<entry key="_prev_pos" type="vector3" value="-1543.17 13626.1 350.002"/>
+				<entry key="_prev_rot" type="quaternion" value="-1.58946e-007 0 0 -1"/>
+				<entry key="continent" type="string" value="world"/>
+				<entry key="instance_data" type="boolean" value="false"/>
+				<entry key="local_pos" type="vector3" value="0 0 0"/>
+				<entry key="local_rot" type="quaternion" value="0 0 0 1"/>
+				<entry key="name" type="string" value="core/units/patrol_point/patrol_point"/>
+				<entry key="name_id" type="string" value="patrol_point_046"/>
+				<entry key="position" type="vector3" value="-1543.17 13626.1 350.002"/>
+				<entry key="rotation" type="quaternion" value="-1.58946e-007 0 0 -1"/>
+				<entry key="unit_id" type="number" value="102"/>
+			</entry>
+		</entry>
+		<entry index="130" type="table">
+			<entry key="unit_data" type="table">
+				<entry key="_prev_pos" type="vector3" value="-1571.75 -8503.22 349.999"/>
+				<entry key="_prev_rot" type="quaternion" value="0 0 0 -1"/>
+				<entry key="continent" type="string" value="world"/>
+				<entry key="instance_data" type="boolean" value="false"/>
+				<entry key="local_pos" type="vector3" value="0 0 0"/>
+				<entry key="local_rot" type="quaternion" value="0 0 0 1"/>
+				<entry key="name" type="string" value="core/units/patrol_point/patrol_point"/>
+				<entry key="name_id" type="string" value="patrol_point_047"/>
+				<entry key="position" type="vector3" value="-1571.75 -8503.22 349.999"/>
+				<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+				<entry key="unit_id" type="number" value="103"/>
+			</entry>
+		</entry>
+		<entry index="131" type="table">
+			<entry key="unit_data" type="table">
+				<entry key="_prev_pos" type="vector3" value="-1957.12 -8472.89 349.999"/>
+				<entry key="_prev_rot" type="quaternion" value="0 0 0 -1"/>
+				<entry key="continent" type="string" value="world"/>
+				<entry key="instance_data" type="boolean" value="false"/>
+				<entry key="local_pos" type="vector3" value="0 0 0"/>
+				<entry key="local_rot" type="quaternion" value="0 0 0 1"/>
+				<entry key="name" type="string" value="core/units/patrol_point/patrol_point"/>
+				<entry key="name_id" type="string" value="patrol_point_048"/>
+				<entry key="position" type="vector3" value="-1957.12 -8472.89 349.999"/>
+				<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+				<entry key="unit_id" type="number" value="104"/>
+			</entry>
+		</entry>
+		<entry index="132" type="table">
+			<entry key="unit_data" type="table">
+				<entry key="_prev_pos" type="vector3" value="-2073.31 -6226.79 349.999"/>
+				<entry key="_prev_rot" type="quaternion" value="0 0 0 -1"/>
+				<entry key="continent" type="string" value="world"/>
+				<entry key="instance_data" type="boolean" value="false"/>
+				<entry key="local_pos" type="vector3" value="0 0 0"/>
+				<entry key="local_rot" type="quaternion" value="0 0 0 1"/>
+				<entry key="name" type="string" value="core/units/patrol_point/patrol_point"/>
+				<entry key="name_id" type="string" value="patrol_point_049"/>
+				<entry key="position" type="vector3" value="-2073.31 -6226.79 349.999"/>
+				<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+				<entry key="unit_id" type="number" value="105"/>
+			</entry>
+		</entry>
+		<entry index="133" type="table">
+			<entry key="unit_data" type="table">
+				<entry key="_prev_pos" type="vector3" value="-1838.49 -3519.38 350"/>
+				<entry key="_prev_rot" type="quaternion" value="0 0 0 -1"/>
+				<entry key="continent" type="string" value="world"/>
+				<entry key="instance_data" type="boolean" value="false"/>
+				<entry key="local_pos" type="vector3" value="0 0 0"/>
+				<entry key="local_rot" type="quaternion" value="0 0 0 1"/>
+				<entry key="name" type="string" value="core/units/patrol_point/patrol_point"/>
+				<entry key="name_id" type="string" value="patrol_point_050"/>
+				<entry key="position" type="vector3" value="-1838.49 -3519.38 350"/>
+				<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+				<entry key="unit_id" type="number" value="106"/>
+			</entry>
+		</entry>
+		<entry index="134" type="table">
+			<entry key="unit_data" type="table">
+				<entry key="_prev_pos" type="vector3" value="-1808.21 -2105.28 350"/>
+				<entry key="_prev_rot" type="quaternion" value="0 0 0 -1"/>
+				<entry key="continent" type="string" value="world"/>
+				<entry key="instance_data" type="boolean" value="false"/>
+				<entry key="local_pos" type="vector3" value="0 0 0"/>
+				<entry key="local_rot" type="quaternion" value="0 0 0 1"/>
+				<entry key="name" type="string" value="core/units/patrol_point/patrol_point"/>
+				<entry key="name_id" type="string" value="patrol_point_051"/>
+				<entry key="position" type="vector3" value="-1808.21 -2105.28 350"/>
+				<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+				<entry key="unit_id" type="number" value="107"/>
+			</entry>
+		</entry>
+		<entry index="135" type="table">
+			<entry key="unit_data" type="table">
+				<entry key="_prev_pos" type="vector3" value="-1038.63 -1513.25 350"/>
+				<entry key="_prev_rot" type="quaternion" value="0 0 0 -1"/>
+				<entry key="continent" type="string" value="world"/>
+				<entry key="instance_data" type="boolean" value="false"/>
+				<entry key="local_pos" type="vector3" value="0 0 0"/>
+				<entry key="local_rot" type="quaternion" value="0 0 0 1"/>
+				<entry key="name" type="string" value="core/units/patrol_point/patrol_point"/>
+				<entry key="name_id" type="string" value="patrol_point_052"/>
+				<entry key="position" type="vector3" value="-1038.63 -1513.25 350"/>
+				<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+				<entry key="unit_id" type="number" value="108"/>
+			</entry>
+		</entry>
+		<entry index="136" type="table">
+			<entry key="unit_data" type="table">
+				<entry key="_prev_pos" type="vector3" value="2250.78 -1588.29 350"/>
+				<entry key="_prev_rot" type="quaternion" value="0 0 0 -1"/>
+				<entry key="continent" type="string" value="world"/>
+				<entry key="instance_data" type="boolean" value="false"/>
+				<entry key="local_pos" type="vector3" value="0 0 0"/>
+				<entry key="local_rot" type="quaternion" value="0 0 0 1"/>
+				<entry key="name" type="string" value="core/units/patrol_point/patrol_point"/>
+				<entry key="name_id" type="string" value="patrol_point_053"/>
+				<entry key="position" type="vector3" value="2250.78 -1588.29 350"/>
+				<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+				<entry key="unit_id" type="number" value="109"/>
+			</entry>
+		</entry>
+		<entry index="137" type="table">
+			<entry key="unit_data" type="table">
+				<entry key="_prev_pos" type="vector3" value="3544.69 -2066 350"/>
+				<entry key="_prev_rot" type="quaternion" value="0 0 0 -1"/>
+				<entry key="continent" type="string" value="world"/>
+				<entry key="instance_data" type="boolean" value="false"/>
+				<entry key="local_pos" type="vector3" value="0 0 0"/>
+				<entry key="local_rot" type="quaternion" value="0 0 0 1"/>
+				<entry key="name" type="string" value="core/units/patrol_point/patrol_point"/>
+				<entry key="name_id" type="string" value="patrol_point_054"/>
+				<entry key="position" type="vector3" value="3544.69 -2066 350"/>
+				<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+				<entry key="unit_id" type="number" value="110"/>
+			</entry>
+		</entry>
+		<entry index="138" type="table">
+			<entry key="unit_data" type="table">
+				<entry key="_prev_pos" type="vector3" value="7624.71 -2061.74 350"/>
+				<entry key="_prev_rot" type="quaternion" value="0 0 0 -1"/>
+				<entry key="continent" type="string" value="world"/>
+				<entry key="instance_data" type="boolean" value="false"/>
+				<entry key="local_pos" type="vector3" value="0 0 0"/>
+				<entry key="local_rot" type="quaternion" value="0 0 0 1"/>
+				<entry key="name" type="string" value="core/units/patrol_point/patrol_point"/>
+				<entry key="name_id" type="string" value="patrol_point_055"/>
+				<entry key="position" type="vector3" value="7624.71 -2061.74 350"/>
+				<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+				<entry key="unit_id" type="number" value="111"/>
+			</entry>
+		</entry>
+		<entry index="139" type="table">
+			<entry key="unit_data" type="table">
+				<entry key="_prev_pos" type="vector3" value="7641 -1516.38 350"/>
+				<entry key="_prev_rot" type="quaternion" value="0 0 0 -1"/>
+				<entry key="continent" type="string" value="world"/>
+				<entry key="instance_data" type="boolean" value="false"/>
+				<entry key="local_pos" type="vector3" value="0 0 0"/>
+				<entry key="local_rot" type="quaternion" value="0 0 0 1"/>
+				<entry key="name" type="string" value="core/units/patrol_point/patrol_point"/>
+				<entry key="name_id" type="string" value="patrol_point_056"/>
+				<entry key="position" type="vector3" value="7641 -1516.38 350"/>
+				<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+				<entry key="unit_id" type="number" value="112"/>
+			</entry>
+		</entry>
 	</entry>
 	<entry key="ai_nav_graphs" type="table">
 		<entry key="file" type="string" value="nav_manager_data"/>
@@ -1531,90 +2446,288 @@
 	<entry key="ai_settings" type="table">
 		<entry key="ai_data" type="table">
 			<entry key="patrol_paths" type="table">
-				<entry key="inside_bank_back" type="table">
+				<entry key="civ_path_1" type="table">
 					<entry key="points" type="table">
 						<entry index="1" type="table">
-							<entry key="position" type="vector3" value="1208.01 238.751 350"/>
-							<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
-							<entry key="unit_id" type="number" value="65"/>
-						</entry>
-						<entry index="2" type="table">
-							<entry key="position" type="vector3" value="1367.27 -921.487 350"/>
-							<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
-							<entry key="unit_id" type="number" value="66"/>
-						</entry>
-						<entry index="3" type="table">
-							<entry key="position" type="vector3" value="-174.443 -910.125 350"/>
-							<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
-							<entry key="unit_id" type="number" value="67"/>
-						</entry>
-						<entry index="4" type="table">
-							<entry key="position" type="vector3" value="-381.884 46.4611 350"/>
-							<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
-							<entry key="unit_id" type="number" value="68"/>
-						</entry>
-						<entry index="5" type="table">
-							<entry key="position" type="vector3" value="17.173 434.197 350"/>
-							<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
-							<entry key="unit_id" type="number" value="69"/>
-						</entry>
-					</entry>
-				</entry>
-				<entry key="inside_bank_teller" type="table">
-					<entry key="points" type="table">
-						<entry index="1" type="table">
-							<entry key="position" type="vector3" value="-1362.24 2466.22 350"/>
+							<entry key="position" type="vector3" value="-1543.46 13616.8 350.002"/>
 							<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 							<entry key="unit_id" type="number" value="32"/>
 						</entry>
 						<entry index="2" type="table">
-							<entry key="position" type="vector3" value="-38.5056 2482.03 350.001"/>
+							<entry key="position" type="vector3" value="-2029.06 13528.1 350.002"/>
 							<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 							<entry key="unit_id" type="number" value="61"/>
 						</entry>
 						<entry index="3" type="table">
-							<entry key="position" type="vector3" value="-57.3952 1275.8 350"/>
+							<entry key="position" type="vector3" value="-1948.25 9884.89 350.002"/>
 							<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 							<entry key="unit_id" type="number" value="62"/>
 						</entry>
 						<entry index="4" type="table">
-							<entry key="position" type="vector3" value="-824.323 792.704 350"/>
-							<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+							<entry key="position" type="vector3" value="-1908.92 5394.63 350.001"/>
+							<entry key="rotation" type="quaternion" value="0 0.707107 0 -0.707107"/>
 							<entry key="unit_id" type="number" value="63"/>
 						</entry>
 						<entry index="5" type="table">
-							<entry key="position" type="vector3" value="-1337.55 955.362 350"/>
-							<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+							<entry key="position" type="vector3" value="-1906.04 3294.01 350.001"/>
+							<entry key="rotation" type="quaternion" value="0 0.707107 0 -0.707107"/>
 							<entry key="unit_id" type="number" value="64"/>
+						</entry>
+						<entry index="6" type="table">
+							<entry key="position" type="vector3" value="-1947.1 1210.64 350"/>
+							<entry key="rotation" type="quaternion" value="0 0.707107 0 -0.707107"/>
+							<entry key="unit_id" type="number" value="65"/>
+						</entry>
+						<entry index="7" type="table">
+							<entry key="position" type="vector3" value="-1820.12 -594.961 350"/>
+							<entry key="rotation" type="quaternion" value="0 0.707107 0 -0.707107"/>
+							<entry key="unit_id" type="number" value="66"/>
+						</entry>
+						<entry index="8" type="table">
+							<entry key="position" type="vector3" value="-2015.5 -953.71 350"/>
+							<entry key="rotation" type="quaternion" value="0 0.707107 0 -0.707107"/>
+							<entry key="unit_id" type="number" value="67"/>
+						</entry>
+						<entry index="9" type="table">
+							<entry key="position" type="vector3" value="-1992.46 -2125.29 350"/>
+							<entry key="rotation" type="quaternion" value="0 0.707107 0 -0.707107"/>
+							<entry key="unit_id" type="number" value="68"/>
+						</entry>
+						<entry index="10" type="table">
+							<entry key="position" type="vector3" value="-1837.12 -3522.11 350"/>
+							<entry key="rotation" type="quaternion" value="0 0.707107 0 -0.707107"/>
+							<entry key="unit_id" type="number" value="69"/>
+						</entry>
+						<entry index="11" type="table">
+							<entry key="position" type="vector3" value="-1978.97 -4197.76 349.999"/>
+							<entry key="rotation" type="quaternion" value="0 0.707107 0 -0.707107"/>
+							<entry key="unit_id" type="number" value="70"/>
+						</entry>
+						<entry index="12" type="table">
+							<entry key="position" type="vector3" value="-1992.88 -5998.16 349.999"/>
+							<entry key="rotation" type="quaternion" value="0 0.707107 0 -0.707107"/>
+							<entry key="unit_id" type="number" value="71"/>
+						</entry>
+						<entry index="13" type="table">
+							<entry key="position" type="vector3" value="-2079.09 -6404.97 349.999"/>
+							<entry key="rotation" type="quaternion" value="0 0.707107 0 -0.707107"/>
+							<entry key="unit_id" type="number" value="72"/>
+						</entry>
+						<entry index="14" type="table">
+							<entry key="position" type="vector3" value="-1960.02 -8476.63 349.999"/>
+							<entry key="rotation" type="quaternion" value="0 0.707107 0 -0.707107"/>
+							<entry key="unit_id" type="number" value="73"/>
+						</entry>
+						<entry index="15" type="table">
+							<entry key="position" type="vector3" value="-1571.07 -8505.53 349.999"/>
+							<entry key="rotation" type="quaternion" value="0 0.707107 0 -0.707107"/>
+							<entry key="unit_id" type="number" value="74"/>
 						</entry>
 					</entry>
 				</entry>
-				<entry key="outside_bank_roof" type="table">
+				<entry key="civ_path_2" type="table">
 					<entry key="points" type="table">
 						<entry index="1" type="table">
-							<entry key="position" type="vector3" value="1821.6 445.929 850"/>
-							<entry key="rotation" type="quaternion" value="-1.05964e-007 0 0 -1"/>
-							<entry key="unit_id" type="number" value="70"/>
+							<entry key="position" type="vector3" value="-8751.5 8556.22 350.001"/>
+							<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+							<entry key="unit_id" type="number" value="75"/>
 						</entry>
 						<entry index="2" type="table">
-							<entry key="position" type="vector3" value="2434.09 -1206.36 850"/>
-							<entry key="rotation" type="quaternion" value="-1.05964e-007 0 0 -1"/>
-							<entry key="unit_id" type="number" value="71"/>
+							<entry key="position" type="vector3" value="-8353.98 9026.58 350.002"/>
+							<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+							<entry key="unit_id" type="number" value="76"/>
 						</entry>
 						<entry index="3" type="table">
-							<entry key="position" type="vector3" value="948.746 -404.286 850"/>
-							<entry key="rotation" type="quaternion" value="-1.05964e-007 0 0 -1"/>
-							<entry key="unit_id" type="number" value="72"/>
+							<entry key="position" type="vector3" value="-3380.67 8983.94 350.002"/>
+							<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+							<entry key="unit_id" type="number" value="77"/>
 						</entry>
 						<entry index="4" type="table">
-							<entry key="position" type="vector3" value="-864.863 933.214 850"/>
-							<entry key="rotation" type="quaternion" value="-1.05964e-007 0 0 -1"/>
-							<entry key="unit_id" type="number" value="73"/>
+							<entry key="position" type="vector3" value="-3400.82 1715.66 350"/>
+							<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+							<entry key="unit_id" type="number" value="78"/>
 						</entry>
 						<entry index="5" type="table">
-							<entry key="position" type="vector3" value="-851.037 3134 850.001"/>
-							<entry key="rotation" type="quaternion" value="-1.05964e-007 0 0 -1"/>
-							<entry key="unit_id" type="number" value="74"/>
+							<entry key="position" type="vector3" value="-3435.66 273.983 350"/>
+							<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+							<entry key="unit_id" type="number" value="79"/>
+						</entry>
+						<entry index="6" type="table">
+							<entry key="position" type="vector3" value="-3399.68 -1761.04 350"/>
+							<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+							<entry key="unit_id" type="number" value="80"/>
+						</entry>
+						<entry index="7" type="table">
+							<entry key="position" type="vector3" value="-3441.34 -3704.61 350"/>
+							<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+							<entry key="unit_id" type="number" value="81"/>
+						</entry>
+						<entry index="8" type="table">
+							<entry key="position" type="vector3" value="-3379.19 -8441.24 349.999"/>
+							<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+							<entry key="unit_id" type="number" value="82"/>
+						</entry>
+						<entry index="9" type="table">
+							<entry key="position" type="vector3" value="-3882.19 -8505.6 349.999"/>
+							<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+							<entry key="unit_id" type="number" value="83"/>
+						</entry>
+					</entry>
+				</entry>
+				<entry key="civ_path_3" type="table">
+					<entry key="points" type="table">
+						<entry index="1" type="table">
+							<entry key="position" type="vector3" value="-3874.64 -8505.24 349.999"/>
+							<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+							<entry key="unit_id" type="number" value="84"/>
+						</entry>
+						<entry index="2" type="table">
+							<entry key="position" type="vector3" value="-3345.04 -8451.98 349.999"/>
+							<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+							<entry key="unit_id" type="number" value="85"/>
+						</entry>
+						<entry index="3" type="table">
+							<entry key="position" type="vector3" value="-3424.28 -3523.23 350"/>
+							<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+							<entry key="unit_id" type="number" value="86"/>
+						</entry>
+						<entry index="4" type="table">
+							<entry key="position" type="vector3" value="-1838.48 -3518.6 350"/>
+							<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+							<entry key="unit_id" type="number" value="87"/>
+						</entry>
+						<entry index="5" type="table">
+							<entry key="position" type="vector3" value="2784.62 -3533.29 350"/>
+							<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+							<entry key="unit_id" type="number" value="88"/>
+						</entry>
+						<entry index="6" type="table">
+							<entry key="position" type="vector3" value="7510.43 -3547.25 350"/>
+							<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+							<entry key="unit_id" type="number" value="89"/>
+						</entry>
+						<entry index="7" type="table">
+							<entry key="position" type="vector3" value="6264.36 -3961.6 350"/>
+							<entry key="rotation" type="quaternion" value="-5.96046e-008 0 0 -1"/>
+							<entry key="unit_id" type="number" value="90"/>
+						</entry>
+					</entry>
+				</entry>
+				<entry key="civ_path_4" type="table">
+					<entry key="points" type="table">
+						<entry index="1" type="table">
+							<entry key="position" type="vector3" value="6262.58 -3961.55 349.999"/>
+							<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+							<entry key="unit_id" type="number" value="91"/>
+						</entry>
+						<entry index="2" type="table">
+							<entry key="position" type="vector3" value="6221.11 -3501.96 350"/>
+							<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+							<entry key="unit_id" type="number" value="92"/>
+						</entry>
+						<entry index="3" type="table">
+							<entry key="position" type="vector3" value="-1839.57 -3522.25 350"/>
+							<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+							<entry key="unit_id" type="number" value="93"/>
+						</entry>
+						<entry index="4" type="table">
+							<entry key="position" type="vector3" value="-1991.26 -2122.66 350"/>
+							<entry key="rotation" type="quaternion" value="-1.58946e-007 0 0 -1"/>
+							<entry key="unit_id" type="number" value="94"/>
+						</entry>
+						<entry index="5" type="table">
+							<entry key="position" type="vector3" value="-2015.21 -949.804 350"/>
+							<entry key="rotation" type="quaternion" value="-1.58946e-007 0 0 -1"/>
+							<entry key="unit_id" type="number" value="95"/>
+						</entry>
+						<entry index="6" type="table">
+							<entry key="position" type="vector3" value="-1814.55 -592.105 350"/>
+							<entry key="rotation" type="quaternion" value="-1.58946e-007 0 0 -1"/>
+							<entry key="unit_id" type="number" value="96"/>
+						</entry>
+						<entry index="7" type="table">
+							<entry key="position" type="vector3" value="-1952.88 1215.18 350"/>
+							<entry key="rotation" type="quaternion" value="-1.58946e-007 0 0 -1"/>
+							<entry key="unit_id" type="number" value="97"/>
+						</entry>
+						<entry index="8" type="table">
+							<entry key="position" type="vector3" value="-1904.72 3294.58 350.001"/>
+							<entry key="rotation" type="quaternion" value="-1.58946e-007 0 0 -1"/>
+							<entry key="unit_id" type="number" value="98"/>
+						</entry>
+						<entry index="9" type="table">
+							<entry key="position" type="vector3" value="-1911.45 5400.07 350.001"/>
+							<entry key="rotation" type="quaternion" value="-1.58946e-007 0 0 -1"/>
+							<entry key="unit_id" type="number" value="99"/>
+						</entry>
+						<entry index="10" type="table">
+							<entry key="position" type="vector3" value="-1947.93 9190.74 350.002"/>
+							<entry key="rotation" type="quaternion" value="-1.58946e-007 0 0 -1"/>
+							<entry key="unit_id" type="number" value="100"/>
+						</entry>
+						<entry index="11" type="table">
+							<entry key="position" type="vector3" value="-2035.82 13539.8 350.002"/>
+							<entry key="rotation" type="quaternion" value="-1.58946e-007 0 0 -1"/>
+							<entry key="unit_id" type="number" value="101"/>
+						</entry>
+						<entry index="12" type="table">
+							<entry key="position" type="vector3" value="-1543.17 13626.1 350.002"/>
+							<entry key="rotation" type="quaternion" value="-1.58946e-007 0 0 -1"/>
+							<entry key="unit_id" type="number" value="102"/>
+						</entry>
+					</entry>
+				</entry>
+				<entry key="civ_path_5" type="table">
+					<entry key="points" type="table">
+						<entry index="1" type="table">
+							<entry key="position" type="vector3" value="-1571.75 -8503.22 349.999"/>
+							<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+							<entry key="unit_id" type="number" value="103"/>
+						</entry>
+						<entry index="2" type="table">
+							<entry key="position" type="vector3" value="-1957.12 -8472.89 349.999"/>
+							<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+							<entry key="unit_id" type="number" value="104"/>
+						</entry>
+						<entry index="3" type="table">
+							<entry key="position" type="vector3" value="-2073.31 -6226.79 349.999"/>
+							<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+							<entry key="unit_id" type="number" value="105"/>
+						</entry>
+						<entry index="4" type="table">
+							<entry key="position" type="vector3" value="-1838.49 -3519.38 350"/>
+							<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+							<entry key="unit_id" type="number" value="106"/>
+						</entry>
+						<entry index="5" type="table">
+							<entry key="position" type="vector3" value="-1808.21 -2105.28 350"/>
+							<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+							<entry key="unit_id" type="number" value="107"/>
+						</entry>
+						<entry index="6" type="table">
+							<entry key="position" type="vector3" value="-1038.63 -1513.25 350"/>
+							<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+							<entry key="unit_id" type="number" value="108"/>
+						</entry>
+						<entry index="7" type="table">
+							<entry key="position" type="vector3" value="2250.78 -1588.29 350"/>
+							<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+							<entry key="unit_id" type="number" value="109"/>
+						</entry>
+						<entry index="8" type="table">
+							<entry key="position" type="vector3" value="3544.69 -2066 350"/>
+							<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+							<entry key="unit_id" type="number" value="110"/>
+						</entry>
+						<entry index="9" type="table">
+							<entry key="position" type="vector3" value="7624.71 -2061.74 350"/>
+							<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+							<entry key="unit_id" type="number" value="111"/>
+						</entry>
+						<entry index="10" type="table">
+							<entry key="position" type="vector3" value="7641 -1516.38 350"/>
+							<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+							<entry key="unit_id" type="number" value="112"/>
 						</entry>
 					</entry>
 				</entry>
