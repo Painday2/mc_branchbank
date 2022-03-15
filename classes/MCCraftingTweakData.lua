@@ -1,27 +1,27 @@
-RecipeTweakData = RecipeTweakData or class()
+MCCrafting.tweak_data = MCCrafting.tweak_data or class()
 
-function RecipeTweakData:init()
+function MCCrafting.tweak_data:init()
     self:init_crafting_table_recipes()
 end
 
-function RecipeTweakData:init_crafting_table_recipes()
+function MCCrafting.tweak_data:init_crafting_table_recipes()
     self.crafting_table = {}
 
     self.crafting_table.stick_recipe = {
         output = {"stick", 4},
-        input = {
+        input = MCCrafting:new({
             {"wood_plank"},
             {"wood_plank"}
-        },
+        })
     }
 
 
     self.crafting_table.stone_pickaxe_recipe = {
         output = {"stone_pickaxe", 1},
-        input = {
-          {"stone", "stone", "stone"},
-          {nil,     "stick", nil    },
-          {nil,     "stick", nil    }
-        },
+        input = MCCrafting:new({
+            {"cobblestone", "cobblestone", "cobblestone"},
+            {false,   "stick",  false },
+            {false,   "stick",  false }
+        })
     }
 end

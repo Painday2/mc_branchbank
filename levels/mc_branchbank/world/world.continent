@@ -2464,6 +2464,9 @@
 		<table>
 			<unit_data _prev_pos="-1836.23 -5365.38 350.002" _prev_rot="0 0 -0.707107 -0.707107" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_nav_splitter/dev_nav_splitter_16x3m" name_id="dev_nav_splitter_16x3m_018" only_exists_in_editor="true" position="-1836.23 -5365.38 350.002" rotation="0 0 -0.707107 -0.707107" unit_id="100785"/>
 		</table>
+		<table>
+			<unit_data _prev_pos="-4570 -100 450" _prev_rot="0 0 -0.707107 -0.707107" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="state_show" name="units/pd2_mod_craft/props/lavabucket" name_id="lavabucket_001" position="-4575 -100 452" rotation="0 0 -0.707107 -0.707107" unit_id="100786"/>
+		</table>
 	</statics>
 	<values>
 		<workviews/>

@@ -1,141 +1,108 @@
-MCcrafting = MCcrafting or class()
+MCCrafting = MCCrafting or class()
 
-function MCcrafting:init()
-    log("[MCcrafting] Init")
-    RecipeTweakData:init()
+--thank you hoppip for solving my major skill issue with the below code
+
+-- grid_tbl should be a 2 dimensional table array with main entries rows and subentries col
+function MCCrafting:init(grid_tbl)
+	self.tbl = grid_tbl
 end
-local inGrid = {
-    {nil},
-    {nil, "wood_plank", nil},
-    {nil, "wood_plank", nil}
-}
 
-MCcrafting:init()
-
-function MCcrafting:checkRecipe()
-    --log("heello")
-
-    --not stolen from https://answers.unity.com/questions/1088381/checking-patterns-in-a-2d-array.html i promise
-
-    --Get the size of items in the table
-    local tablerows = table.size(inGrid)
-    local tablecolumn = 1
-    for k, v in pairs(inGrid) do
-        log("k : ", tostring(k), "v: ", tostring(#v))
-        local size = table.size(v)
-        log("size: ", tostring(size))
-        if size > tablecolumn then
-            tablecolumn = size
-            log("tblclm1:", tostring(tablecolumn))
-        end
-    end
-
-    for i,v in pairs(RecipeTweakData.crafting_table) do
-        --get the size of crafting recipe
-        local input = v.input
-        local reciperows = table.size(input)
-        local recipecolumn = 0
-        for _, v in pairs(input) do
-            local size = table.size(v)
-            if size > recipecolumn then
-                recipecolumn = size
-            end
-        end
-        --get how many of the recipe can fit
-        local fitrow = tablerows - reciperows + 1
-        local fitcolumn = tablecolumn - recipecolumn + 1
-        log("tblclm: ", tostring(tablecolumn))
-        log("tblrow: ", tostring(tablerows))
-        log("fitclm: ", tostring(fitcolumn))
-        log("fitrow: ", tostring(fitrow))
-        log("recclm: ", tostring(recipecolumn))
-        log("recrows: ", tostring(reciperows))
-        local success = false
-        --if 3x3, skip doing fit stuff
-        if fitrow == 1 and fitcolumn == 1 then
-            for rc = 1, recipecolumn, 1 do
-                for rr = 1, reciperows, 1  do
-                    log("recipe: ", tostring(input[rc][rr]))
-                    log("ingrid: ", tostring(inGrid[rc][rr]))
-                    if input[rc][rr] == nil then
-                        log("continue")
-                        goto continue3x3
-                    end
-                    --item doesn't match anything in the grid, gtfo
-                    if input[rc][rr] ~= inGrid[rc][rr] then
-                        log("finish")
-                        goto next3x3 --haha goto go brr
-                    end
-                    ::continue3x3::
-                end
-            end
-            log("banana")
-            success = true
-            ::next3x3::
-        elseif fitcolumn > 0 and fitrow > 0 then
-            for fc = 1, fitcolumn, 1 do
-                log("column1")
-                for fr = 1, fitrow, 1  do
-                    log("row1")
-                    -- for every item in the pattern
-                    for rc = 1, recipecolumn, 1 do
-                        for rr = 1, reciperows, 1  do
-                            log("recipe: ", tostring(input[rc][rr]))
-                            log("ingrid: ", tostring(inGrid[rc][rr]))
-                            --log("recipefc: ", tostring(input[fc][fr]))
-                            log("ingridfc:", tostring(inGrid[fc][fr]))
-                            if input[rc][rr] == nil or 0 and inGrid[fc][fr] == nil or 0 then
-                                log("continue")
-                                goto continue
-                            end
-                            --item doesn't match anything in the grid, gtfo
-                            if input[rc][rr] ~= inGrid[fc][fr] then
-                                log("finish")
-                                goto next --haha goto go brr
-                            end
-                            ::continue::
-                        end
-                    end
-                end
-            end
-            success = true
-            ::next::
-        end
-        if success then
-            log("success")
-            return true
-        end
-    end
-    return false
+function MCCrafting:print()
+	local str = ""
+	for y, col in ipairs(self.tbl) do
+		for x, item in ipairs(col) do
+			str = str .. (item and item:sub(1, 1) or " ")
+		end
+		str = str .. "\n"
+	end
+	log(str)
 end
---[[function MCcrafting:checkRecipe()
-    log("heello")
-    for i,v in pairs(RecipeTweakData.crafting_table) do
-        --log(grid)
-        PrintTable(v.input)
-        log(tostring(#v.input[1]))
-        log(tostring(v))
-        if grid == v then
-            log(tostring(i))
-            return tostring(i)
-        else
-            log("Not ".. tostring(i))
-        end
-    end
+
+function MCCrafting:w()
+	return self.tbl[1] and #self.tbl[1] or 0 -- uses first row to determine number of cols, so make sure every row has the same amount of cols
+end
+
+function MCCrafting:h()
+	return #self.tbl
+end
+
+function MCCrafting:value(x, y)
+	return self.tbl[y][x]
+end
+
+function MCCrafting:condensed() -- returns condensed version of the grid, that is, trimming empty space
+	local min_x, min_y, max_x, max_y = self:w(), self:h(), 1, 1
+	for y, col in ipairs(self.tbl) do
+		for x, item in ipairs(col) do
+			if item then
+				min_x = math.min(x, min_x)
+				min_y = math.min(y, min_y)
+				max_x = math.max(x, max_x)
+				max_y = math.max(y, max_y)
+			end
+		end
+	end
+
+	local condensed = {}
+	for y = min_y, max_y do
+		local row = {}
+		for x = min_x, max_x do
+			table.insert(row, self:value(x, y))
+		end
+		table.insert(condensed, row)
+	end
+
+	return MCCrafting:new(condensed)
+end
+
+--[[function MCCrafting:find_first()
+	for y, col in ipairs(self.tbl) do
+		for x, item in ipairs(col) do
+			if item then
+				return item, x, y
+			end
+		end
+	end
 end]]
 
-function MCcrafting:TakeItem(item)
-    --idk what i'm doing
-    managers.player:add_special({
-        name = item
-    })
+function MCCrafting:matches(other)
+	local self_condensed = self:condensed()
+	local other_condensed = other:condensed()
+
+	if self_condensed:w() ~= other_condensed:w() or self_condensed:h() ~= other_condensed:h() then
+		return false -- if the dimensions of condensed grids dont match, it cant be a recipe match
+	end
+
+	for y = 1, self_condensed:h() do
+		for x = 1, self_condensed:w() do
+			if self_condensed:value(x, y) ~= other_condensed:value(x, y) then
+				return false
+			end
+		end
+	end
+
+	return true
 end
 
-function MCcrafting:aaaaa()
-    local item = MCcrafting:checkRecipe()
-    MCcrafting:TakeItem(item)
-end
-
+--[[local crafting_grid = MCCrafting:new({
+	{false, "planks", false},
+	{false, "planks", false},
+	{false, "planks", false}
+})
+local sticks_recipe = MCCrafting:new({
+	{"planks"},
+	{"planks"}
+})
+local button_recipe = MCCrafting:new({
+	{"planks"}
+})
+log("aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
+log("aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
+log("aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
+log("aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
+crafting_grid:print()
+log(tostring(crafting_grid:matches(sticks_recipe)))
+log(tostring(crafting_grid:matches(button_recipe)))]]
 
 
 mcItemInteractionExt = mcItemInteractionExt or class(UseInteractionExt)

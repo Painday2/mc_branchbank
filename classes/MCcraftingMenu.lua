@@ -1,8 +1,8 @@
 local Font = "fonts/minecraft"
 local BaseLayer = 2500
 
-MCcrafting.Menu = MCcrafting.Menu or class()
-local CraftMenu = MCcrafting.Menu
+MCCrafting.Menu = MCCrafting.Menu or class()
+local CraftMenu = MCCrafting.Menu
 
 function CraftMenu:init()
     self._menu = MenuUI:new({
@@ -220,7 +220,7 @@ function CraftMenu:_init_craft_gui()
         amount = 0,
         on_callback = function(item)
             log("inv 1 was pressed!")
-            MCcrafting:checkRecipe()
+            MCCrafting:checkRecipe()
         end
     })
 
