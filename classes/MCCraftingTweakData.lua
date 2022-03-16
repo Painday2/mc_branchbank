@@ -11,7 +11,8 @@ function MCCrafting.tweak_data:init_items()
 
     self.items.wood_plank = {
         id = "wood_plank",
-        texture = "guis/textures/pd2/none_icon",
+        texture = "guis/textures/menu_ui_icons",
+        texture_rect = {2, 48, 38, 38},
         max_stack_size = 64,
     }
 
@@ -48,7 +49,7 @@ function MCCrafting.tweak_data:init_crafting_table_recipes()
             {false,   "stick",  false }
         })
     }
-    
+
     self.crafting_table.stone_axe_recipe = {
         output = {"stone_axe", 1},
         input = MCCrafting:new({

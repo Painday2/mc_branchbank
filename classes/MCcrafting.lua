@@ -118,7 +118,6 @@ crafting_grid:print()
 log(tostring(crafting_grid:matches(sticks_recipe)))
 log(tostring(crafting_grid:matches(button_recipe)))]]
 
-
 mcItemInteractionExt = mcItemInteractionExt or class(UseInteractionExt)
 
 function mcItemInteractionExt:_interact_blocked(player)

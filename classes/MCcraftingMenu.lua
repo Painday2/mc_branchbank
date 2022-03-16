@@ -14,14 +14,15 @@ function CraftMenu:init()
         animate_toggle = true
     })
     self._menu_panel = self._menu._panel
-
-    self:_init_bg()
-    self:_init_craft_gui()
-    self:SetInventory()
+    
     if not MCCrafting.tweak_data.initialized then
         MCCrafting.tweak_data:init()
         MCCrafting.Inventory:init()
     end
+
+    self:_init_bg()
+    self:_init_craft_gui()
+    self:SetInventory()
 end
 
 function CraftMenu:_init_bg()
@@ -140,11 +141,15 @@ function CraftMenu:_init_craft_gui()
     self.InventorySlotNumbers = {}
 
     for i = 1, 36 do
-        local pos
-        log(tostring(i))
+        local InventorySlot = MCCrafting.Inventory.InventorySlots[i]
+        local texture = InventorySlot.item_data and InventorySlot.item_data.texture or "guis/textures/pd2/none_icon"
+        log(tostring(texture))
+
         self.InventorySlot[i] = self.InventoryPanel:ImageButton({
-            name = "CraftingSlot" .. i,
-            texture = "guis/textures/pd2/none_icon",
+            name = "InventorySlot" .. i,
+            texture = texture,
+            text = tostring(InventorySlot.amount) or "",
+            texture_rect = InventorySlot.item_data and InventorySlot.item_data.texture_rect or nil,
             w = 30,
             h = 30,
             on_callback = function(item)
@@ -152,24 +157,18 @@ function CraftMenu:_init_craft_gui()
                 --PrintTable(item)
                 log("Clicked inv Slot " .. i)
             end,
-            position = function(item) 
+            position = function(item)
+                local pos
                 if i == 10 or i == 19 then
                     pos = {item:ParentPanel():x(), self.InventorySlot[i - 1]:Bottom() + 5}
-                    PrintTable(pos)
                 elseif i == 28 then
                     pos = {item:ParentPanel():x(), self.InventorySlot[i - 1]:Bottom() + 13}
-                    PrintTable(pos)
                 elseif i ~= 1 then
                     pos = {self.InventorySlot[i - 1]:Right() + 3, self.InventorySlot[i - 1]:Panel():y()}
-                    PrintTable(pos)
                 end
                 item:SetPosition(pos)
             end
         })
-        self.InventorySlot[i].on_callback = function()
-            ClassClbk(self.InventorySlot[i], "ClearSlot")
-            log("Clicked inv Slot " .. i)
-        end
         --self.CraftingSlot[i].MouseMoved = MouseMoved
         --self.CraftingSlot[i].MouseReleased = MouseReleased
     end
