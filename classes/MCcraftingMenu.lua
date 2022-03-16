@@ -20,6 +20,7 @@ function CraftMenu:init()
     self:SetInventory()
     if not MCCrafting.tweak_data.initialized then
         MCCrafting.tweak_data:init()
+        MCCrafting.Inventory:init()
     end
 end
 
@@ -78,15 +79,16 @@ function CraftMenu:_init_craft_gui()
 
     for i = 1, 9 do
         local pos
-        log(tostring(i))
+        local name = "CraftingSlot" .. i
         self.CraftingSlot[i] = self.CraftingPanels:ImageButton({
-            name = "CraftingSlot" .. i,
+            name = name,
             texture = "guis/textures/pd2/none_icon",
             w = 32,
             h = 32,
             on_callback = function(item)
                 ClassClbk(self, "OnSlotClick", item)
                 log("Clicked Slot " .. i)
+                ClassClbk(self, "update", name)
             end,
             position = function(item) 
                 if i == 4 or i == 7 then
@@ -146,7 +148,8 @@ function CraftMenu:_init_craft_gui()
             w = 30,
             h = 30,
             on_callback = function(item)
-                ClassClbk(self, "OnSlotClick", item)
+                ClassClbk(item, "ClearSlot")
+                --PrintTable(item)
                 log("Clicked inv Slot " .. i)
             end,
             position = function(item) 
@@ -163,7 +166,10 @@ function CraftMenu:_init_craft_gui()
                 item:SetPosition(pos)
             end
         })
-
+        self.InventorySlot[i].on_callback = function()
+            ClassClbk(self.InventorySlot[i], "ClearSlot")
+            log("Clicked inv Slot " .. i)
+        end
         --self.CraftingSlot[i].MouseMoved = MouseMoved
         --self.CraftingSlot[i].MouseReleased = MouseReleased
     end
@@ -189,8 +195,8 @@ function CraftMenu:SetInventory()
 end
 
 --needs these for later
---[[local function MouseMoved(o, x, y)
-    if self._game:Inside(x, y) then
+function CraftMenu:MouseMoved(o, x, y)
+    if self.CraftGUIMenu:Inside(x, y) then
         local pnlx, pnly = o:Panel():world_position()
         local tbl = self._pressed[o:Name()]
         if tbl and tbl.state then
@@ -202,7 +208,7 @@ end
     return (self.menu_type and o:MouseMovedMenuEvent(x,y)) or o:MouseMovedSelfEvent(x,y)
 end
 
-local function MouseReleased(o, b, x, y)
+function CraftMenu:MouseReleased(o, b, x, y)
     if b == Idstring("0") then
         local state = self._pressed[o:Name()] and self._pressed[o:Name()].state
         if state and self._WireRight:Inside(x,y) then
@@ -225,4 +231,101 @@ local function MouseReleased(o, b, x, y)
     if o._list then
         o._list:MouseReleased(b, x, y)
     end
-end]]
+end
+--i'll move this shit to it's own file later, i'm lazy.
+MCCrafting.Inventory = MCCrafting.Inventory or class()
+local Inventory = MCCrafting.Inventory
+
+function Inventory:init()
+    self.InventorySlots = {}
+    for i = 1, 36, 1 do
+        self.InventorySlots[i] = MCCrafting.InventorySlot:new()
+    end
+    self.InventorySlots[2]:UpdateInventorySlot(MCCrafting.tweak_data.items.wood_plank, 1)
+    Inventory:AddToInventory(MCCrafting.tweak_data.items.wood_plank, 1)
+    PrintTable(self.InventorySlots[2])
+end
+
+--item is the item from tweak_data.items
+function Inventory:AddToInventory(item, amount)
+    local contains = self:ContainsItem(item)
+    local free_slot = self:HasFreeSlot()
+    if contains then
+        for k, v in pairs(contains) do
+            if self.InventorySlots[v]:RoomLeftInStack(amount) then
+                self.InventorySlots[v]:AddToStack(amount)
+                return
+            end
+        end
+    end
+
+    if free_slot then
+        free_slot:UpdateInventorySlot(item, amount)
+    end
+end
+
+function Inventory:ContainsItem(item)
+    local invSlot = self:find_all_values_index(self.InventorySlots, function(slot)
+        return slot.item_data == item
+    end)
+    PrintTable(invSlot)
+    log(tostring(invSlot))
+    return #invSlot > 0 and invSlot or false
+end
+
+function Inventory:HasFreeSlot()
+    for i, v in pairs(self.InventorySlots) do
+        if v.item_data == nil then
+            return v
+        end
+    end
+    return false
+end
+
+--find all values in table tbl that match the function fnc, returns the indexes of the values
+function Inventory:find_all_values_index(t, func)
+    local matches = {}
+
+    for i, value in ipairs(t) do
+        if func(value) then
+            table.insert(matches, i)
+        end
+    end
+
+    return matches
+end
+
+MCCrafting.InventorySlot = MCCrafting.InventorySlot or class()
+local InventorySlot = MCCrafting.InventorySlot
+
+--copied a bunch of this from a youtube tutorial for unity, lmao
+--https://www.youtube.com/watch?v=svoXugGLFwU
+function InventorySlot:init(item_data, stack_size)
+    self.item_data = item_data or nil
+    self.stack_size = stack_size or 0
+end
+
+function InventorySlot:ClearSlot()
+    self.item_data = nil
+    self.stack_size = 0
+end
+
+function InventorySlot:UpdateInventorySlot(item_data, amount)
+    self.item_data = item_data
+    self.stack_size = amount
+end
+
+function InventorySlot:RoomLeftInStack(amount)
+    if (self.stack_size + amount) <= self.item_data.max_stack_size then
+        return true
+    end
+    return false
+end
+
+function InventorySlot:AddToStack(amount)
+    self.stack_size = self.stack_size + amount
+end
+
+function InventorySlot:RemoveFromStack(amount)
+    self.stack_size = self.stack_size - amount
+end
