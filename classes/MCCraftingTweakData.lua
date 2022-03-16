@@ -2,6 +2,7 @@ MCCrafting.tweak_data = MCCrafting.tweak_data or class()
 
 function MCCrafting.tweak_data:init()
     self:init_crafting_table_recipes()
+    self.initialized = true
 end
 
 function MCCrafting.tweak_data:init_crafting_table_recipes()
@@ -22,6 +23,15 @@ function MCCrafting.tweak_data:init_crafting_table_recipes()
             {"cobblestone", "cobblestone", "cobblestone"},
             {false,   "stick",  false },
             {false,   "stick",  false }
+        })
+    }
+    
+    self.crafting_table.stone_axe_recipe = {
+        output = {"stone_axe", 1},
+        input = MCCrafting:new({
+            {"cobblestone", "cobblestone"},
+            {"cobblestone", "stick"},
+            {false,         "stick"}
         })
     }
 end

@@ -7271,7 +7271,7 @@ return true"/>
 					<entry key="file" type="string" value="Maps/mc_branchbank/classes/MCcraftinginteraction.lua"/>
 					<entry key="on_executed" type="table">
 					</entry>
-					<entry key="position" type="vector3" value="1305.34 562.606 350"/>
+					<entry key="position" type="vector3" value="722.274 -695.078 350"/>
 					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
 					<entry key="trigger_times" type="number" value="0"/>
 					<entry key="use_path" type="string" value="full"/>

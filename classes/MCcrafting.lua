@@ -84,12 +84,26 @@ function MCCrafting:matches(other)
 	return true
 end
 
---[[local crafting_grid = MCCrafting:new({
-	{false, "planks", false},
-	{false, "planks", false},
-	{false, "planks", false}
-})
-local sticks_recipe = MCCrafting:new({
+function MCCrafting:checkRecipe()
+    local crafting_menu = MCCrafting.Menu.CraftingSlot
+    local tbl = {}
+
+    for i = 1, 9, 1 do
+        tbl[i] = crafting_menu[i].item or false
+    end
+
+    tbl = {
+        {tbl[1], tbl[2], tbl[3]},
+        {tbl[4], tbl[5], tbl[6]},
+        {tbl[7], tbl[8], tbl[9]}
+    }
+
+    local crafting_grid = MCCrafting:new(tbl)
+    for _, value in pairs(MCCrafting.tweak_data.crafting_table) do
+        log(tostring(crafting_grid:matches(value.input)))
+    end
+end
+--[[local sticks_recipe = MCCrafting:new({
 	{"planks"},
 	{"planks"}
 })
@@ -154,9 +168,9 @@ end
 
 function mcItemInteractionExt:apply_item_pickup()
     if self._special_equipment then
-        PrintTable(MCcrafting._items)
-        MCcrafting._items[self._special_equipment] = MCcrafting._items[self._special_equipment] + self._amount
-        PrintTable(MCcrafting._items)
+        PrintTable(MCCrafting._items)
+        MCCrafting._items[self._special_equipment] = MCCrafting._items[self._special_equipment] + self._amount
+        PrintTable(MCCrafting._items)
 	end
 end
 

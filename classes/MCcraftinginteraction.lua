@@ -1,5 +1,5 @@
 return function ()
-    MCcrafting.Menu:init()
-    MCcrafting.Menu:toggle()
+    MCCrafting.Menu:init()
+    MCCrafting.Menu:toggle()
     return true
 end

@@ -15,14 +15,12 @@ function CraftMenu:init()
     })
     self._menu_panel = self._menu._panel
 
-    self:_init_tweakdata()
     self:_init_bg()
     self:_init_craft_gui()
     self:SetInventory()
-end
-
-function CraftMenu:_init_tweakdata()
-    
+    if not MCCrafting.tweak_data.initialized then
+        MCCrafting.tweak_data:init()
+    end
 end
 
 function CraftMenu:_init_bg()
@@ -56,7 +54,7 @@ function CraftMenu:_init_craft_gui()
         scrollbar = false,
     })
     self.CraftGUIMenu:SetPosition(self._menu_panel:w() / 2 - self.CraftGUIMenu.w / 2 , self._menu_panel:h() / 2 - self.CraftGUIMenu.h / 2)
-    
+
     self.CraftGUIMenu:Image({
         name = "CraftingGUIback",
         texture = "guis/textures/Crafting_Table_GUI"
@@ -64,302 +62,167 @@ function CraftMenu:_init_craft_gui()
 
     self.CraftingPanels = self.CraftGUIMenu:Menu({
         name = "CraftingPanels",
+        w = self.CraftGUIMenu:W(),
+        h = self.CraftGUIMenu:H(),
         position = function(item)
-            item:Panel():set_x(item:ParentPanel():x() + 55)
+            item:Panel():set_x(item:ParentPanel():x() + 60)
             item:Panel():set_y(item:ParentPanel():y() + 35)
         end,
         scrollbar = false,
-        align_method = "grid"
+        offset = {0,0},
+        --highlight_color = Color(0.75, 0.25, 0.25),
+        --align_method = "grid"
     })
+
     self.CraftingSlot = {}
-    self.CraftingSlot[1] = self.CraftingPanels:ImageButton({
-        name = "CraftingSlot_1",
+
+    for i = 1, 9 do
+        local pos
+        log(tostring(i))
+        self.CraftingSlot[i] = self.CraftingPanels:ImageButton({
+            name = "CraftingSlot" .. i,
+            texture = "guis/textures/pd2/none_icon",
+            w = 32,
+            h = 32,
+            on_callback = function(item)
+                ClassClbk(self, "OnSlotClick", item)
+                log("Clicked Slot " .. i)
+            end,
+            position = function(item) 
+                if i == 4 or i == 7 then
+                    pos = {item:ParentPanel():x(), self.CraftingSlot[i - 1]:Bottom() + 3}
+                    PrintTable(pos)
+                elseif i ~= 1 then
+                    pos = {self.CraftingSlot[i - 1]:Panel():x() + 32, self.CraftingSlot[i - 1]:Panel():y()}
+                    PrintTable(pos)
+                end
+                item:SetPosition(pos)
+            end
+        })
+
+        --self.CraftingSlot[i].MouseMoved = MouseMoved
+        --self.CraftingSlot[i].MouseReleased = MouseReleased
+    end
+    --self.CraftingSlot[1].item = "wood_plank"
+    self.CraftingSlot[5].item = "wood_plank"
+    self.CraftingSlot[8].item = "wood_plank"
+
+    self.OutputSlot = self.CraftingPanels:ImageButton({
+        name = "OutputSlot",
         texture = "guis/textures/pd2/none_icon",
-        w = 26,
-        h = 26,
+        w = 32,
+        h = 32,
         on_callback = function(item)
-            log("1 was pressed!")
+            ClassClbk(self, "OnSlotClick", item)
+            log("Clicked Output Slot")
+        end,
+        position = function(item)
+            item:SetPosition(self.CraftingSlot[6]:Right() + 74, self.CraftingSlot[6]:Y() - 1)
         end
-    })
-
-    self.CraftingSlot[2] = self.CraftingPanels:ImageButton({
-        name = "CraftingSlot_2",
-        texture = "guis/textures/pd2/none_icon",
-        position = function(item)
-            item:Panel():set_x(item:ParentPanel():x() + 40)
-        end,
-        on_callback = function(item)
-            log("2 was pressed!")
-        end,
-        w = 26,
-        h = 26,
-    })
-
-    self.CraftingSlot[3] = self.CraftingPanels:ImageButton({
-        name = "CraftingSlot_3",
-        texture = "guis/textures/pd2/none_icon",
-        position = function(item)
-            item:Panel():set_x(item:ParentPanel():x() + 72)
-        end,
-        on_callback = function(item)
-            log("3 was pressed!")
-        end,
-        w = 26,
-        h = 26,
-    })
-
-    self.CraftingPanel_2 = self.CraftGUIMenu:Menu({
-        name = "CraftingPanel_2",
-        position = function(item)
-            item:Panel():set_x(item:ParentPanel():x() + 55)
-            item:Panel():set_y(item:ParentPanel():y() + 70)
-        end,
-        scrollbar = false,
-        align_method = "grid"
-    })
-
-    self.CraftingSlot[4] = self.CraftingPanel_2:ImageButton({
-        name = "CraftingSlot_4",
-        texture = "guis/textures/pd2/none_icon",
-        w = 26,
-        h = 26,
-        on_callback = function(item)
-            log("4 was pressed!")
-        end
-    })
-
-    self.CraftingSlot[5] = self.CraftingPanel_2:ImageButton({
-        name = "CraftingSlot_5",
-        texture = "guis/textures/pd2/none_icon",
-        position = function(item)
-            item:Panel():set_x(item:ParentPanel():x() + 40)
-        end,
-        on_callback = function(item)
-            log("5 was pressed!")
-        end,
-        w = 26,
-        h = 26,
-    })
-
-    self.CraftingSlot[6] = self.CraftingPanel_2:ImageButton({
-        name = "CraftingSlot_6",
-        texture = "guis/textures/pd2/none_icon",
-        position = function(item)
-            item:Panel():set_x(item:ParentPanel():x() + 72)
-        end,
-        on_callback = function(item)
-            log("6 was pressed!")
-        end,
-        w = 26,
-        h = 26,
-    })
-
-    self.CraftingPanel_3 = self.CraftGUIMenu:Menu({
-        name = "CraftingPanel_3",
-        position = function(item)
-            item:Panel():set_x(item:ParentPanel():x() + 55)
-            item:Panel():set_y(item:ParentPanel():y() + 105)
-        end,
-        scrollbar = false,
-        align_method = "grid"
-    })
-
-    self.CraftingSlot[7] = self.CraftingPanel_3:ImageButton({
-        name = "CraftingSlot_7",
-        texture = "guis/textures/pd2/none_icon",
-        w = 26,
-        h = 26,
-        on_callback = function(item)
-            log("7 was pressed!")
-        end
-    })
-
-    self.CraftingSlot[8] = self.CraftingPanel_3:ImageButton({
-        name = "CraftingSlot_8",
-        texture = "guis/textures/pd2/none_icon",
-        position = function(item)
-            item:Panel():set_x(item:ParentPanel():x() + 40)
-        end,
-        on_callback = function(item)
-            log("8 was pressed!")
-        end,
-        w = 26,
-        h = 26,
-    })
-
-    self.CraftingSlot[9] = self.CraftingPanel_3:ImageButton({
-        name = "CraftingSlot_9",
-        texture = "guis/textures/pd2/none_icon",
-        position = function(item)
-            item:Panel():set_x(item:ParentPanel():x() + 72)
-        end,
-        on_callback = function(item)
-            log("9 was pressed!")
-        end,
-        w = 26,
-        h = 26,
     })
 
     self.InventoryPanel = self.CraftGUIMenu:Menu({
         name = "InventoryPanel",
+        w = self.CraftGUIMenu:W(),
+        h = self.CraftGUIMenu:H(),
         position = function(item)
-            item:Panel():set_x(item:ParentPanel():x() + 15)
-            item:Panel():set_y(item:ParentPanel():y() + 275)
+            item:Panel():set_x(item:ParentPanel():x() + 19)
+            item:Panel():set_y(item:ParentPanel():y() + 163)
         end,
         layer = BaseLayer + 1,
         scrollbar = false,
-        align_method = "grid"
+        offset = {0,0},
+        highlight_color = Color(0.75, 0.25, 0.25),
     })
     self.InventorySlot = {}
     self.InventorySlotNumbers = {}
-    self.InventorySlot["stick"] = self.InventoryPanel:ImageButton({
-        name = "InventorySlot_stick",
-        texture = "guis/textures/pd2/none_icon",
-        w = 26,
-        h = 26,
-        amount = 0,
-        on_callback = function(item)
-            log("inv 1 was pressed!")
-            MCCrafting:checkRecipe()
-        end
-    })
 
-    self.InventorySlotNumbers["stick"] = self.InventorySlot["stick"]:Divider({
-        name = "sticknumbers",
-        text = self.InventorySlot["stick"].amount,
-        font = Font,
-        size = 32,
-        font_size = 18,
-        text_vertical = "center",
-        text_align = "center",
-        position = function(item)
-            item:Panel():set_bottom(item:ParentPanel():bottom() + 2)
-            item:Panel():set_left(item:ParentPanel():left())
-            item:Panel():set_right(item:ParentPanel():right() - 2)
-        end
-    })
+    for i = 1, 36 do
+        local pos
+        log(tostring(i))
+        self.InventorySlot[i] = self.InventoryPanel:ImageButton({
+            name = "CraftingSlot" .. i,
+            texture = "guis/textures/pd2/none_icon",
+            w = 30,
+            h = 30,
+            on_callback = function(item)
+                ClassClbk(self, "OnSlotClick", item)
+                log("Clicked inv Slot " .. i)
+            end,
+            position = function(item) 
+                if i == 10 or i == 19 then
+                    pos = {item:ParentPanel():x(), self.InventorySlot[i - 1]:Bottom() + 5}
+                    PrintTable(pos)
+                elseif i == 28 then
+                    pos = {item:ParentPanel():x(), self.InventorySlot[i - 1]:Bottom() + 13}
+                    PrintTable(pos)
+                elseif i ~= 1 then
+                    pos = {self.InventorySlot[i - 1]:Right() + 3, self.InventorySlot[i - 1]:Panel():y()}
+                    PrintTable(pos)
+                end
+                item:SetPosition(pos)
+            end
+        })
 
-    self.InventorySlot["cobblestone"] = self.InventoryPanel:ImageButton({
-        name = "InventorySlot_cobblestone",
-        texture = "guis/textures/pd2/none_icon",
-        position = function(item)
-            item:Panel():set_x(item:ParentPanel():x() + 40)
-        end,
-        amount = 0,
-        on_callback = function(item)
-            log("inv 2 was pressed!")
-        end,
-        w = 26,
-        h = 26,
-    })
+        --self.CraftingSlot[i].MouseMoved = MouseMoved
+        --self.CraftingSlot[i].MouseReleased = MouseReleased
+    end
 
-    self.InventorySlot[3] = self.InventoryPanel:ImageButton({
-        name = "InventorySlot_3",
-        texture = "guis/textures/pd2/none_icon",
-        position = function(item)
-            item:Panel():set_x(item:ParentPanel():x() + 72)
-        end,
-        on_callback = function(item)
-            log("inv 3 was pressed!")
-        end,
-        amount = 0,
-        w = 26,
-        h = 26,
-    })
-
-    self.InventorySlot[4] = self.InventoryPanel:ImageButton({
-        name = "InventorySlot_4",
-        texture = "guis/textures/pd2/none_icon",
-        w = 26,
-        h = 26,
-        position = function(item)
-            item:Panel():set_x(item:ParentPanel():x() + 106)
-        end,
-        amount = 0,
-        on_callback = function(item)
-            log("inv 4 was pressed!")
-        end
-    })
-
-    self.InventorySlot[5] = self.InventoryPanel:ImageButton({
-        name = "InventorySlot_5",
-        texture = "guis/textures/pd2/none_icon",
-        w = 26,
-        h = 26,
-        position = function(item)
-            item:Panel():set_x(item:ParentPanel():x() + 138)
-        end,
-        amount = 0,
-        on_callback = function(item)
-            log("inv 5 was pressed!")
-        end
-    })
-
-    self.InventorySlot[6] = self.InventoryPanel:ImageButton({
-        name = "InventorySlot_6",
-        texture = "guis/textures/pd2/none_icon",
-        w = 26,
-        h = 26,
-        position = function(item)
-            item:Panel():set_x(item:ParentPanel():x() + 172)
-        end,
-        amount = 0,
-        on_callback = function(item)
-            log("inv 6 was pressed!")
-        end
-    })
-
-    self.InventorySlot[7] = self.InventoryPanel:ImageButton({
-        name = "InventorySlot_7",
-        texture = "guis/textures/pd2/none_icon",
-        w = 26,
-        h = 26,
-        position = function(item)
-            item:Panel():set_x(item:ParentPanel():x() + 204)
-        end,
-        amount = 0,
-        on_callback = function(item)
-            log("inv 7 was pressed!")
-        end
-    })
-
-    self.InventorySlot[8] = self.InventoryPanel:ImageButton({
-        name = "InventorySlot_8",
-        texture = "guis/textures/pd2/none_icon",
-        w = 26,
-        h = 26,
-        position = function(item)
-            item:Panel():set_x(item:ParentPanel():x() + 236)
-        end,
-        amount = 0,
-        on_callback = function(item)
-            log("inv 8 was pressed!")
-        end
-    })
-
-    self.InventorySlot[9] = self.InventoryPanel:ImageButton({
-        name = "InventorySlot_9",
-        texture = "guis/textures/pd2/none_icon",
-        w = 26,
-        h = 26,
-        position = function(item)
-            item:Panel():set_x(item:ParentPanel():x() + 268)
-        end,
-        amount = 0,
-        on_callback = function(item)
-            log("inv 9 was pressed!")
-        end
-    })
 end
+
+function CraftMenu:OnSlotClick(item)
+    
+end
+
 function CraftMenu:toggle()
     self._menu:SetEnabled(true)
 end
---MCcrafting.Menu:SetInventory()
+
+--MCCrafting.Menu:SetInventory()
 function CraftMenu:SetInventory()
-    --[[for i,v in pairs(MCcrafting._items) do
+    --[[for i,v in pairs(MCCrafting._items) do
         self.InventorySlot[i].amount = self.InventorySlot[i].amount + v
     end
     for i, v in pairs(self.InventorySlotNumbers) do
         self.InventorySlotNumbers[i]:SetText(self.InventorySlot[i].amount)
     end]]
 end
+
+--needs these for later
+--[[local function MouseMoved(o, x, y)
+    if self._game:Inside(x, y) then
+        local pnlx, pnly = o:Panel():world_position()
+        local tbl = self._pressed[o:Name()]
+        if tbl and tbl.state then
+            self:drawline(pnlx, pnly, x, y, tbl.pos, tbl.color)
+        else
+            self:destroyline()
+        end
+    end
+    return (self.menu_type and o:MouseMovedMenuEvent(x,y)) or o:MouseMovedSelfEvent(x,y)
+end
+
+local function MouseReleased(o, b, x, y)
+    if b == Idstring("0") then
+        local state = self._pressed[o:Name()] and self._pressed[o:Name()].state
+        if state and self._WireRight:Inside(x,y) then
+            self:CompleteStep()
+        end
+        self:destroyline()
+        self._pressed[o:Name()] = {state = false, pos = 0, color = nil}
+    end
+    if o.menu_type then
+        if not o.menu._highlighted then
+            o:SetPointer()
+        end
+        for _, item in pairs(o._my_items) do
+            if item:MouseReleased(b, x, y) then
+                return true
+            end
+        end
+    end
+
+    if o._list then
+        o._list:MouseReleased(b, x, y)
+    end
+end]]
