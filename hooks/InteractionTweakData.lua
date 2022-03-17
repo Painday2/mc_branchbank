@@ -173,9 +173,9 @@ Hooks:PostHook(InteractionTweakData, "init", "init_jewelry_int", function(self, 
 		blocked_hint = "carry_block"
 	}
 	
-	self.diamond_armor = {
-		text_id = "hud_int_hold_bag_dia_armor",
-		action_text_id = "hud_action_bagging_dia_armor",
+	self.netherite_armor = {
+		text_id = "hud_int_hold_bag_net_armor",
+		action_text_id = "hud_action_bagging_net_armor",
 		blocked_hint = "carry_block",
 		start_active = false,
 		timer = 3,
@@ -216,5 +216,10 @@ Hooks:PostHook(InteractionTweakData, "init", "init_jewelry_int", function(self, 
 		sound_start = "bar_huge_lance_fix",
 		sound_interupt = "bar_huge_lance_fix_cancel",
 		sound_done = "bar_huge_lance_fix_finished"
+	}
+	
+	self.mc_pickup_lava = {
+		text_id = "hud_int_pickup_lava",
+		sound_done = "mc_pickup"
 	}
 end)

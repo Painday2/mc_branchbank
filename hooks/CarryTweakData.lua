@@ -41,4 +41,14 @@ Hooks:PostHook(CarryTweakData, "init", "init_minecraftoff", function(self, tweak
 			SO_category = "enemies"
 		}
 	}
+	
+	self.netherite_suit = {
+		type = "medium",
+		name_id = "hud_carry_nearmour",
+		bag_value = "box_unknown",
+		visual_unit_name = "units/payday2/characters/npc_acc_loot_bag_1/npc_acc_loot_bag_1",
+		AI_carry = {
+			SO_category = "enemies"
+		}
+	}
 end)

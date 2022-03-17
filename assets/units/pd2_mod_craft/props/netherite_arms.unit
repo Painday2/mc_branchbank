@@ -5,13 +5,13 @@
 		<extension name="unit_data" class="ScriptUnitData" />
 		<extension name="damage" class="UnitDamage" />
 		<extension name="interaction" class="CarryInteractionExt">
-			<var name="tweak_data" value="diamond_armor" />
+			<var name="tweak_data" value="netherite_armor" />
 			<var name="_interact_object" value="interact"/>
 			<var name="_remove_on_interact" value="true" />
 			<var name="_global_event" value="pku_samurai" />
 		</extension>
 		<extension name="carry_data" class="CarryData">
-			<var name="_carry_id" value="diamond_suit" />
+			<var name="_carry_id" value="netherite_suit" />
 			<!-- <var name="tweak_value" value="bag_value" /> -->
 		</extension>
 	</extensions>

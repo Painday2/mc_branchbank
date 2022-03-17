@@ -11,10 +11,13 @@
 	"hud_carry_emerald_block" : "Emerald",
 	"hud_carry_diamond_block" : "Diamond",
 	"hud_carry_gold_block" : "Gold",
+	"hud_carry_nearmour" : "Netherite Armor",
+	
 	"iron_pku" : "Press $BTN_INTERACT to grab the iron",
 	"hold_take_diamond" : "Hold $BTN_INTERACT to bag the diamond",
 	"hold_take_gold" : "Hold $BTN_INTERACT to bag the gold",
 	"hold_take_emerald" : "Hold $BTN_INTERACT to bag the emerald",
+	"hud_int_hold_bag_net_armor" : "Hold $BTN_INTERACT to bag the Netherite Armor",
 
 	"hud_int_equipment_stick" : "Stick",
 	"hud_int_equipment_cobblestone" : "Cobblestone",
@@ -22,25 +25,30 @@
 	"hud_int_equipment_lever" : "Lever",
 	"hud_int_equipment_mc_drill" : "Drill",
 	"hud_int_equipment_axe" : "Axe",
+	"hud_int_equipment_lava_bucket" : "Lava Bucket",
+	"hud_int_equipment_pickaxe" : "Diamond Pickaxe",
 
-	"hud_int_equipment_need_drill" : "You need to craft a drill",
 	"hud_action_craft" : "Crafting...",
+	"hud_int_equipment_need_drill" : "You need to craft a drill",
 	"hud_int_hold_stick" : "Hold $BTN_INTERACT to add a stick",
 	"hud_equipment_need_stick" : "Need a stick",
 	"hud_int_hold_cobblestone" : "Hold $BTN_INTERACT to add cobblestone",
 	"hud_equipment_need_cobblestone" : "Need cobblestone",
-	"hud_int_hold_lever" : "Hold $BTN_INTERACT to add Lever",
 	"hud_equipment_need_lever" : "You need to craft a Lever",
-	"hud_int_hold_deposit" : "Hold $BTN_INTERACT to open the deposit box",
-	"hud_int_pickup_axe" : "Press $BTN_INTERACT to pickup axe",
 	"hud_equipment_need_axe" : "You need to craft a axe",
-
+	"hud_int_equipment_no_lava_bucket" : "You need a Lava Bucket",
+	"no_lava_bucket" : "No Lava Bucket",
+	
+	"hud_int_pickup_lava" : "Press $BTN_INTERACT to pickup lava bucket",
+	"hud_int_pickup_axe" : "Press $BTN_INTERACT to pickup axe",
+	"hud_int_pickup_pickaxe" : "Press $BTN_INTERACT to pickup Diamond Pickaxe",
+	
+	"hud_int_hold_lever" : "Hold $BTN_INTERACT to add Lever",
+	"hud_int_hold_deposit" : "Hold $BTN_INTERACT to open the deposit box",
 	"hud_int_equipment_mc_pickaxe_drill_jammed" : "Hold $BTN_INTERACT; to fix the Drill",
+
 	"hud_action_fixing_mc_pickaxe_drill" : "Fixing Drill",
 	"lava_bucket" : "Lava Bucket",
-	"no_lava_bucket" : "No Lava Bucket",
-	"hud_int_equipment_no_lava_bucket" : "You need a Lava Bucket",
-
 
 	"shovelforge_wood_desc" : "This is a shovelforge item!",
 	"shovelforge_wood_unlock" : "Complete the blahblah Achievement in The Harvest & Blockiees Heist",

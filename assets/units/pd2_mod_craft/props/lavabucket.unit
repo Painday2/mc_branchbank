@@ -5,10 +5,10 @@
 		<extension name="unit_data" class="ScriptUnitData" />
 		<extension name="damage" class="UnitDamage" />
 		<extension name="interaction" class="SpecialEquipmentInteractionExt" >
-            <var name="_special_equipment" value="crowbar" />
+            <var name="_special_equipment" value="lava_bucket" />
             <var name="_remove_on_interact" value="true" />
 			<var name="_interact_object" value="rp_root"/>
-            <var name="tweak_data" value="gen_pku_crowbar" />
+            <var name="tweak_data" value="mc_pickup_lava" />
         </extension>
 	</extensions>
 </unit>

@@ -234,7 +234,8 @@ local instigators = {}
 					"diamond_block",
 					"gold_block",
 					"emerald_block",
-					"diamond_suit"
+					"diamond_suit",
+					"netherite_suit"
 				}
 
 				if table.contains(carry_list, carry_id) then
