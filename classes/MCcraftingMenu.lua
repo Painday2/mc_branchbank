@@ -25,7 +25,6 @@ function CraftMenu:init()
 
     self:_init_bg()
     self:_init_craft_gui()
-    self:SetInventory()
 end
 
 function CraftMenu:_init_bg()
@@ -76,12 +75,10 @@ function CraftMenu:_init_craft_gui()
         layer = 1
     })
 
-    log(tostring(self.CraftGUIMenu:Panel():layer()))
     self.MouseSlot = self.CraftGUIMenu:Image({
         name = "MouseSlot",
         texture = atlas_texture,
-        texture_rect = {32, 0, 32, 32},
-        --background_color = Color.red,
+        texture_rect = none_rect,
         w = 32,
         h = 32
     })
@@ -92,12 +89,12 @@ function CraftMenu:_init_craft_gui()
         name = "MouseSlotText",
         w = 32,
         h = 32,
-        text = "64",
+        text = "",
         text_align = "right",
         text_vertical = "bottom",
         font = Font,
         font_size = 24,
-        layer = BaseLayer + 11,
+        layer = BaseLayer + 12,
         foreground = Color.white,
     })
 
@@ -107,15 +104,10 @@ function CraftMenu:_init_craft_gui()
         h = self.CraftGUIMenu:H(),
         layer = BaseLayer + 1,
         position = function(item)
-            --log("Parent Panel: " .. item:ParentPanel():name())
-            --log(tostring(item:Panel():layer()))
             item:Panel():set_x(item:Panel():x() + 58)
             --item:Panel():set_y(item:Panel():y() + 8)
         end,
         scrollbar = false,
-        --offset = {1,2},
-        --highlight_color = Color(0.75, 0.25, 0.25),
-        --align_method = "grid"
     })
 
     self.CraftingSlot = {}
@@ -198,7 +190,8 @@ function CraftMenu:_init_craft_gui()
             h = 36,
             img_offset = {2,2},
             layer = BaseLayer + 1,
-            on_callback = ClassClbk(self, "OnInvSlotClick", i),
+            on_callback = ClassClbk(self, "OnInvSlotClick", i, false),
+            on_right_click = ClassClbk(self, "OnInvSlotClick", i, true),
             position = function(item)
                 local pos
                 if i == 10 or i == 19 then
@@ -240,7 +233,7 @@ function CraftMenu:_init_craft_gui()
     self.CraftGUIMenu.MouseMoved = CraftMenu.MouseMoved
     self.CraftGUIMenu.KeyPressed = CraftMenu.KeyPressed
     --self.CraftGUIMenu.MousePressed = CraftMenu.MousePressed
-    BeardLib:AddUpdater("MCCraftingMenu", ClassClbk(self, "Update"))
+    --BeardLib:AddUpdater("MCCraftingMenu", ClassClbk(self, "Update"))
 end
 
 function CraftMenu:Update(t, dt)
@@ -278,7 +271,7 @@ function CraftMenu:ClearMouseUISlot()
     MCCrafting.Inventory.MouseSlot:ClearSlot()
 end
 
-function CraftMenu:OnInvSlotClick(slot)
+function CraftMenu:OnInvSlotClick(slot, right_click)
     local inventory_slot = MCCrafting.Inventory and MCCrafting.Inventory.InventorySlots[slot]
     local mouse_slot = MCCrafting.Inventory.MouseSlot
 
@@ -287,28 +280,108 @@ function CraftMenu:OnInvSlotClick(slot)
         return
     end
 
-
     --clicked slot has an item, mouse doesn't have an item, pick up item
     if inventory_slot.item_data ~= nil and mouse_slot.item_data == nil then
-        mouse_slot:UpdateInventorySlot(inventory_slot.item_data, inventory_slot.stack_size)
-        self.MouseSlot:SetImage(inventory_slot.item_data.texture, inventory_slot.item_data.texture_rect)
-        self.MouseSlotText:SetText(tostring(inventory_slot.stack_size > 1 and inventory_slot.stack_size or ""))
-        self:ClearInvUISlot(slot)
+        --split stack if right clicked
+        if right_click then
+            log("Right Clicked")
+            local split, split_data = inventory_slot:SplitStack()
+            if split then
+                mouse_slot:UpdateInventorySlot(split_data.item_data, split_data.stack_size)
+                self:UpdateMouseUISlot()
+                self:UpdateInvUISlot(slot)
+                --return this early because it gets mad if i don't
+                self:SetMouseSlotPos()
+                self:SetMouseSlotAlpha()
+                return
+            end
+        else
+            mouse_slot:UpdateInventorySlot(inventory_slot.item_data, inventory_slot.stack_size)
+            self:UpdateMouseUISlot()
+            self:ClearInvUISlot(slot)
+        end
     elseif inventory_slot.item_data == nil and mouse_slot.item_data ~= nil then --slot doesn't have an item, mouse has an item, place item
-        inventory_slot:UpdateInventorySlot(mouse_slot.item_data, mouse_slot.stack_size)
-        self.InventorySlot[slot]:SetImage(mouse_slot.item_data.texture, mouse_slot.item_data.texture_rect)
-        self.InventorySlotText[slot]:SetText(tostring(mouse_slot.stack_size > 1 and mouse_slot.stack_size or ""))
-        self:ClearMouseUISlot()
+        if right_click then
+            log("Right Clicked")
+            local deposit = inventory_slot:DepositOne(mouse_slot)
+            if deposit then
+                log("Deposited")
+
+                self:UpdateInvUISlot(slot)
+
+                --return this early because it gets mad if i don't
+                self:SetMouseSlotPos()
+                self:SetMouseSlotAlpha()
+                return
+            end
+        else
+            inventory_slot:UpdateInventorySlot(mouse_slot.item_data, mouse_slot.stack_size)
+            self:UpdateInvUISlot(slot)
+            self:ClearMouseUISlot()
+        end
     end
 
-    -- both slots have item, figure shit
+    -- both slots have an item, figure shit
+    if inventory_slot.item_data ~= nil and mouse_slot.item_data ~= nil then
+        local item_matches = inventory_slot.item_data == mouse_slot.item_data
+        local room_left, difference = inventory_slot:RoomLeftInStack(mouse_slot.stack_size)
         --both items are the same, combine
-            -- if slot 
-        --if different, swap
-
+        if item_matches and room_left then
+            if right_click then
+                log("Right Clicked")
+                local deposit = inventory_slot:DepositOne(mouse_slot)
+                if deposit then
+                    log("Deposited")
+                    self:UpdateInvUISlot(slot)
+    
+                    --return this early because it gets mad if i don't
+                    self:SetMouseSlotPos()
+                    self:SetMouseSlotAlpha()
+                    return
+                end
+            else
+                log("Combining")
+                inventory_slot:AssignItem(mouse_slot)
+                self:UpdateInvUISlot(slot)
+                self:ClearMouseUISlot()
+            end
+            --both items are the same, but not enough room to combine
+        elseif item_matches and not room_left then
+            log("Adding to stack")
+            if difference < 1 then --stack is full, swap
+                log("swap")
+                self:SwapSlots(slot)
+            else
+                log("adding to stack")
+                local mouse_amount = mouse_slot.stack_size - difference
+                inventory_slot:AddToStack(difference)
+                self:UpdateInvUISlot(slot)
+                mouse_slot:UpdateInventorySlot(mouse_slot.item_data, mouse_amount)
+                self:UpdateMouseUISlot()
+            end
+        elseif not item_matches then --if different, swap
+            log("Swapping")
+            self:SwapSlots(slot)
+        end
+    end
     --Update the mouse pos and visibilty
     self:SetMouseSlotPos()
     self:SetMouseSlotAlpha()
+end
+
+function CraftMenu:SwapSlots(slot)
+    local mousecopy = {item_data = MCCrafting.Inventory.MouseSlot.item_data, stack_size = MCCrafting.Inventory.MouseSlot.stack_size} 
+    local inventory_slot = MCCrafting.Inventory and MCCrafting.Inventory.InventorySlots[slot]
+    local mouse_slot = MCCrafting.Inventory.MouseSlot
+
+    --Clear the mouse slot, update it with the inventory slot
+    self:ClearMouseUISlot()
+    mouse_slot:UpdateInventorySlot(inventory_slot.item_data, inventory_slot.stack_size)
+    self:UpdateMouseUISlot()
+    --clear the inventory slot, update it with the copied mouse slot
+    self:ClearInvUISlot(slot)
+    inventory_slot:UpdateInventorySlot(mousecopy.item_data, mousecopy.stack_size)
+    self:UpdateInvUISlot(slot)
 end
 
 function CraftMenu:SetMouseSlotPos()
@@ -334,29 +407,22 @@ function CraftMenu:SetMouseSlotAlpha(alpha)
     managers.mouse_pointer._mouse:child("pointer"):set_alpha(alpha)
 end
 
+function CraftMenu:UpdateInvUISlot(slot)
+    local inv = MCCrafting.Inventory.InventorySlots[slot]
+    self.InventorySlot[slot]:SetImage(inv.item_data.texture, inv.item_data.texture_rect)
+    self.InventorySlotText[slot]:SetText(tostring(inv.stack_size > 1 and inv.stack_size or ""))
+end
+
+function CraftMenu:UpdateMouseUISlot()
+    local inv = MCCrafting.Inventory.MouseSlot
+    self.MouseSlot:SetImage(inv.item_data.texture, inv.item_data.texture_rect)
+    self.MouseSlotText:SetText(tostring(inv.stack_size > 1 and inv.stack_size or ""))
+end
+
 function CraftMenu:toggle(state)
     state = state or true
     self._menu:SetEnabled(state)
 end
-
---MCCrafting.Menu:SetInventory()
-function CraftMenu:SetInventory()
-    --[[for i,v in pairs(MCCrafting._items) do
-        self.InventorySlot[i].amount = self.InventorySlot[i].amount + v
-    end
-    for i, v in pairs(self.InventorySlotNumbers) do
-        self.InventorySlotNumbers[i]:SetText(self.InventorySlot[i].amount)
-    end]]
-end
-
---[[self._screen_menu = self._menu:Holder({
-    name = "ScreenMenu",
-    layer = BaseLayer + 1,
-    w = self._menu_panel:w(),
-    h = self._menu_panel:h(),
-    alpha = 0,
-    visible = false
-})]]
 
 function CraftMenu:MouseMoved(x, y)
     local menu = MCCrafting.Menu
@@ -405,7 +471,9 @@ function Inventory:init()
     self.MouseSlot = MCCrafting.InventorySlot:new()
 
     for i = 1, 2, 1 do
+        self.InventorySlots[i] = MCCrafting.InventorySlot:new(MCCrafting.tweak_data.items["crafting_table"], math.random(50, 64))
         Inventory:AddToInventory(MCCrafting.tweak_data.items[table.random_key(MCCrafting.tweak_data.items)], math.random(1, 64))
+        --Inventory:AddToInventory(MCCrafting.tweak_data.items["crafting_table"], math.random(1, 64))
     end
 end
 
@@ -460,19 +528,35 @@ function Inventory:find_all_values_index(t, func)
     return matches
 end
 
+
 MCCrafting.InventorySlot = MCCrafting.InventorySlot or class()
+---@class MCCrafting.InventorySlot
+---@alias exitcode2 '"exit"' | '"signal"'
 local InventorySlot = MCCrafting.InventorySlot
 
 --copied a bunch of this from a youtube tutorial for unity, lmao
 --https://www.youtube.com/watch?v=svoXugGLFwU
+---comment
+---@param item_data MCCrafting.tweak_data.items
+---@param stack_size any
 function InventorySlot:init(item_data, stack_size)
     self.item_data = item_data or nil
     self.stack_size = stack_size or 0
 end
-
+---Clears the slot by setting item_data to nil and stack_size to 0
 function InventorySlot:ClearSlot()
     self.item_data = nil
     self.stack_size = 0
+end
+---comment
+---@param slot_data MCCrafting.InventorySlot
+function InventorySlot:AssignItem(slot_data)
+    --If items are the same, add to the stack
+    if self.item_data == slot_data.item_data then
+        self:AddToStack(slot_data.stack_size)
+    else --If items are different, clear the slot and assign the new item
+        self:UpdateInventorySlot(slot_data.item_data, slot_data.stack_size or 1)
+    end
 end
 
 function InventorySlot:UpdateInventorySlot(item_data, amount)
@@ -484,7 +568,7 @@ function InventorySlot:RoomLeftInStack(amount)
     if (self.stack_size + amount) <= self.item_data.max_stack_size then
         return true
     end
-    return false
+    return false, self.item_data.max_stack_size - self.stack_size
 end
 
 function InventorySlot:AddToStack(amount)
@@ -493,4 +577,45 @@ end
 
 function InventorySlot:RemoveFromStack(amount)
     self.stack_size = self.stack_size - amount
+end
+---Splits the stack into two stacks, the first stack has the amount of items, the second stack has the remainder
+---@return boolean
+---@return MCCrafting.InventorySlot
+function InventorySlot:SplitStack()
+    if self.stack_size <= 1 then
+        log(tostring(self.stack_size))
+        log("stack size not thicc")
+        return false
+    end
+
+    local half = math.round(self.stack_size / 2)
+    self:RemoveFromStack(half)
+    log(tostring(half))
+    return true, {item_data = self.item_data, stack_size = half}
+end
+---Used to deposit a single item into a seperate slot
+---@param item_slot MCCrafting.InventorySlot
+---@return boolean
+function InventorySlot:DepositOne(item_slot)
+    if self.stack_size >= item_slot.item_data.max_stack_size then
+        return false
+    end
+
+    if self.item_data == item_slot.item_data then
+        self:AddToStack(1)
+    elseif not self.item_data then
+        self:UpdateInventorySlot(item_slot.item_data, 1)
+    else
+        return false
+    end
+
+    item_slot:RemoveFromStack(1)
+
+    MCCrafting.Menu:UpdateMouseUISlot()
+
+    if item_slot.stack_size == 0 then
+        MCCrafting.Menu:ClearMouseUISlot()
+    end
+
+    return true
 end
