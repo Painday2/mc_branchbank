@@ -1,5 +1,6 @@
 local Font = "fonts/minecraft"
-local none_texture = "guis/textures/pd2/none_icon"
+local atlas_texture = "units/pd2_mod_craft/guis/items_atlas"
+local none_rect = {0, 0, 32, 32}
 local BaseLayer = 2500
 
 MCCrafting.Menu = MCCrafting.Menu or class()
@@ -12,7 +13,8 @@ function CraftMenu:init()
         use_default_close_key = true,
         disable_player_controls = true,
 		background_color = Color(0,0,0, 0.5),
-        animate_toggle = true
+        animate_toggle = true,
+        scrollbar = false
     })
     self._menu_panel = self._menu._panel
     
@@ -63,6 +65,31 @@ function CraftMenu:_init_craft_gui()
         texture = "guis/textures/Crafting_Table_GUI"
     })
 
+
+    self.MouseSlot = self.CraftGUIMenu:Image({
+        name = "MouseSlot",
+        texture = atlas_texture,
+        texture_rect = none_rect,
+        --background_color = Color.red,
+        w = 32,
+        h = 32
+    })
+
+    self.MouseSlot.img:set_layer(BaseLayer + 11) --i don't know why i have to do this, but it works. prevents the mouse image from being below the items in the inventory
+
+    self.MouseSlotText = self.MouseSlot:Divider({
+        name = "MouseSlotText",
+        w = 32,
+        h = 32,
+        text = "64",
+        text_align = "right",
+        text_vertical = "bottom",
+        font = Font,
+        font_size = 16,
+        layer = BaseLayer + 11,
+        foreground = Color.white,
+    })
+
     self.CraftingPanels = self.CraftGUIMenu:Menu({
         name = "CraftingPanels",
         w = self.CraftGUIMenu:W(),
@@ -84,7 +111,8 @@ function CraftMenu:_init_craft_gui()
         local name = "CraftingSlot" .. i
         self.CraftingSlot[i] = self.CraftingPanels:ImageButton({
             name = name,
-            texture = none_texture,
+            texture = atlas_texture,
+            texture_rect = none_rect,
             w = 32,
             h = 32,
             layer = BaseLayer + 1,
@@ -114,7 +142,8 @@ function CraftMenu:_init_craft_gui()
 
     self.OutputSlot = self.CraftingPanels:ImageButton({
         name = "OutputSlot",
-        texture = "guis/textures/pd2/none_icon",
+        texture = atlas_texture,
+        texture_rect = none_rect,
         w = 32,
         h = 32,
         on_callback = function(item)
@@ -140,67 +169,60 @@ function CraftMenu:_init_craft_gui()
         --highlight_color = Color(0.75, 0.25, 0.25),
     })
     self.InventorySlot = {}
-    self.InventorySlotNumbers = {}
+    self.InventorySlotText = {}
 
     for i = 1, 36 do
         local InventorySlot = MCCrafting.Inventory.InventorySlots[i]
-        local texture = InventorySlot.item_data and InventorySlot.item_data.texture or "guis/textures/pd2/none_icon"
-        log(tostring(texture))
+        local texture = InventorySlot.item_data and InventorySlot.item_data.texture or atlas_texture
 
         self.InventorySlot[i] = self.InventoryPanel:ImageButton({
             name = "InventorySlot" .. i,
             texture = texture,
-            text = tostring(InventorySlot.amount) or "",
-            texture_rect = InventorySlot.item_data and InventorySlot.item_data.texture_rect or nil,
-            w = 30,
-            h = 30,
-            img_offset = {2,2},
+            texture_rect = InventorySlot.item_data and InventorySlot.item_data.texture_rect or none_rect,
+            w = 32,
+            h = 32,
+            --img_offset = {2,2},
             layer = BaseLayer + 1,
             on_callback = ClassClbk(self, "OnSlotClick", i),
             position = function(item)
                 local pos
                 if i == 10 or i == 19 then
-                    pos = {item:ParentPanel():x(), self.InventorySlot[i - 1]:Bottom() + 5}
+                    pos = {item:ParentPanel():x(), self.InventorySlot[i - 1]:Bottom() + 3}
                 elseif i == 28 then
-                    pos = {item:ParentPanel():x(), self.InventorySlot[i - 1]:Bottom() + 13}
+                    pos = {item:ParentPanel():x(), self.InventorySlot[i - 1]:Bottom() + 9}
                 elseif i ~= 1 then
-                    pos = {self.InventorySlot[i - 1]:Right() + 3, self.InventorySlot[i - 1]:Panel():y()}
+                    pos = {self.InventorySlot[i - 1]:Right() + 1, self.InventorySlot[i - 1]:Panel():y()}
                 end
                 item:SetPosition(pos)
             end
         })
+        local text
+        if InventorySlot.stack_size and InventorySlot.stack_size ~= 0 or InventorySlot.stack_size ~= 1 then
+            text = tostring(InventorySlot.stack_size)
+        end
+
+        self.InventorySlotText[i] = self.InventorySlot[i]:Divider({
+            name = "InventorySlotText"..i,
+            w = 32,
+            h = 32,
+            text = text or "",
+            text_align = "right",
+            text_vertical = "bottom",
+            font = Font,
+            font_size = 16,
+            foreground = Color.white,
+            layer = BaseLayer + 10,
+        })
+
         --self.CraftingSlot[i].MouseMoved = MouseMoved
         --self.CraftingSlot[i].MouseReleased = MouseReleased
     end
-
-    self.MouseSlot = self.CraftGUIMenu:Image({
-        name = "MouseSlot",
-        texture = "guis/textures/menu_ui_icons",
-        texture_rect = {0, 0, 32, 32},
-        --background_color = Color.red,
-        w = 32,
-        h = 32,
-        layer = BaseLayer + 4,
-    })
-    self.MouseSlotText = self.MouseSlot:Divider({
-        name = "MouseSlotText",
-        w = 32,
-        h = 32,
-        text = "64",
-        text_align = "right",
-        text_vertical = "bottom",
-        font = Font,
-        font_size = 16,
-        layer = BaseLayer + 5,
-        foreground = Color.black,
-    })
 
     BeardLib:AddUpdater("MCCraftingMenu", ClassClbk(self, "Update"))
 end
 
 function CraftMenu:Update(t, dt)
     if self._menu:Enabled() then
-        --log(tostring(self.MouseSlot.item_data.name))
         local x, y = managers.mouse_pointer._mouse:world_position()
         self.MouseSlot:Panel():set_world_position(x - 16, y - 16)
         self.MouseSlotText:Panel():set_world_position(x - 16, y - 16)
@@ -218,17 +240,12 @@ function CraftMenu:ClearSlot(slot)
 end
 
 function CraftMenu:OnSlotClick(slot)
-    log("a")
-    log("aaaaaaaaaaaa " .. tostring(slot))
-
     local inventory_slot = MCCrafting.Inventory and MCCrafting.Inventory.InventorySlots[slot]
     local mouse_slot = MCCrafting.Inventory.MouseSlot
 
     --clicked slot has an item, mouse doesn't have an item, pick up item
     if inventory_slot and inventory_slot.item_data ~= nil and mouse_slot.item_data == nil then
         -- if player holding shift, split stack
-        log(tostring("hi :)"))
-        PrintTable(inventory_slot.item_data.texture_rect)
         self.MouseSlot:SetImage(inventory_slot.item_data.texture, inventory_slot.item_data.texture_rect)
         self.MouseSlotText:SetText(tostring(inventory_slot.stack_size))
         mouse_slot:UpdateInventorySlot(inventory_slot.item_data, inventory_slot.stack_size)
@@ -306,11 +323,15 @@ function Inventory:init()
     end
 
     self.MouseSlot = MCCrafting.InventorySlot:new()
-    Inventory:AddToInventory(MCCrafting.tweak_data.items.oak_wood_plank, 1)
+    --[[Inventory:AddToInventory(MCCrafting.tweak_data.items.oak_wood_plank, 1)
     Inventory:AddToInventory(MCCrafting.tweak_data.items.cobblestone, 53)
     Inventory:AddToInventory(MCCrafting.tweak_data.items.stone, 56)
     Inventory:AddToInventory(MCCrafting.tweak_data.items.eleven_disc, 1)
-    PrintTable(self.InventorySlots[2])
+    PrintTable(self.InventorySlots[2])]]
+
+    for i = 1, 36, 1 do
+        Inventory:AddToInventory(MCCrafting.tweak_data.items[table.random_key(MCCrafting.tweak_data.items)], math.random(1, 64))
+    end
 end
 
 --item is the item from tweak_data.items
