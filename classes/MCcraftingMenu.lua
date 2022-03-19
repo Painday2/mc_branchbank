@@ -389,7 +389,6 @@ function CraftMenu:OnSlotClick(right_click, slot)
         elseif item_matches and not room_left then
             log("Adding to stack")
             if difference < 1 then --stack is full, swap
-                log("swap")
                 self:SwapSlots(slot)
             else
                 log("adding to stack")
@@ -411,6 +410,32 @@ end
 
 function CraftMenu:OnCraftingSlotClick(right_click, slot)
     self:OnSlotClick(right_click, slot)
+    self:CheckRecipe()
+end
+
+function CraftMenu:OnOutputSlotClick(slot)
+    log("Clicked Output Slot")
+    local mouse_slot = MCCrafting.Inventory.MouseSlot
+    local output_slot = MCCrafting.Inventory.OutputSlot
+
+    if not output_slot.item_data then
+        return
+    end
+
+    if mouse_slot.item_data == nil then
+        self:OnSlotClick(false, slot)
+        self:CraftSuccesful()
+    elseif output_slot.item_data == mouse_slot.item_data then
+        if mouse_slot:RoomLeftInStack(output_slot.stack_size) then
+            mouse_slot:AddToStack(output_slot.stack_size)
+            self:UpdateUISlot(slot, output_slot)
+            self:UpdateMouseUISlot()
+            self:CraftSuccesful()
+        end
+    end
+end
+
+function CraftMenu:CheckRecipe()
     local recipe = MCCrafting:CheckRecipe()
     if recipe then
         local result = MCCrafting.tweak_data.items[recipe[1]]
@@ -424,18 +449,15 @@ function CraftMenu:OnCraftingSlotClick(right_click, slot)
     self:SetMouseSlotAlpha()
 end
 
-function CraftMenu:OnOutputSlotClick(slot)
-    log("Clicked Output Slot")
-    local mouse_slot = MCCrafting.Inventory.MouseSlot
-    local output_slot = MCCrafting.Inventory.OutputSlot
-
-    if output_slot.item_data ~= nil and mouse_slot.item_data == nil then
-        self:OnSlotClick(false, slot)
-    elseif output_slot.item_data == mouse_slot.item_data then
-        mouse_slot:AddToStack(output_slot.stack_size)
-        self:UpdateUISlot(slot, output_slot)
-        self:UpdateMouseUISlot()
+function CraftMenu:CraftSuccesful()
+    local inventory = MCCrafting.Inventory
+    for i = 1, 9, 1 do
+        log(tostring(i))
+        local slot = inventory.CraftingSlots[i]
+        slot:RemoveFromStack(1)
+        self:UpdateUISlot(self.CraftingSlot[i], slot)
     end
+    self:CheckRecipe()
 end
 
 function CraftMenu:SwapSlots(slot)
@@ -483,7 +505,6 @@ function CraftMenu:SetMouseSlotAlpha(alpha)
 end
 
 function CraftMenu:UpdateUISlot(ui_slot, inv_slot)
-    --local inv = MCCrafting.Inventory.CraftingSlots[slot.id]
     local item_data = inv_slot.item_data or {texture = atlas_texture, texture_rect = none_rect}
     ui_slot:SetImage(item_data.texture, item_data.texture_rect)
     ui_slot:Items()[1]:SetText(tostring(inv_slot.stack_size > 1 and inv_slot.stack_size or ""))
@@ -668,9 +689,14 @@ end
 function InventorySlot:AddToStack(amount)
     self.stack_size = self.stack_size + amount
 end
-
+---Removes amount from the stack_size, if stack_size 0 or less afterards, clears the slot
+---@param amount number
 function InventorySlot:RemoveFromStack(amount)
     self.stack_size = self.stack_size - amount
+
+    if self.stack_size <= 0 then
+        self:ClearSlot()
+    end
 end
 ---Splits the stack into two stacks, the first stack has the amount of items, the second stack has the remainder
 ---@return boolean

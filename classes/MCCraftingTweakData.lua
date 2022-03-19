@@ -5054,6 +5054,14 @@ function MCCrafting.tweak_data:init_crafting_table_recipes()
         }
     }
 
+    self.crafting_table.wooden_pickaxe_recipe = {
+        output = {"wooden_pickaxe", 1},
+        input = MCCrafting:new{
+            {"oak_wood_plank", "oak_wood_plank", "oak_wood_plank"},
+            {false,   "stick",  false },
+            {false,   "stick",  false }
+        }
+    }
 
     self.crafting_table.stone_pickaxe_recipe = {
         output = {"stone_pickaxe", 1},
