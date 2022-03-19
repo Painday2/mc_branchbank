@@ -84,12 +84,12 @@ function MCCrafting:matches(other)
 	return true
 end
 
-function MCCrafting:checkRecipe()
-    local crafting_menu = MCCrafting.Menu.CraftingSlot
+function MCCrafting:CheckRecipe()
+    local crafting_inv = MCCrafting.Inventory.CraftingSlots
     local tbl = {}
 
     for i = 1, 9, 1 do
-        tbl[i] = crafting_menu[i].item or false
+        tbl[i] = crafting_inv[i].item_data and crafting_inv[i].item_data.id or false
     end
 
     tbl = {
@@ -98,25 +98,20 @@ function MCCrafting:checkRecipe()
         {tbl[7], tbl[8], tbl[9]}
     }
 
+	PrintTable(tbl[1])
+	PrintTable(tbl[2])
+	PrintTable(tbl[3])
+
     local crafting_grid = MCCrafting:new(tbl)
     for _, value in pairs(MCCrafting.tweak_data.crafting_table) do
-        log(tostring(crafting_grid:matches(value.input)))
+		local matches = crafting_grid:matches(value.input)
+        log("Recipe: " .. tostring(matches))
+		if matches then
+			return value.output
+		end
     end
 end
---[[local sticks_recipe = MCCrafting:new({
-	{"planks"},
-	{"planks"}
-})
-local button_recipe = MCCrafting:new({
-	{"planks"}
-})
-log("aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
-log("aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
-log("aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
-log("aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
-crafting_grid:print()
-log(tostring(crafting_grid:matches(sticks_recipe)))
-log(tostring(crafting_grid:matches(button_recipe)))]]
+
 
 mcItemInteractionExt = mcItemInteractionExt or class(UseInteractionExt)
 

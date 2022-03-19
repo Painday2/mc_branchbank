@@ -5041,10 +5041,6 @@ function MCCrafting.tweak_data:init_items()
         texture_rect = {480,384,32,32},
         max_stack_size = 64,
     }
-
-
-    
-    
 end
 
 function MCCrafting.tweak_data:init_crafting_table_recipes()
@@ -5053,8 +5049,8 @@ function MCCrafting.tweak_data:init_crafting_table_recipes()
     self.crafting_table.stick_recipe = {
         output = {"stick", 4},
         input = MCCrafting:new{
-            {"wood_plank"},
-            {"wood_plank"}
+            {"oak_wood_plank"},
+            {"oak_wood_plank"}
         }
     }
 
