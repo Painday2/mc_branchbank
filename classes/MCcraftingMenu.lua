@@ -14,10 +14,15 @@ function CraftMenu:init()
         disable_player_controls = true,
 		background_color = Color(0,0,0, 0.5),
         animate_toggle = true,
-        scrollbar = false
+        scrollbar = false,
+        help_font = Font,
+        help_font_size = 24,
+        help_color = Color.white,
+        help_background_color = Color(200, 27, 12, 27) / 255,
     })
+
     self._menu_panel = self._menu._panel
-    
+
     if not MCCrafting.tweak_data.initialized then
         MCCrafting.tweak_data:init()
         MCCrafting.Inventory:init()
@@ -51,6 +56,7 @@ end
 function CraftMenu:_init_craft_gui()
     self.CraftGUIMenu = self._menu:Holder({
         name = "CraftGUIMenu",
+        divider_type = true,
         use_default_close_key = true,
         disable_player_controls = true,
         offset = {0, 0},
@@ -149,6 +155,8 @@ function CraftMenu:_init_craft_gui()
                 item:SetPosition(self.CraftingSlot[i]:X() + 16, self.CraftingSlot[i]:Y() + 16)
             end
         })
+
+        self.CraftingSlot[i].Highlight = CraftMenu.Highlight
     end
 
     self.OutputSlot = self.CraftingPanels:ImageButton({
@@ -159,7 +167,7 @@ function CraftMenu:_init_craft_gui()
         h = 36,
         on_callback = ClassClbk(self, "OnOutputSlotClick"),
         position = function(item)
-            item:SetPosition(self.CraftingSlot[6]:Right() + 74, self.CraftingSlot[6]:Y() - 1)
+            item:SetPosition(self.CraftingSlot[6]:Right() + 80, self.CraftingSlot[6]:Y() + 1)
         end
     })
     self.OutputSlotText = self.OutputSlot:Divider({
@@ -177,6 +185,8 @@ function CraftMenu:_init_craft_gui()
             item:SetPosition(self.OutputSlot:X() + 16, self.OutputSlot:Y() + 16)
         end
     })
+
+    self.OutputSlot.Highlight = CraftMenu.Highlight
 
     self.InventoryPanel = self.CraftGUIMenu:Menu({
         name = "InventoryPanel",
@@ -244,27 +254,13 @@ function CraftMenu:_init_craft_gui()
             end
         })
 
-        --self.CraftingSlot[i].MouseMoved = MouseMoved
-        --self.CraftingSlot[i].MouseReleased = MouseReleased
+        self.InventorySlot[i]:SetHelp(InventorySlot.item_data and InventorySlot.item_data.dn or nil)
+        self.InventorySlot[i].Highlight = CraftMenu.Highlight
     end
     self.CraftGUIMenu.MouseMoved = CraftMenu.MouseMoved
     self.CraftGUIMenu.KeyPressed = CraftMenu.KeyPressed
     --self.CraftGUIMenu.MousePressed = CraftMenu.MousePressed
     --BeardLib:AddUpdater("MCCraftingMenu", ClassClbk(self, "Update"))
-end
-
-function CraftMenu:Update(t, dt)
-    --[[if self._menu:Enabled() then
-        local x, y = managers.mouse_pointer._mouse:world_position()
-        self.MouseSlot:Panel():set_world_position(x - 16, y - 16)
-        self.MouseSlotText:Panel():set_world_position(x - 16, y - 16)
-
-        if MCCrafting.Inventory.MouseSlot.item_data then
-            managers.mouse_pointer._mouse:child("pointer"):set_alpha(0)
-        else
-            managers.mouse_pointer._mouse:child("pointer"):set_alpha(1)
-        end
-    end]]
 end
 
 function CraftMenu:ClearUISlot(slot)
@@ -290,6 +286,7 @@ function CraftMenu:ClearCraftingUISlot(slot)
     log("Clearing Crafting Slot")
     self.CraftingSlot[slot]:SetImage(atlas_texture, none_rect)
     self.CraftingSlotText[slot]:SetText("")
+    self.CraftingSlot[slot]:SetHelp()
     MCCrafting.Inventory.CraftingSlots[slot]:ClearSlot()
 end
 
@@ -482,7 +479,6 @@ function CraftMenu:SwapSlots(slot)
 end
 
 function CraftMenu:SetMouseSlotPos()
-    log("Setting mouse slot pos")
     local x, y = managers.mouse_pointer._mouse:world_position()
     --Set the mouse slot to the mouse location after the click
     self.MouseSlot:Panel():set_world_position(x - 16, y - 16)
@@ -490,7 +486,6 @@ function CraftMenu:SetMouseSlotPos()
 end
 
 function CraftMenu:SetMouseSlotAlpha(alpha)
-
     if not alpha then
         --if the mouse has an item, hide the mouse, otherwise show it
         if MCCrafting.Inventory.MouseSlot.item_data then
@@ -506,13 +501,15 @@ end
 
 function CraftMenu:UpdateUISlot(ui_slot, inv_slot)
     local item_data = inv_slot.item_data or {texture = atlas_texture, texture_rect = none_rect}
-    ui_slot:SetImage(item_data.texture, item_data.texture_rect)
+    ui_slot:SetTextureRect(item_data.texture_rect)
+    ui_slot:SetHelp(item_data.dn) -- i am very mature.
     ui_slot:Items()[1]:SetText(tostring(inv_slot.stack_size > 1 and inv_slot.stack_size or ""))
 end
 
 function CraftMenu:UpdateCraftingUISlot(slot)
     local inv = MCCrafting.Inventory.CraftingSlots[slot]
     self.CraftingSlot[slot]:SetImage(inv.item_data.texture, inv.item_data.texture_rect)
+    self.CraftingSlot[slot]:SetHelp(inv.item_data.dn)
     self.CraftingSlotText[slot]:SetText(tostring(inv.stack_size > 1 and inv.stack_size or ""))
 end
 
@@ -550,18 +547,23 @@ function CraftMenu:KeyPressed(o, k)
 	end
 end
 
---[[function CraftMenu:MousePressed(b, x, y)
-    --Set the mouse inv slot to the mouse location on click
-    if b == Idstring("0") then
-        log("click!")
-        local menu = MCCrafting.Menu
-        local x, y = managers.mouse_pointer._mouse:world_position()
-
-        menu.MouseSlot:Panel():set_world_position(x - 16, y - 16)
-        menu.MouseSlotText:Panel():set_world_position(x - 12, y - 12)
+--Forces the help text to be shown instantly
+function CraftMenu:Highlight()
+    if not self:alive() then
+        return
     end
-	self.super.MousePressed(self, b, x, y)
-end]]
+    self:DoHighlight(true)
+    managers.mouse_pointer:set_pointer_image("link")
+    if self.menu._highlighted and self.menu._highlighted ~= self then
+        self.menu._highlighted:UnHighlight()
+    end
+    self.highlight = true
+    self.menu._highlighted = self
+    if self.help then
+        self.menu:ShowDelayedHelp(self, true)
+    end
+end
+
 --i'll move this shit to it's own file later, i'm lazy.
 MCCrafting.Inventory = MCCrafting.Inventory or class()
 local Inventory = MCCrafting.Inventory
@@ -580,8 +582,9 @@ function Inventory:init()
     self.MouseSlot = MCCrafting.InventorySlot:new()
     self.OutputSlot = MCCrafting.InventorySlot:new()
 
-    for i = 1, 2, 1 do
-        self.InventorySlots[i] = MCCrafting.InventorySlot:new(MCCrafting.tweak_data.items["oak_wood_plank"], math.random(50, 64))
+    for i = 1, 3, 1 do
+        self.InventorySlots[1] = MCCrafting.InventorySlot:new(MCCrafting.tweak_data.items["oak_wood_plank"], math.random(50, 64))
+        Inventory:AddToInventory(MCCrafting.tweak_data.items["cobblestone"], math.random(1, 64))
         Inventory:AddToInventory(MCCrafting.tweak_data.items[table.random_key(MCCrafting.tweak_data.items)], math.random(1, 64))
         --Inventory:AddToInventory(MCCrafting.tweak_data.items["crafting_table"], math.random(1, 64))
     end
@@ -638,28 +641,32 @@ function Inventory:find_all_values_index(t, func)
     return matches
 end
 
-
 MCCrafting.InventorySlot = MCCrafting.InventorySlot or class()
 ---@class MCCrafting.InventorySlot
----@alias exitcode2 '"exit"' | '"signal"'
 local InventorySlot = MCCrafting.InventorySlot
 
 --copied a bunch of this from a youtube tutorial for unity, lmao
 --https://www.youtube.com/watch?v=svoXugGLFwU
+
 ---comment
----@param item_data MCCrafting.tweak_data.items
----@param stack_size any
+---@param item_data table MCCrafting.tweak_data.items
+---@param stack_size number
 function InventorySlot:init(item_data, stack_size)
     self.item_data = item_data or nil
     self.stack_size = stack_size or 0
     self.slot_id = 0
 end
+
 ---Clears the slot by setting item_data to nil and stack_size to 0
 function InventorySlot:ClearSlot()
+    log("clearing inv slot")
     self.item_data = nil
     self.stack_size = 0
 end
----comment
+
+---Assigns the data to the slot
+---If the items are the same it will add the amount to the stack
+---if not it will override any previous data and set the new item and amount
 ---@param slot_data MCCrafting.InventorySlot
 function InventorySlot:AssignItem(slot_data)
     --If items are the same, add to the stack
@@ -670,15 +677,19 @@ function InventorySlot:AssignItem(slot_data)
     end
 end
 
-function InventorySlot:SetSlotId(id)
-    self.slot_id = id
-end
-
+---Updates the slot with the new item and stack size, overriding any previous data
+---@param item_data table MCCrafting.tweak_data.items
+---@param amount number
 function InventorySlot:UpdateInventorySlot(item_data, amount)
     self.item_data = item_data
     self.stack_size = amount
 end
 
+---Checks if there is room for the amount of items in the stack
+---Returns true if there is, otherwise returns false and the amount of items that can fit
+---@param amount number
+---@return boolean --true if there is room, false if not
+---@return number @the amount remaining in the stack
 function InventorySlot:RoomLeftInStack(amount)
     if (self.stack_size + amount) <= self.item_data.max_stack_size then
         return true
@@ -686,9 +697,12 @@ function InventorySlot:RoomLeftInStack(amount)
     return false, self.item_data.max_stack_size - self.stack_size
 end
 
+---Adds the amount to the stack
+---@param amount number
 function InventorySlot:AddToStack(amount)
     self.stack_size = self.stack_size + amount
 end
+
 ---Removes amount from the stack_size, if stack_size 0 or less afterards, clears the slot
 ---@param amount number
 function InventorySlot:RemoveFromStack(amount)
@@ -698,6 +712,7 @@ function InventorySlot:RemoveFromStack(amount)
         self:ClearSlot()
     end
 end
+
 ---Splits the stack into two stacks, the first stack has the amount of items, the second stack has the remainder
 ---@return boolean
 ---@return MCCrafting.InventorySlot
@@ -713,6 +728,7 @@ function InventorySlot:SplitStack()
     log(tostring(half))
     return true, {item_data = self.item_data, stack_size = half}
 end
+
 ---Used to deposit a single item into a seperate slot
 ---@param item_slot MCCrafting.InventorySlot
 ---@return boolean
