@@ -1,6 +1,6 @@
 local Font = "fonts/minecraftia_shadow"
-local atlas_texture = "units/pd2_mod_craft/guis/items_atlas"
-local none_rect = {0, 0, 32, 32}
+local atlas_texture = "units/pd2_mod_craft/guis/inventory_atlas"
+local none_rect = {2000, 2000, 32, 32}
 local BaseLayer = 2500
 
 MCCrafting.Menu = MCCrafting.Menu or class()
@@ -268,15 +268,18 @@ function CraftMenu:ClearUISlot(slot)
 
     if slot.name:find("InventorySlot") then
         self.InventorySlot[slot.id]:SetImage(atlas_texture, none_rect)
+        self.InventorySlot[slot.id]:SetHelp("")
         self.InventorySlotText[slot.id]:SetText("")
         MCCrafting.Inventory.InventorySlots[slot.id]:ClearSlot()
     elseif slot.name:find("CraftingSlot") then
         log(slot.id)
         self.CraftingSlot[slot.id]:SetImage(atlas_texture, none_rect)
+        self.CraftingSlot[slot.id]:SetHelp("")
         self.CraftingSlotText[slot.id]:SetText("")
         MCCrafting.Inventory.CraftingSlots[slot.id]:ClearSlot()
     else
         self.OutputSlot:SetImage(atlas_texture, none_rect)
+        self.OutputSlot:SetHelp("")
         self.OutputSlotText:SetText("")
         MCCrafting.Inventory.OutputSlot:ClearSlot()
     end
@@ -582,9 +585,9 @@ function Inventory:init()
     self.MouseSlot = MCCrafting.InventorySlot:new()
     self.OutputSlot = MCCrafting.InventorySlot:new()
 
-    for i = 1, 3, 1 do
-        self.InventorySlots[1] = MCCrafting.InventorySlot:new(MCCrafting.tweak_data.items["oak_wood_plank"], math.random(50, 64))
-        Inventory:AddToInventory(MCCrafting.tweak_data.items["cobblestone"], math.random(1, 64))
+    for i = 1, 36, 1 do
+        --self.InventorySlots[1] = MCCrafting.InventorySlot:new(MCCrafting.tweak_data.items["oak_wood_plank"], math.random(50, 64))
+        --Inventory:AddToInventory(MCCrafting.tweak_data.items["cobblestone"], math.random(1, 64))
         Inventory:AddToInventory(MCCrafting.tweak_data.items[table.random_key(MCCrafting.tweak_data.items)], math.random(1, 64))
         --Inventory:AddToInventory(MCCrafting.tweak_data.items["crafting_table"], math.random(1, 64))
     end
