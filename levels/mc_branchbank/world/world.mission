@@ -7268,7 +7268,7 @@ return true"/>
 					<entry key="base_delay" type="number" value="0"/>
 					<entry key="enabled" type="boolean" value="true"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
-					<entry key="file" type="string" value="Maps/mc_branchbank/classes/MCcraftinginteraction.lua"/>
+					<entry key="file" type="string" value="mods/MCLib/Classes/Crafting/MCcraftinginteraction.lua"/>
 					<entry key="on_executed" type="table">
 					</entry>
 					<entry key="position" type="vector3" value="722.274 -695.078 350"/>
@@ -10477,6 +10477,24 @@ return true"/>
 					</entry>
 					<entry key="position" type="vector3" value="-316.276 2448.44 4002.5"/>
 					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="347" type="table">
+				<entry key="class" type="string" value="ElementMCCraftingMaterial"/>
+				<entry key="editor_name" type="string" value="mc_crafting_material_001"/>
+				<entry key="id" type="number" value="100344"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="amount" type="number" value="1"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="item" type="string" value="wooden_hoe"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="569.997 -661.422 350"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 1"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
