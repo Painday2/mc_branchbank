@@ -112,13 +112,22 @@
 			</mod>
 		</script_data_mods>
 	</level>
-	<Achievements id="mc_branchbank_ach">
-		<achievement id="wood" rank="1"/>
-		<achievement id="stone" rank="1"/>
-		<achievement id="iron" rank="2"/>
-		<achievement id="gold" rank="2"/>
-		<achievement id="diamond" rank="3"/>
-		<achievement id="netherite" rank="4" hidden_achievement="true"/>
+	<AddFiles directory="assets">
+		<texture load="true" path="guis/mc_bb_ach_package_icon"/>
+		<texture load="true" path="guis/mc_bb_ach_button_icon"/>
+		<texture load="true" path="guis/mc_bb_ach_complete_icon"/>
+		<texture load="true" path="guis/mc_bb_ach_upgrade_icon"/>
+		<texture load="true" path="guis/mc_bb_ach_ds_icon"/>
+		<texture load="true" path="guis/mc_bb_ach_stan_icon"/>
+		<texture load="true" path="guis/mc_bb_ach_secret_icon"/>
+	</AddFiles>
+	<Achievements id="mc_branchbank_ach" icon="guis/mc_bb_ach_package_icon">
+		<achievement id="wood" icon="guis/mc_bb_ach_button_icon" rank="1"/>
+		<achievement id="stone" icon="guis/mc_bb_ach_complete_icon" rank="1"/>
+		<achievement id="iron" icon="guis/mc_bb_ach_upgrade_icon" rank="2"/>
+		<achievement id="gold" icon="guis/mc_bb_ach_ds_icon" rank="2"/>
+		<achievement id="diamond" icon="guis/mc_bb_ach_stan_icon" rank="3"/>
+		<achievement id="netherite" icon="guis/mc_bb_ach_secret_icon" rank="4" hidden_achievement="true"/>
 	</Achievements>
 	<AddFiles directory="assets">
 		<font force="true" load="true" path="fonts/minecraft"/>

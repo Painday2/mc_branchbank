@@ -963,7 +963,30 @@
 		<sequence_manager path="units/payday2/characters/ragdoll" unload="true"/>
 	</add>
 	<add from_db="true" path="core/environments/skies/default/default" type="scene">
-		<scene path="core/environments/skies/default/default"/>
 		<material_config path="core/environments/skies/sky_cloudy_blue/sky_cloudy_blue"/>
+		<scene path="core/environments/skies/default/default"/>
+	</add>
+	<add from_db="true" path="units/world/props/apartment/facade_light/facade_light" type="unit">
+		<bnk path="soundbanks/regular_sfx"/>
+		<material_config path="units/world/props/apartment/facade_light/facade_light"/>
+		<object path="units/world/props/apartment/facade_light/facade_light"/>
+		<sequence_manager path="units/world/props/apartment/facade_light/facade_light"/>
+		<unit path="units/world/props/apartment/facade_light/facade_light"/>
+	</add>
+	<add from_db="true" path="units/payday2/architecture/mkp/mkp_light_cone" type="unit">
+		<material_config path="units/payday2/architecture/mkp/mkp_light_cone"/>
+		<object path="units/payday2/architecture/mkp/mkp_light_cone"/>
+		<unit path="units/payday2/architecture/mkp/mkp_light_cone"/>
+	</add>
+	<add from_db="true" path="core/units/light_omni/light_omni" type="unit">
+		<material_config path="core/material_configs/hub_elements"/>
+		<object path="core/units/light_omni/light_omni"/>
+		<unit path="core/units/light_omni/light_omni"/>
+	</add>
+	<add from_db="true" path="units/payday2/props/gen_prop_security_console/gen_prop_security_console" type="unit">
+		<unit path="units/payday2/props/gen_prop_security_console/gen_prop_security_console"/>
+		<object path="units/payday2/props/gen_prop_security_console/gen_prop_security_console"/>
+		<material_config path="units/payday2/props/gen_prop_security_console/gen_prop_security_console"/>
+		<sequence_manager path="units/payday2/props/gen_prop_security_console/gen_prop_security_console"/>
 	</add>
 </table>
