@@ -4,8 +4,7 @@
 	<extensions>
 		<extension name="unit_data" class="ScriptUnitData" />
 		<extension name="damage" 	class="UnitDamage" />
-		<extension name="interaction" class="SpecialEquipmentInteractionExt" >
-			<var name="_special_equipment" value="pickaxe" />
+		<extension name="interaction" class="MCInteractionExt" >
 			<var name="_remove_on_interact" value="true" />
 			<var name="tweak_data" value="pickup_pickaxe" />
 			<var name="_global_event" value="pickaxe" />

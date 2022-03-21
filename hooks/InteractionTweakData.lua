@@ -1,5 +1,5 @@
 Hooks:PostHook(InteractionTweakData, "init", "init_jewelry_int", function(self, tweak_data)
-	
+
 	self.hold_place_cobblestone = {
 		text_id = "hud_int_hold_cobblestone",
 		action_text_id = "hud_action_craft",
@@ -12,7 +12,7 @@ Hooks:PostHook(InteractionTweakData, "init", "init_jewelry_int", function(self, 
 		sound_done = "mc_place_block",
 		equipment_consume = true
 	}
-	
+
 	self.hold_place_stick = {
 		text_id = "hud_int_hold_stick",
 		action_text_id = "hud_action_craft",
@@ -24,8 +24,8 @@ Hooks:PostHook(InteractionTweakData, "init", "init_jewelry_int", function(self, 
 		sound_interupt = "bar_insert_printingplates_cancel",
 		sound_done = "mc_place_block",
 		equipment_consume = true
-	}	
-	
+	}
+
 	self.hold_place_sand = {
 		text_id = "hud_int_hold_sand",
 		action_text_id = "hud_action_craft",
@@ -38,7 +38,7 @@ Hooks:PostHook(InteractionTweakData, "init", "init_jewelry_int", function(self, 
 		sound_done = "mc_place_block",
 		equipment_consume = true
 	}
-	
+
 	self.hold_pickup_sand = {
 		text_id = "hud_int_hold_pickup_sand",
 		action_text_id = "hud_action_sand",
@@ -46,12 +46,12 @@ Hooks:PostHook(InteractionTweakData, "init", "init_jewelry_int", function(self, 
 		timer = 0.25,
 		start_active = false
 	}
-	
+
 	self.iron_pku = {
 		text_id = "iron_pku",
 		sound_done = "mc_pickup"
 	}
-	
+
 	self.hold_place_gunpowder = {
 		text_id = "hud_int_hold_gunpowder",
 		action_text_id = "hud_action_craft",
@@ -72,7 +72,7 @@ Hooks:PostHook(InteractionTweakData, "init", "init_jewelry_int", function(self, 
 		timer = 0.25,
 		start_active = false
 	}
-	
+
 	self.hold_place_ladder = {
 		text_id = "hud_int_hold_ladder",
 		action_text_id = "hud_action_place_block",
@@ -85,7 +85,7 @@ Hooks:PostHook(InteractionTweakData, "init", "init_jewelry_int", function(self, 
 		sound_done = "mc_place_block",
 		equipment_consume = true
 	}
-	
+
 	self.hold_place_lever = {
 		text_id = "hud_int_hold_lever",
 		action_text_id = "hud_action_place_block",
@@ -98,7 +98,7 @@ Hooks:PostHook(InteractionTweakData, "init", "init_jewelry_int", function(self, 
 		sound_done = "mc_place_block",
 		equipment_consume = true
 	}
-	
+
 	self.hold_place_tnt = {
 		text_id = "hud_int_hold_tnt",
 		action_text_id = "hud_action_place_block",
@@ -111,7 +111,7 @@ Hooks:PostHook(InteractionTweakData, "init", "init_jewelry_int", function(self, 
 		sound_done = "mc_place_block",
 		equipment_consume = true
 	}
-	
+
 	self.drill = {
 		icon = "equipment_drill",
 		contour = "interactable_icon",
@@ -133,7 +133,7 @@ Hooks:PostHook(InteractionTweakData, "init", "init_jewelry_int", function(self, 
 		start_active = false,
 		axis = "z"
 	}
-	
+
 	self.pickup_tripwire_key = {
 		text_id = "hud_int_pickup_tripwire_key",
 		requires_mask_off_upgrade = {
@@ -142,7 +142,7 @@ Hooks:PostHook(InteractionTweakData, "init", "init_jewelry_int", function(self, 
 		},
 		sound_done = "mc_pickup"
 	}
-	
+
 	self.pku_gold = {
 		text_id = "hold_take_gold",
 		action_text_id = "taking_loot",
@@ -152,7 +152,7 @@ Hooks:PostHook(InteractionTweakData, "init", "init_jewelry_int", function(self, 
 		sound_done = "mc_pickup",
 		blocked_hint = "carry_block"
 	}
-	
+
 	self.pku_emerald = {
 		text_id = "hold_take_emerald",
 		action_text_id = "taking_loot",
@@ -162,7 +162,7 @@ Hooks:PostHook(InteractionTweakData, "init", "init_jewelry_int", function(self, 
 		sound_done = "mc_pickup",
 		blocked_hint = "carry_block"
 	}
-	
+
 	self.pku_diamond = {
 		text_id = "hold_take_diamond",
 		action_text_id = "taking_loot",
@@ -172,7 +172,7 @@ Hooks:PostHook(InteractionTweakData, "init", "init_jewelry_int", function(self, 
 		sound_done = "mc_pickup",
 		blocked_hint = "carry_block"
 	}
-	
+
 	self.netherite_armor = {
 		text_id = "hud_int_hold_bag_net_armor",
 		action_text_id = "hud_action_bagging_net_armor",
@@ -183,22 +183,23 @@ Hooks:PostHook(InteractionTweakData, "init", "init_jewelry_int", function(self, 
 		sound_interupt = "bar_bag_armor_cancel",
 		sound_done = "bar_bag_armor_finished"
 	}
-	
+
 	self.pickup_axe = {
 		text_id = "hud_int_pickup_axe",
-		sound_done = "mc_pickup"
+		sound_done = "mc_pickup",
+		mc_item_award = "netherite_axe"
 	}
-	
+
 	self.pickup_pickaxe = {
 		text_id = "hud_int_pickup_pickaxe",
-		sound_done = "mc_pickup"
+		sound_done = "mc_pickup",
+		mc_item_award = "diamond_pickaxe" --If this is set, it will award this item to the inventory
 	}
-	
+
 	self.axe_deposit = {
 		text_id = "hud_int_hold_deposit",
-		equipment_text_id = "hud_int_equipment_need_axe",
-		special_equipment = "axe",
-		equipment_consume = false,
+		mc_item_consume = "netherite_axe", --If this is set, it will consume this item from the inventory
+		amount = 0, --unless the amount is 0 otherwise it'll consume the amount from the inventory
 		timer = 5,
 		sound_done = "mc_place_block",
 		axis = "y",
@@ -217,7 +218,7 @@ Hooks:PostHook(InteractionTweakData, "init", "init_jewelry_int", function(self, 
 		sound_interupt = "bar_huge_lance_fix_cancel",
 		sound_done = "bar_huge_lance_fix_finished"
 	}
-	
+
 	self.mc_pickup_lava = {
 		text_id = "hud_int_pickup_lava",
 		sound_done = "mc_pickup"
