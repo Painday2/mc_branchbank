@@ -1930,7 +1930,7 @@
 							<entry key="id" type="number" value="100073"/>
 						</entry>
 						<entry index="3" type="table">
-							<entry key="alternative" type="string" value="none"/>
+							<entry key="alternative" type="string" value="interacted"/>
 							<entry key="delay" type="number" value="0"/>
 							<entry key="id" type="number" value="100256"/>
 						</entry>
@@ -7288,7 +7288,7 @@ return true"/>
 					<entry key="base_delay" type="number" value="0"/>
 					<entry key="enabled" type="boolean" value="true"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
-					<entry key="file" type="string" value="Maps/mc_branchbank/classes/MCcraftinginteraction.lua"/>
+					<entry key="file" type="string" value="mods/MCLib/Classes/Crafting/MCCraftinginteraction.lua"/>
 					<entry key="on_executed" type="table">
 					</entry>
 					<entry key="position" type="vector3" value="722.274 -695.078 350"/>
