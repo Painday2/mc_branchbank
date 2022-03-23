@@ -9,7 +9,7 @@ Hooks:PostHook(CarryTweakData, "init", "init_minecraftoff", function(self, tweak
 			SO_category = "enemies"
 		}
 	}
-	
+
 	self.diamond_block = {
 		type = "light",
 		name_id = "hud_carry_diamond_block",
@@ -20,7 +20,7 @@ Hooks:PostHook(CarryTweakData, "init", "init_minecraftoff", function(self, tweak
 			SO_category = "enemies"
 		}
 	}
-	
+
 	self.emerald_block = {
 		type = "light",
 		name_id = "hud_carry_emerald_block",
@@ -31,7 +31,7 @@ Hooks:PostHook(CarryTweakData, "init", "init_minecraftoff", function(self, tweak
 			SO_category = "enemies"
 		}
 	}
-	
+
 	self.diamond_suit = {
 		type = "medium",
 		name_id = "hud_carry_diarmour",
@@ -41,7 +41,7 @@ Hooks:PostHook(CarryTweakData, "init", "init_minecraftoff", function(self, tweak
 			SO_category = "enemies"
 		}
 	}
-	
+
 	self.netherite_suit = {
 		type = "medium",
 		name_id = "hud_carry_nearmour",

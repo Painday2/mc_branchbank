@@ -1,4 +1,4 @@
-Hooks:PostHook(HudIconsTweakData, "init", "init_jewelry_hud", function(self)
+--[[Hooks:PostHook(HudIconsTweakData, "init", "init_jewelry_hud", function(self)
 
 	self.equipment_stick = {
 		texture = "guis/stick_equipment",
@@ -89,4 +89,4 @@ Hooks:PostHook(HudIconsTweakData, "init", "init_jewelry_hud", function(self)
 			104
 		}
 	}
-end)
+end)]]
