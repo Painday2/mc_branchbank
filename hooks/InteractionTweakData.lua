@@ -91,12 +91,11 @@ Hooks:PostHook(InteractionTweakData, "init", "init_jewelry_int", function(self, 
 		action_text_id = "hud_action_place_block",
 		timer = 2,
 		start_active = false,
-		special_equipment = "lever",
-		equipment_text_id = "hud_equipment_need_lever",
+		mc_item_consume = "lever",
 		sound_start = "bar_insert_printingplates",
 		sound_interupt = "bar_insert_printingplates_cancel",
 		sound_done = "mc_place_block",
-		equipment_consume = true
+		amount = 1
 	}
 
 	self.hold_place_tnt = {
@@ -112,18 +111,18 @@ Hooks:PostHook(InteractionTweakData, "init", "init_jewelry_int", function(self, 
 		equipment_consume = true
 	}
 
-	self.drill = {
+	self.mc_drill = {
 		icon = "equipment_drill",
 		contour = "interactable_icon",
 		text_id = "hud_int_equipment_drill",
 		equipment_text_id = "hud_int_equipment_need_drill",
-		special_equipment = "mc_drill",
-		equipment_consume = true,
+		mc_item_consume = "mc_drill",
+		amount = 1,
 		timer = 3,
 		sound_start = "bar_drill_apply",
 		sound_interupt = "bar_drill_apply_cancel",
 		sound_done = "mc_place_block",
-		axis = "y",
+		--axis = "y",
 		action_text_id = "hud_action_placing_drill"
 	}
 
@@ -209,10 +208,8 @@ Hooks:PostHook(InteractionTweakData, "init", "init_jewelry_int", function(self, 
 	self.mc_pickaxe_drill_jammed = {
 		text_id = "hud_int_equipment_mc_pickaxe_drill_jammed",
 		action_text_id = "hud_action_fixing_mc_pickaxe_drill",
-		special_equipment = "lava_bucket",
-		equipment_text_id = "hud_int_equipment_no_lava_bucket",
-		blocked_hint = "no_lava_bucket",
-		equipment_consume = true,
+		mc_item_consume = "lava_bucket",
+		amount = 1,
 		timer = 10,
 		sound_start = "bar_huge_lance_fix",
 		sound_interupt = "bar_huge_lance_fix_cancel",
@@ -221,6 +218,12 @@ Hooks:PostHook(InteractionTweakData, "init", "init_jewelry_int", function(self, 
 
 	self.mc_pickup_lava = {
 		text_id = "hud_int_pickup_lava",
-		sound_done = "mc_pickup"
+		sound_done = "mc_pickup",
+		mc_item_award = "lava_bucket"
+	}
+
+	self.mc_open_crafting_menu = {
+		text_id = "hud_int_open_crafting_menu",
+		start_active = false,
 	}
 end)

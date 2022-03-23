@@ -512,7 +512,7 @@
 			<unit_data _prev_pos="-325 -1325 550" _prev_rot="0 0 0 -1" continent="world" local_pos="-100 0 100" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="prop_cube_glass_int_026" position="-325 -1250 550" rotation="0 0 0 -1" unit_id="100169"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="-225 -1325 550" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 100" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="prop_cube_glass_int_027" position="-225 -1250 550" rotation="0 0 0 -1" unit_id="100170"/>
+			<unit_data _prev_pos="-225 -1250 550" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="prop_cube_glass_int_027" position="-225 -1250 550" rotation="0 0 0 -1" unit_id="100170"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-225 -1325 450" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="" name="units/pd2_mod_craft/props/prop_cube_glass_int" name_id="prop_cube_glass_int_028" position="-225 -1250 450" rotation="0 0 0 -1" unit_id="100171"/>
@@ -1297,10 +1297,10 @@
 			<unit_data _prev_pos="1176 950 850" _prev_rot="0 0 0.707107 -0.707107" continent="world" disable_on_ai_graph="true" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="closed" name="units/pd2_mod_craft/props/prop_cube_iron_door" name_id="iron_door_roof" position="1176 950 850" rotation="0 0 0.707107 -0.707107" unit_id="100439"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="2875 -550 350" _prev_rot="0 0 0.707107 -0.707107" continent="world" disable_on_ai_graph="true" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="closed" name="units/pd2_mod_craft/props/prop_cube_iron_door" name_id="iron_door_outside_right" position="2875 -550 350" rotation="0 0 0.707107 -0.707107" unit_id="100440"/>
+			<unit_data _prev_pos="2876 -550 350" _prev_rot="0 0 0.707107 -0.707107" continent="world" disable_on_ai_graph="true" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="closed" name="units/pd2_mod_craft/props/prop_cube_iron_door" name_id="iron_door_outside_right" position="2876 -550 350" rotation="0 0 0.707107 -0.707107" unit_id="100440"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="2675 -550 350" _prev_rot="0 0 1 -4.37114e-008" continent="world" disable_on_ai_graph="true" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="opened" name="units/pd2_mod_craft/props/prop_cube_iron_door" name_id="iron_door_outside_right2" position="2675 -550 350" rotation="0 0 1 -4.37114e-008" unit_id="100441"/>
+			<unit_data _prev_pos="2676 -550 350" _prev_rot="0 0 1 -4.37114e-008" continent="world" disable_on_ai_graph="true" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="opened" name="units/pd2_mod_craft/props/prop_cube_iron_door" name_id="iron_door_outside_right2" position="2676 -550 350" rotation="0 0 1 -4.37114e-008" unit_id="100441"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-424 2920 350" _prev_rot="0 0 0.707107 -0.707107" continent="world" disable_on_ai_graph="true" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="closed" name="units/pd2_mod_craft/props/prop_cube_iron_door" name_id="iron_door_outside_left" position="-424 2920 350" rotation="0 0 0.707107 -0.707107" unit_id="100442"/>
@@ -4396,6 +4396,9 @@
 					</shape>
 				</editable_gui>
 			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="2550 6950 350" _prev_rot="-0 0 -0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/props/prop_cube_crafting_table" name_id="prop_cube_crafting_table_001" position="2576 6950 350" rotation="-0 0 -0 -1" unit_id="101315"/>
 		</table>
 	</statics>
 	<values>
