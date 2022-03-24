@@ -4400,6 +4400,12 @@
 		<table>
 			<unit_data _prev_pos="2550 6950 350" _prev_rot="-0 0 -0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/props/prop_cube_crafting_table" name_id="prop_cube_crafting_table_001" position="2576 6950 350" rotation="-0 0 -0 -1" unit_id="101315"/>
 		</table>
+		<table>
+			<unit_data _prev_pos="2777.65 6550 350.555" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/props/prop_cube_cobblestone" name_id="prop_cube_cobblestone_001" position="2777.65 6550 350.555" rotation="0 0 0 -1" unit_id="101316"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="2733.92 6599.36 350.001" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="enable" name="units/world/props/melee_boxjc/melee_box" name_id="melee_box_cobble" position="2827.92 6599.36 350.001" rotation="-0 0 -0 -1" unit_id="101317"/>
+		</table>
 	</statics>
 	<values>
 		<workviews/>
