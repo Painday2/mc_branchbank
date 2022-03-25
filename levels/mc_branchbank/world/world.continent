@@ -2496,7 +2496,7 @@
 			<unit_data _prev_pos="2777.65 6550 350.555" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/props/prop_cube_cobblestone" name_id="prop_cube_cobblestone_001" position="2777.65 6550 350.555" rotation="0 0 0 -1" unit_id="101316"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="2733.92 6599.36 350.001" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="enable" name="units/world/props/melee_boxjc/melee_box" name_id="melee_box_cobble" position="2827.92 6599.36 350.001" rotation="-0 0 -0 -1" unit_id="101317"/>
+			<unit_data _prev_pos="2827.92 6599.36 350.001" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="hide_gfx" name="units/world/props/melee_boxjc/melee_box" name_id="melee_box_cobble" position="2827.92 6599.36 350.001" rotation="-0 0 -0 -1" unit_id="101317"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="7099 -1950 350" _prev_rot="-0.5 0.5 0.5 -0.5" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_16x32m" name_id="dev_bag_collision_16x32m_007" only_visible_in_editor="true" position="7099 -1911 350" rotation="-0.5 0.5 0.5 -0.5" unit_id="100244"/>
