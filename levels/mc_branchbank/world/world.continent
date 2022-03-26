@@ -12,7 +12,7 @@
 			<unit_data _prev_pos="0 50 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_10_-3" name_id="chunk_10_-3_001" position="0 0 0" rotation="-0 0 -0 -1" unit_id="100003"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_10_-4" name_id="chunk_10_-4_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100004"/>
+			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="2376 5950 -450.001" local_rot="0 0 1 4.37114e-008" name="units/pd2_mod_craft/bankarch/chunk_10_-4" name_id="chunk_10_-4_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100004"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_10_-5" name_id="chunk_10_-5_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100005"/>
@@ -87,7 +87,7 @@
 			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_12_1" name_id="chunk_12_1_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100028"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_12_2" name_id="chunk_12_2_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100029"/>
+			<unit_data _prev_pos="0 0 1050" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_12_2" name_id="chunk_12_2_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100029"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="0 0 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_12_3" name_id="chunk_12_3_001" position="0 0 0" rotation="0 0 0 -1" unit_id="100030"/>
@@ -2765,6 +2765,63 @@
 		</table>
 		<table>
 			<unit_data _prev_pos="-3223 -1850 943.723" _prev_rot="0 0 0.707107 -0.707107" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/level_tools/dev_bag_collision/dev_bag_collision_1x3m" name_id="dev_bag_collision_1x3m_045" only_visible_in_editor="true" position="-3223 -1850 943.723" rotation="0 0 0.707107 -0.707107" unit_id="100563"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="600 2150 350" _prev_rot="-0 0 -0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/props/prop_cube_obsidian" name_id="prop_cube_obsidian_033" position="575 2150 350" rotation="-0 0 -0 -1" unit_id="100564"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="575 2150 350" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/props/prop_cube_obsidian" name_id="prop_cube_obsidian_034" position="575 2150 450" rotation="0 0 0 -1" unit_id="100565"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="2590 -1150 450" _prev_rot="0 0 1 4.37114e-008" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="start" name="units/pd2_mod_craft/props/dark_oak_trapdoor" name_id="dark_oak_trapdoor_001" position="2576 -1150 450" rotation="0 0 1 4.37114e-008" unit_id="100566"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="2376 5950 450.001" _prev_rot="0 0 1 -4.37114e-008" continent="world" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="start" name="units/pd2_mod_craft/props/dark_oak_trapdoor" name_id="dark_oak_trapdoor_002" position="2376 5950 450.001" rotation="0 0 1 -4.37114e-008" unit_id="100567"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1325 3450 450.001" _prev_rot="0 0 0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="start" name="units/pd2_mod_craft/props/dark_oak_trapdoor" name_id="dark_oak_trapdoor_003" position="-1324 3450 450.001" rotation="0 0 0.707107 -0.707107" unit_id="100568"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="2975 6150 450.001" _prev_rot="0 0 -0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="start" name="units/pd2_mod_craft/props/dark_oak_trapdoor" name_id="dark_oak_trapdoor_004" position="2976 6150 450.001" rotation="0 0 -0.707107 -0.707107" unit_id="100569"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="2777 -4350 450" _prev_rot="-0 0 -0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="disable_interact" name="units/pd2_mod_craft/props/dark_oak_trapdoor" name_id="dark_oak_trapdoor_005" position="2776 -4350 450" rotation="-0 0 -0 -1" unit_id="100570"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-4324 3151 451" _prev_rot="-0 0 -0 -1" continent="world" instance_data="false" local_pos="0 0 -100" local_rot="0 0 0 1" name="units/pd2_mod_craft/props/prop_cube_cobblestone" name_id="prop_cube_cobblestone_002" position="-4324 3151 451" rotation="-0 0 -0 -1" unit_id="100571"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-4324 3151 551" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/props/prop_cube_cobblestone" name_id="prop_cube_cobblestone_003" position="-4324 3151 551" rotation="0 0 0 -1" unit_id="100572"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-4324 3151 551" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/props/prop_cube_cobblestone" name_id="prop_cube_cobblestone_004" position="-4124 3151 551" rotation="0 0 0 -1" unit_id="100573"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-4324 3151 451" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 -100" local_rot="0 0 0 1" name="units/pd2_mod_craft/props/prop_cube_cobblestone" name_id="prop_cube_cobblestone_005" position="-4124 3151 451" rotation="0 0 0 -1" unit_id="100574"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-4124 3151 551" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/props/prop_cube_cobblestone" name_id="prop_cube_cobblestone_006" position="-3924 3151 551" rotation="0 0 0 -1" unit_id="100575"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-4124 3151 451" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 -100" local_rot="0 0 0 1" name="units/pd2_mod_craft/props/prop_cube_cobblestone" name_id="prop_cube_cobblestone_007" position="-3924 3151 451" rotation="0 0 0 -1" unit_id="100576"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1323 -5441 350" _prev_rot="0 0 0 -1" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 -300" local_rot="-0 0 0 1" name="units/pd2_mod_craft/props/prop_cube_cobblestone" name_id="prop_cube_cobblestone_009" position="-1323 -5450 350" rotation="0 0 -0 -1" unit_id="100578"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1323 -5441 650" _prev_rot="0 0 0 -1" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/props/prop_cube_cobblestone" name_id="prop_cube_cobblestone_010" position="-1323 -5450 650" rotation="-0 0 -0 -1" unit_id="100582"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1423.43 -6149.3 349.999" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/props/prop_cube_cobblestone" name_id="prop_cube_cobblestone_008" position="-1423.43 -6149.3 349.999" rotation="0 0 0 -1" unit_id="100577"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1423.43 -6149.3 349.999" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/props/prop_cube_cobblestone" name_id="prop_cube_cobblestone_011" position="-1423.43 -6149.3 449.999" rotation="0 0 0 -1" unit_id="100583"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1423.43 -6149.3 449.999" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/props/prop_cube_cobblestone" name_id="prop_cube_cobblestone_012" position="-1423.43 -6149.3 549.999" rotation="0 0 0 -1" unit_id="100584"/>
+		</table>
+		<table>
+			<unit_data _prev_pos="-1423.43 -6149.3 549.999" _prev_rot="0 0 0 -1" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/props/prop_cube_cobblestone" name_id="prop_cube_cobblestone_013" position="-1423.43 -6149.3 649.999" rotation="0 0 0 -1" unit_id="100585"/>
 		</table>
 	</statics>
 	<values>

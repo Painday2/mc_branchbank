@@ -225,5 +225,6 @@ Hooks:PostHook(InteractionTweakData, "init", "init_jewelry_int", function(self, 
 	self.mc_open_crafting_menu = {
 		text_id = "hud_int_open_crafting_menu",
 		start_active = false,
+		keep_active_after_interaction = true
 	}
 end)
