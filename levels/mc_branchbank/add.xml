@@ -431,4 +431,7 @@
 	<unit load="true" path="units/pd2_mod_craft/bankarch/navmesh" unload="true"/>
 	<object path="units/pd2_mod_craft/bankarch/navmesh" unload="true"/>
 	<model path="units/pd2_mod_craft/bankarch/navmesh" unload="true"/>
+	<unit load="true" path="units/dev_tools/mission_elements/point_interaction/interaction_dummy" force="true"/>
+	<object path="units/dev_tools/mission_elements/point_interaction/interaction_dummy" force="true"/>
+	<sequence_manager path="units/dev_tools/mission_elements/point_interaction/interaction_dummy" force="true"/>
 </table>
