@@ -1,8 +1,6 @@
 <table>
 	<editor_groups/>
-	<instances>
-		<table continent="world" folder="levels/instances/mods/crafting_station_bb/world" index_size="250" name="crafting_station_bb_001" position="2785 7032 366" rotation="0 0 1 -4.37114e-008" script="default" start_index="0"/>
-	</instances>
+	<instances/>
 	<statics>
 		<table>
 			<unit_data _prev_pos="600 -550 0" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/bankarch/chunk_10_-1" name_id="chunk_10_-1_001" position="0 0 0" rotation="-0 0 -0 -1" unit_id="100001"/>
