@@ -5837,6 +5837,14 @@
 							<entry key="delay" type="number" value="0"/>
 							<entry key="id" type="number" value="100227"/>
 						</entry>
+						<entry index="3" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100495"/>
+						</entry>
+						<entry index="4" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100499"/>
+						</entry>
 					</entry>
 					<entry key="one_down" type="boolean" value="false"/>
 					<entry key="platform_win32" type="boolean" value="true"/>
@@ -5880,6 +5888,14 @@
 						<entry index="3" type="table">
 							<entry key="delay" type="number" value="0"/>
 							<entry key="id" type="number" value="100233"/>
+						</entry>
+						<entry index="4" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100494"/>
+						</entry>
+						<entry index="5" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100499"/>
 						</entry>
 					</entry>
 					<entry key="one_down" type="boolean" value="false"/>
@@ -5925,6 +5941,18 @@
 							<entry key="delay" type="number" value="0"/>
 							<entry key="id" type="number" value="100233"/>
 						</entry>
+						<entry index="4" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100493"/>
+						</entry>
+						<entry index="5" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100500"/>
+						</entry>
+						<entry index="6" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100504"/>
+						</entry>
 					</entry>
 					<entry key="one_down" type="boolean" value="false"/>
 					<entry key="platform_win32" type="boolean" value="true"/>
@@ -5968,6 +5996,18 @@
 						<entry index="3" type="table">
 							<entry key="delay" type="number" value="0"/>
 							<entry key="id" type="number" value="100233"/>
+						</entry>
+						<entry index="4" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100492"/>
+						</entry>
+						<entry index="5" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100500"/>
+						</entry>
+						<entry index="6" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100504"/>
 						</entry>
 					</entry>
 					<entry key="one_down" type="boolean" value="false"/>
@@ -13379,6 +13419,2177 @@
 					</entry>
 					<entry key="position" type="vector3" value="50 -75 4003"/>
 					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="448" type="table">
+				<entry key="class" type="string" value="ElementUnitSequence"/>
+				<entry key="editor_name" type="string" value="us_display_random_046"/>
+				<entry key="id" type="number" value="100447"/>
+				<entry key="module" type="string" value="CoreElementUnitSequence"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="1166.58 708.231 3991.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 1 -0"/>
+					<entry key="trigger_list" type="table">
+						<entry index="1" type="table">
+							<entry key="name" type="string" value="run_sequence"/>
+							<entry key="notify_unit_id" type="number" value="100204"/>
+							<entry key="notify_unit_sequence" type="string" value="spawn_bagable_items"/>
+							<entry key="time" type="number" value="0"/>
+						</entry>
+					</entry>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="449" type="table">
+				<entry key="class" type="string" value="ElementUnitSequence"/>
+				<entry key="editor_name" type="string" value="us_display_random_061"/>
+				<entry key="id" type="number" value="100448"/>
+				<entry key="module" type="string" value="CoreElementUnitSequence"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="1116.58 708.231 3991.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 1 -0"/>
+					<entry key="trigger_list" type="table">
+						<entry index="1" type="table">
+							<entry key="name" type="string" value="run_sequence"/>
+							<entry key="notify_unit_id" type="number" value="100219"/>
+							<entry key="notify_unit_sequence" type="string" value="spawn_bagable_items"/>
+							<entry key="time" type="number" value="0"/>
+						</entry>
+					</entry>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="450" type="table">
+				<entry key="class" type="string" value="ElementUnitSequence"/>
+				<entry key="editor_name" type="string" value="us_display_random_076"/>
+				<entry key="id" type="number" value="100449"/>
+				<entry key="module" type="string" value="CoreElementUnitSequence"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="1066.58 708.231 3991.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 1 -0"/>
+					<entry key="trigger_list" type="table">
+						<entry index="1" type="table">
+							<entry key="name" type="string" value="run_sequence"/>
+							<entry key="notify_unit_id" type="number" value="100234"/>
+							<entry key="notify_unit_sequence" type="string" value="spawn_bagable_items"/>
+							<entry key="time" type="number" value="0"/>
+						</entry>
+					</entry>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="451" type="table">
+				<entry key="class" type="string" value="ElementUnitSequence"/>
+				<entry key="editor_name" type="string" value="us_display_random_077"/>
+				<entry key="id" type="number" value="100450"/>
+				<entry key="module" type="string" value="CoreElementUnitSequence"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="1066.58 658.231 3991.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 1 -0"/>
+					<entry key="trigger_list" type="table">
+						<entry index="1" type="table">
+							<entry key="name" type="string" value="run_sequence"/>
+							<entry key="notify_unit_id" type="number" value="100235"/>
+							<entry key="notify_unit_sequence" type="string" value="spawn_bagable_items"/>
+							<entry key="time" type="number" value="0"/>
+						</entry>
+					</entry>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="452" type="table">
+				<entry key="class" type="string" value="ElementUnitSequence"/>
+				<entry key="editor_name" type="string" value="us_display_random_062"/>
+				<entry key="id" type="number" value="100451"/>
+				<entry key="module" type="string" value="CoreElementUnitSequence"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="1116.58 658.231 3991.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 1 -0"/>
+					<entry key="trigger_list" type="table">
+						<entry index="1" type="table">
+							<entry key="name" type="string" value="run_sequence"/>
+							<entry key="notify_unit_id" type="number" value="100220"/>
+							<entry key="notify_unit_sequence" type="string" value="spawn_bagable_items"/>
+							<entry key="time" type="number" value="0"/>
+						</entry>
+					</entry>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="453" type="table">
+				<entry key="class" type="string" value="ElementUnitSequence"/>
+				<entry key="editor_name" type="string" value="us_display_random_047"/>
+				<entry key="id" type="number" value="100452"/>
+				<entry key="module" type="string" value="CoreElementUnitSequence"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="1166.58 658.231 3991.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 1 -0"/>
+					<entry key="trigger_list" type="table">
+						<entry index="1" type="table">
+							<entry key="name" type="string" value="run_sequence"/>
+							<entry key="notify_unit_id" type="number" value="100205"/>
+							<entry key="notify_unit_sequence" type="string" value="spawn_bagable_items"/>
+							<entry key="time" type="number" value="0"/>
+						</entry>
+					</entry>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="454" type="table">
+				<entry key="class" type="string" value="ElementUnitSequence"/>
+				<entry key="editor_name" type="string" value="us_display_random_048"/>
+				<entry key="id" type="number" value="100453"/>
+				<entry key="module" type="string" value="CoreElementUnitSequence"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="1166.58 608.231 3991.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 1 -0"/>
+					<entry key="trigger_list" type="table">
+						<entry index="1" type="table">
+							<entry key="name" type="string" value="run_sequence"/>
+							<entry key="notify_unit_id" type="number" value="100206"/>
+							<entry key="notify_unit_sequence" type="string" value="spawn_bagable_items"/>
+							<entry key="time" type="number" value="0"/>
+						</entry>
+					</entry>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="455" type="table">
+				<entry key="class" type="string" value="ElementUnitSequence"/>
+				<entry key="editor_name" type="string" value="us_display_random_063"/>
+				<entry key="id" type="number" value="100454"/>
+				<entry key="module" type="string" value="CoreElementUnitSequence"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="1116.58 608.231 3991.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 1 -0"/>
+					<entry key="trigger_list" type="table">
+						<entry index="1" type="table">
+							<entry key="name" type="string" value="run_sequence"/>
+							<entry key="notify_unit_id" type="number" value="100221"/>
+							<entry key="notify_unit_sequence" type="string" value="spawn_bagable_items"/>
+							<entry key="time" type="number" value="0"/>
+						</entry>
+					</entry>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="456" type="table">
+				<entry key="class" type="string" value="ElementUnitSequence"/>
+				<entry key="editor_name" type="string" value="us_display_random_078"/>
+				<entry key="id" type="number" value="100455"/>
+				<entry key="module" type="string" value="CoreElementUnitSequence"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="1066.58 608.231 3991.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 1 -0"/>
+					<entry key="trigger_list" type="table">
+						<entry index="1" type="table">
+							<entry key="name" type="string" value="run_sequence"/>
+							<entry key="notify_unit_id" type="number" value="100236"/>
+							<entry key="notify_unit_sequence" type="string" value="spawn_bagable_items"/>
+							<entry key="time" type="number" value="0"/>
+						</entry>
+					</entry>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="457" type="table">
+				<entry key="class" type="string" value="ElementUnitSequence"/>
+				<entry key="editor_name" type="string" value="us_display_random_079"/>
+				<entry key="id" type="number" value="100456"/>
+				<entry key="module" type="string" value="CoreElementUnitSequence"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="1066.58 558.231 3991.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 1 -0"/>
+					<entry key="trigger_list" type="table">
+						<entry index="1" type="table">
+							<entry key="name" type="string" value="run_sequence"/>
+							<entry key="notify_unit_id" type="number" value="100237"/>
+							<entry key="notify_unit_sequence" type="string" value="spawn_bagable_items"/>
+							<entry key="time" type="number" value="0"/>
+						</entry>
+					</entry>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="458" type="table">
+				<entry key="class" type="string" value="ElementUnitSequence"/>
+				<entry key="editor_name" type="string" value="us_display_random_064"/>
+				<entry key="id" type="number" value="100457"/>
+				<entry key="module" type="string" value="CoreElementUnitSequence"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="1116.58 558.231 3991.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 1 -0"/>
+					<entry key="trigger_list" type="table">
+						<entry index="1" type="table">
+							<entry key="name" type="string" value="run_sequence"/>
+							<entry key="notify_unit_id" type="number" value="100222"/>
+							<entry key="notify_unit_sequence" type="string" value="spawn_bagable_items"/>
+							<entry key="time" type="number" value="0"/>
+						</entry>
+					</entry>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="459" type="table">
+				<entry key="class" type="string" value="ElementUnitSequence"/>
+				<entry key="editor_name" type="string" value="us_display_random_049"/>
+				<entry key="id" type="number" value="100458"/>
+				<entry key="module" type="string" value="CoreElementUnitSequence"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="1166.58 558.231 3991.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 1 -0"/>
+					<entry key="trigger_list" type="table">
+						<entry index="1" type="table">
+							<entry key="name" type="string" value="run_sequence"/>
+							<entry key="notify_unit_id" type="number" value="100207"/>
+							<entry key="notify_unit_sequence" type="string" value="spawn_bagable_items"/>
+							<entry key="time" type="number" value="0"/>
+						</entry>
+					</entry>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="460" type="table">
+				<entry key="class" type="string" value="ElementUnitSequence"/>
+				<entry key="editor_name" type="string" value="us_display_random_050"/>
+				<entry key="id" type="number" value="100459"/>
+				<entry key="module" type="string" value="CoreElementUnitSequence"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="1166.58 508.231 3991.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 1 -0"/>
+					<entry key="trigger_list" type="table">
+						<entry index="1" type="table">
+							<entry key="name" type="string" value="run_sequence"/>
+							<entry key="notify_unit_id" type="number" value="100208"/>
+							<entry key="notify_unit_sequence" type="string" value="spawn_bagable_items"/>
+							<entry key="time" type="number" value="0"/>
+						</entry>
+					</entry>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="461" type="table">
+				<entry key="class" type="string" value="ElementUnitSequence"/>
+				<entry key="editor_name" type="string" value="us_display_random_065"/>
+				<entry key="id" type="number" value="100460"/>
+				<entry key="module" type="string" value="CoreElementUnitSequence"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="1116.58 508.231 3991.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 1 -0"/>
+					<entry key="trigger_list" type="table">
+						<entry index="1" type="table">
+							<entry key="name" type="string" value="run_sequence"/>
+							<entry key="notify_unit_id" type="number" value="100223"/>
+							<entry key="notify_unit_sequence" type="string" value="spawn_bagable_items"/>
+							<entry key="time" type="number" value="0"/>
+						</entry>
+					</entry>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="462" type="table">
+				<entry key="class" type="string" value="ElementUnitSequence"/>
+				<entry key="editor_name" type="string" value="us_display_random_080"/>
+				<entry key="id" type="number" value="100461"/>
+				<entry key="module" type="string" value="CoreElementUnitSequence"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="1066.58 508.231 3991.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 1 -0"/>
+					<entry key="trigger_list" type="table">
+						<entry index="1" type="table">
+							<entry key="name" type="string" value="run_sequence"/>
+							<entry key="notify_unit_id" type="number" value="100238"/>
+							<entry key="notify_unit_sequence" type="string" value="spawn_bagable_items"/>
+							<entry key="time" type="number" value="0"/>
+						</entry>
+					</entry>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="463" type="table">
+				<entry key="class" type="string" value="ElementUnitSequence"/>
+				<entry key="editor_name" type="string" value="us_display_random_081"/>
+				<entry key="id" type="number" value="100462"/>
+				<entry key="module" type="string" value="CoreElementUnitSequence"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="1066.58 458.231 3991.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 1 -0"/>
+					<entry key="trigger_list" type="table">
+						<entry index="1" type="table">
+							<entry key="name" type="string" value="run_sequence"/>
+							<entry key="notify_unit_id" type="number" value="100261"/>
+							<entry key="notify_unit_sequence" type="string" value="spawn_bagable_items"/>
+							<entry key="time" type="number" value="0"/>
+						</entry>
+					</entry>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="464" type="table">
+				<entry key="class" type="string" value="ElementUnitSequence"/>
+				<entry key="editor_name" type="string" value="us_display_random_066"/>
+				<entry key="id" type="number" value="100463"/>
+				<entry key="module" type="string" value="CoreElementUnitSequence"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="1116.58 458.231 3991.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 1 -0"/>
+					<entry key="trigger_list" type="table">
+						<entry index="1" type="table">
+							<entry key="name" type="string" value="run_sequence"/>
+							<entry key="notify_unit_id" type="number" value="100224"/>
+							<entry key="notify_unit_sequence" type="string" value="spawn_bagable_items"/>
+							<entry key="time" type="number" value="0"/>
+						</entry>
+					</entry>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="465" type="table">
+				<entry key="class" type="string" value="ElementUnitSequence"/>
+				<entry key="editor_name" type="string" value="us_display_random_051"/>
+				<entry key="id" type="number" value="100464"/>
+				<entry key="module" type="string" value="CoreElementUnitSequence"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="1166.58 458.231 3991.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 1 -0"/>
+					<entry key="trigger_list" type="table">
+						<entry index="1" type="table">
+							<entry key="name" type="string" value="run_sequence"/>
+							<entry key="notify_unit_id" type="number" value="100209"/>
+							<entry key="notify_unit_sequence" type="string" value="spawn_bagable_items"/>
+							<entry key="time" type="number" value="0"/>
+						</entry>
+					</entry>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="466" type="table">
+				<entry key="class" type="string" value="ElementUnitSequence"/>
+				<entry key="editor_name" type="string" value="us_display_random_052"/>
+				<entry key="id" type="number" value="100465"/>
+				<entry key="module" type="string" value="CoreElementUnitSequence"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="1166.58 408.231 3991.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 1 -0"/>
+					<entry key="trigger_list" type="table">
+						<entry index="1" type="table">
+							<entry key="name" type="string" value="run_sequence"/>
+							<entry key="notify_unit_id" type="number" value="100210"/>
+							<entry key="notify_unit_sequence" type="string" value="spawn_bagable_items"/>
+							<entry key="time" type="number" value="0"/>
+						</entry>
+					</entry>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="467" type="table">
+				<entry key="class" type="string" value="ElementUnitSequence"/>
+				<entry key="editor_name" type="string" value="us_display_random_067"/>
+				<entry key="id" type="number" value="100466"/>
+				<entry key="module" type="string" value="CoreElementUnitSequence"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="1116.58 408.231 3991.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 1 -0"/>
+					<entry key="trigger_list" type="table">
+						<entry index="1" type="table">
+							<entry key="name" type="string" value="run_sequence"/>
+							<entry key="notify_unit_id" type="number" value="100225"/>
+							<entry key="notify_unit_sequence" type="string" value="spawn_bagable_items"/>
+							<entry key="time" type="number" value="0"/>
+						</entry>
+					</entry>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="468" type="table">
+				<entry key="class" type="string" value="ElementUnitSequence"/>
+				<entry key="editor_name" type="string" value="us_display_random_082"/>
+				<entry key="id" type="number" value="100467"/>
+				<entry key="module" type="string" value="CoreElementUnitSequence"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="1066.58 408.231 3991.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 1 -0"/>
+					<entry key="trigger_list" type="table">
+						<entry index="1" type="table">
+							<entry key="name" type="string" value="run_sequence"/>
+							<entry key="notify_unit_id" type="number" value="100262"/>
+							<entry key="notify_unit_sequence" type="string" value="spawn_bagable_items"/>
+							<entry key="time" type="number" value="0"/>
+						</entry>
+					</entry>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="469" type="table">
+				<entry key="class" type="string" value="ElementUnitSequence"/>
+				<entry key="editor_name" type="string" value="us_display_random_083"/>
+				<entry key="id" type="number" value="100468"/>
+				<entry key="module" type="string" value="CoreElementUnitSequence"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="1066.58 358.231 3991.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 1 -0"/>
+					<entry key="trigger_list" type="table">
+						<entry index="1" type="table">
+							<entry key="name" type="string" value="run_sequence"/>
+							<entry key="notify_unit_id" type="number" value="100069"/>
+							<entry key="notify_unit_sequence" type="string" value="spawn_bagable_items"/>
+							<entry key="time" type="number" value="0"/>
+						</entry>
+					</entry>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="470" type="table">
+				<entry key="class" type="string" value="ElementUnitSequence"/>
+				<entry key="editor_name" type="string" value="us_display_random_068"/>
+				<entry key="id" type="number" value="100469"/>
+				<entry key="module" type="string" value="CoreElementUnitSequence"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="1116.58 358.231 3991.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 1 -0"/>
+					<entry key="trigger_list" type="table">
+						<entry index="1" type="table">
+							<entry key="name" type="string" value="run_sequence"/>
+							<entry key="notify_unit_id" type="number" value="100226"/>
+							<entry key="notify_unit_sequence" type="string" value="spawn_bagable_items"/>
+							<entry key="time" type="number" value="0"/>
+						</entry>
+					</entry>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="471" type="table">
+				<entry key="class" type="string" value="ElementUnitSequence"/>
+				<entry key="editor_name" type="string" value="us_display_random_053"/>
+				<entry key="id" type="number" value="100470"/>
+				<entry key="module" type="string" value="CoreElementUnitSequence"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="1166.58 358.231 3991.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 1 -0"/>
+					<entry key="trigger_list" type="table">
+						<entry index="1" type="table">
+							<entry key="name" type="string" value="run_sequence"/>
+							<entry key="notify_unit_id" type="number" value="100211"/>
+							<entry key="notify_unit_sequence" type="string" value="spawn_bagable_items"/>
+							<entry key="time" type="number" value="0"/>
+						</entry>
+					</entry>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="472" type="table">
+				<entry key="class" type="string" value="ElementUnitSequence"/>
+				<entry key="editor_name" type="string" value="us_display_random_054"/>
+				<entry key="id" type="number" value="100471"/>
+				<entry key="module" type="string" value="CoreElementUnitSequence"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="1166.58 308.231 3991.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 1 -0"/>
+					<entry key="trigger_list" type="table">
+						<entry index="1" type="table">
+							<entry key="name" type="string" value="run_sequence"/>
+							<entry key="notify_unit_id" type="number" value="100212"/>
+							<entry key="notify_unit_sequence" type="string" value="spawn_bagable_items"/>
+							<entry key="time" type="number" value="0"/>
+						</entry>
+					</entry>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="473" type="table">
+				<entry key="class" type="string" value="ElementUnitSequence"/>
+				<entry key="editor_name" type="string" value="us_display_random_069"/>
+				<entry key="id" type="number" value="100472"/>
+				<entry key="module" type="string" value="CoreElementUnitSequence"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="1116.58 308.231 3991.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 1 -0"/>
+					<entry key="trigger_list" type="table">
+						<entry index="1" type="table">
+							<entry key="name" type="string" value="run_sequence"/>
+							<entry key="notify_unit_id" type="number" value="100227"/>
+							<entry key="notify_unit_sequence" type="string" value="spawn_bagable_items"/>
+							<entry key="time" type="number" value="0"/>
+						</entry>
+					</entry>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="474" type="table">
+				<entry key="class" type="string" value="ElementUnitSequence"/>
+				<entry key="editor_name" type="string" value="us_display_random_084"/>
+				<entry key="id" type="number" value="100473"/>
+				<entry key="module" type="string" value="CoreElementUnitSequence"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="1066.58 308.231 3991.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 1 -0"/>
+					<entry key="trigger_list" type="table">
+						<entry index="1" type="table">
+							<entry key="name" type="string" value="run_sequence"/>
+							<entry key="notify_unit_id" type="number" value="100070"/>
+							<entry key="notify_unit_sequence" type="string" value="spawn_bagable_items"/>
+							<entry key="time" type="number" value="0"/>
+						</entry>
+					</entry>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="475" type="table">
+				<entry key="class" type="string" value="ElementUnitSequence"/>
+				<entry key="editor_name" type="string" value="us_display_random_085"/>
+				<entry key="id" type="number" value="100474"/>
+				<entry key="module" type="string" value="CoreElementUnitSequence"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="1066.58 258.231 3991.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 1 -0"/>
+					<entry key="trigger_list" type="table">
+						<entry index="1" type="table">
+							<entry key="name" type="string" value="run_sequence"/>
+							<entry key="notify_unit_id" type="number" value="100071"/>
+							<entry key="notify_unit_sequence" type="string" value="spawn_bagable_items"/>
+							<entry key="time" type="number" value="0"/>
+						</entry>
+					</entry>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="476" type="table">
+				<entry key="class" type="string" value="ElementUnitSequence"/>
+				<entry key="editor_name" type="string" value="us_display_random_070"/>
+				<entry key="id" type="number" value="100475"/>
+				<entry key="module" type="string" value="CoreElementUnitSequence"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="1116.58 258.231 3991.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 1 -0"/>
+					<entry key="trigger_list" type="table">
+						<entry index="1" type="table">
+							<entry key="name" type="string" value="run_sequence"/>
+							<entry key="notify_unit_id" type="number" value="100228"/>
+							<entry key="notify_unit_sequence" type="string" value="spawn_bagable_items"/>
+							<entry key="time" type="number" value="0"/>
+						</entry>
+					</entry>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="477" type="table">
+				<entry key="class" type="string" value="ElementUnitSequence"/>
+				<entry key="editor_name" type="string" value="us_display_random_055"/>
+				<entry key="id" type="number" value="100476"/>
+				<entry key="module" type="string" value="CoreElementUnitSequence"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="1166.58 258.231 3991.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 1 -0"/>
+					<entry key="trigger_list" type="table">
+						<entry index="1" type="table">
+							<entry key="name" type="string" value="run_sequence"/>
+							<entry key="notify_unit_id" type="number" value="100213"/>
+							<entry key="notify_unit_sequence" type="string" value="spawn_bagable_items"/>
+							<entry key="time" type="number" value="0"/>
+						</entry>
+					</entry>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="478" type="table">
+				<entry key="class" type="string" value="ElementUnitSequence"/>
+				<entry key="editor_name" type="string" value="us_display_random_056"/>
+				<entry key="id" type="number" value="100477"/>
+				<entry key="module" type="string" value="CoreElementUnitSequence"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="1166.58 208.231 3991.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 1 -0"/>
+					<entry key="trigger_list" type="table">
+						<entry index="1" type="table">
+							<entry key="name" type="string" value="run_sequence"/>
+							<entry key="notify_unit_id" type="number" value="100214"/>
+							<entry key="notify_unit_sequence" type="string" value="spawn_bagable_items"/>
+							<entry key="time" type="number" value="0"/>
+						</entry>
+					</entry>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="479" type="table">
+				<entry key="class" type="string" value="ElementUnitSequence"/>
+				<entry key="editor_name" type="string" value="us_display_random_071"/>
+				<entry key="id" type="number" value="100478"/>
+				<entry key="module" type="string" value="CoreElementUnitSequence"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="1116.58 208.231 3991.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 1 -0"/>
+					<entry key="trigger_list" type="table">
+						<entry index="1" type="table">
+							<entry key="name" type="string" value="run_sequence"/>
+							<entry key="notify_unit_id" type="number" value="100229"/>
+							<entry key="notify_unit_sequence" type="string" value="spawn_bagable_items"/>
+							<entry key="time" type="number" value="0"/>
+						</entry>
+					</entry>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="480" type="table">
+				<entry key="class" type="string" value="ElementUnitSequence"/>
+				<entry key="editor_name" type="string" value="us_display_random_086"/>
+				<entry key="id" type="number" value="100479"/>
+				<entry key="module" type="string" value="CoreElementUnitSequence"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="1066.58 208.231 3991.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 1 -0"/>
+					<entry key="trigger_list" type="table">
+						<entry index="1" type="table">
+							<entry key="name" type="string" value="run_sequence"/>
+							<entry key="notify_unit_id" type="number" value="100072"/>
+							<entry key="notify_unit_sequence" type="string" value="spawn_bagable_items"/>
+							<entry key="time" type="number" value="0"/>
+						</entry>
+					</entry>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="481" type="table">
+				<entry key="class" type="string" value="ElementUnitSequence"/>
+				<entry key="editor_name" type="string" value="us_display_random_087"/>
+				<entry key="id" type="number" value="100480"/>
+				<entry key="module" type="string" value="CoreElementUnitSequence"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="1066.58 158.231 3991.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 1 -0"/>
+					<entry key="trigger_list" type="table">
+						<entry index="1" type="table">
+							<entry key="name" type="string" value="run_sequence"/>
+							<entry key="notify_unit_id" type="number" value="100073"/>
+							<entry key="notify_unit_sequence" type="string" value="spawn_bagable_items"/>
+							<entry key="time" type="number" value="0"/>
+						</entry>
+					</entry>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="482" type="table">
+				<entry key="class" type="string" value="ElementUnitSequence"/>
+				<entry key="editor_name" type="string" value="us_display_random_072"/>
+				<entry key="id" type="number" value="100481"/>
+				<entry key="module" type="string" value="CoreElementUnitSequence"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="1116.58 158.231 3991.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 1 -0"/>
+					<entry key="trigger_list" type="table">
+						<entry index="1" type="table">
+							<entry key="name" type="string" value="run_sequence"/>
+							<entry key="notify_unit_id" type="number" value="100230"/>
+							<entry key="notify_unit_sequence" type="string" value="spawn_bagable_items"/>
+							<entry key="time" type="number" value="0"/>
+						</entry>
+					</entry>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="483" type="table">
+				<entry key="class" type="string" value="ElementUnitSequence"/>
+				<entry key="editor_name" type="string" value="us_display_random_057"/>
+				<entry key="id" type="number" value="100482"/>
+				<entry key="module" type="string" value="CoreElementUnitSequence"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="1166.58 158.231 3991.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 1 -0"/>
+					<entry key="trigger_list" type="table">
+						<entry index="1" type="table">
+							<entry key="name" type="string" value="run_sequence"/>
+							<entry key="notify_unit_id" type="number" value="100215"/>
+							<entry key="notify_unit_sequence" type="string" value="spawn_bagable_items"/>
+							<entry key="time" type="number" value="0"/>
+						</entry>
+					</entry>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="484" type="table">
+				<entry key="class" type="string" value="ElementUnitSequence"/>
+				<entry key="editor_name" type="string" value="us_display_random_058"/>
+				<entry key="id" type="number" value="100483"/>
+				<entry key="module" type="string" value="CoreElementUnitSequence"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="1166.58 108.231 3991.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 1 -0"/>
+					<entry key="trigger_list" type="table">
+						<entry index="1" type="table">
+							<entry key="name" type="string" value="run_sequence"/>
+							<entry key="notify_unit_id" type="number" value="100216"/>
+							<entry key="notify_unit_sequence" type="string" value="spawn_bagable_items"/>
+							<entry key="time" type="number" value="0"/>
+						</entry>
+					</entry>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="485" type="table">
+				<entry key="class" type="string" value="ElementUnitSequence"/>
+				<entry key="editor_name" type="string" value="us_display_random_073"/>
+				<entry key="id" type="number" value="100484"/>
+				<entry key="module" type="string" value="CoreElementUnitSequence"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="1116.58 108.231 3991.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 1 -0"/>
+					<entry key="trigger_list" type="table">
+						<entry index="1" type="table">
+							<entry key="name" type="string" value="run_sequence"/>
+							<entry key="notify_unit_id" type="number" value="100231"/>
+							<entry key="notify_unit_sequence" type="string" value="spawn_bagable_items"/>
+							<entry key="time" type="number" value="0"/>
+						</entry>
+					</entry>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="486" type="table">
+				<entry key="class" type="string" value="ElementUnitSequence"/>
+				<entry key="editor_name" type="string" value="us_display_random_088"/>
+				<entry key="id" type="number" value="100485"/>
+				<entry key="module" type="string" value="CoreElementUnitSequence"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="1066.58 108.231 3991.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 1 -0"/>
+					<entry key="trigger_list" type="table">
+						<entry index="1" type="table">
+							<entry key="name" type="string" value="run_sequence"/>
+							<entry key="notify_unit_id" type="number" value="100074"/>
+							<entry key="notify_unit_sequence" type="string" value="spawn_bagable_items"/>
+							<entry key="time" type="number" value="0"/>
+						</entry>
+					</entry>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="487" type="table">
+				<entry key="class" type="string" value="ElementUnitSequence"/>
+				<entry key="editor_name" type="string" value="us_display_random_089"/>
+				<entry key="id" type="number" value="100486"/>
+				<entry key="module" type="string" value="CoreElementUnitSequence"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="1066.58 58.231 3991.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 1 -0"/>
+					<entry key="trigger_list" type="table">
+						<entry index="1" type="table">
+							<entry key="name" type="string" value="run_sequence"/>
+							<entry key="notify_unit_id" type="number" value="100075"/>
+							<entry key="notify_unit_sequence" type="string" value="spawn_bagable_items"/>
+							<entry key="time" type="number" value="0"/>
+						</entry>
+					</entry>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="488" type="table">
+				<entry key="class" type="string" value="ElementUnitSequence"/>
+				<entry key="editor_name" type="string" value="us_display_random_074"/>
+				<entry key="id" type="number" value="100487"/>
+				<entry key="module" type="string" value="CoreElementUnitSequence"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="1116.58 58.231 3991.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 1 -0"/>
+					<entry key="trigger_list" type="table">
+						<entry index="1" type="table">
+							<entry key="name" type="string" value="run_sequence"/>
+							<entry key="notify_unit_id" type="number" value="100232"/>
+							<entry key="notify_unit_sequence" type="string" value="spawn_bagable_items"/>
+							<entry key="time" type="number" value="0"/>
+						</entry>
+					</entry>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="489" type="table">
+				<entry key="class" type="string" value="ElementUnitSequence"/>
+				<entry key="editor_name" type="string" value="us_display_random_059"/>
+				<entry key="id" type="number" value="100488"/>
+				<entry key="module" type="string" value="CoreElementUnitSequence"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="1166.58 58.231 3991.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 1 -0"/>
+					<entry key="trigger_list" type="table">
+						<entry index="1" type="table">
+							<entry key="name" type="string" value="run_sequence"/>
+							<entry key="notify_unit_id" type="number" value="100217"/>
+							<entry key="notify_unit_sequence" type="string" value="spawn_bagable_items"/>
+							<entry key="time" type="number" value="0"/>
+						</entry>
+					</entry>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="490" type="table">
+				<entry key="class" type="string" value="ElementUnitSequence"/>
+				<entry key="editor_name" type="string" value="us_display_random_060"/>
+				<entry key="id" type="number" value="100489"/>
+				<entry key="module" type="string" value="CoreElementUnitSequence"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="1166.58 8.23096 3991.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 1 -0"/>
+					<entry key="trigger_list" type="table">
+						<entry index="1" type="table">
+							<entry key="name" type="string" value="run_sequence"/>
+							<entry key="notify_unit_id" type="number" value="100218"/>
+							<entry key="notify_unit_sequence" type="string" value="spawn_bagable_items"/>
+							<entry key="time" type="number" value="0"/>
+						</entry>
+					</entry>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="491" type="table">
+				<entry key="class" type="string" value="ElementUnitSequence"/>
+				<entry key="editor_name" type="string" value="us_display_random_075"/>
+				<entry key="id" type="number" value="100490"/>
+				<entry key="module" type="string" value="CoreElementUnitSequence"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="1116.58 8.23096 3991.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 1 -0"/>
+					<entry key="trigger_list" type="table">
+						<entry index="1" type="table">
+							<entry key="name" type="string" value="run_sequence"/>
+							<entry key="notify_unit_id" type="number" value="100233"/>
+							<entry key="notify_unit_sequence" type="string" value="spawn_bagable_items"/>
+							<entry key="time" type="number" value="0"/>
+						</entry>
+					</entry>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="492" type="table">
+				<entry key="class" type="string" value="ElementUnitSequence"/>
+				<entry key="editor_name" type="string" value="us_display_random_090"/>
+				<entry key="id" type="number" value="100491"/>
+				<entry key="module" type="string" value="CoreElementUnitSequence"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="1066.58 8.23096 3991.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 1 -0"/>
+					<entry key="trigger_list" type="table">
+						<entry index="1" type="table">
+							<entry key="name" type="string" value="run_sequence"/>
+							<entry key="notify_unit_id" type="number" value="100076"/>
+							<entry key="notify_unit_sequence" type="string" value="spawn_bagable_items"/>
+							<entry key="time" type="number" value="0"/>
+						</entry>
+					</entry>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="493" type="table">
+				<entry key="class" type="string" value="ElementRandom"/>
+				<entry key="editor_name" type="string" value="random_random_ds001"/>
+				<entry key="id" type="number" value="100492"/>
+				<entry key="module" type="string" value="CoreElementRandom"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="amount" type="number" value="16"/>
+					<entry key="amount_random" type="number" value="0"/>
+					<entry key="base_delay" type="number" value="1"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="ignore_disabled" type="boolean" value="true"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100447"/>
+						</entry>
+						<entry index="2" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100452"/>
+						</entry>
+						<entry index="3" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100453"/>
+						</entry>
+						<entry index="4" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100458"/>
+						</entry>
+						<entry index="5" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100459"/>
+						</entry>
+						<entry index="6" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100464"/>
+						</entry>
+						<entry index="7" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100465"/>
+						</entry>
+						<entry index="8" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100470"/>
+						</entry>
+						<entry index="9" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100471"/>
+						</entry>
+						<entry index="10" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100476"/>
+						</entry>
+						<entry index="11" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100477"/>
+						</entry>
+						<entry index="12" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100482"/>
+						</entry>
+						<entry index="13" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100483"/>
+						</entry>
+						<entry index="14" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100488"/>
+						</entry>
+						<entry index="15" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100489"/>
+						</entry>
+						<entry index="16" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100448"/>
+						</entry>
+						<entry index="17" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100451"/>
+						</entry>
+						<entry index="18" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100454"/>
+						</entry>
+						<entry index="19" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100457"/>
+						</entry>
+						<entry index="20" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100460"/>
+						</entry>
+						<entry index="21" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100463"/>
+						</entry>
+						<entry index="22" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100466"/>
+						</entry>
+						<entry index="23" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100469"/>
+						</entry>
+						<entry index="24" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100472"/>
+						</entry>
+						<entry index="25" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100475"/>
+						</entry>
+						<entry index="26" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100478"/>
+						</entry>
+						<entry index="27" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100481"/>
+						</entry>
+						<entry index="28" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100484"/>
+						</entry>
+						<entry index="29" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100487"/>
+						</entry>
+						<entry index="30" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100490"/>
+						</entry>
+						<entry index="31" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100449"/>
+						</entry>
+						<entry index="32" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100450"/>
+						</entry>
+						<entry index="33" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100455"/>
+						</entry>
+						<entry index="34" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100456"/>
+						</entry>
+						<entry index="35" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100461"/>
+						</entry>
+						<entry index="36" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100462"/>
+						</entry>
+						<entry index="37" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100467"/>
+						</entry>
+						<entry index="38" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100468"/>
+						</entry>
+						<entry index="39" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100473"/>
+						</entry>
+						<entry index="40" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100474"/>
+						</entry>
+						<entry index="41" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100479"/>
+						</entry>
+						<entry index="42" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100480"/>
+						</entry>
+						<entry index="43" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100485"/>
+						</entry>
+						<entry index="44" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100486"/>
+						</entry>
+						<entry index="45" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100491"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="1283.96 204.875 3991.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 1 -0"/>
+					<entry key="trigger_times" type="number" value="1"/>
+				</entry>
+			</entry>
+			<entry index="494" type="table">
+				<entry key="class" type="string" value="ElementRandom"/>
+				<entry key="editor_name" type="string" value="random_random_may-dw001"/>
+				<entry key="id" type="number" value="100493"/>
+				<entry key="module" type="string" value="CoreElementRandom"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="amount" type="number" value="12"/>
+					<entry key="amount_random" type="number" value="0"/>
+					<entry key="base_delay" type="number" value="1"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="ignore_disabled" type="boolean" value="true"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100447"/>
+						</entry>
+						<entry index="2" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100452"/>
+						</entry>
+						<entry index="3" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100453"/>
+						</entry>
+						<entry index="4" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100458"/>
+						</entry>
+						<entry index="5" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100459"/>
+						</entry>
+						<entry index="6" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100464"/>
+						</entry>
+						<entry index="7" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100465"/>
+						</entry>
+						<entry index="8" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100470"/>
+						</entry>
+						<entry index="9" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100471"/>
+						</entry>
+						<entry index="10" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100476"/>
+						</entry>
+						<entry index="11" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100477"/>
+						</entry>
+						<entry index="12" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100482"/>
+						</entry>
+						<entry index="13" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100483"/>
+						</entry>
+						<entry index="14" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100488"/>
+						</entry>
+						<entry index="15" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100489"/>
+						</entry>
+						<entry index="16" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100448"/>
+						</entry>
+						<entry index="17" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100451"/>
+						</entry>
+						<entry index="18" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100454"/>
+						</entry>
+						<entry index="19" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100457"/>
+						</entry>
+						<entry index="20" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100460"/>
+						</entry>
+						<entry index="21" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100463"/>
+						</entry>
+						<entry index="22" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100466"/>
+						</entry>
+						<entry index="23" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100469"/>
+						</entry>
+						<entry index="24" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100472"/>
+						</entry>
+						<entry index="25" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100475"/>
+						</entry>
+						<entry index="26" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100478"/>
+						</entry>
+						<entry index="27" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100481"/>
+						</entry>
+						<entry index="28" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100484"/>
+						</entry>
+						<entry index="29" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100487"/>
+						</entry>
+						<entry index="30" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100490"/>
+						</entry>
+						<entry index="31" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100449"/>
+						</entry>
+						<entry index="32" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100450"/>
+						</entry>
+						<entry index="33" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100455"/>
+						</entry>
+						<entry index="34" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100456"/>
+						</entry>
+						<entry index="35" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100461"/>
+						</entry>
+						<entry index="36" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100462"/>
+						</entry>
+						<entry index="37" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100467"/>
+						</entry>
+						<entry index="38" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100468"/>
+						</entry>
+						<entry index="39" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100473"/>
+						</entry>
+						<entry index="40" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100474"/>
+						</entry>
+						<entry index="41" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100479"/>
+						</entry>
+						<entry index="42" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100480"/>
+						</entry>
+						<entry index="43" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100485"/>
+						</entry>
+						<entry index="44" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100486"/>
+						</entry>
+						<entry index="45" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100491"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="1283.96 304.875 3991.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 1 -0"/>
+					<entry key="trigger_times" type="number" value="1"/>
+				</entry>
+			</entry>
+			<entry index="495" type="table">
+				<entry key="class" type="string" value="ElementRandom"/>
+				<entry key="editor_name" type="string" value="random_random_vh-ovk001"/>
+				<entry key="id" type="number" value="100494"/>
+				<entry key="module" type="string" value="CoreElementRandom"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="amount" type="number" value="10"/>
+					<entry key="amount_random" type="number" value="0"/>
+					<entry key="base_delay" type="number" value="1"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="ignore_disabled" type="boolean" value="true"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100447"/>
+						</entry>
+						<entry index="2" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100452"/>
+						</entry>
+						<entry index="3" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100453"/>
+						</entry>
+						<entry index="4" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100458"/>
+						</entry>
+						<entry index="5" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100459"/>
+						</entry>
+						<entry index="6" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100464"/>
+						</entry>
+						<entry index="7" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100465"/>
+						</entry>
+						<entry index="8" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100470"/>
+						</entry>
+						<entry index="9" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100471"/>
+						</entry>
+						<entry index="10" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100476"/>
+						</entry>
+						<entry index="11" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100477"/>
+						</entry>
+						<entry index="12" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100482"/>
+						</entry>
+						<entry index="13" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100483"/>
+						</entry>
+						<entry index="14" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100488"/>
+						</entry>
+						<entry index="15" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100489"/>
+						</entry>
+						<entry index="16" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100448"/>
+						</entry>
+						<entry index="17" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100451"/>
+						</entry>
+						<entry index="18" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100454"/>
+						</entry>
+						<entry index="19" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100457"/>
+						</entry>
+						<entry index="20" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100460"/>
+						</entry>
+						<entry index="21" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100463"/>
+						</entry>
+						<entry index="22" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100466"/>
+						</entry>
+						<entry index="23" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100469"/>
+						</entry>
+						<entry index="24" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100472"/>
+						</entry>
+						<entry index="25" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100475"/>
+						</entry>
+						<entry index="26" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100478"/>
+						</entry>
+						<entry index="27" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100481"/>
+						</entry>
+						<entry index="28" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100484"/>
+						</entry>
+						<entry index="29" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100487"/>
+						</entry>
+						<entry index="30" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100490"/>
+						</entry>
+						<entry index="31" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100449"/>
+						</entry>
+						<entry index="32" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100450"/>
+						</entry>
+						<entry index="33" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100455"/>
+						</entry>
+						<entry index="34" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100456"/>
+						</entry>
+						<entry index="35" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100461"/>
+						</entry>
+						<entry index="36" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100462"/>
+						</entry>
+						<entry index="37" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100467"/>
+						</entry>
+						<entry index="38" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100468"/>
+						</entry>
+						<entry index="39" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100473"/>
+						</entry>
+						<entry index="40" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100474"/>
+						</entry>
+						<entry index="41" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100479"/>
+						</entry>
+						<entry index="42" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100480"/>
+						</entry>
+						<entry index="43" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100485"/>
+						</entry>
+						<entry index="44" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100486"/>
+						</entry>
+						<entry index="45" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100491"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="1283.96 404.875 3991.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 1 -0"/>
+					<entry key="trigger_times" type="number" value="1"/>
+				</entry>
+			</entry>
+			<entry index="496" type="table">
+				<entry key="class" type="string" value="ElementRandom"/>
+				<entry key="editor_name" type="string" value="random_random_norm-hard001"/>
+				<entry key="id" type="number" value="100495"/>
+				<entry key="module" type="string" value="CoreElementRandom"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="amount" type="number" value="8"/>
+					<entry key="amount_random" type="number" value="0"/>
+					<entry key="base_delay" type="number" value="1"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="ignore_disabled" type="boolean" value="true"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100447"/>
+						</entry>
+						<entry index="2" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100452"/>
+						</entry>
+						<entry index="3" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100453"/>
+						</entry>
+						<entry index="4" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100458"/>
+						</entry>
+						<entry index="5" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100459"/>
+						</entry>
+						<entry index="6" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100464"/>
+						</entry>
+						<entry index="7" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100465"/>
+						</entry>
+						<entry index="8" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100470"/>
+						</entry>
+						<entry index="9" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100471"/>
+						</entry>
+						<entry index="10" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100476"/>
+						</entry>
+						<entry index="11" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100477"/>
+						</entry>
+						<entry index="12" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100482"/>
+						</entry>
+						<entry index="13" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100483"/>
+						</entry>
+						<entry index="14" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100488"/>
+						</entry>
+						<entry index="15" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100489"/>
+						</entry>
+						<entry index="16" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100448"/>
+						</entry>
+						<entry index="17" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100451"/>
+						</entry>
+						<entry index="18" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100454"/>
+						</entry>
+						<entry index="19" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100457"/>
+						</entry>
+						<entry index="20" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100460"/>
+						</entry>
+						<entry index="21" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100463"/>
+						</entry>
+						<entry index="22" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100466"/>
+						</entry>
+						<entry index="23" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100469"/>
+						</entry>
+						<entry index="24" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100472"/>
+						</entry>
+						<entry index="25" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100475"/>
+						</entry>
+						<entry index="26" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100478"/>
+						</entry>
+						<entry index="27" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100481"/>
+						</entry>
+						<entry index="28" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100484"/>
+						</entry>
+						<entry index="29" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100487"/>
+						</entry>
+						<entry index="30" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100490"/>
+						</entry>
+						<entry index="31" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100449"/>
+						</entry>
+						<entry index="32" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100450"/>
+						</entry>
+						<entry index="33" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100455"/>
+						</entry>
+						<entry index="34" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100456"/>
+						</entry>
+						<entry index="35" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100461"/>
+						</entry>
+						<entry index="36" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100462"/>
+						</entry>
+						<entry index="37" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100467"/>
+						</entry>
+						<entry index="38" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100468"/>
+						</entry>
+						<entry index="39" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100473"/>
+						</entry>
+						<entry index="40" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100474"/>
+						</entry>
+						<entry index="41" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100479"/>
+						</entry>
+						<entry index="42" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100480"/>
+						</entry>
+						<entry index="43" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100485"/>
+						</entry>
+						<entry index="44" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100486"/>
+						</entry>
+						<entry index="45" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100491"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="1283.96 504.875 3991.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 1 -0"/>
+					<entry key="trigger_times" type="number" value="1"/>
+				</entry>
+			</entry>
+			<entry index="497" type="table">
+				<entry key="class" type="string" value="ElementSpawnCivilian"/>
+				<entry key="editor_name" type="string" value="civilian_jewelry_001"/>
+				<entry key="id" type="number" value="100496"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="enemy" type="string" value="units/pd2_mod_craft/characters/civ_captainsparklez/civ_captainsparklez"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="force_pickup" type="string" value="none"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="1525 -4600 350"/>
+					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
+					<entry key="state" type="string" value="cm_sp_phone1"/>
+					<entry key="team" type="string" value="default"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="498" type="table">
+				<entry key="class" type="string" value="ElementSpawnCivilian"/>
+				<entry key="editor_name" type="string" value="civilian_jewelry_002"/>
+				<entry key="id" type="number" value="100497"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="enemy" type="string" value="units/pd2_mod_craft/characters/civ_herobrine/civ_herobrine"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="force_pickup" type="string" value="none"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="1125 -4700 350"/>
+					<entry key="rotation" type="quaternion" value="0 0 1 -4.37114e-008"/>
+					<entry key="state" type="string" value="cm_sp_look_look_semi_down"/>
+					<entry key="team" type="string" value="default"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="499" type="table">
+				<entry key="class" type="string" value="ElementSpawnCivilian"/>
+				<entry key="editor_name" type="string" value="civilian_jewelry_003"/>
+				<entry key="id" type="number" value="100498"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="enemy" type="string" value="units/pd2_mod_craft/characters/civ_pewdiepie/civ_pewdiepie"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="force_pickup" type="string" value="none"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="1425 -5300 350"/>
+					<entry key="rotation" type="quaternion" value="0 0 0.382683 -0.92388"/>
+					<entry key="state" type="string" value="cm_sp_waiting_sway"/>
+					<entry key="team" type="string" value="default"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="500" type="table">
+				<entry key="class" type="string" value="ElementRandom"/>
+				<entry key="editor_name" type="string" value="random_jewelry_civs_nm-ovk"/>
+				<entry key="id" type="number" value="100499"/>
+				<entry key="module" type="string" value="CoreElementRandom"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="amount" type="number" value="1"/>
+					<entry key="amount_random" type="number" value="0"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="ignore_disabled" type="boolean" value="true"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100496"/>
+						</entry>
+						<entry index="2" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100497"/>
+						</entry>
+						<entry index="3" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100498"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="1377.05 448.366 4002.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="501" type="table">
+				<entry key="class" type="string" value="ElementRandom"/>
+				<entry key="editor_name" type="string" value="random_jewelry_civs_mh-ds"/>
+				<entry key="id" type="number" value="100500"/>
+				<entry key="module" type="string" value="CoreElementRandom"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="amount" type="number" value="3"/>
+					<entry key="amount_random" type="number" value="0"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="ignore_disabled" type="boolean" value="true"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100498"/>
+						</entry>
+						<entry index="2" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100497"/>
+						</entry>
+						<entry index="3" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100496"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="1386.21 230.995 4002.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="502" type="table">
+				<entry key="class" type="string" value="ElementSpawnEnemyDummy"/>
+				<entry key="editor_name" type="string" value="spawn_guard_outside"/>
+				<entry key="id" type="number" value="100501"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="accessibility" type="string" value="any"/>
+					<entry key="amount" type="number" value="0"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="enemy" type="string" value="units/pd2_mod_craft/characters/ene_mc_guard_2/ene_mc_guard_2"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="force_pickup" type="string" value="none"/>
+					<entry key="interval" type="number" value="5"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="participate_to_group_ai" type="boolean" value="true"/>
+					<entry key="position" type="vector3" value="-1419.22 4076.46 350.001"/>
+					<entry key="rotation" type="quaternion" value="0 0 -0.707107 -0.707107"/>
+					<entry key="spawn_action" type="string" value="none"/>
+					<entry key="team" type="string" value="default"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="voice" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="503" type="table">
+				<entry key="class" type="string" value="ElementSpecialObjective"/>
+				<entry key="editor_name" type="string" value="so_guard_outside"/>
+				<entry key="id" type="number" value="100502"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="SO_access" type="string" value="24"/>
+					<entry key="action_duration_max" type="number" value="0"/>
+					<entry key="action_duration_min" type="number" value="0"/>
+					<entry key="ai_group" type="string" value="enemies"/>
+					<entry key="align_position" type="boolean" value="true"/>
+					<entry key="align_rotation" type="boolean" value="true"/>
+					<entry key="attitude" type="string" value="none"/>
+					<entry key="base_chance" type="number" value="1"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="chance_inc" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="followup_elements" type="table">
+					</entry>
+					<entry key="forced" type="boolean" value="true"/>
+					<entry key="interaction_voice" type="string" value="none"/>
+					<entry key="interrupt_dis" type="number" value="7"/>
+					<entry key="interrupt_dmg" type="number" value="0"/>
+					<entry key="interval" type="number" value="-1"/>
+					<entry key="needs_pos_rsrv" type="boolean" value="true"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="path_haste" type="string" value="walk"/>
+					<entry key="path_stance" type="string" value="none"/>
+					<entry key="path_style" type="string" value="precise"/>
+					<entry key="patrol_path" type="string" value="guard_parking"/>
+					<entry key="pose" type="string" value="none"/>
+					<entry key="position" type="vector3" value="-967.624 1734.43 4002.5"/>
+					<entry key="repeatable" type="boolean" value="true"/>
+					<entry key="rotation" type="quaternion" value="0 0 1 -4.37114e-008"/>
+					<entry key="scan" type="boolean" value="true"/>
+					<entry key="search_distance" type="number" value="300"/>
+					<entry key="search_position" type="vector3" value="-1419.22 4076.46 350.001"/>
+					<entry key="so_action" type="string" value="none"/>
+					<entry key="spawn_instigator_ids" type="table">
+					</entry>
+					<entry key="test_unit" type="string" value="default"/>
+					<entry key="trigger_on" type="string" value="none"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="use_instigator" type="boolean" value="false"/>
+				</entry>
+			</entry>
+			<entry index="504" type="table">
+				<entry key="class" type="string" value="ElementSpecialObjectiveTrigger"/>
+				<entry key="editor_name" type="string" value="sot_guard_outside"/>
+				<entry key="id" type="number" value="100503"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="elements" type="table">
+						<entry index="1" type="number" value="100502"/>
+					</entry>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="event" type="string" value="complete"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100502"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="-1031.8 1734.66 4002.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 1 -4.37114e-008"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="505" type="table">
+				<entry key="class" type="string" value="MissionScriptElement"/>
+				<entry key="editor_name" type="string" value="spawn_outside_guard"/>
+				<entry key="id" type="number" value="100504"/>
+				<entry key="module" type="string" value="CoreMissionScriptElement"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="1"/>
+							<entry key="id" type="number" value="100502"/>
+						</entry>
+						<entry index="2" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100501"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="-872.638 1726.88 4002.5"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 1"/>
 					<entry key="trigger_times" type="number" value="0"/>
 				</entry>
 			</entry>
