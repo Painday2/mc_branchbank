@@ -21,6 +21,8 @@
 	"mc_bb_vo_obj2_sub" : "Epic, that will work nicely. Now go slap that on the vault door.",
 	"mc_bb_vo_obj2_electrified_sub" : "Oh shit, they electrified the door? That has to be a OSHA violation!",
 	"mc_bb_vo_obj2_hint_sub" : "If you need levers, it's just a stick on top of some cobblestone.",
+	"mc_bb_vo_obj2_jammed_hint1_sub" : "The mining device is out of fuel, look around.",
+	"mc_bb_vo_obj2_jammed_hint2_sub" : "There's a cafe nearby, they have to have some fuel there.",
 	"mc_bb_vo_obj3_sub" : "Nice, the vault is open. Get that stuff to the van.",
 	"mc_bb_vo_obj3_hint_sub" : "You can open those deposit boxes, i'm sure there's some decent stuff in there.",
 	"mc_bb_vo_escape_sub" : "That's all we need, but if you want more go for it.",
@@ -37,17 +39,6 @@
 	"hud_int_hold_bag_net_armor" : "Hold $BTN_INTERACT to bag the Netherite Armor",
 
 	"hud_int_open_crafting_menu" : "Press $BTN_INTERACT to open the crafting menu",
-
-	"hud_action_craft" : "Crafting...",
-	"hud_int_equipment_need_drill" : "You need to craft a drill",
-	"hud_int_hold_stick" : "Hold $BTN_INTERACT to add a stick",
-	"hud_equipment_need_stick" : "Need a stick",
-	"hud_int_hold_cobblestone" : "Hold $BTN_INTERACT to add cobblestone",
-	"hud_equipment_need_cobblestone" : "Need cobblestone",
-	"hud_equipment_need_lever" : "You need to craft a Lever",
-	"hud_equipment_need_axe" : "You need to craft a axe",
-	"hud_int_equipment_no_lava_bucket" : "You need a Lava Bucket",
-	"no_lava_bucket" : "No Lava Bucket",
 	
 	"hud_int_pickup_lava" : "Press $BTN_INTERACT to pickup lava bucket",
 	"hud_int_pickup_axe" : "Press $BTN_INTERACT to pickup axe",
@@ -55,6 +46,7 @@
 	
 	"hud_int_hold_lever" : "Hold $BTN_INTERACT to add Lever",
 	"hud_int_hold_deposit" : "Hold $BTN_INTERACT to open the deposit box",
+	"hud_action_opening_deposit" : "Opening Deposit",
 	"hud_int_equipment_mc_pickaxe_drill_jammed" : "Hold $BTN_INTERACT; to fix the Drill",
 
 	"hud_action_fixing_mc_pickaxe_drill" : "Fixing Drill",
