@@ -186,7 +186,7 @@ Hooks:PostHook(InteractionTweakData, "init", "init_jewelry_int", function(self, 
 	self.pickup_axe = {
 		text_id = "hud_int_pickup_axe",
 		sound_done = "mc_pickup",
-		mc_item_award = "netherite_axe"
+		mc_item_award = "gold_axe"
 	}
 
 	self.pickup_pickaxe = {
@@ -197,7 +197,7 @@ Hooks:PostHook(InteractionTweakData, "init", "init_jewelry_int", function(self, 
 
 	self.axe_deposit = {
 		text_id = "hud_int_hold_deposit",
-		mc_item_consume = "netherite_axe", --If this is set, it will consume this item from the inventory
+		mc_item_consume = "gold_axe", --If this is set, it will consume this item from the inventory
 		amount = 0, --unless the amount is 0 otherwise it'll consume the amount from the inventory
 		timer = 5,
 		sound_done = "mc_place_block",

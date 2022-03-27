@@ -6,6 +6,7 @@
 	<level ai_group_type="minecraft" id="mc_branchbank" briefing_dialog="mc_branchbank_brief" intro_event="mc_branchbank_intro_event" max_bags="54">
 		<add file="levels/mc_branchbank/add.xml"/>
 		<assets>
+			<asset name="mc_bb_crafting_list"/>
 			<asset name="ammo_bag"/>
 			<asset name="health_bag"/>
 			<asset name="grenade_crate"/>
