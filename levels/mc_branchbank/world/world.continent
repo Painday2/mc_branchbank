@@ -1506,49 +1506,49 @@
 			<unit_data _prev_pos="1009 1550 1010" _prev_rot="-0.707107 0.707107 3.09086e-008 -3.09086e-008" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="disable_interact" name="units/pd2_mod_craft/props/keycard_machine" name_id="keycard_machine_001" position="1006 1550 1010" rotation="-0.707107 0.707107 -3.09086e-008 3.09086e-008" unit_id="100738"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="1317.49 1879.41 450" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="diamond_pressed" name="units/pd2_mod_craft/props/diamond" name_id="diamond_001" position="1317.49 1879.41 450" rotation="-0 0 -0 -1" unit_id="100739"/>
+			<unit_data _prev_pos="1325 1925 450" _prev_rot="0 0 0 -1" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 -400 0" local_rot="-0 0 0 1" mesh_variation="block_pressed" name="units/pd2_mod_craft/props/deposit/diamond_block_deposit" name_id="diamond_001" position="1325 1900 450" rotation="0 0 -0 -1" unit_id="100739"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="1417.49 1879.41 450" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="diamond_pressed" name="units/pd2_mod_craft/props/diamond" name_id="diamond_002" position="1417.49 1879.41 450" rotation="-0 0 -0 -1" unit_id="100740"/>
+			<unit_data _prev_pos="1425 1925 450" _prev_rot="0 0 0 -1" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="100 -400 0" local_rot="-0 0 0 1" mesh_variation="block_pressed" name="units/pd2_mod_craft/props/deposit/diamond_block_deposit" name_id="diamond_002" position="1425 1900 450" rotation="0 0 -0 -1" unit_id="100740"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="1417.49 2279.41 450" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="diamond_pressed" name="units/pd2_mod_craft/props/diamond" name_id="diamond_003" position="1417.49 2279.41 450" rotation="-0 0 -0 -1" unit_id="100741"/>
+			<unit_data _prev_pos="1425 2325 450" _prev_rot="0 0 0 -1" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="100 0 0" local_rot="-0 0 0 1" mesh_variation="block_pressed" name="units/pd2_mod_craft/props/deposit/diamond_block_deposit" name_id="diamond_003" position="1425 2300 450" rotation="0 0 -0 -1" unit_id="100741"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="1517.49 2279.41 450" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="diamond_pressed" name="units/pd2_mod_craft/props/diamond" name_id="diamond_004" position="1517.49 2279.41 450" rotation="-0 0 -0 -1" unit_id="100742"/>
+			<unit_data _prev_pos="1525 2325 450" _prev_rot="0 0 0 -1" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="200 0 0" local_rot="-0 0 0 1" mesh_variation="block_pressed" name="units/pd2_mod_craft/props/deposit/diamond_block_deposit" name_id="diamond_004" position="1525 2300 450" rotation="0 0 -0 -1" unit_id="100742"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="1317.49 2279.41 450" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="diamond_pressed" name="units/pd2_mod_craft/props/diamond" name_id="diamond_005" position="1317.49 2279.41 450" rotation="-0 0 -0 -1" unit_id="100743"/>
+			<unit_data _prev_pos="1325 2325 450" _prev_rot="-0 0 -0 -1" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="block_pressed" name="units/pd2_mod_craft/props/deposit/diamond_block_deposit" name_id="diamond_005" position="1325 2300 450" rotation="-0 0 -0 -1" unit_id="100743"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="1417.49 2179.41 450" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="diamond_pressed" name="units/pd2_mod_craft/props/diamond" name_id="diamond_006" position="1417.49 2179.41 450" rotation="-0 0 -0 -1" unit_id="100744"/>
+			<unit_data _prev_pos="1425 2225 450" _prev_rot="0 0 0 -1" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="100 -100 0" local_rot="-0 0 0 1" mesh_variation="block_pressed" name="units/pd2_mod_craft/props/deposit/diamond_block_deposit" name_id="diamond_006" position="1425 2200 450" rotation="0 0 -0 -1" unit_id="100744"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="1417.49 2079.41 450" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="diamond_pressed" name="units/pd2_mod_craft/props/diamond" name_id="diamond_007" position="1417.49 2079.41 450" rotation="-0 0 -0 -1" unit_id="100745"/>
+			<unit_data _prev_pos="1425 2125 450" _prev_rot="0 0 0 -1" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="100 -200 0" local_rot="-0 0 0 1" mesh_variation="block_pressed" name="units/pd2_mod_craft/props/deposit/diamond_block_deposit" name_id="diamond_007" position="1425 2100 450" rotation="0 0 -0 -1" unit_id="100745"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="1417.49 1979.41 450" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="diamond_pressed" name="units/pd2_mod_craft/props/diamond" name_id="diamond_008" position="1417.49 1979.41 450" rotation="-0 0 -0 -1" unit_id="100746"/>
+			<unit_data _prev_pos="1425 2025 450" _prev_rot="0 0 0 -1" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="100 -300 0" local_rot="-0 0 0 1" mesh_variation="block_pressed" name="units/pd2_mod_craft/props/deposit/diamond_block_deposit" name_id="diamond_008" position="1425 2000 450" rotation="0 0 -0 -1" unit_id="100746"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="1517.49 2179.41 450" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="diamond_pressed" name="units/pd2_mod_craft/props/diamond" name_id="diamond_009" position="1517.49 2179.41 450" rotation="-0 0 -0 -1" unit_id="100747"/>
+			<unit_data _prev_pos="1525 2225 450" _prev_rot="0 0 0 -1" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="200 -100 0" local_rot="-0 0 0 1" mesh_variation="block_pressed" name="units/pd2_mod_craft/props/deposit/diamond_block_deposit" name_id="diamond_009" position="1525 2200 450" rotation="0 0 -0 -1" unit_id="100747"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="1517.49 1979.41 450" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="diamond_pressed" name="units/pd2_mod_craft/props/diamond" name_id="diamond_010" position="1517.49 1979.41 450" rotation="-0 0 -0 -1" unit_id="100748"/>
+			<unit_data _prev_pos="1525 2025 450" _prev_rot="0 0 0 -1" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="200 -300 0" local_rot="-0 0 0 1" mesh_variation="block_pressed" name="units/pd2_mod_craft/props/deposit/diamond_block_deposit" name_id="diamond_010" position="1525 2000 450" rotation="0 0 -0 -1" unit_id="100748"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="1517.49 2079.41 450" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="diamond_pressed" name="units/pd2_mod_craft/props/diamond" name_id="diamond_011" position="1517.49 2079.41 450" rotation="-0 0 -0 -1" unit_id="100749"/>
+			<unit_data _prev_pos="1525 2125 450" _prev_rot="0 0 0 -1" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="200 -200 0" local_rot="-0 0 0 1" mesh_variation="block_pressed" name="units/pd2_mod_craft/props/deposit/diamond_block_deposit" name_id="diamond_011" position="1525 2100 450" rotation="0 0 -0 -1" unit_id="100749"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="1517.49 1879.41 450" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="diamond_pressed" name="units/pd2_mod_craft/props/diamond" name_id="diamond_012" position="1517.49 1879.41 450" rotation="-0 0 -0 -1" unit_id="100750"/>
+			<unit_data _prev_pos="1525 1925 450" _prev_rot="0 0 0 -1" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="200 -400 0" local_rot="-0 0 0 1" mesh_variation="block_pressed" name="units/pd2_mod_craft/props/deposit/diamond_block_deposit" name_id="diamond_012" position="1525 1900 450" rotation="0 0 -0 -1" unit_id="100750"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="1317.49 2179.41 450" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="diamond_pressed" name="units/pd2_mod_craft/props/diamond" name_id="diamond_013" position="1317.49 2179.41 450" rotation="-0 0 -0 -1" unit_id="100751"/>
+			<unit_data _prev_pos="1325 2225 450" _prev_rot="0 0 0 -1" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 -100 0" local_rot="-0 0 0 1" mesh_variation="block_pressed" name="units/pd2_mod_craft/props/deposit/diamond_block_deposit" name_id="diamond_013" position="1325 2200 450" rotation="0 0 -0 -1" unit_id="100751"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="1317.49 2079.41 450" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="diamond_pressed" name="units/pd2_mod_craft/props/diamond" name_id="diamond_014" position="1317.49 2079.41 450" rotation="-0 0 -0 -1" unit_id="100752"/>
+			<unit_data _prev_pos="1325 2125 450" _prev_rot="0 0 0 -1" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 -200 0" local_rot="-0 0 0 1" mesh_variation="block_pressed" name="units/pd2_mod_craft/props/deposit/diamond_block_deposit" name_id="diamond_014" position="1325 2100 450" rotation="0 0 -0 -1" unit_id="100752"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="1317.49 1979.41 450" _prev_rot="0 0 0 -1" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="diamond_pressed" name="units/pd2_mod_craft/props/diamond" name_id="diamond_015" position="1317.49 1979.41 450" rotation="-0 0 -0 -1" unit_id="100753"/>
+			<unit_data _prev_pos="1325 2000 450" _prev_rot="0 0 0 -1" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="block_pressed" name="units/pd2_mod_craft/props/deposit/diamond_block_deposit" name_id="diamond_015" position="1325 2000 450" rotation="0 0 -0 -1" unit_id="100753"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="1375 1350 350" _prev_rot="0 0 1 -4.37114e-008" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/props/prop_cube_obsidian" name_id="prop_cube_obsidian_001" position="1375 1450 350" rotation="0 0 1 -4.37114e-008" unit_id="100754"/>
@@ -2831,6 +2831,9 @@
 					</shape>
 				</editable_gui>
 			</unit_data>
+		</table>
+		<table>
+			<unit_data _prev_pos="250 -4650 550" _prev_rot="0.707107 0 0 -0.707107" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/props/deposit/goldencarrot" name_id="goldencarrot_001" position="250 -4650 500" rotation="0.707107 0 0 -0.707107" unit_id="100587"/>
 		</table>
 	</statics>
 	<values>
