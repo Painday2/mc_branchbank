@@ -5909,6 +5909,10 @@
 							<entry key="delay" type="number" value="0"/>
 							<entry key="id" type="number" value="100499"/>
 						</entry>
+						<entry index="6" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100508"/>
+						</entry>
 					</entry>
 					<entry key="one_down" type="boolean" value="false"/>
 					<entry key="platform_win32" type="boolean" value="true"/>
@@ -5965,6 +5969,10 @@
 							<entry key="delay" type="number" value="0"/>
 							<entry key="id" type="number" value="100504"/>
 						</entry>
+						<entry index="7" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100508"/>
+						</entry>
 					</entry>
 					<entry key="one_down" type="boolean" value="false"/>
 					<entry key="platform_win32" type="boolean" value="true"/>
@@ -6020,6 +6028,10 @@
 						<entry index="6" type="table">
 							<entry key="delay" type="number" value="0"/>
 							<entry key="id" type="number" value="100504"/>
+						</entry>
+						<entry index="7" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100508"/>
 						</entry>
 					</entry>
 					<entry key="one_down" type="boolean" value="false"/>
@@ -9704,7 +9716,7 @@
 					<entry key="achievement_id" type="string" value="netherite"/>
 					<entry key="amount_increase" type="number" value="1"/>
 					<entry key="base_delay" type="number" value="0"/>
-					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="enabled" type="boolean" value="false"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="on_executed" type="table">
 					</entry>
@@ -15740,6 +15752,31 @@
 					<entry key="state" type="string" value="cm_sp_stand_idle"/>
 					<entry key="team" type="string" value="default"/>
 					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="509" type="table">
+				<entry key="class" type="string" value="ElementSpawnEnemyDummy"/>
+				<entry key="editor_name" type="string" value="spawn_jewelry_guard"/>
+				<entry key="id" type="number" value="100508"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="accessibility" type="string" value="any"/>
+					<entry key="amount" type="number" value="0"/>
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="enemy" type="string" value="units/pd2_mod_craft/characters/ene_mc_guard_1_pagerless/ene_mc_guard_1_pagerless"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="force_pickup" type="string" value="none"/>
+					<entry key="interval" type="number" value="5"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="participate_to_group_ai" type="boolean" value="true"/>
+					<entry key="position" type="vector3" value="1250 -3825 350"/>
+					<entry key="rotation" type="quaternion" value="0 0 0.233445 -0.97237"/>
+					<entry key="spawn_action" type="string" value="none"/>
+					<entry key="team" type="string" value="default"/>
+					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="voice" type="number" value="0"/>
 				</entry>
 			</entry>
 		</entry>
