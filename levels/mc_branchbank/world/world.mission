@@ -11827,16 +11827,12 @@
 					<entry key="amount" type="string" value="1"/>
 					<entry key="base_delay" type="number" value="0"/>
 					<entry key="depth" type="number" value="500"/>
-					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="enabled" type="boolean" value="false"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
 					<entry key="height" type="number" value="400"/>
 					<entry key="instigator" type="string" value="player"/>
 					<entry key="interval" type="number" value="0.1"/>
 					<entry key="on_executed" type="table">
-						<entry index="1" type="table">
-							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100511"/>
-						</entry>
 					</entry>
 					<entry key="position" type="vector3" value="2650 6900 500.001"/>
 					<entry key="radius" type="number" value="250"/>
@@ -15820,33 +15816,33 @@
 				</entry>
 			</entry>
 			<entry index="511" type="table">
-				<entry key="class" type="string" value="ElementMCCheckItem"/>
-				<entry key="editor_name" type="string" value="mc_check_drill"/>
-				<entry key="id" type="number" value="100511"/>
+				<entry key="class" type="string" value="ElementGlobalEventTrigger"/>
+				<entry key="editor_name" type="string" value="ge_drill"/>
+				<entry key="id" type="number" value="100393"/>
+				<entry key="module" type="string" value="CoreElementGlobalEventTrigger"/>
 				<entry key="script" type="string" value="default"/>
 				<entry key="values" type="table">
-					<entry key="amount" type="number" value="1"/>
 					<entry key="base_delay" type="number" value="0"/>
 					<entry key="enabled" type="boolean" value="true"/>
 					<entry key="execute_on_startup" type="boolean" value="false"/>
-					<entry key="item" type="string" value="mc_drill"/>
+					<entry key="global_event" type="string" value="mc_drill"/>
 					<entry key="on_executed" type="table">
 						<entry index="1" type="table">
 							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100072"/>
+							<entry key="id" type="number" value="100395"/>
 						</entry>
 						<entry index="2" type="table">
 							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100395"/>
+							<entry key="id" type="number" value="100383"/>
 						</entry>
 						<entry index="3" type="table">
 							<entry key="delay" type="number" value="0"/>
-							<entry key="id" type="number" value="100383"/>
+							<entry key="id" type="number" value="100072"/>
 						</entry>
 					</entry>
-					<entry key="position" type="vector3" value="2650 6750 400.001"/>
+					<entry key="position" type="vector3" value="2650 6700 400.001"/>
 					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
-					<entry key="trigger_times" type="number" value="0"/>
+					<entry key="trigger_times" type="number" value="1"/>
 				</entry>
 			</entry>
 		</entry>
