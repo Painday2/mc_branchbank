@@ -6,6 +6,8 @@
 	<level ai_group_type="minecraft" id="mc_branchbank" briefing_dialog="mc_branchbank_brief" intro_event="mc_branchbank_intro_event" max_bags="54">
 		<add file="levels/mc_branchbank/add.xml"/>
 		<assets>
+			<asset name="mc_resource_mechanics"/>
+			<asset name="mc_craft_mechanics"/>
 			<asset name="mc_bb_crafting_list"/>
 			<asset name="ammo_bag"/>
 			<asset name="health_bag"/>
@@ -61,6 +63,7 @@
 		<sound id="mc_branchbank_intro_event" path="mc_branchbank_intro_event.ogg" subtitle_id="mc_branchbank_intro_event"/>
 	</Sounds>
 	<AddFiles directory="assets">
+		<texture load="true" path="guis/mc_branchbank_icon"/>
 		<texture load="true" path="guis/mc_bb_ach_package_icon"/>
 		<texture load="true" path="guis/mc_bb_ach_button_icon"/>
 		<texture load="true" path="guis/mc_bb_ach_complete_icon"/>
@@ -80,7 +83,7 @@
 	<Localization default="english.txt" directory="loc">
 		<loc file="english.txt" language="english"/>
 	</Localization>
-	<narrative contact="shovelforge" id="mc_branchbank">
+	<narrative contact="shovelforge" id="mc_branchbank" icon="guis/mc_branchbank_icon">
 		<chain>
 			<table level_id="mc_branchbank" type="d" type_id="heist_type_assault"/>
 		</chain>

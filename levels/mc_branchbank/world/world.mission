@@ -15845,6 +15845,158 @@
 					<entry key="trigger_times" type="number" value="1"/>
 				</entry>
 			</entry>
+			<entry index="512" type="table">
+				<entry key="class" type="string" value="ElementAssetTrigger"/>
+				<entry key="editor_name" type="string" value="asset_docbag"/>
+				<entry key="id" type="number" value="100511"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="id" type="string" value="health_bag"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100512"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="3175 2100 450"/>
+					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
+					<entry key="trigger_times" type="number" value="1"/>
+				</entry>
+			</entry>
+			<entry index="513" type="table">
+				<entry key="class" type="string" value="ElementSpawnDeployable"/>
+				<entry key="editor_name" type="string" value="spawn_deployable_doc_bag"/>
+				<entry key="id" type="number" value="100512"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="deployable_id" type="string" value="doctor_bag"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="3225 2100 450"/>
+					<entry key="rotation" type="quaternion" value="0 0 -0.707107 -0.707107"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="514" type="table">
+				<entry key="class" type="string" value="ElementAssetTrigger"/>
+				<entry key="editor_name" type="string" value="asset_ammo_bag"/>
+				<entry key="id" type="number" value="100513"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="id" type="string" value="ammo_bag"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100514"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="625 900 506"/>
+					<entry key="rotation" type="quaternion" value="-0 0 -0 -1"/>
+					<entry key="trigger_times" type="number" value="1"/>
+				</entry>
+			</entry>
+			<entry index="515" type="table">
+				<entry key="class" type="string" value="ElementSpawnDeployable"/>
+				<entry key="editor_name" type="string" value="spawn_deployable_ammo_bag"/>
+				<entry key="id" type="number" value="100514"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="deployable_id" type="string" value="ammo_bag"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="625 900 456"/>
+					<entry key="rotation" type="quaternion" value="-0 -0 0.707107 -0.707107"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="516" type="table">
+				<entry key="class" type="string" value="ElementSpawnDeployable"/>
+				<entry key="editor_name" type="string" value="spawn_deployable_grenade_case"/>
+				<entry key="id" type="number" value="100515"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="deployable_id" type="string" value="grenade_crate"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="1225 4200 450"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="517" type="table">
+				<entry key="class" type="string" value="ElementAssetTrigger"/>
+				<entry key="editor_name" type="string" value="asset_grenade_case"/>
+				<entry key="id" type="number" value="100516"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="id" type="string" value="grenade_crate"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100515"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="1225 4200 500"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="1"/>
+				</entry>
+			</entry>
+			<entry index="518" type="table">
+				<entry key="class" type="string" value="ElementSpawnDeployable"/>
+				<entry key="editor_name" type="string" value="spawn_deployable_bodybags"/>
+				<entry key="id" type="number" value="100517"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="deployable_id" type="string" value="bodybags_bag"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="on_executed" type="table">
+					</entry>
+					<entry key="position" type="vector3" value="1125 4200 450"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="0"/>
+				</entry>
+			</entry>
+			<entry index="519" type="table">
+				<entry key="class" type="string" value="ElementAssetTrigger"/>
+				<entry key="editor_name" type="string" value="asset_bodybags"/>
+				<entry key="id" type="number" value="100518"/>
+				<entry key="script" type="string" value="default"/>
+				<entry key="values" type="table">
+					<entry key="base_delay" type="number" value="0"/>
+					<entry key="enabled" type="boolean" value="true"/>
+					<entry key="execute_on_startup" type="boolean" value="false"/>
+					<entry key="id" type="string" value="bodybags_bag"/>
+					<entry key="on_executed" type="table">
+						<entry index="1" type="table">
+							<entry key="delay" type="number" value="0"/>
+							<entry key="id" type="number" value="100517"/>
+						</entry>
+					</entry>
+					<entry key="position" type="vector3" value="1125 4200 500"/>
+					<entry key="rotation" type="quaternion" value="0 0 0 -1"/>
+					<entry key="trigger_times" type="number" value="1"/>
+				</entry>
+			</entry>
 		</entry>
 		<entry key="name" type="string" value="default"/>
 	</entry>

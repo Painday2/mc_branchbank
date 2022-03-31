@@ -1,4 +1,4 @@
-return function()
+--[[return function()
     --This table should contain any craftable items that should turn into equipment
     --you will still need to add the equipment to the tweakdata yourself
     --This ID should be the same across tweak_data.items.id and equipmenttweakdata
@@ -7,4 +7,4 @@ return function()
         "lever",
         "mc_drill",
     }
-end
+end]]
