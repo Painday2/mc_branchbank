@@ -1551,58 +1551,58 @@
 			<unit_data _prev_pos="1325 2000 450" _prev_rot="0 0 0 -1" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="false" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" mesh_variation="block_pressed" name="units/pd2_mod_craft/props/deposit/diamond_block_deposit" name_id="diamond_015" position="1325 2000 450" rotation="0 0 -0 -1" unit_id="100753"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="1375 1350 350" _prev_rot="0 0 1 -4.37114e-008" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/props/prop_cube_obsidian" name_id="prop_cube_obsidian_001" position="1375 1450 350" rotation="0 0 1 -4.37114e-008" unit_id="100754"/>
+			<unit_data _prev_pos="1375 1450 350" _prev_rot="0 0 1 -4.37114e-008" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="true" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-100 -8.74228e-006 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/props/prop_cube_obsidian" name_id="prop_cube_obsidian_001" position="1375 1450 350" rotation="0 0 1 4.37114e-008" unit_id="100754"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="1375 1350 450" _prev_rot="0 0 1 -4.37114e-008" continent="world" instance_data="false" local_pos="0 0 100" local_rot="0 0 0 1" name="units/pd2_mod_craft/props/prop_cube_obsidian" name_id="prop_cube_obsidian_002" position="1375 1450 450" rotation="0 0 -1 4.37114e-008" unit_id="100755"/>
+			<unit_data _prev_pos="1375 1450 450" _prev_rot="0 0 1 -4.37114e-008" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="true" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-100 -8.74228e-006 100" local_rot="0 0 0 1" name="units/pd2_mod_craft/props/prop_cube_obsidian" name_id="prop_cube_obsidian_002" position="1375 1450 450" rotation="0 0 1 4.37114e-008" unit_id="100755"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="1375 1350 550" _prev_rot="0 0 1 -4.37114e-008" continent="world" instance_data="false" local_pos="0 0 200" local_rot="0 0 0 1" name="units/pd2_mod_craft/props/prop_cube_obsidian" name_id="prop_cube_obsidian_003" position="1375 1450 550" rotation="0 0 -1 4.37114e-008" unit_id="100756"/>
+			<unit_data _prev_pos="1375 1450 550" _prev_rot="0 0 1 -4.37114e-008" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="true" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="-100 -8.74228e-006 200" local_rot="0 0 0 1" name="units/pd2_mod_craft/props/prop_cube_obsidian" name_id="prop_cube_obsidian_003" position="1375 1450 550" rotation="0 0 1 4.37114e-008" unit_id="100756"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="1275 1350 450" _prev_rot="0 0 1 -4.37114e-008" continent="world" instance_data="false" local_pos="100 -8.74228e-006 100" local_rot="0 0 0 1" name="units/pd2_mod_craft/props/prop_cube_obsidian" name_id="prop_cube_obsidian_004" position="1275 1450 450" rotation="0 0 -1 4.37114e-008" unit_id="100757"/>
+			<unit_data _prev_pos="1275 1450 450" _prev_rot="0 0 1 -4.37114e-008" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="true" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 100" local_rot="0 0 0 1" name="units/pd2_mod_craft/props/prop_cube_obsidian" name_id="prop_cube_obsidian_004" position="1275 1450 450" rotation="0 0 1 4.37114e-008" unit_id="100757"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="1275 1350 350" _prev_rot="0 0 1 -4.37114e-008" continent="world" instance_data="false" local_pos="100 -8.74228e-006 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/props/prop_cube_obsidian" name_id="prop_cube_obsidian_005" position="1275 1450 350" rotation="0 0 -1 4.37114e-008" unit_id="100758"/>
+			<unit_data _prev_pos="1275 1450 350" _prev_rot="0 0 1 -4.37114e-008" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="true" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/props/prop_cube_obsidian" name_id="prop_cube_obsidian_005" position="1275 1450 350" rotation="0 0 1 4.37114e-008" unit_id="100758"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="1275 1350 550" _prev_rot="0 0 1 -4.37114e-008" continent="world" instance_data="false" local_pos="100 -8.74228e-006 200" local_rot="0 0 0 1" name="units/pd2_mod_craft/props/prop_cube_obsidian" name_id="prop_cube_obsidian_006" position="1275 1450 550" rotation="0 0 -1 4.37114e-008" unit_id="100759"/>
+			<unit_data _prev_pos="1275 1450 550" _prev_rot="0 0 1 -4.37114e-008" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="true" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 200" local_rot="0 0 0 1" name="units/pd2_mod_craft/props/prop_cube_obsidian" name_id="prop_cube_obsidian_006" position="1275 1450 550" rotation="0 0 1 4.37114e-008" unit_id="100759"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="1175 1350 450" _prev_rot="0 0 1 -4.37114e-008" continent="world" instance_data="false" local_pos="200 -1.74846e-005 100" local_rot="0 0 0 1" name="units/pd2_mod_craft/props/prop_cube_obsidian" name_id="prop_cube_obsidian_007" position="1175 1450 450" rotation="0 0 -1 4.37114e-008" unit_id="100760"/>
+			<unit_data _prev_pos="1175 1450 450" _prev_rot="0 0 1 -4.37114e-008" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="true" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="100 8.74228e-006 100" local_rot="0 0 0 1" name="units/pd2_mod_craft/props/prop_cube_obsidian" name_id="prop_cube_obsidian_007" position="1175 1450 450" rotation="0 0 1 4.37114e-008" unit_id="100760"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="1175 1450 350" _prev_rot="0 0 1 -4.37114e-008" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/props/prop_cube_obsidian" name_id="prop_cube_obsidian_008" position="1175 1450 350" rotation="0 0 -1 4.37114e-008" unit_id="100761"/>
+			<unit_data _prev_pos="1175 1450 350" _prev_rot="0 0 1 -4.37114e-008" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="true" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="100 8.74228e-006 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/props/prop_cube_obsidian" name_id="prop_cube_obsidian_008" position="1175 1450 350" rotation="0 0 1 4.37114e-008" unit_id="100761"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="1175 1350 550" _prev_rot="0 0 1 -4.37114e-008" continent="world" instance_data="false" local_pos="200 -1.74846e-005 200" local_rot="0 0 0 1" name="units/pd2_mod_craft/props/prop_cube_obsidian" name_id="prop_cube_obsidian_009" position="1175 1450 550" rotation="0 0 -1 4.37114e-008" unit_id="100762"/>
+			<unit_data _prev_pos="1175 1450 550" _prev_rot="0 0 1 -4.37114e-008" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="true" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="100 8.74228e-006 200" local_rot="0 0 0 1" name="units/pd2_mod_craft/props/prop_cube_obsidian" name_id="prop_cube_obsidian_009" position="1175 1450 550" rotation="0 0 1 4.37114e-008" unit_id="100762"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="475 1650 550" _prev_rot="0 0 -0.707107 -0.707107" continent="world" instance_data="false" local_pos="0 0 200" local_rot="0 0 0 1" name="units/pd2_mod_craft/props/prop_cube_obsidian" name_id="prop_cube_obsidian_010" position="575 1650 550" rotation="0 0 -0.707107 -0.707107" unit_id="100763"/>
+			<unit_data _prev_pos="575 1650 550" _prev_rot="0 0 -0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="true" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 200" local_rot="0 0 0 1" name="units/pd2_mod_craft/props/prop_cube_obsidian" name_id="prop_cube_obsidian_010" position="575 1650 550" rotation="0 0 -0.707107 -0.707107" unit_id="100763"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="475 1650 350" _prev_rot="0 0 -0.707107 -0.707107" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/props/prop_cube_obsidian" name_id="prop_cube_obsidian_011" position="575 1650 350" rotation="0 0 -0.707107 -0.707107" unit_id="100764"/>
+			<unit_data _prev_pos="575 1650 350" _prev_rot="0 0 -0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="true" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/props/prop_cube_obsidian" name_id="prop_cube_obsidian_011" position="575 1650 350" rotation="0 0 -0.707107 -0.707107" unit_id="100764"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="475 1750 350" _prev_rot="0 0 -0.707107 -0.707107" continent="world" instance_data="false" local_pos="100 -1.19209e-005 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/props/prop_cube_obsidian" name_id="prop_cube_obsidian_012" position="575 1750 350" rotation="0 0 -0.707107 -0.707107" unit_id="100765"/>
+			<unit_data _prev_pos="575 1750 350" _prev_rot="0 0 -0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="true" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="100 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/props/prop_cube_obsidian" name_id="prop_cube_obsidian_012" position="575 1750 350" rotation="0 0 -0.707107 -0.707107" unit_id="100765"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="475 1750 450" _prev_rot="0 0 -0.707107 -0.707107" continent="world" instance_data="false" local_pos="100 -1.19209e-005 100" local_rot="0 0 0 1" name="units/pd2_mod_craft/props/prop_cube_obsidian" name_id="prop_cube_obsidian_013" position="575 1750 450" rotation="0 0 -0.707107 -0.707107" unit_id="100766"/>
+			<unit_data _prev_pos="575 1750 450" _prev_rot="0 0 -0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="true" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="100 0 100" local_rot="0 0 0 1" name="units/pd2_mod_craft/props/prop_cube_obsidian" name_id="prop_cube_obsidian_013" position="575 1750 450" rotation="0 0 -0.707107 -0.707107" unit_id="100766"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="575 1650 450" _prev_rot="0 0 -0.707107 -0.707107" continent="world" instance_data="false" local_pos="0 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/props/prop_cube_obsidian" name_id="prop_cube_obsidian_014" position="575 1650 450" rotation="0 0 -0.707107 -0.707107" unit_id="100767"/>
+			<unit_data _prev_pos="575 1650 450" _prev_rot="0 0 -0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="true" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="0 0 100" local_rot="0 0 0 1" name="units/pd2_mod_craft/props/prop_cube_obsidian" name_id="prop_cube_obsidian_014" position="575 1650 450" rotation="0 0 -0.707107 -0.707107" unit_id="100767"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="475 1750 550" _prev_rot="0 0 -0.707107 -0.707107" continent="world" instance_data="false" local_pos="100 -1.19209e-005 200" local_rot="0 0 0 1" name="units/pd2_mod_craft/props/prop_cube_obsidian" name_id="prop_cube_obsidian_015" position="575 1750 550" rotation="0 0 -0.707107 -0.707107" unit_id="100768"/>
+			<unit_data _prev_pos="575 1750 550" _prev_rot="0 0 -0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="true" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="100 0 200" local_rot="0 0 0 1" name="units/pd2_mod_craft/props/prop_cube_obsidian" name_id="prop_cube_obsidian_015" position="575 1750 550" rotation="0 0 -0.707107 -0.707107" unit_id="100768"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="475 1850 550" _prev_rot="0 0 -0.707107 -0.707107" continent="world" instance_data="false" local_pos="200 -2.38419e-005 200" local_rot="0 0 0 1" name="units/pd2_mod_craft/props/prop_cube_obsidian" name_id="prop_cube_obsidian_016" position="575 1850 550" rotation="0 0 -0.707107 -0.707107" unit_id="100769"/>
+			<unit_data _prev_pos="575 1850 550" _prev_rot="0 0 -0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="true" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="200 0 200" local_rot="0 0 0 1" name="units/pd2_mod_craft/props/prop_cube_obsidian" name_id="prop_cube_obsidian_016" position="575 1850 550" rotation="0 0 -0.707107 -0.707107" unit_id="100769"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="475 1850 450" _prev_rot="0 0 -0.707107 -0.707107" continent="world" instance_data="false" local_pos="200 -2.38419e-005 100" local_rot="0 0 0 1" name="units/pd2_mod_craft/props/prop_cube_obsidian" name_id="prop_cube_obsidian_017" position="575 1850 450" rotation="0 0 -0.707107 -0.707107" unit_id="100770"/>
+			<unit_data _prev_pos="575 1850 450" _prev_rot="0 0 -0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="true" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="200 0 100" local_rot="0 0 0 1" name="units/pd2_mod_craft/props/prop_cube_obsidian" name_id="prop_cube_obsidian_017" position="575 1850 450" rotation="0 0 -0.707107 -0.707107" unit_id="100770"/>
 		</table>
 		<table>
-			<unit_data _prev_pos="475 1850 350" _prev_rot="0 0 -0.707107 -0.707107" continent="world" instance_data="false" local_pos="200 -2.38419e-005 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/props/prop_cube_obsidian" name_id="prop_cube_obsidian_018" position="575 1850 350" rotation="0 0 -0.707107 -0.707107" unit_id="100771"/>
+			<unit_data _prev_pos="575 1850 350" _prev_rot="0 0 -0.707107 -0.707107" continent="world" delayed_load="false" disable_collision="false" disable_on_ai_graph="true" disable_shadows="false" hide_on_projection_light="false" instance_data="false" local_pos="200 0 0" local_rot="0 0 0 1" name="units/pd2_mod_craft/props/prop_cube_obsidian" name_id="prop_cube_obsidian_018" position="575 1850 350" rotation="0 0 -0.707107 -0.707107" unit_id="100771"/>
 		</table>
 		<table>
 			<unit_data _prev_pos="-458.282 800.14 4002.5" _prev_rot="0 0 0.707107 -0.707107" continent="world" local_pos="0 0 0" local_rot="0 0 0 1" name="units/dev_tools/editable_text_long/editable_text_long" name_id="editable_text_long_007" position="-858.282 800.14 4002.5" rotation="0 0 0.707107 -0.707107" unit_id="100772">
