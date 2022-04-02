@@ -48,6 +48,11 @@
 	"hud_int_hold_deposit" : "Hold $BTN_INTERACT to open the deposit box",
 	"hud_action_opening_deposit" : "Opening Deposit",
 	"hud_int_equipment_mc_pickaxe_drill_jammed" : "Hold $BTN_INTERACT; to fix the Drill",
+	"hud_int_cmdblk_keycard" : "Press $BTN_INTERACT to disable the electricity",
+
+	"hud_action_place_block" : "Placing block...",
+	"taking_loot" : "Taking Loot...",
+
 
 	"hud_action_fixing_mc_pickaxe_drill" : "Fixing Drill",
 	"lava_bucket" : "Lava Bucket",

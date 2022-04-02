@@ -2,7 +2,7 @@
 	<Dependencies>
 		<Dependency name="MCLib" min_ver="1.0" id="36567" provider="modworkshop"/>
 	</Dependencies>
-	<AssetUpdates is_standalone="false" id="36766" version="1.0" provider="modworkshop"/>
+	<AssetUpdates is_standalone="false" id="36766" version="1.01" provider="modworkshop"/>
 	<contact assets_gui="guis/mission_briefing/preload_contact_bain" id="shovelforge" name_id="contact_shovelforge_name" package="packages/contact_bain"/>
 	<level ai_group_type="minecraft" id="mc_branchbank" briefing_dialog="mc_branchbank_brief" intro_event="mc_branchbank_intro_event" max_bags="54">
 		<add file="levels/mc_branchbank/add.xml"/>
